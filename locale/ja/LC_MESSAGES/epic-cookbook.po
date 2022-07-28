@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-28 20:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../epic-cookbook/handles.rst:2
+msgid "PIDINST handles at ePIC"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:4
+msgid ""
+"Properties, sub-properties and attributes of the PIDINST metadata schema "
+"used in ePIC PID handle records can be viewed as follows.  Use ‘#’ before"
+" ‘objects’ to interchange between human-readable and JSON "
+"representations.  Each property, sub-property and attribute is resolvable"
+" through a unique handle record:"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:11
+msgid "Human-readable"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:11
+msgid "http://dtr-test.pidconsortium.eu/#objects/21.T11148/17ce618137e697852ea6"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:13
+msgid "JSON representation"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:13
+msgid "http://dtr-test.pidconsortium.eu/objects/21.T11148/17ce618137e697852ea6"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:18
+msgid "Generating a new instrument PID"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:20
+msgid ""
+"ePIC handles are accessed and managed via a RESTful web service, using "
+"the HTTP application protocol.  This service or Application Programming "
+"Interface (API) uses JSON as the primary exchange format. Available are "
+"the generic and more basic Handle API or, if implemented at the PID "
+"service used, the ePIC API that comes with its own business logic and "
+"additional services.  In our following examples PIDINST handles are "
+"created via the ePIC API in the ePIC API test environment with a view to "
+"moving the architecture to the production environment in the future.  "
+"There is also an overview for the basic CRUD operations on PIDs for "
+"either the ePIC API or the Handle API at the end."
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:32
+msgid ""
+"In order to generate new PIDs and assign them to your instruments, it is "
+"necessary to become an ePIC member (provider), or work with one of their "
+"current members or repositories that has their own ePIC API endpoint.  To"
+" create a PID using the test environment you will need to obtain "
+"credentials (username and password) for authentication using the test "
+"environment prefix 21.T11998.  These can be obtained from ePIC by "
+"emailing support@pidconsortium.net."
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:40
+msgid ""
+"PIDs are typically created using POST/PUT methods.  Using the POST method"
+" will automatically generate a Universally Unique Identifier (UUID) "
+"within the suffix of a handle record.  Alternatively a suffix can be "
+"manually created via PUT method using a local identifier (see "
+"https://doc.pidconsortium.eu/guides/api-create/)."
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:46
+msgid ""
+"All examples below use cURL requests at the command line (in Linux). "
+"Requests can also use PHP, Perl and Python (see "
+"https://doc.pidconsortium.eu/guides/api-create/).  Examples also use the "
+"test API endpoint http://vm04.pid.gwdg.de:8081/handles/.  Each ePIC "
+"member may use their own API end-point."
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:52
+msgid ""
+"To generate a PID handle record automatically generating a UUID for the "
+"suffix::"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:57
+msgid ""
+"``Result:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/0000-001A-"
+"64A4-A"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:59
+msgid ""
+"To generate a PID handle record automatically generating a UUID within "
+"the suffix::"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:64
+msgid ""
+"``Result:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000"
+"-001A-64A3-B-TEST"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:66
+msgid "To manually generate a suffix using PUT method::"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:70
+msgid ""
+"``Result:`` "
+"https://vm04.pid.gwdg.de:8081/handles/21.T11998/564987-8865544-9998"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:74
+msgid "Viewing PID handle records"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:76
+msgid ""
+"If you have specified the URLproperty in the handle record it will "
+"automatically redirect you to it when you view the handle record:"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:79
+msgid "http://hdl.handle.net/21.T11998/0000-001A-3905-F"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:81
+msgid "If you want to see the handle record then use:"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:83
+msgid "http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:85
+msgid "The REST API calls can also yield JSON responses:"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:87
+msgid "http://hdl.handle.net/api/handles/21.T11998/0000-001A-3905-F"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:91
+msgid "Updating the description of a PID handle record"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:93
+msgid ""
+"Properties are updated using the PUT method by either specifying the JSON"
+" properties directly in the cURL request or parsing them via a JSON file "
+"(see :download:`JSON example </examples/ePIC_json_example.json>`)."
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:97
+msgid "Directly specifying properties within the cURL request::"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:101
+msgid ""
+"*Note: Double quotes must be escaped with a backslash (\\\\) within the "
+"JSON parsed_data string*"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:103
+msgid "Specifying properties with a JSON file::"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:109
+msgid "Managing PIDs"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:112
+msgid "Using the ePIC API"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:114
+msgid ""
+"The following HTTP protocol methods enable users to manage their PID "
+"handle records using the ePIC API based on username-password. Server: "
+"``vm04.pid.gwdg.de``, Port: ``8081``, Resources: ``handles/``"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:118
+msgid "**Get a PID:**"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:124
+msgid "**Delete a PID (not allowed for production Handles):**"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:130
+msgid "**Update a PID:**"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:138
+msgid "Using the Handle API"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:140
+msgid ""
+"The following HTTP protocol methods enable users to manage their PID "
+"handle records using the generic Handle API based on Certificates. "
+"Server: ``vm04.pid.gwdg.de``, Port: ``8081``, Resources: ``handles/``"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:144
+msgid ""
+"The process to derive the ``privkey.pem`` and ``certificate_only.pem`` "
+"from a is described for instance at: http://eudat-"
+"b2safe.github.io/B2HANDLE/creatingclientcertificates.html"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:148
+msgid ""
+"The Handle API does not have an internal suffix generator.  The suffix "
+"needs to be provided by the user."
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:151
+msgid ""
+"The Handle API only knows POST, GET and DELETE methods, which means that,"
+" if the Credentials are sufficient, an existing PID could be accidentally"
+" overwritten by a request intended for creation.  This has to be detected"
+" by the user in advance."
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:156
+msgid "**Access parameters:**"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:158
+msgid ""
+"For given username, index, where the public key HS_PUBKEY is stored, and "
+"prefix the certificate files are stored here with the naming convention "
+"${INDEX}_${PREFIX}_${USER}_???.pem."
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:174
+msgid "**Create Handle:**"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:180
+msgid "**Get Handle created:**"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:186
+msgid "**Modify Handle created:**"
+msgstr ""
+
+#: ../../epic-cookbook/handles.rst:192
+msgid "**Delete Handle created:**"
+msgstr ""
+
+#: ../../epic-cookbook/index.rst:4
+msgid "ePIC Cookbook"
+msgstr ""
+
+#: ../../epic-cookbook/index.rst:7
+msgid "Document type"
+msgstr ""
+
+#: ../../epic-cookbook/index.rst
+msgid "Research Data Alliance (RDA)"
+msgstr ""
+
+#: ../../epic-cookbook/index.rst
+msgid "Persistent Identification of Instruments (PIDINST)"
+msgstr ""
+
+#: ../../epic-cookbook/index.rst
+msgid "working group output report"
+msgstr ""
+
+#: ../../epic-cookbook/intro.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: ../../epic-cookbook/intro.rst:4
+msgid ""
+"This cookbook enables instrument providers to create persistent "
+"identifiers (PID) for instruments using the `ePIC infrastructure`_. ePIC "
+"is an international consortium that provides PID services for the "
+"worldwide research community, allowing them to allocate and resolve PIDs "
+"based on the `handle system`_.  In 2019, ePIC published a metadata schema"
+" for citing instruments, as part of the recommendations resulting from "
+"the Research Data Alliance working group for the persistent "
+"identification of instruments (`PIDINST`_) referred to as the `PIDINST "
+"metadata schema`_.  This document provides technical guidance for "
+"publishing instrument PIDs through ePIC."
+msgstr ""
+
