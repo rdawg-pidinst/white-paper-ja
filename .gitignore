@@ -3,3 +3,4 @@
 /_meta.py
 *~
 *.swp
+/locale/**/*.mo

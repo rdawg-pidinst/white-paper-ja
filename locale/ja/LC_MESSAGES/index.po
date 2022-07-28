@@ -31,6 +31,10 @@ msgid ""
 "seeks to explore a community-driven solution for globally unique "
 "identification of measuring instruments operated in the sciences."
 msgstr ""
+"`Persistent Identification of Instruments WG (PIDINST) <pidinst_>`_ では、"
+"学術研究において運用されている計測装置を、"
+"世界レベルで一意に識別するためのコミュニティ主導による"
+"解決策を検討しています。"
 
 #: ../../index.rst:17
 msgid ""
