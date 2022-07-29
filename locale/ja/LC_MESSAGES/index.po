@@ -55,6 +55,10 @@ msgid ""
 "unique and lasting identification of measuring instruments actively "
 "operated in the sciences."
 msgstr ""
+"PIDINSTは `Research Data Alliance (RDA) <rda_>`_ のワーキンググループです。"
+"科学分野で活発に活発に利用されている計測機器をユニークかつ永続的に識別するため、"
+"分野横断的な運用ソリューションを確立することを"
+"目的としています。"
 
 #: ../../index.rst:32
 msgid "The group produced the following outputs:"
