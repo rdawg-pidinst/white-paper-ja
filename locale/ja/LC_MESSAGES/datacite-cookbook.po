@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2020, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-28 20:30+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2022-07-28 21:51+0900\n"
+"PO-Revision-Date: 2022-08-29 23:01+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../datacite-cookbook/index.rst:4
 msgid "DataCite Cookbook"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Document type"
 msgstr ""
 
-#: ../../datacite-cookbook/index.rst
+#: ../../datacite-cookbook/index.rst:0
 msgid "Research Data Alliance (RDA)"
 msgstr ""
 
-#: ../../datacite-cookbook/index.rst
+#: ../../datacite-cookbook/index.rst:0
 msgid "Persistent Identification of Instruments (PIDINST)"
 msgstr ""
 
-#: ../../datacite-cookbook/index.rst
+#: ../../datacite-cookbook/index.rst:0
 msgid "working group output report"
 msgstr ""
 
@@ -44,20 +44,20 @@ msgstr ""
 #: ../../datacite-cookbook/intro.rst:4
 msgid ""
 "This cookbook enables instrument providers to create `DataCite`_ DOIs as "
-"persistent identifiers (PID) for instruments.  DataCite is a global not-"
-"for-profit organization that provides DOIs for research data and other "
-"research outputs.  The `Persistent Identification of Instruments WG "
-"(PIDINST) <pidinst_>`_ has worked with DataCite on the mapping of the "
-"PIDINST metadata schema onto the DataCite schema."
+"persistent identifiers (PID) for instruments.  DataCite is a global not-for-"
+"profit organization that provides DOIs for research data and other research "
+"outputs.  The `Persistent Identification of Instruments WG (PIDINST) "
+"<pidinst_>`_ has worked with DataCite on the mapping of the PIDINST metadata"
+" schema onto the DataCite schema."
 msgstr ""
 
 #: ../../datacite-cookbook/intro.rst:11
 msgid ""
-"This cookbook is not intended to replace the `DataCite documentation`_.  "
-"It will rather point to the relevant steps for minting an instrument DOI "
-"and mostly concentrate on the instrument PID metadata.  The cookbook "
-"assumes some basic knowledge about DOIs.  The `Wikipedia article on DOI "
-"<wiki-doi_>`_ is a useful primer containing the relevant information."
+"This cookbook is not intended to replace the `DataCite documentation`_.  It "
+"will rather point to the relevant steps for minting an instrument DOI and "
+"mostly concentrate on the instrument PID metadata.  The cookbook assumes "
+"some basic knowledge about DOIs.  The `Wikipedia article on DOI <wiki-"
+"doi_>`_ is a useful primer containing the relevant information."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:2
@@ -66,19 +66,19 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:4
 msgid ""
-"To create a DOI for an instrument, you need to collect all the metadata "
-"that describe the instrument and you want to register in the DOI record."
-"  Section :ref:`pidinst-metadata-schema` in the PIDINST White Paper "
-"describes the metadata that you should consider to include."
+"To create a DOI for an instrument, you need to collect all the metadata that"
+" describe the instrument and you want to register in the DOI record.  "
+"Section :ref:`pidinst-metadata-schema` in the PIDINST White Paper describes "
+"the metadata that you should consider to include."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:10
 msgid ""
 "The Persistent Identification of Instruments WG has developed a PIDINST "
-"Metadata Schema.  But since you are going to create a DataCite DOI, you "
-"will be constrained to use the `DataCite Metadata Schema`_. For that "
-"purpose, the PIDINST WG has also provided a `Mapping of the PIDINST "
-"Schema onto the DataCite Schema <PIDINST DataCite schema_>`_"
+"Metadata Schema.  But since you are going to create a DataCite DOI, you will"
+" be constrained to use the `DataCite Metadata Schema`_. For that purpose, "
+"the PIDINST WG has also provided a `Mapping of the PIDINST Schema onto the "
+"DataCite Schema <PIDINST DataCite schema_>`_"
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:17
@@ -88,8 +88,8 @@ msgstr ""
 #: ../../datacite-cookbook/metadata.rst:19
 msgid ""
 "Based on the mapping provided by PIDINST WG, in the following we will "
-"discuss how the metadata describing the instrument can be best "
-"represented in the DataCite Schema:"
+"discuss how the metadata describing the instrument can be best represented "
+"in the DataCite Schema:"
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:25
@@ -98,8 +98,8 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:24
 msgid ""
-"The DOI that you are going to create.  Add as DataCite property "
-"`Identifier` with `identifierType=DOI`."
+"The DOI that you are going to create.  Add as DataCite property `Identifier`"
+" with `identifierType=DOI`."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:30
@@ -108,9 +108,9 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:28
 msgid ""
-"The URL of the landing page that the PID resolves to.  The DataCite "
-"Schema does not have a property for this, but you'll register the URL "
-"along with the metadata when creating the DOI."
+"The URL of the landing page that the PID resolves to.  The DataCite Schema "
+"does not have a property for this, but you'll register the URL along with "
+"the metadata when creating the DOI."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:34
@@ -129,10 +129,10 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:37
 msgid ""
-"The organization or individual that manages the instrument.  Add as "
-"DataCite property `Contributor` with "
-"`contributorType=HostingInstitution`.  Consider also to add an identifier"
-" for the owner in the `nameIdentifier` subproperty of `Contributor`."
+"The organization or individual that manages the instrument.  Add as DataCite"
+" property `Contributor` with `contributorType=HostingInstitution`.  Consider"
+" also to add an identifier for the owner in the `nameIdentifier` subproperty"
+" of `Contributor`."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:46
@@ -141,9 +141,9 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:44
 msgid ""
-"The organization or individual that built the instrument.  Add as "
-"DataCite property `Creator`.  Consider also to add an identifier for the "
-"manufacturer in the `nameIdentifier` subproperty of `Creator`."
+"The organization or individual that built the instrument.  Add as DataCite "
+"property `Creator`.  Consider also to add an identifier for the manufacturer"
+" in the `nameIdentifier` subproperty of `Creator`."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:51
@@ -152,9 +152,9 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:49
 msgid ""
-"The name of the model or type of the instrument.  Unfortunately, as of "
-"this writing, the DataCite Schema has no suitable property for that, so "
-"you'll need to leave it out.\\ [#dc_model]_"
+"The name of the model or type of the instrument.  Unfortunately, as of this "
+"writing, the DataCite Schema has no suitable property for that, so you'll "
+"need to leave it out.\\ [#dc_model]_"
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:55
@@ -163,8 +163,8 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:54
 msgid ""
-"A textual description of the device and its capabilities.  Add as "
-"DataCite property `Description` with `descriptionType=Abstract`."
+"A textual description of the device and its capabilities.  Add as DataCite "
+"property `Description` with `descriptionType=Abstract`."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:60
@@ -174,8 +174,8 @@ msgstr ""
 #: ../../datacite-cookbook/metadata.rst:58
 msgid ""
 "A classification of the type of the instrument.  There is no dedicated "
-"property for this in the DataCite Schema, but you may add keywords "
-"providing such a classification in the property `Subject`."
+"property for this in the DataCite Schema, but you may add keywords providing"
+" such a classification in the property `Subject`."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:65
@@ -185,8 +185,8 @@ msgstr ""
 #: ../../datacite-cookbook/metadata.rst:63
 msgid ""
 "The variables or physical properties that the instrument measures or "
-"observes.  Unfortunately, the DataCite Schema has no suitable property "
-"for that, so you'll need to leave it out."
+"observes.  Unfortunately, the DataCite Schema has no suitable property for "
+"that, so you'll need to leave it out."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:73
@@ -197,8 +197,8 @@ msgstr ""
 msgid ""
 "Relevant events pertaining to this instrument instance.  Add as DataCite "
 "property `Date`.  Use `dateType=Available` to indicate the date that the "
-"instrument is or was in operation.  Use a single date if the instrument "
-"is still in operation, to indicate a start date. Use a date interval to "
+"instrument is or was in operation.  Use a single date if the instrument is "
+"still in operation, to indicate a start date. Use a date interval to "
 "indicate a start and an end date, if the instrument has already been "
 "decommissioned."
 msgstr ""
@@ -210,8 +210,8 @@ msgstr ""
 #: ../../datacite-cookbook/metadata.rst:76
 msgid ""
 "This can be used to establish links to related resources.  The DataCite "
-"Schema has a property with the same name, having very similar "
-"subproperties and semantics as the PIDINST Schema."
+"Schema has a property with the same name, having very similar subproperties "
+"and semantics as the PIDINST Schema."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:93
@@ -220,20 +220,20 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:81
 msgid ""
-"To be used if this instrument is also registered elsewhere.  Add as "
-"DataCite property `AlternateIdentifier`.  Use "
-"`alternateIdentifierType=SerialNumber` for a serial number attributed by "
-"the manufacturer.  Use `alternateIdentifierType=InventoryNumber` for an "
-"inventory number used by the owner."
+"To be used if this instrument is also registered elsewhere.  Add as DataCite"
+" property `AlternateIdentifier`.  Use `alternateIdentifierType=SerialNumber`"
+" for a serial number attributed by the manufacturer.  Use "
+"`alternateIdentifierType=InventoryNumber` for an inventory number used by "
+"the owner."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:88
 msgid ""
 "Note that as opposed to the PIDINST schema, `alternateIdentifierType` is "
-"free text in the DataCite schema. Thus, when adding an alternate "
-"identifier that is not a serial number or an inventory number, you are "
-"not forced to use `alternateIdentifierType=Other`, but may set the "
-"appropriate type in `alternateIdentifierType` right away."
+"free text in the DataCite schema. Thus, when adding an alternate identifier "
+"that is not a serial number or an inventory number, you are not forced to "
+"use `alternateIdentifierType=Other`, but may set the appropriate type in "
+"`alternateIdentifierType` right away."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:96
@@ -244,9 +244,9 @@ msgstr ""
 msgid ""
 "There are a few more properties in the DataCite Schema that have no "
 "counterpart in the PIDINST Schema and that either need to be set because "
-"they are mandatory in DataCite or that are worth considering. Of course, "
-"any other DataCite property not mentioned here may be considered as well,"
-" if it makes sense for a particular use case."
+"they are mandatory in DataCite or that are worth considering. Of course, any"
+" other DataCite property not mentioned here may be considered as well, if it"
+" makes sense for a particular use case."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:112
@@ -257,12 +257,12 @@ msgstr ""
 msgid ""
 "“The name of the entity that holds, archives, publishes, prints, "
 "distributes, releases, issues, or produces the resource” (quote from the "
-"definition in the DataCite Schema).  It's not quite clear what that would"
-" mean in the case of an instrument and it seem to be a little redundant "
-"with what would be the `Owner` in the PIDINST Schema.  But it is "
-"mandatory in the DataCite Schema, so it needs to be set.  We recommend to"
-" set it to the entity that created the DOI and is responsible for "
-"maintaining the DOI metadata."
+"definition in the DataCite Schema).  It's not quite clear what that would "
+"mean in the case of an instrument and it seem to be a little redundant with "
+"what would be the `Owner` in the PIDINST Schema.  But it is mandatory in the"
+" DataCite Schema, so it needs to be set.  We recommend to set it to the "
+"entity that created the DOI and is responsible for maintaining the DOI "
+"metadata."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:116
@@ -281,15 +281,15 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:119
 msgid ""
-"DataCite DOIs are for many different types of objects, so there is a need"
-" to indicate the type.  This is mandatory in the DataCite Schema.  "
-"Obviously, for an instrument DOI there should be an indication that this "
-"DOI identifies an instrument instance.  In DataCite, `ResourceType` is "
-"free text, but it has a subproperty `resourceTypeGeneral` having a "
-"controlled list of values with defined types of resources.  "
-"Unfortunately, as of this writing, non of these values would fit for an "
-"instrument, so we recommend to set `ResourceType` to `Instrument` with "
-"`resourceTypeGeneral=Other`.\\ [#dc_resource]_"
+"DataCite DOIs are for many different types of objects, so there is a need to"
+" indicate the type.  This is mandatory in the DataCite Schema.  Obviously, "
+"for an instrument DOI there should be an indication that this DOI identifies"
+" an instrument instance.  In DataCite, `ResourceType` is free text, but it "
+"has a subproperty `resourceTypeGeneral` having a controlled list of values "
+"with defined types of resources.  Unfortunately, as of this writing, non of "
+"these values would fit for an instrument, so we recommend to set "
+"`ResourceType` to `Instrument` with `resourceTypeGeneral=Other`.\\ "
+"[#dc_resource]_"
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:134
@@ -298,22 +298,22 @@ msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:131
 msgid ""
-"This is optional in the DataCite Schema, but it may be useful to "
-"acknowledge external funding that supported the purchase or the creation "
-"of the instrument."
+"This is optional in the DataCite Schema, but it may be useful to acknowledge"
+" external funding that supported the purchase or the creation of the "
+"instrument."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:142
 msgid ""
 "There is a `Proposal to add a Series property <dc_issue72_>`_ to the "
-"DataCite Schema that would be suitable to put the instrument model once "
-"the proposal is adopted."
+"DataCite Schema that would be suitable to put the instrument model once the "
+"proposal is adopted."
 msgstr ""
 
 #: ../../datacite-cookbook/metadata.rst:147
 msgid ""
-"There is a `Proposal to add Instrument to the controlled list of values "
-"for resourceTypeGeneral <dc_issue70_>`_ in the DataCite Schema."
+"There is a `Proposal to add Instrument to the controlled list of values for "
+"resourceTypeGeneral <dc_issue70_>`_ in the DataCite Schema."
 msgstr ""
 
 #: ../../datacite-cookbook/minting.rst:4
@@ -322,10 +322,10 @@ msgstr ""
 
 #: ../../datacite-cookbook/minting.rst:6
 msgid ""
-"`DataCite Fabrica`_ is the web interface to create and manage your DOIs "
-"and metadata.  Your organization needs to be a DataCite member or work "
-"with a DataCite member.  This will provide you with your own DOI prefix "
-"and the credentials to sign in to Fabrica."
+"`DataCite Fabrica`_ is the web interface to create and manage your DOIs and "
+"metadata.  Your organization needs to be a DataCite member or work with a "
+"DataCite member.  This will provide you with your own DOI prefix and the "
+"credentials to sign in to Fabrica."
 msgstr ""
 
 #: ../../datacite-cookbook/minting.rst:11
@@ -343,9 +343,8 @@ msgid ""
 "The most interactive way of creating a DOI is to fill a web formular, "
 "indicating the DOI, the URL of the landingpage, and all of the metadata "
 "values.  It provides useful assistence, such as automated validation or "
-"lookup of external identifiers while entering the values.  See the "
-"`DataCite documentation <Create a DOI via Form_>`_ for detailed "
-"instructions."
+"lookup of external identifiers while entering the values.  See the `DataCite"
+" documentation <Create a DOI via Form_>`_ for detailed instructions."
 msgstr ""
 
 #: ../../datacite-cookbook/minting.rst:25
@@ -356,11 +355,10 @@ msgstr ""
 msgid ""
 "If you want to create many instrument DOIs, manually entering all the "
 "metadata values separately may become tedious.  There is another web "
-"formular that allows the metadata to be uploaded as a file.  Different "
-"file formats are supported, but the most fine grained control over the "
-"properties and their values is propably achieved using DataCite XML. See "
-"the `DataCite documentation <Create a DOI via File Upload_>`_ for "
-"detailed instructions."
+"formular that allows the metadata to be uploaded as a file.  Different file "
+"formats are supported, but the most fine grained control over the properties"
+" and their values is propably achieved using DataCite XML. See the `DataCite"
+" documentation <Create a DOI via File Upload_>`_ for detailed instructions."
 msgstr ""
 
 #: ../../datacite-cookbook/minting.rst:36
@@ -369,9 +367,9 @@ msgstr ""
 
 #: ../../datacite-cookbook/minting.rst:38
 msgid ""
-"The process of creating the DOIs can be fully automated using the "
-"DataCite REST API.  The metadata may be feed into the API as JSON or "
-"DataCite XML.  See the `DataCite REST API Guide`_ for details."
+"The process of creating the DOIs can be fully automated using the DataCite "
+"REST API.  The metadata may be feed into the API as JSON or DataCite XML.  "
+"See the `DataCite REST API Guide`_ for details."
 msgstr ""
 
 #: ../../datacite-cookbook/prereq.rst:2
@@ -380,9 +378,8 @@ msgstr ""
 
 #: ../../datacite-cookbook/prereq.rst:4
 msgid ""
-"As a prerequisite to issue DataCite DOIs, your organization needs to be a"
-" DataCite member or work with a DataCite member.  This will provide you "
-"with your own DOI prefix and the access to `DataCite Fabrica`_ that you "
-"will need for :ref:`datacite-cookbook-minting`."
+"As a prerequisite to issue DataCite DOIs, your organization needs to be a "
+"DataCite member or work with a DataCite member.  This will provide you with "
+"your own DOI prefix and the access to `DataCite Fabrica`_ that you will need"
+" for :ref:`datacite-cookbook-minting`."
 msgstr ""
-

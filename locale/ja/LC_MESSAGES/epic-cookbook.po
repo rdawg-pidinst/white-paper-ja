@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2020, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-28 20:30+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2022-07-28 21:51+0900\n"
+"PO-Revision-Date: 2022-08-29 23:01+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../epic-cookbook/handles.rst:2
 msgid "PIDINST handles at ePIC"
@@ -24,10 +24,10 @@ msgstr ""
 #: ../../epic-cookbook/handles.rst:4
 msgid ""
 "Properties, sub-properties and attributes of the PIDINST metadata schema "
-"used in ePIC PID handle records can be viewed as follows.  Use ‘#’ before"
-" ‘objects’ to interchange between human-readable and JSON "
-"representations.  Each property, sub-property and attribute is resolvable"
-" through a unique handle record:"
+"used in ePIC PID handle records can be viewed as follows.  Use ‘#’ before "
+"‘objects’ to interchange between human-readable and JSON representations.  "
+"Each property, sub-property and attribute is resolvable through a unique "
+"handle record:"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:11
@@ -35,7 +35,8 @@ msgid "Human-readable"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:11
-msgid "http://dtr-test.pidconsortium.eu/#objects/21.T11148/17ce618137e697852ea6"
+msgid ""
+"http://dtr-test.pidconsortium.eu/#objects/21.T11148/17ce618137e697852ea6"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:13
@@ -43,7 +44,8 @@ msgid "JSON representation"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:13
-msgid "http://dtr-test.pidconsortium.eu/objects/21.T11148/17ce618137e697852ea6"
+msgid ""
+"http://dtr-test.pidconsortium.eu/objects/21.T11148/17ce618137e697852ea6"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:18
@@ -52,35 +54,35 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:20
 msgid ""
-"ePIC handles are accessed and managed via a RESTful web service, using "
-"the HTTP application protocol.  This service or Application Programming "
-"Interface (API) uses JSON as the primary exchange format. Available are "
-"the generic and more basic Handle API or, if implemented at the PID "
-"service used, the ePIC API that comes with its own business logic and "
-"additional services.  In our following examples PIDINST handles are "
-"created via the ePIC API in the ePIC API test environment with a view to "
-"moving the architecture to the production environment in the future.  "
-"There is also an overview for the basic CRUD operations on PIDs for "
-"either the ePIC API or the Handle API at the end."
+"ePIC handles are accessed and managed via a RESTful web service, using the "
+"HTTP application protocol.  This service or Application Programming "
+"Interface (API) uses JSON as the primary exchange format. Available are the "
+"generic and more basic Handle API or, if implemented at the PID service "
+"used, the ePIC API that comes with its own business logic and additional "
+"services.  In our following examples PIDINST handles are created via the "
+"ePIC API in the ePIC API test environment with a view to moving the "
+"architecture to the production environment in the future.  There is also an "
+"overview for the basic CRUD operations on PIDs for either the ePIC API or "
+"the Handle API at the end."
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:32
 msgid ""
 "In order to generate new PIDs and assign them to your instruments, it is "
 "necessary to become an ePIC member (provider), or work with one of their "
-"current members or repositories that has their own ePIC API endpoint.  To"
-" create a PID using the test environment you will need to obtain "
-"credentials (username and password) for authentication using the test "
-"environment prefix 21.T11998.  These can be obtained from ePIC by "
-"emailing support@pidconsortium.net."
+"current members or repositories that has their own ePIC API endpoint.  To "
+"create a PID using the test environment you will need to obtain credentials "
+"(username and password) for authentication using the test environment prefix"
+" 21.T11998.  These can be obtained from ePIC by emailing "
+"support@pidconsortium.net."
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:40
 msgid ""
-"PIDs are typically created using POST/PUT methods.  Using the POST method"
-" will automatically generate a Universally Unique Identifier (UUID) "
-"within the suffix of a handle record.  Alternatively a suffix can be "
-"manually created via PUT method using a local identifier (see "
+"PIDs are typically created using POST/PUT methods.  Using the POST method "
+"will automatically generate a Universally Unique Identifier (UUID) within "
+"the suffix of a handle record.  Alternatively a suffix can be manually "
+"created via PUT method using a local identifier (see "
 "https://doc.pidconsortium.eu/guides/api-create/)."
 msgstr ""
 
@@ -89,8 +91,8 @@ msgid ""
 "All examples below use cURL requests at the command line (in Linux). "
 "Requests can also use PHP, Perl and Python (see "
 "https://doc.pidconsortium.eu/guides/api-create/).  Examples also use the "
-"test API endpoint http://vm04.pid.gwdg.de:8081/handles/.  Each ePIC "
-"member may use their own API end-point."
+"test API endpoint http://vm04.pid.gwdg.de:8081/handles/.  Each ePIC member "
+"may use their own API end-point."
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:52
@@ -101,20 +103,19 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:57
 msgid ""
-"``Result:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/0000-001A-"
-"64A4-A"
+"``Result:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/0000-001A-64A4-A"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:59
 msgid ""
-"To generate a PID handle record automatically generating a UUID within "
-"the suffix::"
+"To generate a PID handle record automatically generating a UUID within the "
+"suffix::"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:64
 msgid ""
-"``Result:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000"
-"-001A-64A3-B-TEST"
+"``Result:`` "
+"https://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:66
@@ -163,9 +164,9 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:93
 msgid ""
-"Properties are updated using the PUT method by either specifying the JSON"
-" properties directly in the cURL request or parsing them via a JSON file "
-"(see :download:`JSON example </examples/ePIC_json_example.json>`)."
+"Properties are updated using the PUT method by either specifying the JSON "
+"properties directly in the cURL request or parsing them via a JSON file (see"
+" :download:`JSON example </examples/ePIC_json_example.json>`)."
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:97
@@ -174,8 +175,8 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:101
 msgid ""
-"*Note: Double quotes must be escaped with a backslash (\\\\) within the "
-"JSON parsed_data string*"
+"*Note: Double quotes must be escaped with a backslash (\\\\) within the JSON"
+" parsed_data string*"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:103
@@ -192,8 +193,8 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:114
 msgid ""
-"The following HTTP protocol methods enable users to manage their PID "
-"handle records using the ePIC API based on username-password. Server: "
+"The following HTTP protocol methods enable users to manage their PID handle "
+"records using the ePIC API based on username-password. Server: "
 "``vm04.pid.gwdg.de``, Port: ``8081``, Resources: ``handles/``"
 msgstr ""
 
@@ -215,30 +216,30 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:140
 msgid ""
-"The following HTTP protocol methods enable users to manage their PID "
-"handle records using the generic Handle API based on Certificates. "
-"Server: ``vm04.pid.gwdg.de``, Port: ``8081``, Resources: ``handles/``"
+"The following HTTP protocol methods enable users to manage their PID handle "
+"records using the generic Handle API based on Certificates. Server: "
+"``vm04.pid.gwdg.de``, Port: ``8081``, Resources: ``handles/``"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:144
 msgid ""
-"The process to derive the ``privkey.pem`` and ``certificate_only.pem`` "
-"from a is described for instance at: http://eudat-"
-"b2safe.github.io/B2HANDLE/creatingclientcertificates.html"
+"The process to derive the ``privkey.pem`` and ``certificate_only.pem`` from "
+"a is described for instance at: "
+"http://eudat-b2safe.github.io/B2HANDLE/creatingclientcertificates.html"
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:148
 msgid ""
-"The Handle API does not have an internal suffix generator.  The suffix "
-"needs to be provided by the user."
+"The Handle API does not have an internal suffix generator.  The suffix needs"
+" to be provided by the user."
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:151
 msgid ""
-"The Handle API only knows POST, GET and DELETE methods, which means that,"
-" if the Credentials are sufficient, an existing PID could be accidentally"
-" overwritten by a request intended for creation.  This has to be detected"
-" by the user in advance."
+"The Handle API only knows POST, GET and DELETE methods, which means that, if"
+" the Credentials are sufficient, an existing PID could be accidentally "
+"overwritten by a request intended for creation.  This has to be detected by "
+"the user in advance."
 msgstr ""
 
 #: ../../epic-cookbook/handles.rst:156
@@ -276,15 +277,15 @@ msgstr ""
 msgid "Document type"
 msgstr ""
 
-#: ../../epic-cookbook/index.rst
+#: ../../epic-cookbook/index.rst:0
 msgid "Research Data Alliance (RDA)"
 msgstr ""
 
-#: ../../epic-cookbook/index.rst
+#: ../../epic-cookbook/index.rst:0
 msgid "Persistent Identification of Instruments (PIDINST)"
 msgstr ""
 
-#: ../../epic-cookbook/index.rst
+#: ../../epic-cookbook/index.rst:0
 msgid "working group output report"
 msgstr ""
 
@@ -294,15 +295,13 @@ msgstr ""
 
 #: ../../epic-cookbook/intro.rst:4
 msgid ""
-"This cookbook enables instrument providers to create persistent "
-"identifiers (PID) for instruments using the `ePIC infrastructure`_. ePIC "
-"is an international consortium that provides PID services for the "
-"worldwide research community, allowing them to allocate and resolve PIDs "
-"based on the `handle system`_.  In 2019, ePIC published a metadata schema"
-" for citing instruments, as part of the recommendations resulting from "
-"the Research Data Alliance working group for the persistent "
-"identification of instruments (`PIDINST`_) referred to as the `PIDINST "
-"metadata schema`_.  This document provides technical guidance for "
-"publishing instrument PIDs through ePIC."
+"This cookbook enables instrument providers to create persistent identifiers "
+"(PID) for instruments using the `ePIC infrastructure`_. ePIC is an "
+"international consortium that provides PID services for the worldwide "
+"research community, allowing them to allocate and resolve PIDs based on the "
+"`handle system`_.  In 2019, ePIC published a metadata schema for citing "
+"instruments, as part of the recommendations resulting from the Research Data"
+" Alliance working group for the persistent identification of instruments "
+"(`PIDINST`_) referred to as the `PIDINST metadata schema`_.  This document "
+"provides technical guidance for publishing instrument PIDs through ePIC."
 msgstr ""
-

@@ -1,25 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2020, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-28 20:30+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2022-07-28 21:51+0900\n"
+"PO-Revision-Date: 2022-08-29 23:01+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022\n"
+"Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../index.rst:-1
+#: ../../index.rst-1
 msgid "PIDINST logo"
-msgstr ""
+msgstr "PIDINST logo"
 
 #: ../../index.rst:10
 msgid "Persistent Identification of Instruments"
@@ -31,65 +35,62 @@ msgid ""
 "seeks to explore a community-driven solution for globally unique "
 "identification of measuring instruments operated in the sciences."
 msgstr ""
-"`Persistent Identification of Instruments WG (PIDINST) <pidinst_>`_ では、"
-"学術研究において運用されている計測装置を、"
-"世界レベルで一意に識別するためのコミュニティ主導による"
-"解決策を検討しています。"
+"`Persistent Identification of Instruments WG (PIDINST) <pidinst_>`_ "
+"では、学術研究において運用されている計測装置を、世界レベルで一意に識別するためのコミュニティ主導による解決策を検討しています。"
 
 #: ../../index.rst:17
 msgid ""
-"Measuring instruments, such as sensors used in environmental science, DNA"
-" sequencers used in life sciences or laboratory engines used for medical "
-"domains, are widespread in most fields of applied sciences. The ability "
-"to link an active instrument (instance) with an instrument type and with "
-"the broader context in which the instrument operates, including generated"
-" data, other instruments and platforms, people and manufacturers, etc., "
-"is critical, especially for automated processing of such contextual "
-"information and for the interpretation of generated data."
+"Measuring instruments, such as sensors used in environmental science, DNA "
+"sequencers used in life sciences or laboratory engines used for medical "
+"domains, are widespread in most fields of applied sciences. The ability to "
+"link an active instrument (instance) with an instrument type and with the "
+"broader context in which the instrument operates, including generated data, "
+"other instruments and platforms, people and manufacturers, etc., is "
+"critical, especially for automated processing of such contextual information"
+" and for the interpretation of generated data."
 msgstr ""
+"環境学でのセンサー、生命科学でのDNSシーケンサーや、医学分野での実験器具など、計測機器は、ほぼすべての応用科学領域に広く存在します。利用されている機器(本体)に、機器の種別や、運転時の幅広いコンテキスト、例えば、生成されるデータ、その他の機器やプラットフォームとの関係、利用した人員、機器の作成者等々・・・が関連付けられるようになることは、特にこれらのコンテキスト情報を自動処理する場合や、データを解釈するためには極めて重要です。"
 
 #: ../../index.rst:27
 msgid ""
-"PIDINST is a working group in the `Research Data Alliance (RDA) <rda_>`_."
-"  It aims to establish a cross-discipline, operational solution for the "
-"unique and lasting identification of measuring instruments actively "
-"operated in the sciences."
+"PIDINST is a working group in the `Research Data Alliance (RDA) <rda_>`_.  "
+"It aims to establish a cross-discipline, operational solution for the unique"
+" and lasting identification of measuring instruments actively operated in "
+"the sciences."
 msgstr ""
-"PIDINSTは `Research Data Alliance (RDA) <rda_>`_ のワーキンググループです。"
-"科学分野で活発に活発に利用されている計測機器をユニークかつ永続的に識別するため、"
-"分野横断的な運用ソリューションを確立することを"
-"目的としています。"
+"PIDINSTは `Research Data Alliance (RDA) <rda_>`_ "
+"のワーキンググループです。科学分野で活発に活発に利用されている計測機器をユニークかつ永続的に識別するため、分野横断的な運用ソリューションを確立することを目的としています。"
 
 #: ../../index.rst:32
 msgid "The group produced the following outputs:"
-msgstr ""
+msgstr "このグループからは以下の成果物を発表しました。"
 
 #: ../../index.rst:34
 msgid ""
-"Stocker, M, Darroch, L, Krahl, R, Habermann, T, Devaraju, A, Schwardmann,"
-" U, D’Onofrio, C and Häggström, I.  2020.  Persistent Identification of "
+"Stocker, M, Darroch, L, Krahl, R, Habermann, T, Devaraju, A, Schwardmann, U,"
+" D’Onofrio, C and Häggström, I.  2020.  Persistent Identification of "
 "Instruments.  Data Science Journal, 19: 18, pp. 1–12.  DOI: "
-"https://doi.org/10.5334/dsj-2020-018 :raw-html:`<br />` This paper "
-"provides an overview of the work of PIDINST."
+"https://doi.org/10.5334/dsj-2020-018 :raw-html:`<br />` This paper provides "
+"an overview of the work of PIDINST."
 msgstr ""
 
 #: ../../index.rst:40
 msgid ""
-"Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, "
-"T., Stocker, M., & The Research Data Alliance Persistent Identification "
-"of Instruments Working Group members (2022). Metadata Schema for the "
-"Persistent Identification of Instruments (1.0).  Research Data Alliance. "
-"https://doi.org/10.15497/RDA00070 :raw-html:`<br />` This RDA "
-"recommendation defines the Metadata Schema."
+"Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., "
+"Stocker, M., & The Research Data Alliance Persistent Identification of "
+"Instruments Working Group members (2022). Metadata Schema for the Persistent"
+" Identification of Instruments (1.0).  Research Data Alliance. "
+"https://doi.org/10.15497/RDA00070 :raw-html:`<br />` This RDA recommendation"
+" defines the Metadata Schema."
 msgstr ""
 
 #: ../../index.rst:48
 msgid ""
 ":ref:`white-paper` :raw-html:`<br />` This white paper provides "
-"recommendations for the use of instrument PIDs and gives technical "
-"details that go beyond the overview provided in the Data Science Journal "
-"paper.  It is expected to evolve with new user requirements and working "
-"group activities."
+"recommendations for the use of instrument PIDs and gives technical details "
+"that go beyond the overview provided in the Data Science Journal paper.  It "
+"is expected to evolve with new user requirements and working group "
+"activities."
 msgstr ""
 
 #: ../../index.rst:54
@@ -100,17 +101,16 @@ msgstr ""
 
 #: ../../index.rst:58
 msgid ""
-":ref:`datacite-cookbook` :raw-html:`<br />` Detailed instructions on how "
-"to create DataCite DOIs for instruments."
+":ref:`datacite-cookbook` :raw-html:`<br />` Detailed instructions on how to "
+"create DataCite DOIs for instruments."
 msgstr ""
 
-#: ../../index.rst:-1
+#: ../../index.rst-1
 msgid "Creative Commons License"
 msgstr ""
 
 #: ../../index.rst:67
 msgid ""
-"The content of this site is licensed under a `Creative Commons "
-"Attribution 4.0 International License <cc-by_>`_."
-msgstr ""
-
+"The content of this site is licensed under a `Creative Commons Attribution "
+"4.0 International License <cc-by_>`_."
+msgstr "このサイトのコンテンツは`クリエイティブ・コモンズ 表示 4.0 国際 <cc-by_>`_ の下に提供されています。"
