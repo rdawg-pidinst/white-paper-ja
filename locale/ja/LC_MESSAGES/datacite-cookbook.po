@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PIDINST package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# 岡山将也, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-28 21:51+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
+"Last-Translator: 岡山将也, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +43,7 @@ msgstr ""
 
 #: ../../datacite-cookbook/intro.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../datacite-cookbook/intro.rst:4
 msgid ""
@@ -50,6 +54,10 @@ msgid ""
 "<pidinst_>`_ has worked with DataCite on the mapping of the PIDINST metadata"
 " schema onto the DataCite schema."
 msgstr ""
+"このクックブックにより、計測器提供者は、計測器の永続的識別子 (PID) として `DataCite`_DOI "
+"を作成することができます。DataCite は、研究データやその他の研究成果に DOI を提供する世界的な非営利組織です。 `Instruments "
+"WG (PIDINST) の永続的な識別は、PIDINST メタデータ スキーマの DataCite スキーマへのマッピングに関して DataCite "
+"と協力しています。"
 
 #: ../../datacite-cookbook/intro.rst:11
 msgid ""

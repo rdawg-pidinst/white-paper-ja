@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PIDINST package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-28 21:51+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +42,7 @@ msgstr ""
 msgid ""
 "http://dtr-test.pidconsortium.eu/#objects/21.T11148/17ce618137e697852ea6"
 msgstr ""
+"http://dtr-test.pidconsortium.eu/#objects/21.T11148/17ce618137e697852ea6"
 
 #: ../../epic-cookbook/handles.rst:13
 msgid "JSON representation"
@@ -47,6 +52,7 @@ msgstr ""
 msgid ""
 "http://dtr-test.pidconsortium.eu/objects/21.T11148/17ce618137e697852ea6"
 msgstr ""
+"http://dtr-test.pidconsortium.eu/objects/21.T11148/17ce618137e697852ea6"
 
 #: ../../epic-cookbook/handles.rst:18
 msgid "Generating a new instrument PID"
@@ -140,7 +146,7 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:79
 msgid "http://hdl.handle.net/21.T11998/0000-001A-3905-F"
-msgstr ""
+msgstr "http://hdl.handle.net/21.T11998/0000-001A-3905-F"
 
 #: ../../epic-cookbook/handles.rst:81
 msgid "If you want to see the handle record then use:"
@@ -148,7 +154,7 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:83
 msgid "http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect"
-msgstr ""
+msgstr "http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect"
 
 #: ../../epic-cookbook/handles.rst:85
 msgid "The REST API calls can also yield JSON responses:"
@@ -156,7 +162,7 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:87
 msgid "http://hdl.handle.net/api/handles/21.T11998/0000-001A-3905-F"
-msgstr ""
+msgstr "http://hdl.handle.net/api/handles/21.T11998/0000-001A-3905-F"
 
 #: ../../epic-cookbook/handles.rst:91
 msgid "Updating the description of a PID handle record"

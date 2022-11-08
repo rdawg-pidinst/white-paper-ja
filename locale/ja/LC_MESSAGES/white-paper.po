@@ -3,6 +3,12 @@
 # This file is distributed under the same license as the PIDINST package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Takahiro Matsumoto, 2022
+# Nakanishi, 2022
+# Kazuyo Fukuda, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-28 21:51+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +26,7 @@ msgstr ""
 
 #: ../../white-paper/adoption.rst:2
 msgid "Current, planned and potential adoption"
-msgstr ""
+msgstr "実現した、計画中、または検討中の適用事例"
 
 #: ../../white-paper/adoption.rst:5
 msgid "Helmholtz-Zentrum Berlin für Materialien und Energie (HZB)"
@@ -43,6 +50,18 @@ msgid ""
 "for all its beamlines and experimental stations that are in user operation "
 "in the near future."
 msgstr ""
+"HZB では DataCite 上で4つのDOIをHZBの実験機器に付番しています: 2つの中性子ビームライン BER II;\\ "
+"[#hzb_e2]_\\ :sup:`,`\\ [#hzb_e9]_  シンクロトロン放射光ビームライン BESSY II;\\ "
+"[#hzb_nc_bl]_ に一つ、そして一つの実験ステーション BESSY II.\\ [#hzb_nc_st]_ です。これらの DOI は HZB"
+" の実験機器データベース -- これらは事前に作成されたものでこの目的にの為に作られたものではないですが-- "
+"からそれぞれの実験機器のページを参照するようになっています。これらの実験機器の特徴としては、これらは HZB "
+"により独自に構築されたことがあります。したがって、HZB は作成者(Creator)であるとともに、contriburotType プロパティにおいて "
+"HostingInstitution "
+"を持つ事で貢献者(Contributer)としても、メタデータ内に記載されています。DOIの一つでは、DataCite スキーマから "
+"fundingReference "
+"プロパティを追加することで、当該機器の更新時にHZBが受けた外部からの研究費を明らかにしている、ということも特筆すべき点です。このプロパティはPIDINSTスキーマでは考慮されておらず、DataCite"
+" "
+"とのマッピングを実施するときに検討されました。HZBでは運用中のすべてのビームライン、実験ステーションにメタデータを適用し、またDOIを付番することを計画しています。"
 
 #: ../../white-paper/adoption.rst:25
 msgid "British Oceanographic Data Centre (BODC)"
@@ -65,6 +84,16 @@ msgid ""
 "manage sensor data and metadata workflows from ‘deck to desktop’ as part of "
 "a UK initiative, I/Ocean."
 msgstr ""
+"英国海洋データセンター (British Oceanographic Data Centre, BODC) "
+"は海洋学及び海洋研究データの保存と配布を目的とした国立の研究施設です。BODCは webで公開済みであり、実世界のセンサーを概念化し統合するための "
+"Open Geospatial Consortium (OCGC) "
+"のオープンな標準に沿った、センサー技術に関するメタデータのエンコードを対象とし、ePICの実装をテストしました。最初のテストケースとして、北大西洋にある"
+" `Porcupine Abyssal Plain Sustained Observatory (PAP-SO) `_ "
+"の定点係留に定期的に配置されている Sea-Bird Scientific SBE37 Microcat に対して PID "
+"を作成しました。詳細については :ref:`landing-page-encoding-swe` を参照してください。BODCは、Natural "
+"Environment Research Council (NERC)が所有し、National Oceanography Centre (NOC)と "
+"British Antarctic Survey "
+"(BAS)が管理する大型研究船に搭載されるセンサーの識別に本メタデータの適用を続ける計画である。PIDは、英国のイニシアチブであるI/Oceanの一環として、「デッキからデスクトップ」までのセンサーデータとメタデータのワークフローを管理するために使用される予定です。"
 
 #: ../../white-paper/adoption.rst:44
 msgid "EISCAT3D"
@@ -86,6 +115,8 @@ msgid ""
 " type HasComponent can be used to relate to the persistently identified "
 "units."
 msgstr ""
+"EISCAT3D "
+"は、フェンノスカンジア地方の北極圏上空の大気および地球近傍宇宙環境の研究、ならびに太陽系科学および電波天文学の支援を目的として、レーダー観測と非干渉性散乱技術を用いた国際研究基盤となる予定です。EISCAT3Dは、PIDINSTの勧告に従って、観測装置のための永続的識別子の実装を予定しています。このレーダーは複雑で、これまでのレーダーよりもデジタル化されており、大きく分けていくつかの別々のユニットに分かれています。これらのユニットではソフトウェアも重要な重要な構成要素ですが、ハードウェアのユニットとみなすことで、それぞれを永続的に識別することになります。ユニットの更新は主にソフトウェアに対して行われ、その結果、独自のPIDを持つ新バージョンのユニットが誕生します。レーダー自体も永続的に識別され、HasComponentという関係タイプを使用して永続的に識別されたユニットに関係づけることができます。"
 
 #: ../../white-paper/adoption.rst:61
 msgid "SENSOR.awi.de and PANGAEA"
@@ -296,7 +327,7 @@ msgstr ""
 
 #: ../../white-paper/create-new-pid.rst:2
 msgid "When to create a new PID?"
-msgstr ""
+msgstr "いつ新しいPIDを生成するか?"
 
 #: ../../white-paper/create-new-pid.rst:4
 msgid ""
@@ -321,34 +352,44 @@ msgid ""
 ":numref:`%s <snip-create-superseding-json>`, and :numref:`%s <snip-create-"
 "superseded-json>`."
 msgstr ""
+"実験機器には、常に変更、修正が生じます。例えば、新しい測定の要求水準を満たすために、部品の変更や装置のアップグレードが行われます。新しいPIDを生成すべき正確な瞬間を定義することは、機器の変更に対しそれぞれのステークホルダが各々理由を持つため、困難です。実際、PIDINST"
+" WG "
+"は明確な答えを出すことができていません。したがって、様々なステークホルダーの要求に対応するには、機関の実験機器提供者から見たコンテキストに重要な変更が生じたときに"
+" PID "
+"が更新される、というルールが推奨されます。ここでいう重要な変更には、文献などで実験機器が引用されたために、実験機器の履歴を保存する必要が生じた場合、品質管理等自動化されたワークフローに大きな影響を与えるような測定能力の大幅な向上が生じた場合、実験機器のファームウェアが変更された場合、等が含まれます。機関が新しいPIDを生成するどんな理由においても、実験機器提供者は"
+" :numref:`snip-create-superseding-xml`, :numref:`%s <snip-create-superseded-"
+"xml>`, :numref:`%s <snip-create-superseding-json>`,  :numref:`%s <snip-"
+"create-superseded-json>` に示すように、PIDINST メタデータの *relatedIdentifier* プロパティの "
+"*relattionType* 属性の *IsNewVersionOf* に新しいPIDを指定、さらに *IsPreviewousVersionOf* "
+"に変更前のPIDを指定するすることで、継承関係を特定することが推奨されます。"
 
 #: ../../white-paper/create-new-pid.rst:28
 msgid ""
 "The use of the relatedIdentifier property to represent superseding PID "
 "records in XML"
-msgstr ""
+msgstr "変更前のPIDを示すための relatedIdentifer プロパティのXMLでの使用例"
 
 #: ../../white-paper/create-new-pid.rst:37
 msgid ""
 "The use of the relatedIdentifier property to represent superseded PID "
 "records in XML"
-msgstr ""
+msgstr "変更後のPIDを示すための relatedIdentifer プロパティのXMLでの使用例"
 
 #: ../../white-paper/create-new-pid.rst:46
 msgid ""
 "The use of the relatedIdentifier property to represent superseding PID "
 "records in JSON"
-msgstr ""
+msgstr "変更前のPIDを示すための relatedIdentifer プロパティのJSONでの使用例"
 
 #: ../../white-paper/create-new-pid.rst:59
 msgid ""
 "The use of the relatedIdentifier property to represent superseded PID "
 "records in JSON"
-msgstr ""
+msgstr "変更後のPIDを示すための relatedIdentifer プロパティのJSONでの使用例"
 
 #: ../../white-paper/duplication.rst:2
 msgid "Dealing with duplication"
-msgstr ""
+msgstr "重複への対処"
 
 #: ../../white-paper/duplication.rst:4
 msgid ""
@@ -425,7 +466,7 @@ msgstr ""
 
 #: ../../white-paper/index.rst:13
 msgid "Date"
-msgstr ""
+msgstr "日付"
 
 #: ../../white-paper/index.rst:13
 msgid "|today|"
@@ -456,7 +497,7 @@ msgstr ""
 
 #: ../../white-paper/landing-page-content.rst:4
 msgid "Landing page content"
-msgstr ""
+msgstr "ランディングページの内容"
 
 #: ../../white-paper/landing-page-content.rst:6
 msgid ""
@@ -469,6 +510,10 @@ msgid ""
 "that accompanies PIDs published at PID providers to aid metadata exchange "
 "(e.g. DataCite XML)."
 msgstr ""
+"計測機器の提供者は、ランディング ページで十分な情報 (メタデータ) を使用して、計測機器を明確に識別することが推奨されます。理想的には、ランディング "
+"ページは、PID プロバイダーのスキーマで指定されたメタデータを含み、相互運用性を良くするため実用的な一般的な用語を使用すべきです "
+"(:ref:`pidinst-metadata-schema-terminologies` を参照)。メタデータの交換性を向上するため、機関は、PID "
+"プロバイダーが公開する PID 付随メタデータ レコードへのリンクを提供することも検討する必要があります (例: DataCite XML)。"
 
 #: ../../white-paper/landing-page-content.rst:15
 msgid ""
@@ -479,6 +524,10 @@ msgid ""
 "administration and discovery of instruments; to enable users to put data "
 "into context; and to automate instrument metadata into data workflows."
 msgstr ""
+":numref:`Table %s 1` および :numref:`%s 2` は、ランディング "
+"ページで利用できる、より説明的な追加のメタデータに関すての推奨事項を示しています。これらはPIDINST メタデータ "
+"スキーマと合わせて、計測機器の管理・発見を補えるよう設計されており、ユーザーがデータを文章中に入れたり、あるいはまた、計測機器のメタデータをデータ "
+"ワークフローに自動的に流すことを可能にします。"
 
 #: ../../white-paper/landing-page-content.rst:24
 msgid ""
@@ -486,6 +535,7 @@ msgid ""
 "To be used in conjunction with the core        instrument metadata used in "
 "the PIDINST schema."
 msgstr ""
+"計測機器を記述するための説明用のランディングページ向けメタデータ。PIDINSTスキーマで使用されるコア・メタデータと組み合わせて使用​​します。"
 
 #: ../../white-paper/landing-page-content.rst:29
 #: ../../white-paper/landing-page-content.rst:62
@@ -541,6 +591,9 @@ msgid ""
 "accompanied by comments. To        be used in conjunction with the core "
 "instrument metadata        used in the PIDINST schema."
 msgstr ""
+"計測機器の一生中に起こったイベントや操作、変更等の履歴を記述するためのランディング "
+"ページ用記述メタデータ。この種のメタデータは、日付と関連付けられ、コメントが伴うのが理想的です。PIDINST "
+"スキーマで使われる機器用コア・メタデータとの組み合わせで使用​​されます。 "
 
 #: ../../white-paper/landing-page-content.rst:64
 msgid "Calibrations"
@@ -601,7 +654,7 @@ msgstr ""
 
 #: ../../white-paper/landing-page-encoding.rst:4
 msgid "Landing page encoding"
-msgstr ""
+msgstr "ランディングページのコード化"
 
 #: ../../white-paper/landing-page-encoding.rst:6
 msgid ""
@@ -613,14 +666,15 @@ msgid ""
 "enhancing interoperability and integration between systems. Below are some "
 "examples of landing page encodings."
 msgstr ""
+"ランディングページのWebリソースは、任意の形式（HTML、XMLなど）で記述できます。必須ではありませんが、理想的には、リソースは情報の構文的な解釈だけでなく、意味の理解を向上させる形でコード化される必要があります。すなわち、Webリソースとして提示された情報を機械的に読み取れるだけでなく、意味を解釈できることで、システム間の相互運用性と統合性を高めることができます。以下は、ランディングページのコード記述法の例です。"
 
 #: ../../white-paper/landing-page-encoding.rst:15
 msgid "Examples"
-msgstr ""
+msgstr "エンコーディングの例"
 
 #: ../../white-paper/landing-page-encoding.rst:18
 msgid "JSON-LD"
-msgstr ""
+msgstr "JSON-LD"
 
 #: ../../white-paper/landing-page-encoding.rst:20
 msgid ""
@@ -638,6 +692,14 @@ msgid ""
 "graph of metadata around the PID. PIDs with types are in other words a "
 "specific representation of linked data."
 msgstr ""
+"表 :numref:`tab-schema-handle-record` の例のように、データ型レジストリ (DTR) で定義された型の値とPID "
+"との間には強い関係があります。およびリンクされたデータ。まず、ある型値を持つ PID は、PID "
+"が主語、型定義が述語、型値が目的語の役割を果たすトリプルです。次に、型定義はそれ自体が、DTR で定義されたサブ型を参照できます。たとえば "
+"eP(I?)C DTR "
+"で行われているように、他の型からサブ型が一貫して機械的に構築可能であれば、これらサブ型は可読性のある名前により参照することができます。この名前は型定義により曖昧さが無くなります。というのも、ある型の中で使用される各々サブ型は"
+" PID によって識別されるからで、このような "
+"サブ型に対して定義されたPID群は、主となるPIDの周りに広がるメタデータの懸け橋になります。つまり、型を持つ PID "
+"とは、リンクされたデータの具体的な標記の一つともいえます。"
 
 #: ../../white-paper/landing-page-encoding.rst:35
 msgid ""
@@ -763,7 +825,7 @@ msgstr ""
 
 #: ../../white-paper/linking-datasets.rst:2
 msgid "Linking instrument PIDs to datasets"
-msgstr ""
+msgstr "機器の PID をデータセットにリンクする"
 
 #: ../../white-paper/linking-datasets.rst:4
 msgid ""
@@ -772,10 +834,12 @@ msgid ""
 " the relation between the datasets and the instrument being used to collect "
 "the data in a machine readable way."
 msgstr ""
+"PIDINST の主な目的の 1 "
+"つは、機器の科学的出力の追跡を容易にすることです。この恩恵を受けるためには、データセットとデータを収集するために使用される機器との関係を機械可読な方法で確立することが重要です。"
 
 #: ../../white-paper/linking-datasets.rst:10
 msgid "DataCite metadata"
-msgstr ""
+msgstr "DataCite メタデータ"
 
 #: ../../white-paper/linking-datasets.rst:12
 msgid ""
@@ -791,26 +855,35 @@ msgid ""
 "shows a section of the DOI metadata from the same data publication "
 "containing this link."
 msgstr ""
+"データセットは通常 DataCite DOI とともに公開されます。 DataCiteメタデータスキーマは、 relatedIdentifier "
+"プロパティを使用して、データ公開のためにその DOI に登録されたメタデータから機器へリンクすることを可能にします。この場合、推奨される "
+"relationshipType は IsCompiledBy "
+"です。図12.1は、HZBによって公開されたデータセットの例を示しています(https://doi.org/10.5442/ND000001) "
+"。データは、BER II で E2 - Flat-Cone 回折計ビームラインを使用した中性子回折を使用して収集されました。この画像は、計測器の PID"
+" をリンクするデータ公開ランディング ページのスクリーンショットを示します。スニペット 12.1 は、このリンクを含む同じデータ出版物からの DOI "
+"メタデータのセクションを示しています。"
 
 #: ../../white-paper/linking-datasets.rst:29
 msgid "HZB dataset"
-msgstr ""
+msgstr "HZBデータセット"
 
 #: ../../white-paper/linking-datasets.rst:29
 msgid ""
 "Landing page of a dataset published by HZB which links the PID of the "
 "instrument."
-msgstr ""
+msgstr "機器の PID をリンクする HZB によって公開されたデータセットのランディング ページ。"
 
 #: ../../white-paper/linking-datasets.rst:33
 msgid ""
 "Use of the relatedIdentifier property in the DOI metadata from a data "
 "publication.  The second entry links the PID of the instrument."
 msgstr ""
+"スニペット12.1 データ出版物からのDOIメタデータでの relatedIdentifier プロパティの使用。 2 番目のエントリは、計測器の "
+"PID をリンクします。"
 
 #: ../../white-paper/linking-datasets.rst:45
 msgid "schema.org"
-msgstr ""
+msgstr "schema.org"
 
 #: ../../white-paper/linking-datasets.rst:47
 msgid ""
@@ -835,10 +908,22 @@ msgid ""
 "scientific instruments to ensure full compliance with Schema.org "
 "functionality."
 msgstr ""
+"図12.2 は、PANGAEA を通じて公開されている海洋データセット (https://doi.org/10.1594/PANGAEA.887579)"
+" の例を示しています。データセットのメタデータには、データセットとそれに関連するエンティティ (学術論文、プロジェクトなど) "
+"に関する説明情報が含まれます。データセットは、航海キャンペーン (MSM29) の一環として展開された自律型水中ビークル (AWI AUV Polar "
+"Autonomous Underwater Laboratory) "
+"に取り付けられたセンサーを介して収集されました。ビークルは、https://sensor.awi.de/ "
+"によって割り当てられた永続的な識別子によって識別されます。計測器のランディング "
+"ページには、説明、製造元、モデル、連絡先、校正情報などの計測器のメタデータが含まれています。図12.3 は、データセットの観測イベント (クルーズ "
+"キャンペーンなど) と配備された機器 (AUV) をモデル化するために使用できる schema.org のタイプとプロパティを示しています。図12.4 "
+"は、実際の schema.org 表現のスニペットを示しています。外部語彙 (NERC SeaVoX プラットフォーム カテゴリおよび GeoLink "
+"スキーマ) は、イベントおよび車両の追加タイプを示すために使用されます。schema.org "
+"では、「イベント」は特定の時間と場所での出来事を指します。たとえば、社会的なイベントです。そのため、Schema.org "
+"の機能に完全に準拠するために、観測イベントと関連する科学機器の記述をサポートするために、新しい型とプロパティが必要です。"
 
 #: ../../white-paper/linking-datasets.rst:73
 msgid "PANGAEA dataset"
-msgstr ""
+msgstr "PANGAEAデータセット"
 
 #: ../../white-paper/linking-datasets.rst:73
 msgid ""
@@ -846,28 +931,30 @@ msgid ""
 "identifier "
 "(https://doi.pangaea.de/10013/sensor.664525cf-45b9-4969-bb88-91a1c5e97a5b)"
 msgstr ""
+"装置識別子を含む PANGEA によって公開されたデータセットの例 "
+"(https://doi.pangaea.de/10013/sensor.664525cf-45b9-4969-bb88-91a1c5e97a5b)"
 
 #: ../../white-paper/linking-datasets.rst:81
 msgid "Conceptual model"
-msgstr ""
+msgstr "概念モデル"
 
 #: ../../white-paper/linking-datasets.rst:81
 msgid "Conceptual model of Event and Specific Instrument Type (Vehicle)"
-msgstr ""
+msgstr "イベントと特定の計測器タイプの概念モデル (ビークル)"
 
 #: ../../white-paper/linking-datasets.rst:87
 msgid "Schema.org"
-msgstr ""
+msgstr "Schema.org"
 
 #: ../../white-paper/linking-datasets.rst:87
 msgid ""
 "Snippet of schema.org representation of event and instrument associated with"
 " the dataset in :numref:`fig-link-pangea`."
-msgstr ""
+msgstr "図12.4 図12.2 のデータセットに関連付けられたイベントと手段の schema.org 表現のスニペット。"
 
 #: ../../white-paper/linking-datasets.rst:93
 msgid "NetCDF4"
-msgstr ""
+msgstr "NetCDF4"
 
 #: ../../white-paper/linking-datasets.rst:95
 msgid ""
@@ -897,11 +984,24 @@ msgid ""
 "expressed, such as calibralibrations and instrument reference frames and "
 "orientations."
 msgstr ""
+"最先端の研究船は数百万ポンドの水上実験室であり、24時間体制で高出力、高解像度センサーの多様なアレイを運用しています（例: "
+"海底深度、気象、海流速度、水路測量など）。国立海洋学センター（NOC）[1] と英国南極観測局（BAS）[2] は現在、英国のイニシアチブである "
+"I/Ocean "
+"の一環として、これらのセンサーシステムから英国国立環境研究評議会（NERC）の大規模な調査船団全体のエンドユーザーまでのデータ管理ワークフローの整合性を改善するために協力しています。"
+" そうすることで、FAIRness [3] "
+"を改善し、これらのセンサーアレイからのデータへのアクセスを改善しながら、船舶の時間を費用対効果の高い方法で使用することができます。ソリューションの初期段階では、共通のメタデータ標準を使用して曖昧さを減らしながら、船内の研究者がデータへの調和のとれたアクセスを可能にする共通のNetCDFフォーマットを船舶全体に実装します。フォーマットはNetCDF4に基づいており、Climate"
+" "
+"Forecastの規則に準拠しています。NetCDF4グループは、パラメーターストリームの導出に使用される機器に関する豊富な情報を含めるために使用されます。データストリームは、データ検出のための属性規則（ACDD）1-3（スニペット"
+" 12.2） の変数属性 instrument "
+"を使用して、それらを生成した機器にリンクされます。各機器は、そのプロパティが機器のPIDを含む変数で表現されるグループとして識別されます。各プロパティは、NERC"
+" Vocabulary Server "
+"で公開されている一般的な用語を使用して定義されます。このようにして、ユーザーは選択したプロパティを表現できます。グループを介して、パラメータストリームまたは機器に関連するその他の情報"
+" (キャリブレーション、機器の参照フレームおよび向きなど) を表現できます。"
 
 #: ../../white-paper/linking-datasets.rst:124
 msgid ""
 "Truncated CF-NetCDF4 CDL file. Note some terminologies are in development."
-msgstr ""
+msgstr "スニペット12.2 省略されたCF-NetCDF4 CDLファイル。一部の用語は開発中です。"
 
 #: ../../white-paper/linking-datasets.rst:207
 msgid ""
@@ -913,20 +1013,25 @@ msgid ""
 "link-pidinst-netcdf`. Ideally, blank separated lists should be used if "
 "linking more than one instrument."
 msgstr ""
+"米国海洋大気庁 (NOAA) の国立環境情報センター (NCEI) も CF-"
+"NetCDFファイルで機器を報告していますが、サブグループではなくNetCDFファイルのルートグループ内の空のデータ変数として報告しています。PID "
+"機器識別子は、機器の属性として表すことができます。例えば、スニペット12.3.のように複数の機器をリンクする場合は、空白で区切られたリストを使用するのが理想的です。"
 
 #: ../../white-paper/linking-datasets.rst:216
 msgid "Addition of a instrument PID attribute to NCEI CF-NetCDF files."
-msgstr ""
+msgstr "スニペット12.3 NCEI CF-NetCDF ファイルへの機器 PID 属性の追加。"
 
 #: ../../white-paper/linking-datasets.rst:228
 msgid ""
 "British Oceanographic Data Centre (BODC) and National Marine Facilities "
 "(NMF) divisions"
 msgstr ""
+"British Oceanographic Data Centre (BODC) and National Marine Facilities "
+"(NMF) divisions"
 
 #: ../../white-paper/linking-datasets.rst:232
 msgid "Uk Polar Data Centre division"
-msgstr ""
+msgstr "Uk Polar Data Centre division"
 
 #: ../../white-paper/linking-datasets.rst:235
 msgid ""
@@ -934,6 +1039,9 @@ msgid ""
 "Principles for scientific data management and stewardship. *Sci Data* 3, "
 "160018 (2016). https://doi.org/10.1038/sdata.2016.18"
 msgstr ""
+"Wilkinson, M., Dumontier, M., Aalbersberg, I. *et al.* The FAIR Guiding "
+"Principles for scientific data management and stewardship. *Sci Data* 3, "
+"160018 (2016). https://doi.org/10.1038/sdata.2016.18"
 
 #: ../../white-paper/metadata-schema.rst:4
 msgid "PIDINST metadata schema"
