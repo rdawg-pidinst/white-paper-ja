@@ -4,10 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Takahiro Matsumoto, 2022
 # Nakanishi, 2022
 # Kazuyo Fukuda, 2022
 # Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022
+# Takahiro Matsumoto, 2022
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-28 21:51+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
-"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022\n"
+"Last-Translator: Takahiro Matsumoto, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,7 +88,7 @@ msgstr ""
 "は海洋学及び海洋研究データの保存と配布を目的とした国立の研究施設です。BODCは webで公開済みであり、実世界のセンサーを概念化し統合するための "
 "Open Geospatial Consortium (OCGC) "
 "のオープンな標準に沿った、センサー技術に関するメタデータのエンコードを対象とし、ePICの実装をテストしました。最初のテストケースとして、北大西洋にある"
-" `Porcupine Abyssal Plain Sustained Observatory (PAP-SO) `_ "
+" `Porcupine Abyssal Plain Sustained Observatory (PAP-SO) <PAP-SO_>`_ "
 "の定点係留に定期的に配置されている Sea-Bird Scientific SBE37 Microcat に対して PID "
 "を作成しました。詳細については :ref:`landing-page-encoding-swe` を参照してください。BODCは、Natural "
 "Environment Research Council (NERC)が所有し、National Oceanography Centre (NOC)と "
@@ -402,6 +402,7 @@ msgid ""
 "duplication may lead to inaccurate statistics or reporting about instrument "
 "assets."
 msgstr ""
+"識別子レコード間の重複は新しい問題ではなく、多くのアプリケーション(例えば書誌、医療記録)で一般的なものです。PIDINSTの識別子は世界的に永続的であると考えられていますが、機関が他の機関に装置を貸与したり、特殊な施設(大規模シンクロトロン、医学研究所、計算施設など)へのアクセスを提供する場合には、特に重複が発生する可能性があることが認められている。このような重複は、装置資産に関する不正確な統計や報告につながる可能性があります。"
 
 #: ../../white-paper/duplication.rst:13
 msgid ""
@@ -414,14 +415,18 @@ msgid ""
 "attribute *IsIdenticalTo* as shown in :numref:`snip-dub-merge-xml` and "
 ":numref:`%s <snip-dub-merge-json>`."
 msgstr ""
+"実験機器の所有者は、第一に重複を回避するワークフローと手続きを採用するよう努めることが推奨されます。これが不可能な場合、重複するレコードとのリンクを確保しつつ、これらを効果的に一つの代表レコードに統合することで、重複を排除することが推奨されます。この操作は"
+" :numref:`snip-dub-merge-xml` and :numref:`%s <snip-dub-merge-json>` "
+"に示されるように、PIDINST メタデータスキーマの *relatedIdentifier* プロパティの *relationType* 属性に "
+"*IsIdenticalTo* を指定することで実現できます。 "
 
 #: ../../white-paper/duplication.rst:23
 msgid "Merging duplicate instrument PID records using XML"
-msgstr ""
+msgstr "重複する機器PIDレコードを統合するXMLの例"
 
 #: ../../white-paper/duplication.rst:31
 msgid "Merging duplicate instrument PID records using JSON"
-msgstr ""
+msgstr "重複する機器PIDレコードを統合するJSONの例"
 
 #: ../../white-paper/duplication.rst:42
 msgid ""
@@ -438,11 +443,11 @@ msgstr ""
 
 #: ../../white-paper/index.rst:4
 msgid "PIDINST White Paper"
-msgstr ""
+msgstr "PIDINSTホワイトペーパー"
 
 #: ../../white-paper/index.rst:7
 msgid "Document type"
-msgstr ""
+msgstr "ドキュメントタイプ"
 
 #: ../../white-paper/index.rst:0
 msgid "Research Data Alliance (RDA)"
@@ -450,7 +455,7 @@ msgstr ""
 
 #: ../../white-paper/index.rst:0
 msgid "Persistent Identification of Instruments (PIDINST)"
-msgstr ""
+msgstr "装置の永続的識別子 (PIDINST)"
 
 #: ../../white-paper/index.rst:0
 msgid "working group output report"
@@ -458,7 +463,7 @@ msgstr ""
 
 #: ../../white-paper/index.rst:11
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: ../../white-paper/index.rst:11
 msgid "|release|"
@@ -482,7 +487,7 @@ msgstr ""
 
 #: ../../white-paper/instrument-pids.rst:2
 msgid "Instrument PIDs"
-msgstr ""
+msgstr "装置PID"
 
 #: ../../white-paper/instrument-pids.rst:4
 msgid ""
@@ -494,6 +499,9 @@ msgid ""
 "configurations, rather than the identification of material instrument "
 "designs (models)."
 msgstr ""
+"PIDINST PID (装置PID)は、Joint Commitee for Guides in Metrology (計量標準合同委員会  , "
+"JCGM）において定義された計測装置 ”単独で又は一つ以上の補助装置と組み合わせての測定で用いられる装置”（VIM, "
+"2012）を識別するために利用します。これは、装置の設計(モデル)の識別というよりは、実世界における実体や構成を識別するために使われています。"
 
 #: ../../white-paper/landing-page-content.rst:4
 msgid "Landing page content"
@@ -1045,7 +1053,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema.rst:4
 msgid "PIDINST metadata schema"
-msgstr ""
+msgstr "PIDINSTメタデータスキーマ"
 
 #: ../../white-paper/metadata-schema.rst:6
 msgid ""
@@ -1055,6 +1063,8 @@ msgid ""
 "the instrument and thus provides a mean to aggregate information about the "
 "instrument."
 msgstr ""
+"装置 PID "
+"に登録されるメタデータは、ネットワークやインフラ間で装置を明確に識別するのに十分な情報を含む必要があります。さらに、その装置に関連するリソースをリンクさせることにより、その装置に関する情報を集約できます。"
 
 #: ../../white-paper/metadata-schema.rst:12
 msgid ""
@@ -1066,10 +1076,13 @@ msgid ""
 "schema_>`_.  In the following, we describe the properties in the original "
 "PIDINST schema and discuss their semantics:"
 msgstr ""
+"現在、メタデータスキーマは2種類ある。オリジナルのPIDINSTスキーマは、ワーキンググループが収集したユースケースの評価に基づき構築されており、ePICインフラストラクチャにおけるメタデータプロパティのプロトタイプの実装に利用されています。２つ目のスキーマは、`PIDINSTメタデータプロパティとDataCite"
+" Metadata Schema 4.3間のマッピング "
+"1`_を提供するものです。以下では、オリジナルのPIDINSTスキーマにおけるプロパティを説明し、そのセマンティクスについて議論します。"
 
 #: ../../white-paper/metadata-schema.rst:24
 msgid "`Identifier`"
-msgstr ""
+msgstr "`Identifier`"
 
 #: ../../white-paper/metadata-schema.rst:22
 msgid ""
@@ -1077,28 +1090,30 @@ msgid ""
 "type of the PID, e.g. `Handle` or `DOI` in the case of an ePIC Handle or a "
 "DataCite DOI respectively."
 msgstr ""
+"装置の PID。identifierType のサブプロパティには、PID のタイプ（例：ePICのケースでは "
+"ハンドルまたはDOI、DataCiteのケースではDOI）が格納されます。"
 
 #: ../../white-paper/metadata-schema.rst:27
 msgid "`LandingPage`"
-msgstr ""
+msgstr "`LandingPage`"
 
 #: ../../white-paper/metadata-schema.rst:27
 msgid "The URL of the landing page that the PID resolves to."
-msgstr ""
+msgstr "PIDに紐づくランディングページのURL。"
 
 #: ../../white-paper/metadata-schema.rst:31
 msgid "`Name`"
-msgstr ""
+msgstr "`Name`"
 
 #: ../../white-paper/metadata-schema.rst:30
 msgid ""
 "The name by which this instrument is known.  It should preferably be "
 "meaningful and unique within the organization that manages it."
-msgstr ""
+msgstr "装置の名称。装置を管理する組織内においてユニークでなければなりません。また、意味がある名称であることが望まれます。"
 
 #: ../../white-paper/metadata-schema.rst:43
 msgid "`Owner`"
-msgstr ""
+msgstr "`Owner`"
 
 #: ../../white-paper/metadata-schema.rst:34
 msgid ""
@@ -1109,6 +1124,7 @@ msgid ""
 " out to in order to get access. There may be more then one owner registered "
 "in the metadata."
 msgstr ""
+"装置を管理する組織または個人。これは法的な所有者・機関である場合もあります。また、装置の運用や設置管理、装置の利用提供を行う組織である可能性もあります。疑わしい場合は、潜在的なユーザーがアクセスするために用意されたインスタンスの可能性もかあります。メタデータには、複数の`owner`が登録されている場合もあります。"
 
 #: ../../white-paper/metadata-schema.rst:41
 msgid ""
@@ -1116,10 +1132,13 @@ msgid ""
 "and optionally a contact address in `ownerContact` and a persistent "
 "identifier of the owner in `ownerIdentifier`."
 msgstr ""
+"`owner` は複数のサブプロパティが定義された複合プロパティである。サブプロパティには少なくとも`ownerName` "
+"が定義されています。他のサブプロパティは `ownerContact` に連絡先、`ownerIdentifier` "
+"に`owner`の永続的な識別子が用意されています。"
 
 #: ../../white-paper/metadata-schema.rst:58
 msgid "`Manufacturer`"
-msgstr ""
+msgstr "`Manufacturer`"
 
 #: ../../white-paper/metadata-schema.rst:46
 msgid ""
@@ -1132,6 +1151,8 @@ msgid ""
 "of the instrument. Again, there may be more then one manufacturer registered"
 " in the metadata."
 msgstr ""
+"装置を製作した組織または個人。既製品の場合、これはおそらく装置を市場に提供する業者名となります。カスタムメイドの装置の場合、`manufacurer`は`owner`と同一の可能性があります。後者の場合、`owner`と`manufaturer`の両方が登録されることになります。疑わしい場合では、`manufacturer`は装置の技術的な仕様を定義した機関でもあります。"
+" 同様にメタデータには複数の`manufacturer`が登録されている場合もあります。"
 
 #: ../../white-paper/metadata-schema.rst:56
 msgid ""
@@ -1139,10 +1160,12 @@ msgid ""
 "subproperties `manufacturerName`, `manufacturerContact`, and "
 "`manufacturerIdentifier`."
 msgstr ""
+"`owner`と同様に、`manufacturer` は、`manufacturerName`, `manufacturerContact`, "
+"`manufacturerIdentifier` のサブプロパティを持つ複合プロパティです。"
 
 #: ../../white-paper/metadata-schema.rst:67
 msgid "`Model`"
-msgstr ""
+msgstr "`Model`"
 
 #: ../../white-paper/metadata-schema.rst:61
 msgid ""
@@ -1153,10 +1176,12 @@ msgid ""
 "obtained.  `Model` has an optional subproperty `modelIdentifier` to be used "
 "if a persistent identifier for the model is known."
 msgstr ""
+"装置のモデル名またはタイプ名。既製品の場合は、メーカーがつけた製品名となることがあります。カスタムメイドの装置の場合では’model’名がないこともあります。したがって、このプロパティは必須ではありませんが、値を取得できる場合は推奨されます。`model`"
+" はオプションのサブプロパティ `modelIdentifier` を持ちます。これは、`model`の永続的識別子が把握できている場合に利用されます。"
 
 #: ../../white-paper/metadata-schema.rst:72
 msgid "`Description`"
-msgstr ""
+msgstr "`Description`"
 
 #: ../../white-paper/metadata-schema.rst:70
 msgid ""
@@ -1164,10 +1189,11 @@ msgid ""
 "targeted to a human reader and should provide a notion of what this "
 "instrument is and what it can do."
 msgstr ""
+"装置とその機能についてのテキストによる説明。これは人が内容を理解できることを主な目的としています。装置がどのような物であり、何ができるのかの概念を提供する必要があります。"
 
 #: ../../white-paper/metadata-schema.rst:82
 msgid "`InstrumentType`"
-msgstr ""
+msgstr "`InstrumentType`"
 
 #: ../../white-paper/metadata-schema.rst:75
 msgid ""
@@ -1179,10 +1205,13 @@ msgid ""
 "metadata-schema-terminologies`. Otherwise, a textual description of the type"
 " of the instrument may be used."
 msgstr ""
+"装置の種類のタイプ。現時点では、全ての科学分野の装置に適用されるグローバルな分類スキームは存在しません。いくつかのコミュニティでは、それぞれの領域で固有の分類スキームを確立しています。もし、そのような特定の分類スキームが適用できる場合、それを"
+" `InstrumentType` に利用すべきです（ :ref:`pidinst-metadata-schema-"
+"terminologies`を参照）。そうでなければ、その装置のタイプについてのテキスト記述を利用することもできます。"
 
 #: ../../white-paper/metadata-schema.rst:88
 msgid "`MeasuredVariable`"
-msgstr ""
+msgstr "`MeasuredVariable`"
 
 #: ../../white-paper/metadata-schema.rst:85
 msgid ""
@@ -1191,10 +1220,11 @@ msgid ""
 "in all scientific domains at present, but specific classification should be "
 "used if applicable."
 msgstr ""
+"装置が測定または観測する変数または物理的特性。繰り返しになりますが、現在、すべての科学分野で確立された包括的な分類スキームはありません。もし、特定の分類スキームが適用できる場合、それを利用すべきです。"
 
 #: ../../white-paper/metadata-schema.rst:93
 msgid "`Date`"
-msgstr ""
+msgstr "`Date`"
 
 #: ../../white-paper/metadata-schema.rst:91
 msgid ""
@@ -1202,10 +1232,12 @@ msgid ""
 "started and ended to be in operation.  Each `Date` need to have a `dateType`"
 " subproperty to specify the nature of the event."
 msgstr ""
+"対象の装置インスタンスに関連するイベント（いつ運用を開始し、いつ停止したかなど）。各 Date は、イベントの性質を指定するために dateType "
+"サブプロパティが必要です。"
 
 #: ../../white-paper/metadata-schema.rst:118
 msgid "`RelatedIdentifier`"
-msgstr ""
+msgstr "`RelatedIdentifier`"
 
 #: ../../white-paper/metadata-schema.rst:96
 msgid ""
@@ -1213,6 +1245,7 @@ msgid ""
 "describing the instrument or external metadata records, possibly using other"
 " metadata standards to provide more details about the instrument."
 msgstr ""
+"これは、装置について説明する文書や外部のメタデータ記録など、関連リソースへのリンクを確立するために利用できます。場合によっては他のメタデータ規格を利用して装置に関するより詳細な情報を提供することも可能です。"
 
 #: ../../white-paper/metadata-schema.rst:101
 msgid ""
@@ -1221,6 +1254,7 @@ msgid ""
 " with a new metadata record.  In this case both PIDs should relate to each "
 "other to indicate that one is a new version of the other."
 msgstr ""
+"別の応用例として、ある装置が大幅に変更された場合、変更された装置に対して新しいメタデータレコードとともに新しいPIDを発行することが理にかなっていると考えられます。この場合、それぞれのPIDは一方が他方の新しいバージョンであることを示すために互いに関連付けられなければなりません。"
 
 #: ../../white-paper/metadata-schema.rst:107
 msgid ""
@@ -1230,6 +1264,7 @@ msgid ""
 "instrument and its components should be established by creating links "
 "between the respective PIDs."
 msgstr ""
+"さらに複雑な装置の場合、より大きな実験ステーション内の個々の検出器のような個々の構成要素のためのPIDを発行することが意味を持つことがあります。この場合、複雑な装置とその構成要素の間の関係は、それぞれのPIDの間にリンクを設けることで確立される必要があります。"
 
 #: ../../white-paper/metadata-schema.rst:113
 msgid ""
@@ -1239,10 +1274,13 @@ msgid ""
 "`relatedIdentifierType` and `relationType` to specify the type of the "
 "related PID and the type of the relation respectively."
 msgstr ""
+"このプロパティを用いて確立されたリンクは、装置に関する豊富な情報の自動集約を実現するため、特に有用です。各 `relatedIdentifier` "
+"は、関連する PID のタイプと関係のタイプをそれぞれ指定するため、`relatedIdentifierType` と `relationType` "
+"のサブプロパティを持つ必要があります。"
 
 #: ../../white-paper/metadata-schema.rst:132
 msgid "`AlternateIdentifier`"
-msgstr ""
+msgstr "`AlternateIdentifier`"
 
 #: ../../white-paper/metadata-schema.rst:121
 msgid ""
@@ -1253,6 +1291,7 @@ msgid ""
 "also other instrument databases or access portals may hold an entry for the "
 "instrument that should be referenced from the PIDINST metadata."
 msgstr ""
+"装置のインスタンスが、永続的な識別子とは別に他の場所にも登録されている場合、AlternateIdentifierは、これらの登録項目への参照を格納する場所となります。一般的な利用例としては、製造元が付与したシリアル番号や、所有者が使用する在庫番号などがあります。しかし、他の装置データベースやアクセスポータルが、PIDINSTメタデータから参照されるべき装置のエントリを保持することもあります。"
 
 #: ../../white-paper/metadata-schema.rst:129
 msgid ""
@@ -1261,10 +1300,13 @@ msgid ""
 "  For serial and inventory numbers, the suggested values are `serialNumber` "
 "and `inventoryNumber` respectively."
 msgstr ""
+"`alternateIdentifierType` "
+"サブプロパティは、代替識別子の種類を指定する必要があります。標準化された値があればその値を利用する必要があります。シリアル番号と在庫番号の場合においては、推奨される値はそれぞれ"
+" `serialNumber` と `inventoryNumber` となります。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:4
 msgid "Recommendations using the PIDINST metadata schema"
-msgstr ""
+msgstr "PIDINSTメタデータスキーマを使用した推奨事項"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:6
 msgid ""
@@ -1273,6 +1315,7 @@ msgid ""
 "following section, we provide advanced recommendations on how to specify the"
 " values in the PIDINST metadata and discuss special cases."
 msgstr ""
+"装置に紐づくメタデータは、再利用を可能にするため、共通言語、特にUS英語で公開することを推奨します。次のセクションでは、PIDINSTメタデータスキーマの推奨事項の先進的な事例としてPIDINSTメタデータの値の指定方法を紹介し、特殊なケースについて説明します。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:14
 msgid "Using common terminologies"
@@ -1304,6 +1347,15 @@ msgid ""
 "of common terminologies in ePID records is shown in :numref:`tab-schema-"
 "handle-record`."
 msgstr ""
+"統制された語彙、分類法、オントロジーなどの標準化された共通用語のセットは、メタデータマークアップに関連する曖昧さの課題を解決し、コンピュータによる情報共有と意味的解釈を可能にします。多くの用語集が存在しており、広範な分野とそのベストプラクティスを包括してます。PIDINSTスキーマは、プロパティ値に関する多分野のベストプラクティスを補うように設計されています。多くのプロパティはソフトタイピングを可能にし（*ownerName*など）、ユーザーがフリーテキストやドメイン固有の専門用語など、好みの値を利用できるようにしています。プロパティ属性は、人と機械による値のコンテキストの理解を可能にし（*ownerIdentifier*、"
+" "
+"*ownerIdentifierType*など）、これもフリーテキストや標準化された用語を利用しています。フリーテキストが許容される一方、機関はPID記録の（セマンティックな）相互運用性を高めるため、ドメイン固有のベストプラクティスの一部を形成し実用的な場合においては、特に共通用語の利用を検討すべきです。例えば地球科学の海洋分野では、*instrumentType*"
+" や最近追加された "
+"*Model*（*modelIdentifier*による）を記述する包括的な用語集が広く使われています(`http://vocab.nerc.ac.uk/collection/L22/current/"
+" <http://vocab.nerc.ac.uk/collection/L22/current/>`_, "
+"`http://vocab.nerc.ac.uk/collection/L05/current/ "
+"<http://vocab.nerc.ac.uk/collection/L05/current/>`_) 。ePID "
+"記録における一般的な用語集の利用例を:numref:`tab-schema-handle-record`.に示します。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:40
 msgid ""
@@ -1316,6 +1368,11 @@ msgid ""
 "record        can be viewed at        "
 "http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect"
 msgstr ""
+"装置識別子のハンドルレコード http://hdl.handle.net/21.T11998/0000-001A-3905-F "
+"ePICによって実装されたPIDINSTスキーマに準拠した機器のメタデータを識別するための共通用語の利用を示しています。利用されている用語集は "
+"`NERC Vocabulary Server (NVS) 1`_ "
+"で公開されています。各メタデータのプロパティのデータフォーマットはJSON形式になっています。ハンドルレコードは "
+"http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect より閲覧できます。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:51
 msgid "Type"
@@ -1327,7 +1384,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:53
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/8eb858ee0b12e8e463a5"
@@ -1335,7 +1392,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Identifier)"
-msgstr ""
+msgstr "(Identifier)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/9a15a4735d4bda329d80"
@@ -1343,7 +1400,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(LandingPage)"
-msgstr ""
+msgstr "(LandingPage)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/709a23220f2c3d64d1e1"
@@ -1351,7 +1408,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Name)"
-msgstr ""
+msgstr "(Name)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/4eaec4bc0f1df68ab2a7"
@@ -1359,7 +1416,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Owners)"
-msgstr ""
+msgstr "(Owners)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/1f3e82ddf0697a497432"
@@ -1367,7 +1424,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Manufacturers)"
-msgstr ""
+msgstr "(Manufacturers)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/c1a0ec5ad347427f25d6"
@@ -1375,7 +1432,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Model)"
-msgstr ""
+msgstr "(Model)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/55f8ebc805e65b5b71dd"
@@ -1383,7 +1440,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Description)"
-msgstr ""
+msgstr "(Description)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/f76ad9d0324302fc47dd"
@@ -1391,7 +1448,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(InstrumentType)"
-msgstr ""
+msgstr "(InstrumentType)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/72928b84e060d491ee41"
@@ -1399,7 +1456,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(MeasuredVariables)"
-msgstr ""
+msgstr "(MeasuredVariables)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/22c62082a4d2d9ae2602"
@@ -1407,7 +1464,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Dates)"
-msgstr ""
+msgstr "(Dates)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/eb3c713572f681e6c4c3"
@@ -1415,7 +1472,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(AlternateIdentifiers)"
-msgstr ""
+msgstr "(AlternateIdentifiers)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/178fb558abc755ca7046"
@@ -1423,11 +1480,11 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(RelatedIdentifiers)"
-msgstr ""
+msgstr "(RelatedIdentifiers)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:179
 msgid "Using other PIDs"
-msgstr ""
+msgstr "他のPIDの利用"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:181
 msgid ""
@@ -1437,18 +1494,21 @@ msgid ""
 "depending on the nature of the referenced entity.  The most common cases "
 "are:"
 msgstr ""
+"PIDINSTメタデータは様々な場所での関連する実体への参照を含むことができます。 "
+"明らかに、これら参照では可能な限り永続的識別子を利用することが望まれます。 参照される実体の性質により異なるタイプのPIDが推奨されます。 "
+"最も一般的なケースを以下に示します。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:187
 msgid ""
 "other instruments may be referenced in several cases.  The most common PID "
 "types are Handles and DOIs here."
-msgstr ""
+msgstr "いくつかの場合で他の装置を参照することがあります。この場合における最も一般的なPIDタイプは、HandleとDOIです。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:190
 msgid ""
 "organizations that may appear as owner or manufacturer may be referenced "
 "using a `ROR`_."
-msgstr ""
+msgstr "*owner*または* manufacturer*として表示される可能性のある組織は、`ROR`_ を利用して参照することができます。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:193
 msgid ""
@@ -1676,6 +1736,11 @@ msgid ""
 "<https://pubmed.ncbi.nlm.nih.gov/26599696/>`__ J Comp Neurol. 2016 Jan "
 "1;524(1):8-22. https://doi.org/10.1002/cne.23913"
 msgstr ""
+"Bandrowski A, Brush M, Grethe JS, Haendel MA, Kennedy DN, Hill S, Hof PR, "
+"Martone ME, Pols M, Tan SC, Washington N, Zudilova-Seinstra E, Vasilevsky N."
+" `The Resource Identification Initiative: A Cultural Shift in Publishing. "
+"<https://pubmed.ncbi.nlm.nih.gov/26599696/>`__ J Comp Neurol. 2016 Jan "
+"1;524(1):8-22. https://doi.org/10.1002/cne.23913"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:325
 msgid ""
@@ -1685,6 +1750,11 @@ msgid ""
 "Framework. Database (Oxford). 2012 Mar 20;2012:bas005. "
 "https://doi.org/10.1093/database/bas005"
 msgstr ""
+"Bandrowski AE, Cachat J, Li Y, Müller HM, Sternberg PW, Ciccarese P, Clark "
+"T, Marenco L, Wang R, Astakhov V, Grethe JS, Martone ME. A hybrid human and "
+"machine resource curation pipeline for the Neuroscience Information "
+"Framework. Database (Oxford). 2012 Mar 20;2012:bas005. "
+"https://doi.org/10.1093/database/bas005"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:332
 msgid ""
@@ -1692,10 +1762,13 @@ msgid ""
 "Documentation for the Publication and Citation of Research Data. Version "
 "4.3.  DataCite e.V.  https://doi.org/10.14454/7xq3-zf69"
 msgstr ""
+"DataCite Metadata Working Group (2019). DataCite Metadata Schema "
+"Documentation for the Publication and Citation of Research Data. Version "
+"4.3. DataCite e.V. https://doi.org/10.14454/7xq3-zf69"
 
 #: ../../white-paper/overview.rst:2
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #: ../../white-paper/overview.rst:4
 msgid ""
@@ -1711,6 +1784,11 @@ msgid ""
 "document is expected to evolve with new user requirements and working group "
 "activities."
 msgstr ""
+"本ホワイトペーパーでは、装置に発行する持続的識別子（PID）の利用に関する推奨事項を提供する。装置PIDは、装置に関する様々な情報:  "
+"資金提供元、装置を維持または提供する機関、装置からの維持管理情報またはデータに対する責任者、の管理に用いる。装置を提供するプロバイダーは、装置PIDをローカルに発行し維持管理する責任があるだろう。場合によっては他のプロバイダーの装置のPID発行に対しても責任を負う可能性がある。これらの推奨事項は、Research"
+" Data Alliance（RDA）のPersistent Identification of Instruments "
+"（PIDINST）ワーキンググループの活動を通じてまとめられたものである。 <PIDINST_> `_.\\ [#pidinst2020]_  "
+"本ドキュメントは、ユーザーのニーズやワーキンググループの活動によって発展していくことが期待されています。"
 
 #: ../../white-paper/overview.rst:21
 msgid ""
@@ -1719,6 +1797,10 @@ msgid ""
 "Instruments. Data Science Journal, 19: 18, pp. 1–12. DOI: "
 "https://doi.org/10.5334/dsj-2020-018)"
 msgstr ""
+"Stocker, M, Darroch, L, Krahl, R, Habermann, T, Devaraju, A, Schwardmann, U,"
+" D’Onofrio, C and Häggström, I. 2020. Persistent Identification of "
+"Instruments. Data Science Journal, 19: 18, pp. 1–12. DOI: "
+"https://doi.org/10.5334/dsj-2020-018)"
 
 #: ../../white-paper/physical-objects.rst:2
 msgid "Linking physical objects"
@@ -1808,7 +1890,7 @@ msgstr ""
 
 #: ../../white-paper/publishing.rst:2
 msgid "Publishing new instrument PIDs"
-msgstr ""
+msgstr "装置PIDの新規発行"
 
 #: ../../white-paper/publishing.rst:4
 msgid ""
@@ -1823,6 +1905,12 @@ msgid ""
 "PIDINST is not limited to these providers; others may implement the schema, "
 "too."
 msgstr ""
+"PIDを新規発行し装置に割り当てるため、装置を保有する機関のプロバイダーは、PIDINSTメタデータスキーマに沿ったメタデータレコード、及び装置情報が記載されたランディングページのURLを、RDA"
+" "
+"PIDINST勧告に準拠したPIDプロバイダーに提出することになります。したがって、PIDを直接公開するためには、PIDプロバイダーの会員になるか、PIDプロバイダーの会員または登録リポジトリの1つと協力して、装置を保有する機関のプロバイダーに代わってPIDを公開することが必要です。RDA"
+" PIDINSTに準拠したPIDプロバイダーは "
+"`ePIC`_と`DataCite`_が現在知られています。しかしながら、PIDINSTはこれらのプロバイダーに限定されるものではありません。他のプロバイダーも将来"
+" RDA PIDINSTに準拠する可能性があります。"
 
 #: ../../white-paper/registration.rst:2
 msgid "Registration"
