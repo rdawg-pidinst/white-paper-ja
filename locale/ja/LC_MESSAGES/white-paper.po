@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../white-paper/adoption.rst:44
 msgid "EISCAT3D"
-msgstr ""
+msgstr "EISCAT3D"
 
 #: ../../white-paper/adoption.rst:46
 msgid ""
@@ -177,7 +177,7 @@ msgstr ""
 
 #: ../../white-paper/adoption.rst:114
 msgid "ICOS"
-msgstr ""
+msgstr "ICOS"
 
 #: ../../white-paper/adoption.rst:116
 msgid ""
@@ -192,19 +192,19 @@ msgstr ""
 
 #: ../../white-paper/adoption.rst:135
 msgid "https://doi.org/10.5442/NI000001"
-msgstr ""
+msgstr "https://doi.org/10.5442/NI000001"
 
 #: ../../white-paper/adoption.rst:138
 msgid "https://doi.org/10.5442/NI000002"
-msgstr ""
+msgstr "https://doi.org/10.5442/NI000002"
 
 #: ../../white-paper/adoption.rst:141
 msgid "https://doi.org/10.5442/NI000003"
-msgstr ""
+msgstr "https://doi.org/10.5442/NI000003"
 
 #: ../../white-paper/adoption.rst:144
 msgid "https://doi.org/10.5442/NI000004"
-msgstr ""
+msgstr "https://doi.org/10.5442/NI000004"
 
 #: ../../white-paper/adoption.rst:147
 msgid ""
@@ -213,6 +213,10 @@ msgid ""
 " Sensor Observations to Archives and Publications, OCEANS 2015 Genova. doi: "
 "10.1109/OCEANS-Genova.2015.7271657"
 msgstr ""
+"Koppe, R., Gerchow, P., Macario, A., Haas, A., Schäfer-Neth, C. and "
+"Pfeiffenberger, H. (2015): O2A: A Generic Framework for Enabling the Flow of"
+" Sensor Observations to Archives and Publications, OCEANS 2015 Genova. doi: "
+"10.1109/OCEANS-Genova.2015.7271657"
 
 #: ../../white-paper/authors.rst:1 ../../white-paper/authors.rst:1
 msgid ""
@@ -220,6 +224,9 @@ msgid ""
 "https://orcid.org/0000-0003-4163-9575), British Oceanographic Data Centre, "
 "National Oceanography Centre, Liverpool, L3 5DA, United Kingdom"
 msgstr ""
+"*Louise Darroch* (louise.darroch@bodc.ac.uk, "
+"https://orcid.org/0000-0003-4163-9575), British Oceanographic Data Centre, "
+"National Oceanography Centre, Liverpool, L3 5DA, United Kingdom"
 
 #: ../../white-paper/authors.rst:5 ../../white-paper/authors.rst:5
 msgid ""
@@ -228,6 +235,10 @@ msgid ""
 "Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen,"
 " Germany"
 msgstr ""
+"*Robert Huber* (rhuber@uni-bremen.de, "
+"https://orcid.org/0000-0003-3000-0020), MARUM - Center for Marine "
+"Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen,"
+" Germany"
 
 #: ../../white-paper/authors.rst:8 ../../white-paper/authors.rst:8
 msgid ""
@@ -236,6 +247,10 @@ msgid ""
 "Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen,"
 " Germany"
 msgstr ""
+"*Anusuriya Devaraju* (adevaraju@marum.de, "
+"https://orcid.org/0000-0003-0870-3192), MARUM - Center for Marine "
+"Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen,"
+" Germany"
 
 #: ../../white-paper/authors.rst:11 ../../white-paper/authors.rst:11
 msgid ""
@@ -244,6 +259,10 @@ msgid ""
 "wissenschaftliche Datenverarbeitung Göttingen, Am Fassberg 11, 37077 "
 "Göttingen, Germany"
 msgstr ""
+"*Ulrich Schwardmann* (ulrich.schwardmann@gwdg.de, "
+"https://orcid.org/0000-0001-6337-8674), GWDG, Gesellschaft für "
+"wissenschaftliche Datenverarbeitung Göttingen, Am Fassberg 11, 37077 "
+"Göttingen, Germany"
 
 #: ../../white-paper/authors.rst:15 ../../white-paper/authors.rst:15
 msgid ""
@@ -252,6 +271,10 @@ msgid ""
 "University of California at San Diego, 9500 Gilman Drive La Jolla, CA "
 "92093-0662"
 msgstr ""
+"*Anita Bandrowski* (abandrowski@ucsd.edu, "
+"https://orcid.org/0000-0002-5497-0243), Department of Neuoscience, "
+"University of California at San Diego, 9500 Gilman Drive La Jolla, CA "
+"92093-0662"
 
 #: ../../white-paper/authors.rst:19 ../../white-paper/authors.rst:19
 msgid ""
@@ -261,6 +284,11 @@ msgid ""
 "PANGAEA, Center for Marine Environmental Sciences (MARUM), University of "
 "Bremen, Leobener Str. 8, 28359 Bremen, Germany"
 msgstr ""
+"*Markus Stocker* (markus.stocker@tib.eu, "
+"https://orcid.org/0000-0001-5492-3212), TIB Leibniz Information Centre for "
+"Science and Technology, Welfengarten 1 B, 30167 Hannover, Germany and "
+"PANGAEA, Center for Marine Environmental Sciences (MARUM), University of "
+"Bremen, Leobener Str. 8, 28359 Bremen, Germany"
 
 #: ../../white-paper/authors.rst:25 ../../white-paper/authors.rst:25
 msgid ""
@@ -268,6 +296,9 @@ msgid ""
 "https://orcid.org/0000-0002-1266-3819), Helmholtz-Zentrum Berlin für "
 "Materialien und Energie GmbH, Albert-Einstein-Str. 15, 12489 Berlin, Germany"
 msgstr ""
+"*Rolf Krahl* (rolf.krahl@helmholtz-berlin.de, "
+"https://orcid.org/0000-0002-1266-3819), Helmholtz-Zentrum Berlin für "
+"Materialien und Energie GmbH, Albert-Einstein-Str. 15, 12489 Berlin, Germany"
 
 #: ../../white-paper/authors.rst:29 ../../white-paper/authors.rst:29
 msgid ""
@@ -275,6 +306,9 @@ msgid ""
 "http://orcid.org/0000-0003-3585-6733), Metadata Game Changers, 3980 "
 "Broadway, Suite 103-185, Boulder, Colorado, USA 80304"
 msgstr ""
+"*Ted Habermann* (ted@tedhabermann.com, "
+"http://orcid.org/0000-0003-3585-6733), Metadata Game Changers, 3980 "
+"Broadway, Suite 103-185, Boulder, Colorado, USA 80304"
 
 #: ../../white-paper/authors.rst:33 ../../white-paper/authors.rst:33
 msgid ""
@@ -282,6 +316,9 @@ msgid ""
 "https://orcid.org/0000-0002-1982-3889), ICOS Carbon Portal, Lund University,"
 " Physical Geography & Ecosystem Science, Sölvegatan 12, 223 62 Lund, Sweden"
 msgstr ""
+"*Claudio D'Onofrio* (claudio.donofrio@nateko.lu.se, "
+"https://orcid.org/0000-0002-1982-3889), ICOS Carbon Portal, Lund University,"
+" Physical Geography & Ecosystem Science, Sölvegatan 12, 223 62 Lund, Sweden"
 
 #: ../../white-paper/authors.rst:37 ../../white-paper/authors.rst:37
 msgid ""
@@ -290,6 +327,10 @@ msgid ""
 "Geography & Ecosystem Science, Lund University, Sölvegatan 12, 223 62 Lund, "
 "Sweden"
 msgstr ""
+"*Maggie Hellström* (margareta.hellstrom@nateko.lu.se, "
+"https://orcid.org/0000-0002-4154-2610), ICOS Carbon Portal, Physical "
+"Geography & Ecosystem Science, Lund University, Sölvegatan 12, 223 62 Lund, "
+"Sweden"
 
 #: ../../white-paper/authors.rst:41 ../../white-paper/authors.rst:41
 msgid ""
@@ -297,6 +338,9 @@ msgid ""
 "https://orcid.org/0000-0003-1070-6915), EISCAT Scientific Association, Box "
 "812, 98128 Kiruna, Sweden"
 msgstr ""
+"*Ingemar Häggström* (ingemar.haggstrom@eiscat.se, "
+"https://orcid.org/0000-0003-1070-6915), EISCAT Scientific Association, Box "
+"812, 98128 Kiruna, Sweden"
 
 #: ../../white-paper/authors.rst:44 ../../white-paper/authors.rst:44
 msgid ""
@@ -304,6 +348,9 @@ msgid ""
 " Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
 "Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
 msgstr ""
+"*Roland Koppe* (roland.koppe@awi.de, https://orcid.org/0000-0002-2826-3932),"
+" Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
+"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
 
 #: ../../white-paper/authors.rst:49 ../../white-paper/authors.rst:49
 msgid ""
@@ -311,6 +358,9 @@ msgid ""
 "Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
 "Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
 msgstr ""
+"*Ana Macario* (ana.macario@awi.de, https://orcid.org/0000-0003-3747-793X), "
+"Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
+"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
 
 #: ../../white-paper/authors.rst:54 ../../white-paper/authors.rst:54
 msgid ""
@@ -318,12 +368,17 @@ msgid ""
 " - Center for Marine Environmental Sciences, University of Bremen, Leobener "
 "Str. 8, 28199 Bremen, Germany"
 msgstr ""
+"*Tina Dohna* (tdohna@marum.de, https://orcid.org/0000-0002-5948-0980), MARUM"
+" - Center for Marine Environmental Sciences, University of Bremen, Leobener "
+"Str. 8, 28199 Bremen, Germany"
 
 #: ../../white-paper/authors.rst:57 ../../white-paper/authors.rst:57
 msgid ""
 "*The Research Data Alliance Persistent Identification of Instruments Working"
 " Group members* (https://www.rd-alliance.org/node/57186/members)"
 msgstr ""
+"*The Research Data Alliance Persistent Identification of Instruments Working"
+" Group members* (https://www.rd-alliance.org/node/57186/members)"
 
 #: ../../white-paper/create-new-pid.rst:2
 msgid "When to create a new PID?"
@@ -451,7 +506,7 @@ msgstr "ドキュメントタイプ"
 
 #: ../../white-paper/index.rst:0
 msgid "Research Data Alliance (RDA)"
-msgstr ""
+msgstr "リサーチデータアライアンス（RDA）"
 
 #: ../../white-paper/index.rst:0
 msgid "Persistent Identification of Instruments (PIDINST)"
@@ -459,7 +514,7 @@ msgstr "装置の永続的識別子 (PIDINST)"
 
 #: ../../white-paper/index.rst:0
 msgid "working group output report"
-msgstr ""
+msgstr "ワーキンググループの成果報告"
 
 #: ../../white-paper/index.rst:11
 msgid "Version"
@@ -467,7 +522,7 @@ msgstr "バージョン"
 
 #: ../../white-paper/index.rst:11
 msgid "|release|"
-msgstr ""
+msgstr "|release|"
 
 #: ../../white-paper/index.rst:13
 msgid "Date"
@@ -475,15 +530,15 @@ msgstr "日付"
 
 #: ../../white-paper/index.rst:13
 msgid "|today|"
-msgstr ""
+msgstr "|today|"
 
 #: ../../white-paper/index.rst:17
 msgid "Table of contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../white-paper/index.rst:37
 msgid "Contributors"
-msgstr ""
+msgstr "寄稿者"
 
 #: ../../white-paper/instrument-pids.rst:2
 msgid "Instrument PIDs"
@@ -829,7 +884,7 @@ msgstr ""
 
 #: ../../white-paper/landing-page-encoding.rst:325
 msgid "https://www.w3.org/TR/dx-prof-conneg/#dfn-data-profile"
-msgstr ""
+msgstr "https://www.w3.org/TR/dx-prof-conneg/#dfn-data-profile"
 
 #: ../../white-paper/linking-datasets.rst:2
 msgid "Linking instrument PIDs to datasets"
@@ -1076,7 +1131,7 @@ msgid ""
 "schema_>`_.  In the following, we describe the properties in the original "
 "PIDINST schema and discuss their semantics:"
 msgstr ""
-"現在、メタデータスキーマは2種類ある。オリジナルのPIDINSTスキーマは、ワーキンググループが収集したユースケースの評価に基づき構築されており、ePICインフラストラクチャにおけるメタデータプロパティのプロトタイプの実装に利用されています。２つ目のスキーマは、`PIDINSTメタデータプロパティとDataCite"
+"現在、メタデータスキーマは2種類あります。オリジナルのPIDINSTスキーマは、ワーキンググループが収集したユースケースの評価に基づき構築されており、ePICインフラストラクチャにおけるメタデータプロパティのプロトタイプの実装に利用されています。２つ目のスキーマは、`PIDINSTメタデータプロパティとDataCite"
 " Metadata Schema 4.3間のマッピング "
 "1`_を提供するものです。以下では、オリジナルのPIDINSTスキーマにおけるプロパティを説明し、そのセマンティクスについて議論します。"
 
@@ -1132,7 +1187,7 @@ msgid ""
 "and optionally a contact address in `ownerContact` and a persistent "
 "identifier of the owner in `ownerIdentifier`."
 msgstr ""
-"`owner` は複数のサブプロパティが定義された複合プロパティである。サブプロパティには少なくとも`ownerName` "
+"`owner` は複数のサブプロパティが定義された複合プロパティです。サブプロパティには少なくとも`ownerName` "
 "が定義されています。他のサブプロパティは `ownerContact` に連絡先、`ownerIdentifier` "
 "に`owner`の永続的な識別子が用意されています。"
 
@@ -1319,7 +1374,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:14
 msgid "Using common terminologies"
-msgstr ""
+msgstr "共通用語の利用"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:16
 msgid ""
@@ -1376,11 +1431,11 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:51
 msgid "Type"
-msgstr ""
+msgstr "タイプ"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:51
 msgid "Data"
-msgstr ""
+msgstr "データ"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:53
 msgid "URL"
@@ -1388,7 +1443,7 @@ msgstr "URL"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/8eb858ee0b12e8e463a5"
-msgstr ""
+msgstr "21.T11148/8eb858ee0b12e8e463a5"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Identifier)"
@@ -1396,7 +1451,7 @@ msgstr "(Identifier)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/9a15a4735d4bda329d80"
-msgstr ""
+msgstr "21.T11148/9a15a4735d4bda329d80"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(LandingPage)"
@@ -1404,7 +1459,7 @@ msgstr "(LandingPage)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/709a23220f2c3d64d1e1"
-msgstr ""
+msgstr "21.T11148/709a23220f2c3d64d1e1"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Name)"
@@ -1412,7 +1467,7 @@ msgstr "(Name)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/4eaec4bc0f1df68ab2a7"
-msgstr ""
+msgstr "21.T11148/4eaec4bc0f1df68ab2a7"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Owners)"
@@ -1420,7 +1475,7 @@ msgstr "(Owners)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/1f3e82ddf0697a497432"
-msgstr ""
+msgstr "21.T11148/1f3e82ddf0697a497432"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Manufacturers)"
@@ -1428,7 +1483,7 @@ msgstr "(Manufacturers)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/c1a0ec5ad347427f25d6"
-msgstr ""
+msgstr "21.T11148/c1a0ec5ad347427f25d6"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Model)"
@@ -1436,7 +1491,7 @@ msgstr "(Model)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/55f8ebc805e65b5b71dd"
-msgstr ""
+msgstr "21.T11148/55f8ebc805e65b5b71dd"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Description)"
@@ -1444,7 +1499,7 @@ msgstr "(Description)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/f76ad9d0324302fc47dd"
-msgstr ""
+msgstr "21.T11148/f76ad9d0324302fc47dd"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(InstrumentType)"
@@ -1452,7 +1507,7 @@ msgstr "(InstrumentType)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/72928b84e060d491ee41"
-msgstr ""
+msgstr "21.T11148/72928b84e060d491ee41"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(MeasuredVariables)"
@@ -1460,7 +1515,7 @@ msgstr "(MeasuredVariables)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/22c62082a4d2d9ae2602"
-msgstr ""
+msgstr "21.T11148/22c62082a4d2d9ae2602"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Dates)"
@@ -1468,7 +1523,7 @@ msgstr "(Dates)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/eb3c713572f681e6c4c3"
-msgstr ""
+msgstr "21.T11148/eb3c713572f681e6c4c3"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(AlternateIdentifiers)"
@@ -1476,7 +1531,7 @@ msgstr "(AlternateIdentifiers)"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/178fb558abc755ca7046"
-msgstr ""
+msgstr "21.T11148/178fb558abc755ca7046"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(RelatedIdentifiers)"
@@ -1514,17 +1569,17 @@ msgstr "*owner*または* manufacturer*として表示される可能性のあ�
 msgid ""
 "the most common PID for individuals that may appear as owner or manufacturer"
 " is the `ORCID`_ iD."
-msgstr ""
+msgstr "*owner*または*manufacturer*として表示される可能性のある個人のPIDは、`ORCID`_ iDが最も一般的です。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:196
 msgid ""
 "the `RRID`_ is common in the biological sciences and may be used to "
 "reference a class of instruments, see next subsection."
-msgstr ""
+msgstr "RRID`_ は生物科学分野では一般的であり、装置のクラスを参照するために利用されることがあります。次のサブセクションを参照ください。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:201
 msgid "RRIDs"
-msgstr ""
+msgstr "RRID"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:203
 msgid ""
@@ -1542,6 +1597,14 @@ msgid ""
 " should enable any project to quickly download data about the model to "
 "consistently fill mapped fields."
 msgstr ""
+"一般的な用語と同様、永続的識別子は、ユーザーが物理オブジェクトを分類し、正確に記述するのを補助するため、発行されてきました。 Research "
+"resouce identifier "
+"(RRID、研究資源識別子）は、装置（*Model*）のクラスを識別するために使用することができます。したがって、装置のインスタンスを識別するPIDINSTと関連しています。"
+" \\ [#bandrowski2016]_ "
+"このタスクは、`UsedIT`_グループが請け負っており、*Model*プロパティ（*modelIdentifier*経由）の記述ができるまでRRIDの装置クラスを拡張しています（："
+" numref:`tab-schema-use-rrid` ）。 "
+"ここではRRIDについて詳しく説明しませんが、先に詳しく説明したRRIDメタデータスキーマ( \\ [#bandrowski2012]_ 及び "
+"UserITによって拡張されたもの）では、装置のインスタンス(PIDINST)のPIDと相互運用することが想定されています。この相互運用性により、どのプロジェクトにおいてもモデルに関するデータをすぐにダウンロードし、マッピングされたフィールドを矛盾なく埋めることができるようになるはずです。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:217
 msgid ""
@@ -1558,139 +1621,144 @@ msgid ""
 "the n2t resolver and echoed by some of the major reagent providers (e.g., "
 "Thermo Fisher, Addgene, and the MMRRC mouse repository)."
 msgstr ""
+"なぜRRIDを利用するのでしょうか？RRIDは研究資源のクラスをタグ付けするため、現在約1000の雑誌において利用されています。例として抗体やプラスミドなどの試薬、生物、細胞株、そしてソフトウェアツールや大学の中核施設などのサービスを含む比較的広いカテゴリーの「ツール」、さらに最近ではシーケンサーやマイクロスコープのモデルなどの物理ツールにもRRID利用が拡張されています。RRIDは生物学雑誌のグループと国立衛生研究所の間の合意として作成されたため、生物科学分野の文献(Cell、eLifeなど)で最もよく見られ、リンクされています。これらはJATS"
+" NISO standard、STAR Methods、MDAR pan-publisher reproducibility "
+"checklistの一部にも組み込まれています。identifiers.orgとn2t "
+"resolverによってPIDの解決がなされ、主要な試薬提供者（例えば、Thermo Fisher、Addgene、MMRRC mouse "
+"repository）にも利用されています。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:232
 msgid "Example showing the use of RRIDs in the PIDINST metadata schema."
-msgstr ""
+msgstr "PIDINST メタデータスキーマにおける RRID の利用例。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:236
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:236
 msgid "Property"
-msgstr ""
+msgstr "プロパティ"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:236
 msgid "Obligation"
-msgstr ""
+msgstr "義務"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:236
 msgid "Occ."
-msgstr ""
+msgstr "占有率"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:236
 msgid "Definition"
-msgstr ""
+msgstr "定義"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:236
 msgid "Allowed values, constraints, remarks"
-msgstr ""
+msgstr "許容値、制約条件、備考"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:239
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:239
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:239
 #: ../../white-paper/metadata-schema-recommendations.rst:243
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:239
 #: ../../white-paper/metadata-schema-recommendations.rst:250
 msgid "0-1"
-msgstr ""
+msgstr "0-1"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:239
 msgid "Name of the model or type of device as attributed by the manufacturer"
-msgstr ""
+msgstr "manufacturerによって割り当てられた装置のモデル名またはタイプ名"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:239
 msgid "Element"
-msgstr ""
+msgstr "要素"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:243
 msgid "6.1"
-msgstr ""
+msgstr "6.1"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:243
 msgid "modelName"
-msgstr ""
+msgstr "modelName"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:243
 #: ../../white-paper/metadata-schema-recommendations.rst:257
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:243
 msgid "Full name of the model"
-msgstr ""
+msgstr "model名 （フルネーム）"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:243
 msgid "Name field from RRID"
-msgstr ""
+msgstr "RRIDでのNameフィールド"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:245
 #: ../../white-paper/metadata-schema-recommendations.rst:252
 msgid "E.g."
-msgstr ""
+msgstr "例："
 
 #: ../../white-paper/metadata-schema-recommendations.rst:247
 msgid "‘Illumina HiSeq 3000/HiSeq 4000 System’"
-msgstr ""
+msgstr "‘Illumina HiSeq 3000/HiSeq 4000 System’"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:250
 msgid "6.2"
-msgstr ""
+msgstr "6.2"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:250
 msgid "modelIdentifier"
-msgstr ""
+msgstr "modelIdentifier"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:250
 #: ../../white-paper/metadata-schema-recommendations.rst:257
 msgid "O"
-msgstr ""
+msgstr "O"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:250
 msgid "Persistent identifier of the model"
-msgstr ""
+msgstr "modelの永続的識別子"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:250
 msgid "RRID identifier"
-msgstr ""
+msgstr "RRID識別子"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:254
 msgid "‘RRID:SCR_016386’"
-msgstr ""
+msgstr "‘RRID:SCR_016386’"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:257
 msgid "6.2.1"
-msgstr ""
+msgstr "6.2.1"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:257
 msgid "modelIdentifierType"
-msgstr ""
+msgstr "modelIdentifier"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:257
 msgid "Type of the identifier"
-msgstr ""
+msgstr "識別子のタイプ"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:257
 msgid "Free text; must be identifier type"
-msgstr ""
+msgstr "フリーテキスト （識別子タイプである必要があります）"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:259
 msgid "E.g. ‘RRID’"
-msgstr ""
+msgstr "例： ‘RRID’"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:263
 msgid "Dealing with unknown information"
-msgstr ""
+msgstr "不明な情報への対応"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:265
 msgid ""
@@ -1704,6 +1772,10 @@ msgid ""
 "That person might not want to be named as the owner of the instrument taking"
 " the data."
 msgstr ""
+"本来メタデータに含まれるべき情報を提供できない、あるいは提供することが適切でない場合があります。 "
+"例えば、情報が単に不明である場合、プロパティに値が設定されていない場合、あるいは情報を公開することが適切でない場合などがあります。 "
+"後者の例として、シチズンサイエンスのプロジェクトに測定値を提供し、プライバシー上の理由から匿名を希望する人物を考えてみましょう。 "
+"その人は、データを取得する装置の所有者として名前を知られたくないのかもしれません。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:275
 msgid ""
@@ -1713,10 +1785,13 @@ msgid ""
 "for unknown information* from DataCite, see Appendix 3 in the DataCite "
 "Metadata Schema Documentation. [#datacite2019]_"
 msgstr ""
+"このようなすべての場合において、この情報が不注意で省略されたものではないことを少なくとも明示し、また情報が欠落している理由を示すことが有用であることに変わりはありません。"
+" この目的のため、PIDINSTではDataCiteにおける*不明な情報の標準値*を採用しています。詳しくはDataCite Metadata "
+"Schema DocumentationのAppendix 3を参照してください。[#datacite2019]_ 。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:282
 msgid "Encoding unknown values in the instrument PID metadata using XML"
-msgstr ""
+msgstr "測定器のPIDメタデータに含まれる不明な値をXMLでエンコードする例。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:297
 msgid ""
@@ -1727,6 +1802,8 @@ msgid ""
 "a name.  The owner of the instrument is refused to be disclosed and the "
 "manufacturer is not known."
 msgstr ""
+"numref:`snip-schema-unknown-xml` "
+"は、装置PIDのメタデータにおける不明な情報に対する標準的な値の利用例を示しています。この装置の所有者の開示は拒否されており、製造元も不明ですが、メタデータレコードが後の時点において名前を含んで更新されることが想定されています。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:317
 msgid ""
@@ -1887,6 +1964,9 @@ msgid ""
 "Things: A Survey. Computer Networks. 2787-2805. "
 "10.1016/j.comnet.2010.05.010."
 msgstr ""
+"Atzori, Luigi & Iera, Antonio & Morabito, Giacomo. (2010). The Internet of "
+"Things: A Survey. Computer Networks. 2787-2805. "
+"10.1016/j.comnet.2010.05.010."
 
 #: ../../white-paper/publishing.rst:2
 msgid "Publishing new instrument PIDs"
@@ -1949,24 +2029,25 @@ msgstr ""
 
 #: ../../white-paper/registration.rst:21
 msgid "ePIC"
-msgstr ""
+msgstr "ePIC"
 
 #: ../../white-paper/registration.rst:21
 msgid ":ref:`epic-cookbook`"
-msgstr ""
+msgstr ":ref:`epic-cookbook`"
 
 #: ../../white-paper/registration.rst:21
 msgid ""
 "`PIDINST <https://github.com/rdawg-pidinst/schema/blob/master/schema.rst>`_"
 msgstr ""
+"`PIDINST <https://github.com/rdawg-pidinst/schema/blob/master/schema.rst>`_"
 
 #: ../../white-paper/registration.rst:23
 msgid "DataCite"
-msgstr ""
+msgstr "DataCite"
 
 #: ../../white-paper/registration.rst:23
 msgid "https://datacite.org/dois.html"
-msgstr ""
+msgstr "https://datacite.org/dois.html"
 
 #: ../../white-paper/registration.rst:23
 msgid ""
