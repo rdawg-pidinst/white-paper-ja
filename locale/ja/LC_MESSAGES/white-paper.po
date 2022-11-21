@@ -506,7 +506,7 @@ msgstr "ドキュメントタイプ"
 
 #: ../../white-paper/index.rst:0
 msgid "Research Data Alliance (RDA)"
-msgstr "リサーチデータアライアンス（RDA）"
+msgstr "Research Data Alliance (RDA)"
 
 #: ../../white-paper/index.rst:0
 msgid "Persistent Identification of Instruments (PIDINST)"
@@ -554,9 +554,9 @@ msgid ""
 "configurations, rather than the identification of material instrument "
 "designs (models)."
 msgstr ""
-"PIDINST PID (装置PID)は、Joint Commitee for Guides in Metrology (計量標準合同委員会  , "
-"JCGM）において定義された計測装置 ”単独で又は一つ以上の補助装置と組み合わせての測定で用いられる装置”（VIM, "
-"2012）を識別するために利用します。これは、装置の設計(モデル)の識別というよりは、実世界における実体や構成を識別するために使われています。"
+"PIDINST PID（装置PID）は、計量標準合同委員会 （JCGM：Joint Commitee for Guides in "
+"Metrology）において定義された計測装置 ”単独で又は一つ以上の補助装置と組み合わせての測定で用いられる装置”（VIM, "
+"2012）を識別するために利用します。これは、装置の設計（モデル）の識別というよりは、実世界における実体や構成を識別するために使われています。"
 
 #: ../../white-paper/landing-page-content.rst:4
 msgid "Landing page content"
@@ -1361,7 +1361,7 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:4
 msgid "Recommendations using the PIDINST metadata schema"
-msgstr "PIDINSTメタデータスキーマを使用した推奨事項"
+msgstr "PIDINSTメタデータスキーマ利用における推奨事項"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:6
 msgid ""
@@ -1787,7 +1787,7 @@ msgid ""
 msgstr ""
 "このようなすべての場合において、この情報が不注意で省略されたものではないことを少なくとも明示し、また情報が欠落している理由を示すことが有用であることに変わりはありません。"
 " この目的のため、PIDINSTではDataCiteにおける*不明な情報の標準値*を採用しています。詳しくはDataCite Metadata "
-"Schema DocumentationのAppendix 3を参照してください。[#datacite2019]_ 。"
+"Schema DocumentationのAppendix 3を参照してください [#datacite2019]_ 。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:282
 msgid "Encoding unknown values in the instrument PID metadata using XML"
@@ -1861,10 +1861,10 @@ msgid ""
 "document is expected to evolve with new user requirements and working group "
 "activities."
 msgstr ""
-"本ホワイトペーパーでは、装置に発行する持続的識別子（PID）の利用に関する推奨事項を提供する。装置PIDは、装置に関する様々な情報:  "
-"資金提供元、装置を維持または提供する機関、装置からの維持管理情報またはデータに対する責任者、の管理に用いる。装置を提供するプロバイダーは、装置PIDをローカルに発行し維持管理する責任があるだろう。場合によっては他のプロバイダーの装置のPID発行に対しても責任を負う可能性がある。これらの推奨事項は、Research"
+"本ホワイトペーパーは、装置に発行する持続的識別子（PID）の利用に関する推奨事項を提供します。装置PIDは、装置に関する様々な情報:  "
+"資金提供元、装置を維持または提供する機関、装置からの維持管理情報またはデータに対する責任者、の管理に用います。装置を提供するプロバイダーは、装置PIDをローカルに発行し維持管理する責任があることが想定されます。場合によっては他のプロバイダーの装置のPID発行に対しても責任を負う可能性があります。これらの推奨事項は、Research"
 " Data Alliance（RDA）のPersistent Identification of Instruments "
-"（PIDINST）ワーキンググループの活動を通じてまとめられたものである。 <PIDINST_> `_.\\ [#pidinst2020]_  "
+"（PIDINST）ワーキンググループの活動を通じてまとめられたものです。1`_.\\ [#pidinst2020]_    "
 "本ドキュメントは、ユーザーのニーズやワーキンググループの活動によって発展していくことが期待されています。"
 
 #: ../../white-paper/overview.rst:21
