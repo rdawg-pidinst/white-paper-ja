@@ -4,10 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nakanishi, 2022
 # Kazuyo Fukuda, 2022
-# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022
 # Takahiro Matsumoto, 2022
+# Nakanishi, 2022
+# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-28 21:51+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
-"Last-Translator: Takahiro Matsumoto, 2022\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +31,7 @@ msgstr "実現した、計画中、または検討中の適用事例"
 
 #: ../../white-paper/adoption.rst:5
 msgid "Helmholtz-Zentrum Berlin für Materialien und Energie (HZB)"
-msgstr ""
+msgstr "Helmholtz-Zentrum Berlin für Materialien und Energie (HZB)"
 
 #: ../../white-paper/adoption.rst:7
 msgid ""
@@ -65,7 +66,7 @@ msgstr ""
 
 #: ../../white-paper/adoption.rst:25
 msgid "British Oceanographic Data Centre (BODC)"
-msgstr ""
+msgstr "British Oceanographic Data Centre (BODC)"
 
 #: ../../white-paper/adoption.rst:27
 msgid ""
@@ -120,7 +121,7 @@ msgstr ""
 
 #: ../../white-paper/adoption.rst:61
 msgid "SENSOR.awi.de and PANGAEA"
-msgstr ""
+msgstr "SENSOR.awi.de 及び PANGAEA"
 
 #: ../../white-paper/adoption.rst:63
 msgid ""
@@ -150,6 +151,18 @@ msgid ""
 "changes, etc), SENSOR.awi.de also supports record versioning by maintaining "
 "an audit trail of changes in the XML record."
 msgstr ""
+"アルフレート・ヴェーゲナー研究所ー(Alfred Wegener Institute, AWI)ヘルムホルツ極地海洋研究センタ(Helmholtsz "
+"Centre for Polar and Marine "
+"Research)は、極地や海洋における科学データや関連情報の発見、閲覧、普及、保存のためのeResearchインフラの開発と維持に継続的に取り組んできました。研究プラットフォームとそれぞれのデバイスやセンサーの増加する異質性とプロジェクト駆動の様々な要件に対処するために、センサー観測からアーカイブへの流れ（observations"
+" to archives, O2A）をサポートすることを意図した汎用的かつモジュール式のフレームワークが構築されています。\\ "
+"[#koppe2015]_ この中で、ENSOR.awi.deはOGC "
+"SensorML標準を使用して構築されており、現在までに4000を超える個々のレコードには、レコード引用の自動生成とともに、handle URI "
+"のUUIDを使用して永続的な識別子が割り当てられています。センサーのカテゴリ（NERC L05）、センサーのタイプやモデル（NERC "
+"L22）を定義するために用語（統制された語彙など）が使用されています。SENSOR.awi.deのデータモデルはPIDINSTスキーマに準拠しており、センサーのためのDatacite"
+" DOIの追加実装は現在評価中である。 "
+"SENSOR.awi.deの最終目標は、データ取得プロセスに使用された機器やセンサーの完全なメタデータと永続的な識別子を提供することにより、PANGAEAの公開データやアーカイブデータの品質を高めることです"
+" (:numref:`fig-link-pangea`). "
+"プラットフォームやセンサーは時間とともに進化するため（センサーの校正、機器のペイロードの変更など）、SENSOR.awi.deはXMLレコードの変更点の監査証跡を維持することによりレコードのバージョニングもサポートしています。"
 
 #: ../../white-paper/adoption.rst:91
 msgid ""
@@ -174,6 +187,11 @@ msgid ""
 "areas via data quality control services etc to their final destination, the "
 "PANGAEA data archive.\\ [#koppe2015]_"
 msgstr ""
+"PANGAEAは環境研究データのデジタルリポジトリであり、AWIとMARUM（University "
+"Bremen）が共同で運営するO2Aフレームワーク内の長期保存専用アーカイブです。各データセットは、研究資源（例：論文、研究助成機関、装置、標本など）との関係を含む記述的なメタデータとともに利用可能です。PANGAEAはデータ提供者として、デバイスの名称、識別子、タイプなどの限られた情報のみをキュレーションしています。機器の種類と名称を標準化するために、現在では外部の用語、特にNERC"
+" L05 device category vocabularyとL22 device "
+"catalogueを適用しています。リポジトリは、これらの用語集を定期的かつ段階的にインポートするために、カスタムメイドのクライアントアプリケーションを開発しました。機器の識別と詳細な説明のために、PANGAEAはSENSOR.awi.deのような機器登録機関に依存し、PANGAEAに保存されたデータの取得に使われた機器を一意に識別するためにその発行するPIDを使用しています。AWIとPANGAEAは同じボキャブラリー/用語とPIDを使用して機器を表現するため、特にO2Aの生データステージングエリアからデータ品質管理サービスなどを経て、最終目的地であるPANGAEAデータアーカイブにほぼリアルタイムでデータを転送する際にデータセットを容易に統合することが可能です。\\"
+" [#koppe2015]_"
 
 #: ../../white-paper/adoption.rst:114
 msgid "ICOS"
@@ -189,6 +207,8 @@ msgid ""
 "of a persistent identifier for instruments a must for documenting data "
 "provenance and tracking calibration history."
 msgstr ""
+"炭素統合観測システム（Integrated Carbon Observation System, "
+"ICOS）は、ヨーロッパ大陸の温室効果ガス収支を定量的に把握するための汎欧州的な研究インフラです。ICOSでは、ガス濃度、風速・風向、湿度、温度など、多くの連続的なその場測定を行っています。ICOSでは、高品質の測定データを提供するために、データの出所を記録し、校正履歴を追跡するための永続的な識別子を機器に採用することが必須であると考えています。"
 
 #: ../../white-paper/adoption.rst:135
 msgid "https://doi.org/10.5442/NI000001"
@@ -495,6 +515,9 @@ msgid ""
 "and many properties allow for soft-typing, giving users the ability to use "
 "values of their choice, such as free text or domain-specific standards."
 msgstr ""
+"最近の技術の進歩は、重複排除を自動的に検出し解決するアルゴリズムにも広がっています。このような方法論は Google Scholar や "
+"OpenAire Research Graph "
+"のような大規模コレクションでの検出効率を向上させることが知られていますが、例えば異なるセマンティックスを用いた、様々な異種の表現によってアルゴリズムが制限されることがあります。自動検出が推奨される一方で、PIDINSTスキーマはプロパティ値に関する学際的なベストプラクティスを補完するように設計されており、多くのプロパティでソフトタイピングが可能で、フリーテキストやドメイン固有の標準など、ユーザーが選択した値を使用することができます。"
 
 #: ../../white-paper/index.rst:4
 msgid "PIDINST White Paper"
@@ -587,7 +610,8 @@ msgid ""
 "administration and discovery of instruments; to enable users to put data "
 "into context; and to automate instrument metadata into data workflows."
 msgstr ""
-":numref:`Table %s 1` および :numref:`%s 2` は、ランディング "
+":numref:`Table %s<tab-landing-content-inst>` および :numref:`%s <tab-landing-"
+"content-events>` は、ランディング "
 "ページで利用できる、より説明的な追加のメタデータに関すての推奨事項を示しています。これらはPIDINST メタデータ "
 "スキーマと合わせて、計測機器の管理・発見を補えるよう設計されており、ユーザーがデータを文章中に入れたり、あるいはまた、計測機器のメタデータをデータ "
 "ワークフローに自動的に流すことを可能にします。"
@@ -603,16 +627,16 @@ msgstr ""
 #: ../../white-paper/landing-page-content.rst:29
 #: ../../white-paper/landing-page-content.rst:62
 msgid "**Metadata type**"
-msgstr ""
+msgstr "メタデータのタイプ"
 
 #: ../../white-paper/landing-page-content.rst:29
 #: ../../white-paper/landing-page-content.rst:62
 msgid "**Comments**"
-msgstr ""
+msgstr "説明"
 
 #: ../../white-paper/landing-page-content.rst:31
 msgid "Model version"
-msgstr ""
+msgstr "Model version"
 
 #: ../../white-paper/landing-page-content.rst:31
 msgid ""
@@ -623,20 +647,21 @@ msgid ""
 " to be used in more dynamic environments such as extreme pressures or "
 "weather conditions."
 msgstr ""
+"機器モデルの変更。機器の設計の大部分がそのまま残ったとしても、異なるアプリケーションにするようになされた小規模な変更を扱うことができます。例えば、標準設計とは異なるハウジング材料を使用することで、極端な圧力や気象条件といったダイナミックな環境変化での利用が可能になる場合があります。"
 
 #: ../../white-paper/landing-page-content.rst:41
 msgid "Documents"
-msgstr ""
+msgstr "Documents"
 
 #: ../../white-paper/landing-page-content.rst:41
 msgid ""
 "Descriptive or supporting documentation such as manuals, data sheets, "
 "scientific references etc."
-msgstr ""
+msgstr "マニュアル、データシート、科学的な参考文献など、記述的または補足的な文書。"
 
 #: ../../white-paper/landing-page-content.rst:45
 msgid "Classifications"
-msgstr ""
+msgstr "Classifications"
 
 #: ../../white-paper/landing-page-content.rst:45
 msgid ""
@@ -645,6 +670,7 @@ msgid ""
 "operating principles, whether the instrument is a compound instrument or a "
 "component etc."
 msgstr ""
+"計器を分類する特性。機器の種類に加え、これらの特性は、意図された用途、動作原理、その機器が複数機器の組み合わせか単体の部品であるか、などの側面を記述します。"
 
 #: ../../white-paper/landing-page-content.rst:54
 msgid ""
@@ -660,7 +686,7 @@ msgstr ""
 
 #: ../../white-paper/landing-page-content.rst:64
 msgid "Calibrations"
-msgstr ""
+msgstr "Calibrations"
 
 #: ../../white-paper/landing-page-content.rst:64
 msgid ""
@@ -669,51 +695,52 @@ msgid ""
 "calibration date and type. It may also be useful to store the coefficients, "
 "algorithm used and calibration certificates."
 msgstr ""
+"多くの機器は、生の出力を意味のある単位に変換したり、データの不確かさを補正するために校正されています。校正の日付と種類を保存することが強く推奨されます。また、係数、使用したアルゴリズム、校正証明書を保存しておくと便利な場合があります。"
 
 #: ../../white-paper/landing-page-content.rst:71
 msgid "Capabilities"
-msgstr ""
+msgstr "Capabilities"
 
 #: ../../white-paper/landing-page-content.rst:71
 msgid ""
 "Capabilities are properties that further quantify or qualify an instrument’s"
 " outputs (e.g. detection limits, accuracy, precision, operating ranges "
 "etc.)."
-msgstr ""
+msgstr "機器の出力（検出限界、精度、精密度、動作範囲など）をさらに定量化または修飾するプロパティを示します。"
 
 #: ../../white-paper/landing-page-content.rst:76
 msgid "Characteristics"
-msgstr ""
+msgstr "Characteristics"
 
 #: ../../white-paper/landing-page-content.rst:76
 msgid ""
 "Properties that describe features and qualities belonging to an instrument. "
 "(e.g. weight, size, housing material, components, firmware etc.)."
-msgstr ""
+msgstr "測定器に属する特徴や品質を表すプロパティ。(例：重量、サイズ、ハウジング材料、部品、ファームウェアなど）。"
 
 #: ../../white-paper/landing-page-content.rst:81
 msgid "Servicing"
-msgstr ""
+msgstr "Servicing"
 
 #: ../../white-paper/landing-page-content.rst:81
 msgid "Descriptions of maintenance procedures carried out on the instrument."
-msgstr ""
+msgstr "機器に実施されたメンテナンス手順に関する記述"
 
 #: ../../white-paper/landing-page-content.rst:84
 msgid "Funding references"
-msgstr ""
+msgstr "Funding references"
 
 #: ../../white-paper/landing-page-content.rst:84
 msgid "Identifiers or names of funding resources"
-msgstr ""
+msgstr "資金配分機関の識別子又は名称"
 
 #: ../../white-paper/landing-page-content.rst:86
 msgid "Ownership dates"
-msgstr ""
+msgstr "Ownership dates"
 
 #: ../../white-paper/landing-page-content.rst:86
 msgid "Ownership start and end dates"
-msgstr ""
+msgstr "機器の所有開始と終了日"
 
 #: ../../white-paper/landing-page-encoding.rst:4
 msgid "Landing page encoding"
@@ -776,12 +803,16 @@ msgid ""
 "representation in JSON-LD of the schema example shown in :numref:`tab-"
 "schema-handle-record` is shown in :numref:`snip-landing-encoding-json-ld`."
 msgstr ""
+"したがって、こうしたPIDと型を有するRDFあるいはJSON-"
+"LDといった、より一般的なリンクデータ表式が求められるのは自明です。このような（表式の）変換は、PIDからそのすべての型とサブ型の定義を探し回って、型のPIDによって使用される名前を識別し、この情報をLD表記のために収集する単純な逆トラッキング手法によって行うことができます。このようにして、グラフ全体が探索され、かつ同グラフがリンクデータ表式にマップされることになります。以下では、"
+" :numref:`tab-schema-handle-record` で示されたスキーマ例の、JSON-LDによる表現を :numref:`snip-"
+"landing-encoding-json-ld` にて示しています。"
 
 #: ../../white-paper/landing-page-encoding.rst:47
 msgid ""
 "representation in JSON-LD of the NERC example of :numref:`tab-schema-handle-"
 "record`."
-msgstr ""
+msgstr "JSON-LDにおける :numref:`tab-schema-handle-record` のNERC例の表式"
 
 #: ../../white-paper/landing-page-encoding.rst:190
 msgid ""
@@ -796,6 +827,11 @@ msgid ""
 " the values remain and the names used in the type definitions are replaced "
 "by their type PID suffixes:"
 msgstr ""
+"この結果から，すべての可能なサブ型が解決され @context "
+"で参照されるという意味で，当該コンテキストが完璧すぎることがわかりますが，ありうるすべてのサブ型がPID中の型によって実際に使用されるわけではありません。これらは、手順に追加の処理ステップを加えることで、必要かつ十分なサブ型に切り詰められた縮小版を作ることも可能です。こうした切り詰め処理は、LD変換\\[#ld_converters]_"
+" によっても自動的に行われます。以下の Snippet では、Turtle Terse RDFへの変換によってシリアル化 (:numref:`snip-"
+"landing-encoding-turtle`) "
+"が行われた結果、型の値のみが残って、型定義で使われた名前はその型のPIDサフィックスで置き換えられていることが分かります。"
 
 #: ../../white-paper/landing-page-encoding.rst:203
 msgid ""
@@ -803,10 +839,12 @@ msgid ""
 "schema-handle-record` that was generated by a JSON-LD to RDF converter from "
 "the JSON-LD in :numref:`snip-landing-encoding-json-ld`."
 msgstr ""
+"Turtle Terse RDF による :numref:`tab-schema-handle-record` のNERC例の表式、JSON-"
+"LD／RDF変換によって :numref:`snip-landing-encoding-json-ld` 中のJSON-LDが生成されたもの。"
 
 #: ../../white-paper/landing-page-encoding.rst:246
 msgid "Sensor web enablement (SWE)"
-msgstr ""
+msgstr "センサーWebイネーブルメント標準（SWE）"
 
 #: ../../white-paper/landing-page-encoding.rst:248
 msgid ""
@@ -825,6 +863,15 @@ msgid ""
 "http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect or :numref:`tab-"
 "schema-handle-record` in this document."
 msgstr ""
+"センサーやその観測データをウェブベースで発見、交換、処理できる世界標準が開発されています。多くの開発者は、オープン地理空間コンソーシアム（Open "
+"Geospatial Consortium, OGC) が策定した Sensor Web Enablement (SWE) "
+"などの標準を使用して、センサーとその技術情報の正式かつ機械可読な記述を、URL を用いて機器をローカルに識別することで "
+"、ウェブのリソースとして公開しています。SWE仕様の一部であるSensorMLを用いて公開されたウェブベースのセンサー記述は、PIDプロバイダに登録された機器のランディングページへのURLとしても使用されます。SensorML"
+" のランディングページ例は、ePIC PIDプロバイダサービス "
+"(http://hdl.handle.net/21.T11998/0000-001A-3905-F) "
+"によって、英国海洋学データセンター(BODC)で公開されています。Handleレコードを直接見るには、 "
+"http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect  あるいは本ドキュメント中の "
+":numref:`tab-schema-handle-record` をご覧ください。"
 
 #: ../../white-paper/landing-page-encoding.rst:264
 msgid ""
@@ -844,6 +891,14 @@ msgid ""
 "combination of *GetCapabilities* and *DescribeSensor* operational requests "
 "to a SOS server."
 msgstr ""
+"SensorML（バージョン 2.0）では、センサーは *gml:identifier* 要素内のユニークなID "
+"を用いて識別され、ユニーク性の保証のために機関等は機器PID "
+"を用いることを選択してもよいとされています。あるいは、SensorML記述内のメタデータとして、 *sml:identifier* プロパティ "
+"(:numref:`snip-landing-encoding-sensorml`) "
+"を用いて機器PIDを宣言することもできます。後者のほうがより実装が簡単ですが、SWE標準の一部で、センサー観測サービス（SOS）ウェブのアプリケーション・プログラミング・インターフェース（API）の中で、センサーおよび観測結果のグローバルな発見性を制限してしまう恐れもあります。このサービスを用いた、センサーに対するウェブベースの問い合わせ、要求、トランザクションは、通常、SensorML中の"
+" *gml:identifier* 要素（ *procedure* "
+"と表記）に基づいて行われるため、センサーは、グローバルな機器PIDではなくローカルな識別子で直接識別されることになります。ローカル識別子と機器PID間のリンクは、SOSサーバーに対する"
+" *GetCapabilities* と *DescribeSensor* の組み合わせ操作要求によって、間接的ながら見つけることができます。"
 
 #: ../../white-paper/landing-page-encoding.rst:282
 msgid ""
@@ -852,6 +907,9 @@ msgid ""
 "within a SensorML technical description using the *sml:identifier* property "
 "for a SeaBird Scientific SBE 37 Conductivity, temperature and depth sensor."
 msgstr ""
+"機器PID の表記の例。(http://hdl.handle.net/21.T11998/0000-001A-3905-F)  SeaBird "
+"Scientific SBE 37 伝導性・温度・深度センサーの *sml:identifier* プロパティを用いた、SensorML "
+"技術記述中の識別用メタデータとして機器PIDを使用。"
 
 #: ../../white-paper/landing-page-encoding.rst:297
 msgid ""
@@ -863,10 +921,14 @@ msgid ""
 "semantic interoperability of SensorML in the Earth Science marine domain by "
 "developing sets of sensor specific terminologies."
 msgstr ""
+"SensorMLでセンサを記述するために表記できるプロパティの一覧には、特段の制限はなく、機関の機器提供者は、ランディングページ内容に関する "
+"PIDINST のガイダンスに従うことが推奨されています (see :ref:`landing-page-content`).  最近では、 "
+"`Marine SWE Profiles`_ "
+"イニシアティブが、地球科学の海洋分野におけるSensorMLのセマンティックな相互運用性向上のため、センサー専用用語集を開発して、包括的なメタデータプロファイルを策定しています。"
 
 #: ../../white-paper/landing-page-encoding.rst:307
 msgid "Content negotiation"
-msgstr ""
+msgstr "コンテンツ調整(コンテンツ・ネゴシエーション)"
 
 #: ../../white-paper/landing-page-encoding.rst:309
 msgid ""
@@ -877,10 +939,13 @@ msgid ""
 " Exchange Working Group (DXWG) are currently drafting recommendations on "
 "content negotiation from different information models.\\ [#w3_dxwg]_"
 msgstr ""
+"機器のランディングページが、簡単には人間が読むために使えない場合（XMLスキーマなど）、コンテンツ調整（コンテンツ・ネゴシエーション）を使用することを勧めます。PIDINSTは、機械可読の表式から人間が読めるコンテンツを生成する調整形式を規定していません。W3C"
+" Dataset Exchange Working Group "
+"(DXWG)などの他グループでは、現在、異なる情報モデルからのコンテンツ調整について、勧告の起草作業が行われています。"
 
 #: ../../white-paper/landing-page-encoding.rst:322
 msgid "as for instance: http://www.easyrdf.org/converter"
-msgstr ""
+msgstr "例えば: http://www.easyrdf.org/converter"
 
 #: ../../white-paper/landing-page-encoding.rst:325
 msgid "https://www.w3.org/TR/dx-prof-conneg/#dfn-data-profile"
@@ -941,8 +1006,7 @@ msgid ""
 "Use of the relatedIdentifier property in the DOI metadata from a data "
 "publication.  The second entry links the PID of the instrument."
 msgstr ""
-"スニペット12.1 データ出版物からのDOIメタデータでの relatedIdentifier プロパティの使用。 2 番目のエントリは、計測器の "
-"PID をリンクします。"
+"データ出版物からのDOIメタデータでの relatedIdentifier プロパティの使用。 2 番目のエントリは、計測器の PID をリンクします。"
 
 #: ../../white-paper/linking-datasets.rst:45
 msgid "schema.org"
@@ -971,8 +1035,9 @@ msgid ""
 "scientific instruments to ensure full compliance with Schema.org "
 "functionality."
 msgstr ""
-"図12.2 は、PANGAEA を通じて公開されている海洋データセット (https://doi.org/10.1594/PANGAEA.887579)"
-" の例を示しています。データセットのメタデータには、データセットとそれに関連するエンティティ (学術論文、プロジェクトなど) "
+":numref:`fig-link-pangea`  は、PANGAEA を通じて公開されている海洋データセット "
+"(https://doi.org/10.1594/PANGAEA.887579) "
+"の例を示しています。データセットのメタデータには、データセットとそれに関連するエンティティ (学術論文、プロジェクトなど) "
 "に関する説明情報が含まれます。データセットは、航海キャンペーン (MSM29) の一環として展開された自律型水中ビークル (AWI AUV Polar "
 "Autonomous Underwater Laboratory) "
 "に取り付けられたセンサーを介して収集されました。ビークルは、https://sensor.awi.de/ "
@@ -1013,7 +1078,8 @@ msgstr "Schema.org"
 msgid ""
 "Snippet of schema.org representation of event and instrument associated with"
 " the dataset in :numref:`fig-link-pangea`."
-msgstr "図12.4 図12.2 のデータセットに関連付けられたイベントと手段の schema.org 表現のスニペット。"
+msgstr ""
+":numref:`fig-link-pangea` のデータセットに関連付けられたイベントと手段の schema.org 表現のスニペット。"
 
 #: ../../white-paper/linking-datasets.rst:93
 msgid "NetCDF4"
@@ -1132,8 +1198,8 @@ msgid ""
 "PIDINST schema and discuss their semantics:"
 msgstr ""
 "現在、メタデータスキーマは2種類あります。オリジナルのPIDINSTスキーマは、ワーキンググループが収集したユースケースの評価に基づき構築されており、ePICインフラストラクチャにおけるメタデータプロパティのプロトタイプの実装に利用されています。２つ目のスキーマは、`PIDINSTメタデータプロパティとDataCite"
-" Metadata Schema 4.3間のマッピング "
-"1`_を提供するものです。以下では、オリジナルのPIDINSTスキーマにおけるプロパティを説明し、そのセマンティクスについて議論します。"
+" Metadata Schema 4.3間のマッピング <PIDINST DataCite "
+"schema_>`_を提供するものです。以下では、オリジナルのPIDINSTスキーマにおけるプロパティを説明し、そのセマンティクスについて議論します。"
 
 #: ../../white-paper/metadata-schema.rst:24
 msgid "`Identifier`"
@@ -1881,7 +1947,7 @@ msgstr ""
 
 #: ../../white-paper/physical-objects.rst:2
 msgid "Linking physical objects"
-msgstr ""
+msgstr "物理的なオブジェクトをリンクする"
 
 #: ../../white-paper/physical-objects.rst:4
 msgid ""
@@ -1894,6 +1960,8 @@ msgid ""
 "[#atzori]_ This kind of access is essential to reproduce science as it "
 "allows us to compare experimental setup and to repeat analyses."
 msgstr ""
+"装置やその個々の設定は、データの幅広い領域の発生源を指し示す重要なものです。そのため、それらはいずれもものとしてのインターネット (IoT) "
+"を構成するものであり、それら装置のデジタルデータとしての表現やカタログのメタデータとしてだけでなく、物理的なアクセスを可能とするための関連する識別の仕組みにとって、非常に重要なものです。したがって、究極的には「現実の世界を仮想の世界にマッピングする」ためのものです。このようなアクセスは、科学の再現性に不可欠なものです。実験の設定を比較したり、分析を繰り返して行えたりできるようになるからです。"
 
 #: ../../white-paper/physical-objects.rst:14
 msgid ""
@@ -1910,6 +1978,9 @@ msgid ""
 "integrate images like organisation logos or track scanning activity such as "
 "the GPS position when the label is scanned."
 msgstr ""
+"物理的オブジェクトを仮想的な表現にリンクする、最も手っ取り早く、かつ間違えにくい方法は、装置、あるいはその装置の外装に、装置の管理番号やシリアルナンバーといっしょに、PIDのラベルを恒久的に書き込んだり埋め込んだりすることです。より小さなセンサーのようんさ装置では、ラベルを付与するスペースが限られているため、機械可読な方法で識別情報をエンコードすることができる、近代的なQRコードやバーコードのほうが便利かもしれません。おすすめの方法は、PIDの動作する"
+" (actionable) URI  (:numref:`fig-objects-qr`). "
+"をQRコードに埋め込むことです。そのようなQRコードのバッジを読み込んだときに、PIDといっしょに管理番号やシリアルナンバーが人間に読める形で表示されるのが理想的です。QRコードのジェネレータによっては、組織のロゴを追加したり、GPSを使ってラベルがスキャンされた場所を捕捉できるようなスキャン追跡機能を追加したりしたりすることもできます。"
 
 #: ../../white-paper/physical-objects.rst:28
 msgid ""
@@ -1919,6 +1990,7 @@ msgid ""
 "linking can be achieved by capturing identifiers which uniquely identify an "
 "instrument such as serial number or inventory number."
 msgstr ""
+"物理的なオブジェクトにバーコードやPIDの文字列でのラベル付けができない場合でも、装置のデジタル的な表現によるリンクは、メタデータの適切な管理によって行うことができます。装置においては、シリアルナンバーや管理番号など、装置を一意に識別する識別子を記録することで、そのようなリンク付けを行うことができます。"
 
 #: ../../white-paper/physical-objects.rst:35
 msgid ""
@@ -1931,10 +2003,13 @@ msgid ""
 "*serialNumber* and *inventoryNumber.* There is on-going discussion regarding"
 " the use of explicit fields for these properties in PIDINST."
 msgstr ""
+"PIDINSTスキーマのメタデータには、シリアルナンバーや管理番号に対する明示的な項目がありませんが、この目的に使用できる、あらゆる種類の識別子を保存するための一般的な方法を提供しています。*AlternateIdentifier*には、どのような種類の識別子の文字列でも記録でき、*alternateIdentifierType*"
+" (:numref:`snip-objects-"
+"serial`).ではその識別子の種類を指定することができます。PIDINSTスキーマでは、*serialNumber*や*inventoryNumber*を使用することを推奨しています。シリアルナンバーや管理番号に対する明示的な項目の使用については、現在PIDINSTで検討中です。"
 
 #: ../../white-paper/physical-objects.rst:49
 msgid "QR code"
-msgstr ""
+msgstr "QR code"
 
 #: ../../white-paper/physical-objects.rst:49
 msgid ""
@@ -1942,10 +2017,12 @@ msgid ""
 "directs the scanner to the PID URL "
 "(http://hdl.handle.net/21.T11998/0000-001A-3905-F)."
 msgstr ""
+"組織のロゴを含み、QRコードスキャナーをPIDのURL "
+"(http://hdl.handle.net/21.T11998/0000-001A-3905-F) にリダイレクトするWebページのQRコードの例"
 
 #: ../../white-paper/physical-objects.rst:54
 msgid "An instrument serial number expressed in XML"
-msgstr ""
+msgstr "XMLで表現された装置のシリアルナンバー"
 
 #: ../../white-paper/physical-objects.rst:61
 msgid ""
@@ -1957,6 +2034,7 @@ msgid ""
 " as well as the PID registry, and will ensure the persistence of object "
 "linking in case of failures on either side."
 msgstr ""
+"PIDINSTスキーマのメタデータにシリアルナンバーを保存することに加えて、PIDの付与後すみやかに、組織内のセンサー管理システムや物品管理システムにそのPIDを保存することを強くおすすめします。これによって、物理的な表現と仮想的な表現のリンクの管理を、センサー管理システムとPIDレジストリのどちらからでも行えるようになります。また、どちらかのシステムでリンクの情報が壊れても、リンクの関係が保てるようになります。"
 
 #: ../../white-paper/physical-objects.rst:71
 msgid ""
@@ -1994,11 +2072,11 @@ msgstr ""
 
 #: ../../white-paper/registration.rst:2
 msgid "Registration"
-msgstr ""
+msgstr "登録"
 
 #: ../../white-paper/registration.rst:5
 msgid "Central registration at PID providers"
-msgstr ""
+msgstr "PIDプロバイダでの一元登録"
 
 #: ../../white-paper/registration.rst:7
 msgid ""
@@ -2006,6 +2084,8 @@ msgid ""
 "guidance for institutions to publish and manage PID records at PID providers"
 " compliant with RDA PIDINST recommendations."
 msgstr ""
+"以下のリソース(:numref:`tab-register-guidance`)では、機関がRDA "
+"PIDINST勧告に準拠したPIDプロバイダでPIDレコードを公開・管理するための技術的ガイダンスを提供しています。"
 
 #: ../../white-paper/registration.rst:12
 msgid ""
@@ -2014,18 +2094,20 @@ msgid ""
 "provides links to the relevant        metadata schema that accompanies PID "
 "records at PID        providers."
 msgstr ""
+"RDA "
+"PIDINST勧告に準拠したPIDプロバイダでの機器PIDの公開と管理のための技術ガイダンス。この表は、PIDプロバイダのPIDレコードに付随する関連するメタデータスキーマへのリンクを提供します。"
 
 #: ../../white-paper/registration.rst:19
 msgid "PID provider"
-msgstr ""
+msgstr "PID プロバイダ"
 
 #: ../../white-paper/registration.rst:19
 msgid "Technical resource"
-msgstr ""
+msgstr "技術文書"
 
 #: ../../white-paper/registration.rst:19
 msgid "Metadata schema"
-msgstr ""
+msgstr "メタデータスキーマ"
 
 #: ../../white-paper/registration.rst:21
 msgid "ePIC"
@@ -2054,10 +2136,12 @@ msgid ""
 "`PIDINST to DataCite <https://github.com/rdawg-"
 "pidinst/schema/blob/master/schema-datacite.rst>`_"
 msgstr ""
+"`PIDINST to DataCite <https://github.com/rdawg-"
+"pidinst/schema/blob/master/schema-datacite.rst>`_"
 
 #: ../../white-paper/registration.rst:28
 msgid "Local registration at institutional instrument providers"
-msgstr ""
+msgstr "機関内の機器プロバイダでのローカル登録"
 
 #: ../../white-paper/registration.rst:30
 msgid ""
@@ -2074,3 +2158,11 @@ msgid ""
 "used to populate the *LandingPage* property of the `PIDINST schema`_, adding"
 " this locator to the PID’s metadata record."
 msgstr ""
+"プロバイダサービスに機器PIDを登録するためには、機関の機器プロバイダがそれぞれの機器PIDを解決するためのランディングページを公開しなければなりません。公開内容は標準的なマークアップ言語(例えばHTML)、構造化され機械動作可能なウェブリソース(例えば"
+" World Wide Web Consortium (W3C) の Linked "
+"Data)、または機器とその継承されたプロパティとプロセスを記述するための専門規格(例えば，オープン地理空間コンソーシアム(Open "
+"Geospatial Consortium, OGC)の SensorML, W3C Semantic Sensor Network (SSN) "
+"ontology) "
+"によりコード化ことがあります。どのような公開方法がとられたとしても、ランディングページには、機器を明確に特定するための十分なメタデータが存在することを書くにする必要があります"
+" (:ref:`landing-page-content` も参照のこと)。URLアドレスは、PIDメタデータレコードに、`PIDINST "
+"shchema`_ の *LandingPage* プロパティに入力することができます。"
