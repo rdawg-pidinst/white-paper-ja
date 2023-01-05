@@ -73,5 +73,6 @@ setup(
     use_scm_version=True,
     python_requires='>= 3.6',
     setup_requires=['setuptools_scm'],
+    py_modules=[],
     cmdclass = {'meta': meta, 'install': install},
 )
