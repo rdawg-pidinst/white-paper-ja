@@ -18,7 +18,7 @@ JSON-LD
 ~~~~~~~
 
 There is a strong relation between PIDs with values of types that are
-defined in a data type registry (DTR) as for instance in the NERC
+defined in a data type registry (DTR) as for instance in the
 example in :numref:`tab-schema-handle-record` and linked data. First
 of all a PID with a type value is a triple where the PID plays the
 role of the subject, the type definition is the predicate and the
@@ -45,7 +45,7 @@ respective representation in JSON-LD of the schema example shown in
 
 .. _snip-landing-encoding-json-ld:
 .. code-block:: JSON
-    :caption: representation in JSON-LD of the NERC example of
+    :caption: representation in JSON-LD of the example of
 	      :numref:`tab-schema-handle-record`.
 
         {

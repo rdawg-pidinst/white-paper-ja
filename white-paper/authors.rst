@@ -34,7 +34,7 @@ Colorado, USA 80304
 ICOS Carbon Portal, Lund University, Physical Geography & Ecosystem
 Science, Sölvegatan 12, 223 62 Lund, Sweden
 
-*Maggie Hellström* (margareta.hellstrom@nateko.lu.se, https://orcid.org/0000-0002-4154-2610),
+*Margareta Hellström* (margareta.hellstrom@nateko.lu.se, https://orcid.org/0000-0002-4154-2610),
 ICOS Carbon Portal, Physical Geography & Ecosystem Science, Lund
 University, Sölvegatan 12, 223 62 Lund, Sweden
 

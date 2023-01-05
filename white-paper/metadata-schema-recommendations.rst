@@ -29,11 +29,11 @@ terminologies. While free text is allowed, institutions should consider
 using common terminologies where practical to enhance the (semantic)
 interoperability of PID records, particularly where they form part of
 domain-specific best practice. For example, a comprehensive set of
-terminologies that describe *instrumentType* or the recently added
+terminologies that describe *instrumentType* (via *instrumentTypeIdentifier*) or 
 *Model* (via *modelIdentifier*) are used widely in the Earth science
 marine domain (`http://vocab.nerc.ac.uk/collection/L22/current/ <http://vocab.nerc.ac.uk/collection/L22/current/>`_,
 `http://vocab.nerc.ac.uk/collection/L05/current/ <http://vocab.nerc.ac.uk/collection/L05/current/>`_).
-An example of the use of common terminologies in ePID records is shown
+An example of the use of common terminologies in ePIC records is shown
 in :numref:`tab-schema-handle-record`.
 
 .. _tab-schema-handle-record:
@@ -52,7 +52,7 @@ in :numref:`tab-schema-handle-record`.
     +====================================+==============================================================================================================+
     | URL                                | .. code-block:: JSON                                                                                         |
     |                                    |                                                                                                              |
-    |                                    |     https://linkedsystems.uk/system/instance/TOOL0022_2490/current/                                          |
+    |                                    |     "https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"                                        |
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/8eb858ee0b12e8e463a5   | .. code-block:: JSON                                                                                         |
     | | (Identifier)                     |                                                                                                              |
@@ -61,13 +61,17 @@ in :numref:`tab-schema-handle-record`.
     |                                    |       "identifierType":"Handle"                                                                              |
     |                                    |     }                                                                                                        |
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
+    | | 21.T11148/f5e68cc7718a6af2a96c   | .. code-block:: JSON                                                                                         |
+    | | (SchemaVersion)                  |                                                                                                              |
+    |                                    |     "1.0"                                                                                                    |
+    +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/9a15a4735d4bda329d80   | .. code-block:: JSON                                                                                         |
     | | (LandingPage)                    |                                                                                                              |
-    |                                    |     https://linkedsystems.uk/system/instance/TOOL0022_2490/current/                                          |
+    |                                    |     "https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"                                        |
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/709a23220f2c3d64d1e1   | .. code-block:: JSON                                                                                         |
     | | (Name)                           |                                                                                                              |
-    |                                    |     Sea-Bird SBE 37-IM MicroCAT C-T Sensor                                                                   |
+    |                                    |     "Sea-Bird SBE 37-IM MicroCAT C-T Sensor"                                                                 |
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/4eaec4bc0f1df68ab2a7   | .. code-block:: JSON                                                                                         |
     | | (Owners)                         |                                                                                                              |
@@ -109,17 +113,28 @@ in :numref:`tab-schema-handle-record`.
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/55f8ebc805e65b5b71dd   | .. code-block:: JSON                                                                                         |
     | | (Description)                    |                                                                                                              |
-    |                                    |     A high accuracy conductivity and temperature recorder with an optional                                   |
+    |                                    |     "A high accuracy conductivity and temperature recorder with an optional                                  |
     |                                    |     pressure sensor designed for deployment on moorings. The IM model has an                                 |
     |                                    |     inductive modem for real-time data transmission plus internal flash memory                               |
-    |                                    |     data storage.                                                                                            |
+    |                                    |     data storage."                                                                                           |
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/f76ad9d0324302fc47dd   | .. code-block:: JSON                                                                                         |
     | | (InstrumentType)                 |                                                                                                              |
-    |                                    |     [                                                                                                        |
-    |                                    |       "http://vocab.nerc.ac.uk/collection/L05/current/134/",                                                 |
-    |                                    |       "http://vocab.nerc.ac.uk/collection/L05/current/350/"                                                  |
-    |                                    |     ]                                                                                                        |                         
+    |                                    |     [{                                                                                                       |
+    |                                    |        "instrumentTypeName":"water temperature sensor",                                                      |
+    |                                    |        "instrumentTypeIdentifier":{                                                                          |
+    |                                    |          "instrumentTypeIdentifierValue":                                                                    |
+    |                                    |            "http://vocab.nerc.ac.uk/collection/L05/current/134/",                                            |
+    |                                    |          "instrumentTypeIdentifierType":"URL"                                                                |
+    |                                    |        }                                                                                                     |
+    |                                    |     },{                                                                                                      |
+    |                                    |        "instrumentTypeName":"salinity sensor",                                                               |
+    |                                    |        "instrumentTypeIdentifier":{                                                                          |
+    |                                    |          "instrumentTypeIdentifierValue":                                                                    |
+    |                                    |            "http://vocab.nerc.ac.uk/collection/L05/current/350/",                                            |
+    |                                    |          "instrumentTypeIdentifierType":"URL"                                                                |
+    |                                    |        }                                                                                                     |
+    |                                    |     }]                                                                                                       |                    
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/72928b84e060d491ee41   | .. code-block:: JSON                                                                                         |
     | | (MeasuredVariables)              |                                                                                                              |

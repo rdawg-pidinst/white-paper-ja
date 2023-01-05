@@ -8,6 +8,10 @@
     "parsed_data": "{\"identifierValue\":\"http://hdl.handle.net/21.T11998/0000-001A-3905-F\",\"identifierType\":\"Handle\"}"
   },
   {
+    "type": "21.T11148/f5e68cc7718a6af2a96c",
+    "parsed_data": "1.0"
+  },
+  {
     "type": "21.T11148/9a15a4735d4bda329d80",
     "parsed_data": "https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"
   },
@@ -33,7 +37,7 @@
   },
   {
     "type": "21.T11148/f76ad9d0324302fc47dd",
-    "parsed_data": "[\"http://vocab.nerc.ac.uk/collection/L05/current/134/\",\"http://vocab.nerc.ac.uk/collection/L05/current/350/\"]"
+    "parsed_data": "[{\"instrumentTypeName\":\"water temperature sensor\",\"instrumentTypeIdentifier\":{\"instrumentTypeIdentifierValue\":\"http://vocab.nerc.ac.uk/collection/L05/current/134/\",\"instrumentTypeIdentifierType\":\"URL\"}},{\"instrumentTypeName\":\"salinity sensor\",\"InstrumentTypeIdentifier\":{\"instrumentTypeIdentifierValue\":\"http://vocab.nerc.ac.uk/collection/L05/current/350/\",\"instrumentTypeIdentifierType\":\"URL\"}}]"
   },
   {
     "type": "21.T11148/72928b84e060d491ee41",

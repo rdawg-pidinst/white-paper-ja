@@ -73,7 +73,7 @@ To manually generate a suffix using PUT method::
 Viewing PID handle records
 --------------------------
 
-If you have specified the URLproperty in the handle record it will
+If you have specified the URL property in the handle record it will
 automatically redirect you to it when you view the handle record:
 
 http://hdl.handle.net/21.T11998/0000-001A-3905-F

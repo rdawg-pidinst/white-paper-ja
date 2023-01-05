@@ -3,11 +3,14 @@
 PIDINST metadata schema
 =======================
 
-The metadata that is to be registered with an instrument PID need to
+The metadata that is to be registered with an instrument PID needs to
 contain enough information to unambiguously identify the
-instrument across networks and infrastructures.  It furthermore allows
-to link resources related to the instrument and thus provides a mean
-to aggregate information about the instrument.
+instrument across networks and infrastructures. It should also allow
+linking related resources to the instrument, thus providing a means
+to aggregate information about the instrument. The PIDINST working group defined 
+a schema of metadata that can be registered alongside instrument PIDs at 
+PID providers to help meet these criteria. Version 1.0 has been endorsed
+as an RDA recommendation\ [#pidinst2022v1_0]_.
 
 Currently, two variants of the metadata schema exist.  The original
 `PIDINST schema`_, based on the evaluation of use cases collected by
@@ -22,6 +25,9 @@ their semantics:
   The PID of the instrument.  The subproperty
   `identifierType` contains the type of the PID, e.g. `Handle` or
   `DOI` in the case of an ePIC Handle or a DataCite DOI respectively.
+
+`SchemaVersion`
+  The version number of the PIDINST schema used to create a record.
 
 `LandingPage`
   The URL of the landing page that the PID resolves to.
@@ -40,7 +46,8 @@ their semantics:
 
   `Owner` is a complex property having at least the subproperty
   `ownerName` and optionally a contact address in `ownerContact` and a
-  persistent identifier of the owner in `ownerIdentifier`.
+  common identifier of the owner in `ownerIdentifier` and its type in
+  `ownerIdentifierType`.
 
 `Manufacturer`
   The organization or individual that built the instrument.  In the
@@ -54,17 +61,17 @@ their semantics:
   metadata.
 
   In the same way as `Owner`, `Manufacturer` is a complex property
-  with subproperties `manufacturerName`, `manufacturerContact`, and
-  `manufacturerIdentifier`.
+  with subproperties `manufacturerName`, `manufacturerIdentifier` and
+  `manufacturerIdentifierType`.
 
 `Model`
   The name of the model or type of the instrument.  In the
   case of an off the shelf product, this may be a brand name
-  attributed by the manufacturer.  In the case of an custom built
+  attributed by the manufacturer.  In the case of a custom built
   instrument, it may not have a model name.  Hence this property is
-  not mandatory, but recommended if the value can be obtained.  `Model` has an
-  optional subproperty `modelIdentifier` to be used if a persistent
-  identifier for the model is known.
+  not mandatory, but recommended if the value can be obtained.  `Model` has
+  optional subproperties `modelIdentifier` and `modelIdentifierType` to be used 
+  if an identifier for the model is known.
 
 `Description`
   A textual description of the device and its capabilities.  This is
@@ -72,20 +79,20 @@ their semantics:
   what this instrument is and what it can do.
 
 `InstrumentType`
-  A classification of the type of the instrument.  At present, there
-  is no global classification scheme that would apply to instruments
-  in all scientific domains.  Some communities have established
-  schemes that are specific to their respective domain.  If such a
-  specific classification is applicable, it should be used for
-  `InstrumentType`, see :ref:`pidinst-metadata-schema-terminologies`.
-  Otherwise, a textual description of the type of the instrument may
-  be used.
+  A classification of the type of the instrument.  Hierarchical 
+  classification enables grouping of instrument records.
+
+  In the same way as `Owner`, `Manufacturer` and `Model`, `InstrumentType` is 
+  a complex property with subproperties `instrumentTypeName`, 
+  `instrumentTypeIdentifier` and `instrumentTypeIdentifierType`.
 
 `MeasuredVariable`
   The variables or physical properties that the instrument measures or
-  observes.  Again, there is no overarching classification scheme
-  established in all scientific domains at present, but specific
-  classification should be used if applicable.
+  observes. Some communities have established terminologies 
+  to identify measured variables that are specific to their respective domain 
+  (see :ref:`pidinst-metadata-schema-terminologies`).  If such a 
+  standard is applicable, it should be used for for `MeasuredVariable`.
+  Otherwise, a textual description may be used.
 
 `Date`
   Relevant events pertaining to this instrument instance, such as when
@@ -114,7 +121,7 @@ their semantics:
   they allow the automatic aggregation of a rich set of information
   about the instrument.  Each `RelatedIdentifier` needs to have
   subproperties `relatedIdentifierType` and `relationType` to specify
-  the type of the related PID and the type of the relation
+  the type of the related identifier and the type of the relation
   respectively.
 
 `AlternateIdentifier`
@@ -136,3 +143,10 @@ their semantics:
 
 .. _PIDINST DataCite schema:
    https://github.com/rdawg-pidinst/schema/blob/master/schema-datacite.rst
+
+.. [#pidinst2022v1_0]
+   Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., 
+   Stocker, M., & The Research Data Alliance Persistent Identification of 
+   Instruments Working Group members (2022). Metadata Schema for the 
+   Persistent Identification of Instruments (1.0). Research Data Alliance. 
+   DOI: https://doi.org/10.15497/RDA00070

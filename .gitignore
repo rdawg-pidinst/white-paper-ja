@@ -1,6 +1,7 @@
 /__pycache__/
 /_build/
 /_meta.py
+.vscode/
 *~
 *.swp
 /locale/**/*.mo
