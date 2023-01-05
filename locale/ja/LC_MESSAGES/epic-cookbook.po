@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-28 21:51+0900\n"
+"POT-Creation-Date: 2023-01-05 23:28+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
@@ -165,10 +165,9 @@ msgstr "PIDハンドルレコードを参照する"
 
 #: ../../epic-cookbook/handles.rst:76
 msgid ""
-"If you have specified the URLproperty in the handle record it will "
+"If you have specified the URL property in the handle record it will "
 "automatically redirect you to it when you view the handle record:"
-msgstr ""
-"ハンドルレコードにおいてURLpropertyが設定されている場合、ハンドルレコードのURLを参照すると、URLpropertyにリダイレクトされます:"
+msgstr "ハンドルレコードにおいて URL が設定されている場合、ハンドルレコードを参照すると、設定されたURLにリダイレクトされます:"
 
 #: ../../epic-cookbook/handles.rst:79
 msgid "http://hdl.handle.net/21.T11998/0000-001A-3905-F"

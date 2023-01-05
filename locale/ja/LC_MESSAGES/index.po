@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-28 21:51+0900\n"
+"POT-Creation-Date: 2023-01-05 23:28+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
-"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,27 +103,24 @@ msgid ""
 "is expected to evolve with new user requirements and working group "
 "activities."
 msgstr ""
-":ref:`white-paper` :raw-html:`<br />` This white paper provides "
-"recommendations for the use of instrument PIDs and gives technical details "
-"that go beyond the overview provided in the Data Science Journal paper.  It "
-"is expected to evolve with new user requirements and working group "
-"activities."
+":ref:`white-paper` :raw-html:`<br />` このホワイトペーパーは、Data Science "
+"Journalの論文で提供された概要にとどまらず、装置PIDの使用に関する推奨事項を示し、技術的な詳細を説明するものです。 "
+"新しいユーザーの要求やワーキンググループの活動によって進化していくことが期待されています。"
 
 #: ../../index.rst:54
 msgid ""
 ":ref:`epic-cookbook` :raw-html:`<br />` Detailed instructions on how to "
 "create instrument PIDs using the ePIC infrastructure."
 msgstr ""
-":ref:`epic-cookbook` :raw-html:`<br />` Detailed instructions on how to "
-"create instrument PIDs using the ePIC infrastructure."
+":ref:`epic-cookbook` :raw-html:`<br />` ePICインフラを利用した装置PIDの作成方法を詳しく解説しています。"
 
 #: ../../index.rst:58
 msgid ""
 ":ref:`datacite-cookbook` :raw-html:`<br />` Detailed instructions on how to "
 "create DataCite DOIs for instruments."
 msgstr ""
-":ref:`datacite-cookbook` :raw-html:`<br />` Detailed instructions on how to "
-"create DataCite DOIs for instruments."
+":ref:`datacite-cookbook` :raw-html:`<br />` 装置に対するDataCite "
+"DOIの作成方法を詳しく解説しています。"
 
 #: ../../index.rst-1
 msgid "Creative Commons License"
