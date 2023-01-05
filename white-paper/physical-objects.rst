@@ -55,7 +55,7 @@ in PIDINST.
     :caption: An instrument serial number expressed in XML
 
       <AlternateIdentifiers>
-         <AlternateIdentifier alternateIdentifierType="serialNumber"">7351-349l-mn24-019f</AlternateIdentifier>
+         <AlternateIdentifier alternateIdentifierType="serialNumber">7351-349l-mn24-019f</AlternateIdentifier>
       </AlternateIdentifiers>
 
 Besides storing e.g. serial numbers in PIDINST schema metadata, it is
