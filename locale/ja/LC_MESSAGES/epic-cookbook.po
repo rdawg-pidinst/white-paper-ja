@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-28 21:51+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
-"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2022\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:2
 msgid "PIDINST handles at ePIC"
-msgstr ""
+msgstr "ePIC での PIDINST 用 ハンドル識別子"
 
 #: ../../epic-cookbook/handles.rst:4
 msgid ""
@@ -33,10 +33,13 @@ msgid ""
 "Each property, sub-property and attribute is resolvable through a unique "
 "handle record:"
 msgstr ""
+"ePIC での PID ハンドルレコードに用いられている、 PIDINST メタデータスキーマのプロパティ、サブプロパティ、属性は以下より参照できます。"
+"  ‘objects’ の前に ‘#’ "
+"を配置することで、対人可能な形式とJSON表現を相互に変換することができます。それぞれのプロパティ、サブプロパティ、属性は、固有のハンドルレコードを通じて解決することができます。"
 
 #: ../../epic-cookbook/handles.rst:11
 msgid "Human-readable"
-msgstr ""
+msgstr "対人可読形式"
 
 #: ../../epic-cookbook/handles.rst:11
 msgid ""
@@ -46,7 +49,7 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:13
 msgid "JSON representation"
-msgstr ""
+msgstr "JSONでの表現"
 
 #: ../../epic-cookbook/handles.rst:13
 msgid ""
@@ -56,7 +59,7 @@ msgstr ""
 
 #: ../../epic-cookbook/handles.rst:18
 msgid "Generating a new instrument PID"
-msgstr ""
+msgstr "新しい装置PIDの生成"
 
 #: ../../epic-cookbook/handles.rst:20
 msgid ""
@@ -71,6 +74,11 @@ msgid ""
 "overview for the basic CRUD operations on PIDs for either the ePIC API or "
 "the Handle API at the end."
 msgstr ""
+"ePICハンドルは、HTTPアプリケーションプロトコルを使用したRESTfulなWebサービス経由でアクセスおよび管理されます。 "
+"このサービスまたはアプリケーションプログラミングインタフェース(API)は、主要な交換フォーマットとしてJSONを使用します。独自のビジネスロジックと追加サービスに合わせて、一般的でより基本的なハンドルAPIや、使用するPIDサービスに実装されているならば、ePIC"
+" APIを適用することができます。 以下の例では、PIDINSTハンドルをePIC "
+"APIのテスト環境で、将来的に本番環境に移行することを視野に入れて、ePIC API経由で作成します。 また、最後にePIC APIまたはHandle "
+"APIのいずれかを使用したPIDの基本的なCRUD操作の概要を示します。"
 
 #: ../../epic-cookbook/handles.rst:32
 msgid ""
@@ -82,6 +90,10 @@ msgid ""
 " 21.T11998.  These can be obtained from ePIC by emailing "
 "support@pidconsortium.net."
 msgstr ""
+"新しいPIDを生成して機器に割り当てるには、ePICのメンバー（プロバイダ）になるか、現在のメンバーまたは独自のePIC "
+"APIエンドポイントを持つリポジトリのいずれかと連携する必要があります。 "
+"テスト環境を使用してPIDを作成するには、テスト環境のプレフィックス21.T11998を使用する承認を得るための認証情報(ユーザー名とパスワード)を取得する必要があります。"
+" これらは、support@pidconsortium.net にメールを送ることで ePIC より取得できます。"
 
 #: ../../epic-cookbook/handles.rst:40
 msgid ""
@@ -91,6 +103,10 @@ msgid ""
 "created via PUT method using a local identifier (see "
 "https://doc.pidconsortium.eu/guides/api-create/)."
 msgstr ""
+"PIDは通常、POST/PUTメソッドを使用して作成されます。 POSTメソッドを使用すると、ハンドルレコードのサフィックスにUniversally "
+"Unique Identifier (UUID)が自動的に生成されます。 "
+"または、ローカル識別子を使ってPUTメソッドでサフィックスを手動で作成することもできます(https://doc.pidconsortium.eu/guides/api-"
+"create/ を参照)。"
 
 #: ../../epic-cookbook/handles.rst:46
 msgid ""
@@ -100,49 +116,59 @@ msgid ""
 "test API endpoint http://vm04.pid.gwdg.de:8081/handles/.  Each ePIC member "
 "may use their own API end-point."
 msgstr ""
+"以下のすべての例は、コマンドライン(Linuxの場合)でcURLリクエストを使用しています。PHP、Perl、Python でのリクエストも可能です "
+"(https://doc.pidconsortium.eu/guides/api-create/ を参照)。 また、例ではテスト用のAPIエンドポイント"
+" http://vm04.pid.gwdg.de:8081/handles/ を使用しています。 "
+"ePICの各メンバーは、独自のAPIエンドポイントを使用することになります。"
 
 #: ../../epic-cookbook/handles.rst:52
 msgid ""
 "To generate a PID handle record automatically generating a UUID for the "
 "suffix::"
-msgstr ""
+msgstr "自動生成されるUUIDをサフィックスとしてPIDハンドルレコードを生成する場合::"
 
 #: ../../epic-cookbook/handles.rst:57
 msgid ""
 "``Result:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/0000-001A-64A4-A"
 msgstr ""
+"``実行結果:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/0000-001A-64A4-A"
 
 #: ../../epic-cookbook/handles.rst:59
 msgid ""
 "To generate a PID handle record automatically generating a UUID within the "
 "suffix::"
-msgstr ""
+msgstr "自動生成されるUUIDをサフィックスに埋め込み、PIDハンドルレコードを生成する場合::"
 
 #: ../../epic-cookbook/handles.rst:64
 msgid ""
 "``Result:`` "
 "https://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST"
 msgstr ""
+"``実行結果:`` "
+"https://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST"
 
 #: ../../epic-cookbook/handles.rst:66
 msgid "To manually generate a suffix using PUT method::"
-msgstr ""
+msgstr "PUTメソッドを用い、手動でサフィックスを生成する場合::"
 
 #: ../../epic-cookbook/handles.rst:70
 msgid ""
 "``Result:`` "
 "https://vm04.pid.gwdg.de:8081/handles/21.T11998/564987-8865544-9998"
 msgstr ""
+"``実行結果:`` "
+"https://vm04.pid.gwdg.de:8081/handles/21.T11998/564987-8865544-9998"
 
 #: ../../epic-cookbook/handles.rst:74
 msgid "Viewing PID handle records"
-msgstr ""
+msgstr "PIDハンドルレコードを参照する"
 
 #: ../../epic-cookbook/handles.rst:76
 msgid ""
 "If you have specified the URLproperty in the handle record it will "
 "automatically redirect you to it when you view the handle record:"
 msgstr ""
+"ハンドルレコードにおいてURLpropertyが設定されている場合、ハンドルレコードのURLを参照すると、URLpropertyにリダイレクトされます:"
 
 #: ../../epic-cookbook/handles.rst:79
 msgid "http://hdl.handle.net/21.T11998/0000-001A-3905-F"
@@ -150,7 +176,7 @@ msgstr "http://hdl.handle.net/21.T11998/0000-001A-3905-F"
 
 #: ../../epic-cookbook/handles.rst:81
 msgid "If you want to see the handle record then use:"
-msgstr ""
+msgstr "ハンドルレコードを直接参照したい場合:"
 
 #: ../../epic-cookbook/handles.rst:83
 msgid "http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect"
@@ -158,7 +184,7 @@ msgstr "http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect"
 
 #: ../../epic-cookbook/handles.rst:85
 msgid "The REST API calls can also yield JSON responses:"
-msgstr ""
+msgstr "REST APIコールにより、JSON形式を取得できます:"
 
 #: ../../epic-cookbook/handles.rst:87
 msgid "http://hdl.handle.net/api/handles/21.T11998/0000-001A-3905-F"
@@ -166,7 +192,7 @@ msgstr "http://hdl.handle.net/api/handles/21.T11998/0000-001A-3905-F"
 
 #: ../../epic-cookbook/handles.rst:91
 msgid "Updating the description of a PID handle record"
-msgstr ""
+msgstr "PIDハンドルレコードの内容更新"
 
 #: ../../epic-cookbook/handles.rst:93
 msgid ""
@@ -174,28 +200,32 @@ msgid ""
 "properties directly in the cURL request or parsing them via a JSON file (see"
 " :download:`JSON example </examples/ePIC_json_example.json>`)."
 msgstr ""
+"プロパティはPUTメソッドを用い、cURLリクエストで直接JSONプロパティを指定するか、JSONファイルを介してパースすることにより更新できます。(:download:`JSON"
+" のサンプル </examples/ePIC_json_example.json>` も参照）。"
 
 #: ../../epic-cookbook/handles.rst:97
 msgid "Directly specifying properties within the cURL request::"
-msgstr ""
+msgstr "cURL request で直接プロパティを指定する場合::"
 
 #: ../../epic-cookbook/handles.rst:101
 msgid ""
 "*Note: Double quotes must be escaped with a backslash (\\\\) within the JSON"
 " parsed_data string*"
 msgstr ""
+"*補足: JSON parsed_data string "
+"内においては、ダブルクォーテーションをバックススラッシュ(\\\\)でエスケープする必要があります。*"
 
 #: ../../epic-cookbook/handles.rst:103
 msgid "Specifying properties with a JSON file::"
-msgstr ""
+msgstr "JSONファイルでプロパティを指定する場合::"
 
 #: ../../epic-cookbook/handles.rst:109
 msgid "Managing PIDs"
-msgstr ""
+msgstr "PIDの管理"
 
 #: ../../epic-cookbook/handles.rst:112
 msgid "Using the ePIC API"
-msgstr ""
+msgstr "ePIC API を使用する場合"
 
 #: ../../epic-cookbook/handles.rst:114
 msgid ""
@@ -203,22 +233,24 @@ msgid ""
 "records using the ePIC API based on username-password. Server: "
 "``vm04.pid.gwdg.de``, Port: ``8081``, Resources: ``handles/``"
 msgstr ""
+"以下のHTTPメソッドにより、ユーザ名-パスワードに基づいたePIC APIを使用して、ユーザのPIDハンドルレコードを管理することができます。サーバ: "
+"``vm04.pid.gwdg.de``, ポート: ``8081``, リソース: ``handles/`` としています。"
 
 #: ../../epic-cookbook/handles.rst:118
 msgid "**Get a PID:**"
-msgstr ""
+msgstr "**PID の取得**"
 
 #: ../../epic-cookbook/handles.rst:124
 msgid "**Delete a PID (not allowed for production Handles):**"
-msgstr ""
+msgstr "**PID の削除 (本運用のハンドルに対しては許可されません)**"
 
 #: ../../epic-cookbook/handles.rst:130
 msgid "**Update a PID:**"
-msgstr ""
+msgstr "**PID の更新**"
 
 #: ../../epic-cookbook/handles.rst:138
 msgid "Using the Handle API"
-msgstr ""
+msgstr "Handle API を使用する場合"
 
 #: ../../epic-cookbook/handles.rst:140
 msgid ""
@@ -226,6 +258,8 @@ msgid ""
 "records using the generic Handle API based on Certificates. Server: "
 "``vm04.pid.gwdg.de``, Port: ``8081``, Resources: ``handles/``"
 msgstr ""
+"以下のHTTPメソッドにより、ユーザーは証明書に基づく汎用ハンドルAPIを使用して、PIDハンドルレコードを管理することができます。サーバ: "
+"``vm04.pid.gwdg.de``, ポート: ``8081``, リソース: ``haneles/`` としています。"
 
 #: ../../epic-cookbook/handles.rst:144
 msgid ""
@@ -233,12 +267,15 @@ msgid ""
 "a is described for instance at: "
 "http://eudat-b2safe.github.io/B2HANDLE/creatingclientcertificates.html"
 msgstr ""
+"``privkey.pem`` and ``certificate_only.pem`` を取得する手順は、例えば "
+"http://eudat-b2safe.github.io/B2HANDLE/creatingclientcertificates.html "
+"に記載されています。"
 
 #: ../../epic-cookbook/handles.rst:148
 msgid ""
 "The Handle API does not have an internal suffix generator.  The suffix needs"
 " to be provided by the user."
-msgstr ""
+msgstr "Handle API には内部でのサフィックス生成機能がありません。サフィックスは、ユーザが提供する必要があります。"
 
 #: ../../epic-cookbook/handles.rst:151
 msgid ""
@@ -247,10 +284,12 @@ msgid ""
 "overwritten by a request intended for creation.  This has to be detected by "
 "the user in advance."
 msgstr ""
+"Handle API は、POST, GET, DELETE "
+"メソッドのみが利用できます。これはすなわち、クレデンシャルが十分であれば、意図せず発行した新規作成のリクエストにより、既存のPIDが上書きされる可能性があります。利用者は事前にPIDの重複がないことを検知する必要があります。"
 
 #: ../../epic-cookbook/handles.rst:156
 msgid "**Access parameters:**"
-msgstr ""
+msgstr "**アクセスパラメータ:**"
 
 #: ../../epic-cookbook/handles.rst:158
 msgid ""
@@ -258,46 +297,48 @@ msgid ""
 "prefix the certificate files are stored here with the naming convention "
 "${INDEX}_${PREFIX}_${USER}_???.pem."
 msgstr ""
+"ユーザ名(USER)、公開鍵(HS_PUBKEY)のインデックス(INDEX)、証明書ファイルのプレフィックス(PREFIX)が、${INDEX}_${PREFIX}_${USER}_???.pem"
+" という命名規則で保存されているとします。"
 
 #: ../../epic-cookbook/handles.rst:174
 msgid "**Create Handle:**"
-msgstr ""
+msgstr "**ハンドルの生成**"
 
 #: ../../epic-cookbook/handles.rst:180
 msgid "**Get Handle created:**"
-msgstr ""
+msgstr "**生成したハンドルの取得**"
 
 #: ../../epic-cookbook/handles.rst:186
 msgid "**Modify Handle created:**"
-msgstr ""
+msgstr "**生成したハンドルの修正**"
 
 #: ../../epic-cookbook/handles.rst:192
 msgid "**Delete Handle created:**"
-msgstr ""
+msgstr "**生成したハンドルの削除**"
 
 #: ../../epic-cookbook/index.rst:4
 msgid "ePIC Cookbook"
-msgstr ""
+msgstr "ePIC クックブック"
 
 #: ../../epic-cookbook/index.rst:7
 msgid "Document type"
-msgstr ""
+msgstr "Document type"
 
 #: ../../epic-cookbook/index.rst:0
 msgid "Research Data Alliance (RDA)"
-msgstr ""
+msgstr "Research Data Alliance (RDA)"
 
 #: ../../epic-cookbook/index.rst:0
 msgid "Persistent Identification of Instruments (PIDINST)"
-msgstr ""
+msgstr "Persistent Identification of Instruments (PIDINST)"
 
 #: ../../epic-cookbook/index.rst:0
 msgid "working group output report"
-msgstr ""
+msgstr "working group output report"
 
 #: ../../epic-cookbook/intro.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../epic-cookbook/intro.rst:4
 msgid ""
@@ -311,3 +352,10 @@ msgid ""
 "(`PIDINST`_) referred to as the `PIDINST metadata schema`_.  This document "
 "provides technical guidance for publishing instrument PIDs through ePIC."
 msgstr ""
+"このクックブックでは、機器プロバイダーが `ePICインフラストラクチャ <ePIC infrastructure_>`_ "
+"を使用して機器の永続識別子（PID）を作成することを可能にします。ePICは、世界中の研究コミュニティにPIDサービスを提供し、`Handleシステム "
+"<handle system_>`_ に基づくPIDの割り当てと解決を可能にする国際コンソーシアムです。 2019年、ePICは、`PIDINST "
+"metadata schema`_ と呼ばれるResearch Data Alliance working group for the "
+"persistent identification of instruments (`PIDINST`_) "
+"から得られた勧告の一部として、機器を引用するためのメタデータスキーマを公開しました。 "
+"この文書は、ePICを通じて機器のPIDを公開するための技術的なガイダンスを提供します。"
