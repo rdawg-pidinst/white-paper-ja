@@ -5,6 +5,7 @@
 # 
 # Translators:
 # 岡山将也, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-28 21:51+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
-"Last-Translator: 岡山将也, 2022\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,23 +24,23 @@ msgstr ""
 
 #: ../../datacite-cookbook/index.rst:4
 msgid "DataCite Cookbook"
-msgstr ""
+msgstr "DataCite クックブック"
 
 #: ../../datacite-cookbook/index.rst:7
 msgid "Document type"
-msgstr ""
+msgstr "Document type"
 
 #: ../../datacite-cookbook/index.rst:0
 msgid "Research Data Alliance (RDA)"
-msgstr ""
+msgstr "Research Data Alliance (RDA)"
 
 #: ../../datacite-cookbook/index.rst:0
 msgid "Persistent Identification of Instruments (PIDINST)"
-msgstr ""
+msgstr "Persistent Identification of Instruments (PIDINST)"
 
 #: ../../datacite-cookbook/index.rst:0
 msgid "working group output report"
-msgstr ""
+msgstr "working group output report"
 
 #: ../../datacite-cookbook/intro.rst:2
 msgid "Introduction"
@@ -54,10 +55,10 @@ msgid ""
 "<pidinst_>`_ has worked with DataCite on the mapping of the PIDINST metadata"
 " schema onto the DataCite schema."
 msgstr ""
-"このクックブックにより、計測器提供者は、計測器の永続的識別子 (PID) として `DataCite`_DOI "
+"このクックブックにより、計測器提供者は、計測器の永続的識別子 (PID) として `DataCite`_ DOI "
 "を作成することができます。DataCite は、研究データやその他の研究成果に DOI を提供する世界的な非営利組織です。 `Instruments "
-"WG (PIDINST) の永続的な識別は、PIDINST メタデータ スキーマの DataCite スキーマへのマッピングに関して DataCite "
-"と協力しています。"
+"WG (PIDINST) <pidinst_>`_ の永続的な識別は、PIDINST メタデータ スキーマの DataCite "
+"スキーマへのマッピングに関して DataCite と協力しています。"
 
 #: ../../datacite-cookbook/intro.rst:11
 msgid ""
@@ -67,10 +68,14 @@ msgid ""
 "some basic knowledge about DOIs.  The `Wikipedia article on DOI <wiki-"
 "doi_>`_ is a useful primer containing the relevant information."
 msgstr ""
+"このクックブックは `DataCite documentation`_ を置き換えるものではありません。 "
+"むしろ、装置のDOIを作成するための関連するステップを紹介し、装置のPIDメタデータに焦点を当てます。 "
+"このクックブックは、DOIに関する基本的な知識を前提としています。 `WikipediaのDOIに関する記事 <wiki-doi_>`_ "
+"は、関連する情報を含む有用な入門書です。"
 
 #: ../../datacite-cookbook/metadata.rst:2
 msgid "Collecting the metadata"
-msgstr ""
+msgstr "メタデータの収集"
 
 #: ../../datacite-cookbook/metadata.rst:4
 msgid ""
@@ -79,6 +84,9 @@ msgid ""
 "Section :ref:`pidinst-metadata-schema` in the PIDINST White Paper describes "
 "the metadata that you should consider to include."
 msgstr ""
+"機器のDOIを作成するためには、その機器を説明し、DOIレコードに登録したいすべてのメタデータを収集する必要があります。 "
+"PIDINSTホワイトペーパーのセクション :ref:`pidinst-metadata-schema` "
+"では、登録を考慮すべきメタデータを説明しています。"
 
 #: ../../datacite-cookbook/metadata.rst:10
 msgid ""
@@ -88,10 +96,14 @@ msgid ""
 "the PIDINST WG has also provided a `Mapping of the PIDINST Schema onto the "
 "DataCite Schema <PIDINST DataCite schema_>`_"
 msgstr ""
+"Persistent Identification of Instruments WGは、PIDINST Metadata Schemaを開発しました。"
+" しかし、DataCite DOIを作成しようとすると、`DataCite Metadata "
+"Schema`_ を使用しなければならない制約があります。そのため、PIDINST WGは「`PIDINST Schema onto the "
+"DataCite Schema <PIDINST DataCite schema_>`_」というマッピングも提供しています。"
 
 #: ../../datacite-cookbook/metadata.rst:17
 msgid "Mapping of PIDINST metadata onto DataCite"
-msgstr ""
+msgstr "PIDINST メタデータから DataCite へのマッピング"
 
 #: ../../datacite-cookbook/metadata.rst:19
 msgid ""
@@ -99,20 +111,24 @@ msgid ""
 "discuss how the metadata describing the instrument can be best represented "
 "in the DataCite Schema:"
 msgstr ""
+"PIDINST WGから提供されたマッピングに基づき、装置を記述するメタデータがDataCite "
+"Schemaでどのように表現されるのが最適かを以下に説明します。"
 
 #: ../../datacite-cookbook/metadata.rst:25
 msgid "`Identifier`"
-msgstr ""
+msgstr "`Identifier`"
 
 #: ../../datacite-cookbook/metadata.rst:24
 msgid ""
 "The DOI that you are going to create.  Add as DataCite property `Identifier`"
 " with `identifierType=DOI`."
 msgstr ""
+"生成しようとしているDOI。`identifierType=DOI` とともに、`Identifier` をDataCite "
+"プロパティとして追加します。"
 
 #: ../../datacite-cookbook/metadata.rst:30
 msgid "`LandingPage`"
-msgstr ""
+msgstr "`LandingPage`"
 
 #: ../../datacite-cookbook/metadata.rst:28
 msgid ""
@@ -120,20 +136,22 @@ msgid ""
 "does not have a property for this, but you'll register the URL along with "
 "the metadata when creating the DOI."
 msgstr ""
+"このPIDが解決するランディングページのURL。DataCite "
+"スキーマにはこのためのプロパティがありませんが、DOIを作成したときにこのメタデータをとともにURLを登録します。"
 
 #: ../../datacite-cookbook/metadata.rst:34
 msgid "`Name`"
-msgstr ""
+msgstr "`Name`"
 
 #: ../../datacite-cookbook/metadata.rst:33
 msgid ""
 "The name by which this instrument is known.  Add as DataCite property "
 "`Title` with `titleType=Other`."
-msgstr ""
+msgstr "この装置につけられた名前。`titleType=Other` とともに、`Title` をDataCite プロパティとして追加します。"
 
 #: ../../datacite-cookbook/metadata.rst:41
 msgid "`Owner`"
-msgstr ""
+msgstr "`Owner`"
 
 #: ../../datacite-cookbook/metadata.rst:37
 msgid ""
@@ -142,10 +160,13 @@ msgid ""
 " also to add an identifier for the owner in the `nameIdentifier` subproperty"
 " of `Contributor`."
 msgstr ""
+"装置を管理する機関または個人。`contributorType=HostingInstitution` とともに、`Contributor` "
+"をDataCite プロパティとして追加します。また、`Contributor` のサブプロパティーである `nameIdentifier` "
+"に装置管理者の識別子を追加することも併せて検討してください。"
 
 #: ../../datacite-cookbook/metadata.rst:46
 msgid "`Manufacturer`"
-msgstr ""
+msgstr "`Manufacturer`"
 
 #: ../../datacite-cookbook/metadata.rst:44
 msgid ""
@@ -153,10 +174,12 @@ msgid ""
 "property `Creator`.  Consider also to add an identifier for the manufacturer"
 " in the `nameIdentifier` subproperty of `Creator`."
 msgstr ""
+"装置を作成した機関または個人。`Creator` をDataCite プロパティとして追加します。また、`Creator` のサブプロパティーである "
+"`nameIdentifier` に装置作成者の識別子を追加することも併せて検討してください。"
 
 #: ../../datacite-cookbook/metadata.rst:51
 msgid "`Model`"
-msgstr ""
+msgstr "`Model`"
 
 #: ../../datacite-cookbook/metadata.rst:49
 msgid ""
@@ -164,20 +187,24 @@ msgid ""
 "writing, the DataCite Schema has no suitable property for that, so you'll "
 "need to leave it out.\\ [#dc_model]_"
 msgstr ""
+"装置のモデルまたは型式の名称。残念なことに、執筆時点において、DataCite スキーマにはこれに相当するプロパティがなく、この情報は破棄されます \\"
+" [#dc_model]_。"
 
 #: ../../datacite-cookbook/metadata.rst:55
 msgid "`Description`"
-msgstr ""
+msgstr "`Description`"
 
 #: ../../datacite-cookbook/metadata.rst:54
 msgid ""
 "A textual description of the device and its capabilities.  Add as DataCite "
 "property `Description` with `descriptionType=Abstract`."
 msgstr ""
+"デバイスおよびその能力に関するテキスト記述。`descriptionType=Abstract` とともに、`Description` "
+"をDataCite プロパティとして追加します。"
 
 #: ../../datacite-cookbook/metadata.rst:60
 msgid "`InstrumentType`"
-msgstr ""
+msgstr "`InstrumentType`"
 
 #: ../../datacite-cookbook/metadata.rst:58
 msgid ""
@@ -185,10 +212,12 @@ msgid ""
 "property for this in the DataCite Schema, but you may add keywords providing"
 " such a classification in the property `Subject`."
 msgstr ""
+"装置の形式の分類。DataCite スキーマには該当するスキーマはありませんが、`Subject` "
+"プロパティにこの分類に関するキーワードを追加することができます。"
 
 #: ../../datacite-cookbook/metadata.rst:65
 msgid "`MeasuredVariable`"
-msgstr ""
+msgstr "`MeasuredVariable`"
 
 #: ../../datacite-cookbook/metadata.rst:63
 msgid ""
@@ -196,10 +225,12 @@ msgid ""
 "observes.  Unfortunately, the DataCite Schema has no suitable property for "
 "that, so you'll need to leave it out."
 msgstr ""
+"装置が測定・観測する数値や物理特性。残念なことに、執筆時点において、DataCite "
+"スキーマにはこれに相当するプロパティがなく、この情報は破棄されます。"
 
 #: ../../datacite-cookbook/metadata.rst:73
 msgid "`Date`"
-msgstr ""
+msgstr "`Date`"
 
 #: ../../datacite-cookbook/metadata.rst:68
 msgid ""
@@ -210,10 +241,13 @@ msgid ""
 "indicate a start and an end date, if the instrument has already been "
 "decommissioned."
 msgstr ""
+"この装置インスタンスに関連するイベント。`Date` を DataCite プロパティとして追加します。 "
+"`dateType=Available` を使用して、装置が動作している、または動作していた日付を示します。 "
+"装置がまだ動作中であれば、開始日を示すために1つの日付を使用します。機器がすでに廃棄されている場合は、開始日と終了日を示すための期間を使用します。"
 
 #: ../../datacite-cookbook/metadata.rst:78
 msgid "`RelatedIdentifier`"
-msgstr ""
+msgstr "`RelatedIdentifier`"
 
 #: ../../datacite-cookbook/metadata.rst:76
 msgid ""
@@ -221,10 +255,12 @@ msgid ""
 "Schema has a property with the same name, having very similar subproperties "
 "and semantics as the PIDINST Schema."
 msgstr ""
+"これは、関連するリソースへのリンクを確立するために使用することができる。 "
+"DataCiteスキーマには同名のプロパティがあり、PIDINSTスキーマと非常によく似たサブプロパティとセマンティクスを持っています。"
 
 #: ../../datacite-cookbook/metadata.rst:93
 msgid "`AlternateIdentifier`"
-msgstr ""
+msgstr "`AlternateIdentifier`"
 
 #: ../../datacite-cookbook/metadata.rst:81
 msgid ""
@@ -234,6 +270,10 @@ msgid ""
 "`alternateIdentifierType=InventoryNumber` for an inventory number used by "
 "the owner."
 msgstr ""
+"装置が他に登録されている場合に使用されます。`AlternateIdentifier` をDataCite "
+"プロパティとして追加します。装置製造者によるシリアルナンバーを記述する場合、`alternateIdentifierType=SerialNumber`"
+" を使用します。また、装置管理者によるインベントリ番号を記述する場合、`alternateIdentifierType=InventoryNumber`"
+" を使用します。"
 
 #: ../../datacite-cookbook/metadata.rst:88
 msgid ""
@@ -243,10 +283,14 @@ msgid ""
 "use `alternateIdentifierType=Other`, but may set the appropriate type in "
 "`alternateIdentifierType` right away."
 msgstr ""
+"PIDINSTスキーマとは対照的に、DataCiteスキーマでは `alternateIdentifierType` "
+"はフリーテキストであることに注意してください。したがって、シリアル番号やインベントリ番号ではない代替識別子を追加する場合、強制的に "
+"`alternateIdentifierType=Other` を使用する必要はなく、すぐに `alternateIdentifierType` "
+"に適切な型を設定することができます。"
 
 #: ../../datacite-cookbook/metadata.rst:96
 msgid "Additional properties in the DataCite Schema"
-msgstr ""
+msgstr "DataCite スキーマでの追加プロパティ"
 
 #: ../../datacite-cookbook/metadata.rst:98
 msgid ""
@@ -256,10 +300,11 @@ msgid ""
 " other DataCite property not mentioned here may be considered as well, if it"
 " makes sense for a particular use case."
 msgstr ""
+"DataCiteスキーマには、PIDINSTスキーマに対応するものがなく、DataCiteで必須であるため設定する必要があるか、検討する価値のあるプロパティがさらにいくつかあります。もちろん、ここに記載されていない他のDataCiteプロパティも、特定のユースケースで意味をなすのであれば、同様に考慮されるかもしれません。"
 
 #: ../../datacite-cookbook/metadata.rst:112
 msgid "`Publisher`"
-msgstr ""
+msgstr "`Publisher`"
 
 #: ../../datacite-cookbook/metadata.rst:105
 msgid ""
@@ -272,20 +317,24 @@ msgid ""
 "entity that created the DOI and is responsible for maintaining the DOI "
 "metadata."
 msgstr ""
+"\"リソースを保有、アーカイブ、出版、印刷、配布、リリース、発行、または生産している主体の名前\" (DataCite "
+"スキーマの定義からの引用)。装置の場合、これがさす内容は不明瞭なことが多く、また PIDINST Schema の `Owner` "
+"と少し重複しているように思えます。しかし、DataCite Schemaでは必須ですので、設定する必要があります。 "
+"DOIを作成し、DOIのメタデータを管理する責任がある主体に設定することをお勧めします。"
 
 #: ../../datacite-cookbook/metadata.rst:116
 msgid "`PublicationYear`"
-msgstr ""
+msgstr "`PublicationYear`"
 
 #: ../../datacite-cookbook/metadata.rst:115
 msgid ""
 "Mandatory in the DataCite Schema.  We suggest to set it to the year of "
 "issuing the DOI."
-msgstr ""
+msgstr "DataCite スキーマでは必須です。DOIを発行した年を設定することを勧めます。"
 
 #: ../../datacite-cookbook/metadata.rst:128
 msgid "`ResourceType`"
-msgstr ""
+msgstr "`ResourceType`"
 
 #: ../../datacite-cookbook/metadata.rst:119
 msgid ""
@@ -299,17 +348,23 @@ msgid ""
 "`ResourceType` to `Instrument` with `resourceTypeGeneral=Other`.\\ "
 "[#dc_resource]_"
 msgstr ""
+"DataCite の DOI は様々な種類のオブジェクトのためのものなので、種類を示す必要性があります。これは DataCite Schema "
+"では必須です。 明らかに装置のDOIでは、このDOIが装置のインスタンスを特定するものであることを示す必要があります。 DataCite "
+"では、`ResourceType` はフリーテキストですが、`resourceTypeGeneral` "
+"というサブプロパティを持ち、リソースのタイプを定義した値のコントロールリストを持っています。 "
+"残念ながら、この記事を書いている時点では、これらの値のどれもが機器に適合しないため、`ResourceType` を `Instrument` "
+"に設定し、`resourceTypeGeneral=Other` を設定することをお勧めします \\ [#dc_resource]_。"
 
 #: ../../datacite-cookbook/metadata.rst:134
 msgid "`FundingReference`"
-msgstr ""
+msgstr "`FundingReference`"
 
 #: ../../datacite-cookbook/metadata.rst:131
 msgid ""
 "This is optional in the DataCite Schema, but it may be useful to acknowledge"
 " external funding that supported the purchase or the creation of the "
 "instrument."
-msgstr ""
+msgstr "これはDataCite Schemaでは任意ですが、装置の購入や作成を支援した外部資金を表記すると便利な場合があります。"
 
 #: ../../datacite-cookbook/metadata.rst:142
 msgid ""
@@ -317,16 +372,20 @@ msgid ""
 "DataCite Schema that would be suitable to put the instrument model once the "
 "proposal is adopted."
 msgstr ""
+"DataCite Schema に `Series プロパティを追加する提案 <dc_issue72_>`_ "
+"があり、この提案が採用されれば、装置モデルの記述に適していると思われます。"
 
 #: ../../datacite-cookbook/metadata.rst:147
 msgid ""
 "There is a `Proposal to add Instrument to the controlled list of values for "
 "resourceTypeGeneral <dc_issue70_>`_ in the DataCite Schema."
 msgstr ""
+"DataCite Schema に、`Instrument を resrouceTypeGeneral のコントロールリスト値に追加する提案 "
+"<dc_issue70_>`_ があります。"
 
 #: ../../datacite-cookbook/minting.rst:4
 msgid "Minting the instrument DOI"
-msgstr ""
+msgstr "装置DOIの採番"
 
 #: ../../datacite-cookbook/minting.rst:6
 msgid ""
@@ -335,16 +394,19 @@ msgid ""
 "DataCite member.  This will provide you with your own DOI prefix and the "
 "credentials to sign in to Fabrica."
 msgstr ""
+"`DataCite Fabrica`_ は、DOIとメタデータを作成・管理するためのウェブインターフェイスです。 "
+"あなたの組織はDataCiteのメンバーであるか、DataCiteのメンバーと共同作業をしている必要があります。 "
+"これにより、あなた自身のDOIプレフィックスと、Fabricaにサインインするための認証情報が提供されます。"
 
 #: ../../datacite-cookbook/minting.rst:11
 msgid ""
 "There are basically three different options to create a new or update an "
 "existing DOI that we describe in the following."
-msgstr ""
+msgstr "DOIを新規に作成したり、既存のDOIを更新したりするには、基本的に3つの異なる方法があり、以下に説明します。"
 
 #: ../../datacite-cookbook/minting.rst:15
 msgid "Create the DOI using the web form"
-msgstr ""
+msgstr "ウェブフォームを用いたDOIの作成"
 
 #: ../../datacite-cookbook/minting.rst:17
 msgid ""
@@ -354,10 +416,13 @@ msgid ""
 "lookup of external identifiers while entering the values.  See the `DataCite"
 " documentation <Create a DOI via Form_>`_ for detailed instructions."
 msgstr ""
+"DOIを作成する最もインタラクティブな方法は、DOI、ランディングページのURL、およびすべてのメタデータの値を示すWebフォームに入力することです。 "
+"これは、値を入力する際に自動検証や外部識別子の検索などの便利な支援機能を提供します。 詳細な手順は `DataCite documentation "
+"<Create a DOI via Form_>`_ を参照してください。"
 
 #: ../../datacite-cookbook/minting.rst:25
 msgid "Create the DOI using file upload"
-msgstr ""
+msgstr "ファイルアップロードによるDOIの作成"
 
 #: ../../datacite-cookbook/minting.rst:27
 msgid ""
@@ -368,10 +433,15 @@ msgid ""
 " and their values is propably achieved using DataCite XML. See the `DataCite"
 " documentation <Create a DOI via File Upload_>`_ for detailed instructions."
 msgstr ""
+"多くの機器のDOIを作成したい場合、すべてのメタデータ値を別々に手動で入力するのは面倒になるかもしれません。 "
+"また、メタデータをファイルとしてアップロードできるウェブフォームもあります。 "
+"様々なファイル形式がサポートされていますが、プロパティとその値の最も細かい制御は、おそらくDataCite "
+"XMLを使用して実現されています。詳しい説明は `DataCite documentation <Create a DOI via File "
+"Upload_>`_ を参照してください。"
 
 #: ../../datacite-cookbook/minting.rst:36
 msgid "Use the DataCite REST API"
-msgstr ""
+msgstr "DataCite REST API の使用"
 
 #: ../../datacite-cookbook/minting.rst:38
 msgid ""
@@ -379,10 +449,12 @@ msgid ""
 "REST API.  The metadata may be feed into the API as JSON or DataCite XML.  "
 "See the `DataCite REST API Guide`_ for details."
 msgstr ""
+"DOIの作成プロセスは、DataCite REST APIを使用して完全に自動化することができます。 メタデータはJSONまたはDataCite "
+"XMLとしてAPIにフィードすることができます。 詳しくは `DataCite REST API Guide`_ をご覧ください。"
 
 #: ../../datacite-cookbook/prereq.rst:2
 msgid "Prerequisites for minting DOIs"
-msgstr ""
+msgstr "DOI採番の前提条件"
 
 #: ../../datacite-cookbook/prereq.rst:4
 msgid ""
@@ -391,3 +463,6 @@ msgid ""
 "your own DOI prefix and the access to `DataCite Fabrica`_ that you will need"
 " for :ref:`datacite-cookbook-minting`."
 msgstr ""
+"DataCiteのDOIを発行する前提として、あなたの組織はDataCiteのメンバーであるか、DataCiteのメンバーと共同作業をしている必要があります。"
+" これにより、あなた自身のDOIプレフィックスと、 :ref:`datacite-cookbook-minting` に必要な `DataCite "
+"Fabrica`_ へのアクセスが提供されます。"

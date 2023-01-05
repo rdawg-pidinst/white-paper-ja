@@ -233,8 +233,8 @@ msgid ""
 "records using the ePIC API based on username-password. Server: "
 "``vm04.pid.gwdg.de``, Port: ``8081``, Resources: ``handles/``"
 msgstr ""
-"以下のHTTPメソッドにより、ユーザ名-パスワードに基づいたePIC APIを使用して、ユーザのPIDハンドルレコードを管理することができます。サーバ: "
-"``vm04.pid.gwdg.de``, ポート: ``8081``, リソース: ``handles/`` としています。"
+"以下のHTTPメソッドにより、ユーザ名-パスワードに基づいたePIC APIを使用して、ユーザのPIDハンドルレコードを管理することができます。サーバ:"
+" ``vm04.pid.gwdg.de``, ポート: ``8081``, リソース: ``handles/`` としています。"
 
 #: ../../epic-cookbook/handles.rst:118
 msgid "**Get a PID:**"
