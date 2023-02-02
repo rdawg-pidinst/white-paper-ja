@@ -1,27 +1,27 @@
 [main]
 host = https://www.transifex.com
 
-[pidinst-ja-202208.datacite-cookbook]
+[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:datacite-cookbook]
 file_filter = locale/<lang>/LC_MESSAGES/datacite-cookbook.po
 source_file = _build/gettext/datacite-cookbook.pot
 source_lang = en
-type = PO
+type        = PO
 
-[pidinst-ja-202208.epic-cookbook]
+[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:epic-cookbook]
 file_filter = locale/<lang>/LC_MESSAGES/epic-cookbook.po
 source_file = _build/gettext/epic-cookbook.pot
 source_lang = en
-type = PO
+type        = PO
 
-[pidinst-ja-202208.index]
+[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:index]
 file_filter = locale/<lang>/LC_MESSAGES/index.po
 source_file = _build/gettext/index.pot
 source_lang = en
-type = PO
+type        = PO
 
-[pidinst-ja-202208.white-paper]
+[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper.po
 source_file = _build/gettext/white-paper.pot
 source_lang = en
-type = PO
+type        = PO
 
