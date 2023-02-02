@@ -36,16 +36,20 @@ marine domain (`http://vocab.nerc.ac.uk/collection/L22/current/ <http://vocab.ne
 An example of the use of common terminologies in ePIC records is shown
 in :numref:`tab-schema-handle-record`.
 
-.. _tab-schema-handle-record:
-.. table:: Handle record of instrument identifier
-	   http://hdl.handle.net/21.T11998/0000-001A-3905-F displaying
-	   the use of common terminologies to identify instrument
-	   metadata compliant with the PIDINST schema as implemented
-	   by ePIC. The terminologies used are published on the `NERC
-	   Vocabulary Server (NVS) <NVS_>`_. The data for each
-	   metadata property is provided in JSON. The Handle record
-	   can be viewed at
-	   http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect
+.. tabularcolumns:: |p{5cm}|p{10cm}|
+
+.. table:: Handle record of instrument identifier \
+	   http://hdl.handle.net/21.T11998/0000-001A-3905-F displaying \
+	   the use of common terminologies to identify instrument \
+	   metadata compliant with the PIDINST schema as implemented \
+	   by ePIC. The terminologies used are published on the `NERC \
+	   Vocabulary Server (NVS) <NVS_>`_. The data for each \
+	   metadata property is provided in JSON. The Handle record \
+	   can be viewed at \
+	   http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect 
+    :name: tab-schema-handle-record
+    :widths: auto
+    :class: longtable
 
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | Type                               | Data                                                                                                         |
