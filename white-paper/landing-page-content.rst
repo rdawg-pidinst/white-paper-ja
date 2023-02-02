@@ -20,8 +20,8 @@ designed to complement the administration and discovery of
 instruments; to enable users to put data into context; and to automate
 instrument metadata into data workflows.
 
-.. table:: Descriptive landing page metadata describing measuring \
-	   instruments. To be used in conjunction with the core \
+.. table:: Descriptive landing page metadata describing measuring
+	   instruments. To be used in conjunction with the core
 	   instrument metadata used in the PIDINST schema.
     :name: tab-landing-content-inst
 

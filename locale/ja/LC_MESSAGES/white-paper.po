@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-05 23:28+0900\n"
+"POT-Creation-Date: 2023-02-02 18:39+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
 "Language-Team: Japanese (https://www.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
@@ -618,7 +618,7 @@ msgstr ""
 "スキーマと合わせて、装置の管理・発見を補えるよう設計されており、ユーザーがデータを文章中に入れたり、あるいはまた、装置のメタデータをデータ "
 "ワークフローに自動的に流すことを可能にします。"
 
-#: ../../white-paper/landing-page-content.rst:24
+#: ../../white-paper/landing-page-content.rst:23
 msgid ""
 "Descriptive landing page metadata describing measuring        instruments. "
 "To be used in conjunction with the core        instrument metadata used in "
@@ -1526,7 +1526,7 @@ msgstr ""
 "<http://vocab.nerc.ac.uk/collection/L05/current/>`_) 。ePIC "
 "レコードにおける一般的な用語集の利用例を :numref:`tab-schema-handle-record` に示します。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:40
+#: ../../white-paper/metadata-schema-recommendations.rst:41
 msgid ""
 "Handle record of instrument identifier        "
 "http://hdl.handle.net/21.T11998/0000-001A-3905-F displaying        the use "
@@ -1538,20 +1538,19 @@ msgid ""
 "http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect"
 msgstr ""
 "装置識別子のハンドルレコード http://hdl.handle.net/21.T11998/0000-001A-3905-F "
-"ePICによって実装されたPIDINSTスキーマに準拠した機器のメタデータを識別するための共通用語の利用を示しています。利用されている用語集は "
+"ePICによって実装されたPIDINSTスキーマに準拠した装置のメタデータを識別するための共通用語の利用を示しています。利用されている用語集は "
 "`NERC Vocabulary Server (NVS) <NVS_>`_ "
-"で公開されています。各メタデータのプロパティのデータフォーマットはJSON形式になっています。ハンドルレコードは "
-"http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect より閲覧できます。"
+"で公開されています。各メタデータのプロパティのデータフォーマットはJSON形式になっています。ハンドルレコードは http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect より閲覧できます。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:51
+#: ../../white-paper/metadata-schema-recommendations.rst:55
 msgid "Type"
 msgstr "タイプ"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:51
+#: ../../white-paper/metadata-schema-recommendations.rst:55
 msgid "Data"
 msgstr "データ"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:53
+#: ../../white-paper/metadata-schema-recommendations.rst:57
 msgid "URL"
 msgstr "URL"
 
@@ -1659,11 +1658,11 @@ msgstr "21.T11148/178fb558abc755ca7046"
 msgid "(RelatedIdentifiers)"
 msgstr "(RelatedIdentifiers)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:194
+#: ../../white-paper/metadata-schema-recommendations.rst:198
 msgid "Using other PIDs"
 msgstr "他のPIDの利用"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:196
+#: ../../white-paper/metadata-schema-recommendations.rst:200
 msgid ""
 "The PIDINST metadata may contain references to related entities at various "
 "places.  Obviously, these references should preferably use persistent "
@@ -1675,35 +1674,35 @@ msgstr ""
 "明らかに、これら参照では可能な限り永続的識別子を利用することが望まれます。 参照される実体の性質により異なるタイプのPIDが推奨されます。 "
 "最も一般的なケースを以下に示します。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:202
+#: ../../white-paper/metadata-schema-recommendations.rst:206
 msgid ""
 "other instruments may be referenced in several cases.  The most common PID "
 "types are Handles and DOIs here."
 msgstr "いくつかの場合で他の装置を参照することがあります。この場合における最も一般的なPIDタイプは、HandleとDOIです。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:205
+#: ../../white-paper/metadata-schema-recommendations.rst:209
 msgid ""
 "organizations that may appear as owner or manufacturer may be referenced "
 "using a `ROR`_."
 msgstr "*owner* または *manufacturer* として表示される可能性のある組織は、`ROR`_ を利用して参照することができます。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:208
+#: ../../white-paper/metadata-schema-recommendations.rst:212
 msgid ""
 "the most common PID for individuals that may appear as owner or manufacturer"
 " is the `ORCID`_ iD."
 msgstr "*owner* または *manufacturer* として表示される可能性のある個人のPIDは、`ORCID`_ iDが最も一般的です。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:211
+#: ../../white-paper/metadata-schema-recommendations.rst:215
 msgid ""
 "the `RRID`_ is common in the biological sciences and may be used to "
 "reference a class of instruments, see next subsection."
 msgstr "`RRID`_ は生物科学分野では一般的であり、装置のクラスを参照するために利用されることがあります。次のサブセクションを参照ください。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:216
+#: ../../white-paper/metadata-schema-recommendations.rst:220
 msgid "RRIDs"
 msgstr "RRID"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:218
+#: ../../white-paper/metadata-schema-recommendations.rst:222
 msgid ""
 "In a similar way to common terminologies, persistent identifiers have been "
 "created to help users classify and accurately describe physical objects.  "
@@ -1728,7 +1727,7 @@ msgstr ""
 "[#bandrowski2012]_ 及び "
 "UserITによって拡張されたもの)では、装置のインスタンス(PIDINST)のPIDと相互運用することが想定されています。この相互運用性により、どのプロジェクトにおいてもモデルに関するデータをすぐにダウンロードし、マッピングされたフィールドを矛盾なく埋めることができるようになるはずです。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:232
+#: ../../white-paper/metadata-schema-recommendations.rst:236
 msgid ""
 "Why RRIDs? RRIDs are currently used in about 1000 journals to tag classes of"
 " research resources (including reagents like antibodies or plasmids, "
@@ -1749,140 +1748,140 @@ msgstr ""
 "resolverによってPIDの解決がなされ、主要な試薬提供者(例えば、Thermo Fisher、Addgene、MMRRC mouse "
 "repository)にも利用されています。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:247
+#: ../../white-paper/metadata-schema-recommendations.rst:251
 msgid "Example showing the use of RRIDs in the PIDINST metadata schema."
 msgstr "PIDINST メタデータスキーマにおける RRID の利用例。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:251
+#: ../../white-paper/metadata-schema-recommendations.rst:255
 msgid "ID"
 msgstr "ID"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:251
+#: ../../white-paper/metadata-schema-recommendations.rst:255
 msgid "Property"
 msgstr "プロパティ"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:251
+#: ../../white-paper/metadata-schema-recommendations.rst:255
 msgid "Obligation"
 msgstr "義務"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:251
+#: ../../white-paper/metadata-schema-recommendations.rst:255
 msgid "Occ."
 msgstr "要素数"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:251
+#: ../../white-paper/metadata-schema-recommendations.rst:255
 msgid "Definition"
 msgstr "定義"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:251
+#: ../../white-paper/metadata-schema-recommendations.rst:255
 msgid "Allowed values, constraints, remarks"
 msgstr "許容値、制約条件、備考"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:254
+#: ../../white-paper/metadata-schema-recommendations.rst:258
 msgid "6"
 msgstr "6"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:254
+#: ../../white-paper/metadata-schema-recommendations.rst:258
 msgid "Model"
 msgstr "Model"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:254
 #: ../../white-paper/metadata-schema-recommendations.rst:258
+#: ../../white-paper/metadata-schema-recommendations.rst:262
 msgid "R"
 msgstr "R"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:254
-#: ../../white-paper/metadata-schema-recommendations.rst:265
+#: ../../white-paper/metadata-schema-recommendations.rst:258
+#: ../../white-paper/metadata-schema-recommendations.rst:269
 msgid "0-1"
 msgstr "0-1"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:254
+#: ../../white-paper/metadata-schema-recommendations.rst:258
 msgid "Name of the model or type of device as attributed by the manufacturer"
 msgstr "manufacturerによって割り当てられた装置のモデル名またはタイプ名"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:254
+#: ../../white-paper/metadata-schema-recommendations.rst:258
 msgid "Element"
 msgstr "要素"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:258
+#: ../../white-paper/metadata-schema-recommendations.rst:262
 msgid "6.1"
 msgstr "6.1"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:258
+#: ../../white-paper/metadata-schema-recommendations.rst:262
 msgid "modelName"
 msgstr "modelName"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:258
-#: ../../white-paper/metadata-schema-recommendations.rst:272
+#: ../../white-paper/metadata-schema-recommendations.rst:262
+#: ../../white-paper/metadata-schema-recommendations.rst:276
 msgid "1"
 msgstr "1"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:258
+#: ../../white-paper/metadata-schema-recommendations.rst:262
 msgid "Full name of the model"
 msgstr "model名 (フルネーム)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:258
+#: ../../white-paper/metadata-schema-recommendations.rst:262
 msgid "Name field from RRID"
 msgstr "RRIDでのNameフィールド"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:260
-#: ../../white-paper/metadata-schema-recommendations.rst:267
+#: ../../white-paper/metadata-schema-recommendations.rst:264
+#: ../../white-paper/metadata-schema-recommendations.rst:271
 msgid "E.g."
 msgstr "例: "
 
-#: ../../white-paper/metadata-schema-recommendations.rst:262
+#: ../../white-paper/metadata-schema-recommendations.rst:266
 msgid "‘Illumina HiSeq 3000/HiSeq 4000 System’"
 msgstr "‘Illumina HiSeq 3000/HiSeq 4000 System’"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:265
+#: ../../white-paper/metadata-schema-recommendations.rst:269
 msgid "6.2"
 msgstr "6.2"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:265
+#: ../../white-paper/metadata-schema-recommendations.rst:269
 msgid "modelIdentifier"
 msgstr "modelIdentifier"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:265
-#: ../../white-paper/metadata-schema-recommendations.rst:272
+#: ../../white-paper/metadata-schema-recommendations.rst:269
+#: ../../white-paper/metadata-schema-recommendations.rst:276
 msgid "O"
 msgstr "O"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:265
+#: ../../white-paper/metadata-schema-recommendations.rst:269
 msgid "Persistent identifier of the model"
 msgstr "model の永続的識別子"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:265
+#: ../../white-paper/metadata-schema-recommendations.rst:269
 msgid "RRID identifier"
 msgstr "RRID識別子"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:269
+#: ../../white-paper/metadata-schema-recommendations.rst:273
 msgid "‘RRID:SCR_016386’"
 msgstr "‘RRID:SCR_016386’"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:272
+#: ../../white-paper/metadata-schema-recommendations.rst:276
 msgid "6.2.1"
 msgstr "6.2.1"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:272
+#: ../../white-paper/metadata-schema-recommendations.rst:276
 msgid "modelIdentifierType"
 msgstr "modelIdentifierType"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:272
+#: ../../white-paper/metadata-schema-recommendations.rst:276
 msgid "Type of the identifier"
 msgstr "識別子のタイプ"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:272
+#: ../../white-paper/metadata-schema-recommendations.rst:276
 msgid "Free text; must be identifier type"
 msgstr "フリーテキスト (識別子タイプである必要があります)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:274
+#: ../../white-paper/metadata-schema-recommendations.rst:278
 msgid "E.g. ‘RRID’"
 msgstr "例: ‘RRID’"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:278
+#: ../../white-paper/metadata-schema-recommendations.rst:282
 msgid "Dealing with unknown information"
 msgstr "不明な情報への対応"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:280
+#: ../../white-paper/metadata-schema-recommendations.rst:284
 msgid ""
 "There are situations where it is not possible or not appropriate to provide "
 "some piece of information that should normally be present in the metadata.  "
@@ -1899,7 +1898,7 @@ msgstr ""
 "後者の例として、シチズンサイエンスのプロジェクトに測定値を提供し、プライバシー上の理由から匿名を希望する人物を考えてみましょう。 "
 "その人は、データを取得する装置の所有者として名前を知られたくないのかもしれません。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:290
+#: ../../white-paper/metadata-schema-recommendations.rst:294
 msgid ""
 "In all these cases it is still useful to make it at least explicit that this"
 " information has not been omitted inadvertently and also to give a reason "
@@ -1911,11 +1910,11 @@ msgstr ""
 " この目的のため、PIDINSTではDataCiteにおける *不明な情報の標準値* を採用しています。詳しくはDataCite Metadata "
 "Schema Documentation の Appendix 3 を参照してください [#datacite2019]_ 。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:297
+#: ../../white-paper/metadata-schema-recommendations.rst:301
 msgid "Encoding unknown values in the instrument PID metadata using XML"
 msgstr "測定器のPIDメタデータに含まれる不明な値をXMLでエンコードする例。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:312
+#: ../../white-paper/metadata-schema-recommendations.rst:316
 msgid ""
 ":numref:`snip-schema-unknown-xml` demonstrates the use of standard values "
 "for unknown information in the metadata of an instrument PID. It shows an "
@@ -1927,7 +1926,7 @@ msgstr ""
 ":numref:`snip-schema-unknown-xml` "
 "は、装置PIDのメタデータにおける不明な情報に対する標準的な値の利用例を示しています。この装置の所有者の開示は拒否されており、製造元も不明ですが、メタデータレコードが後の時点において名前を含んで更新されることが想定されています。"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:332
+#: ../../white-paper/metadata-schema-recommendations.rst:336
 msgid ""
 "Bandrowski A, Brush M, Grethe JS, Haendel MA, Kennedy DN, Hill S, Hof PR, "
 "Martone ME, Pols M, Tan SC, Washington N, Zudilova-Seinstra E, Vasilevsky N."
@@ -1941,7 +1940,7 @@ msgstr ""
 "<https://pubmed.ncbi.nlm.nih.gov/26599696/>`__ J Comp Neurol. 2016 Jan "
 "1;524(1):8-22. https://doi.org/10.1002/cne.23913"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:340
+#: ../../white-paper/metadata-schema-recommendations.rst:344
 msgid ""
 "Bandrowski AE, Cachat J, Li Y, Müller HM, Sternberg PW, Ciccarese P, Clark "
 "T, Marenco L, Wang R, Astakhov V, Grethe JS, Martone ME. A hybrid human and "
@@ -1955,7 +1954,7 @@ msgstr ""
 "Framework. Database (Oxford). 2012 Mar 20;2012:bas005. "
 "https://doi.org/10.1093/database/bas005"
 
-#: ../../white-paper/metadata-schema-recommendations.rst:347
+#: ../../white-paper/metadata-schema-recommendations.rst:351
 msgid ""
 "DataCite Metadata Working Group (2019).  DataCite Metadata Schema "
 "Documentation for the Publication and Citation of Research Data. Version "
