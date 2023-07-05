@@ -37,3 +37,5 @@ Contributors
 ~~~~~~~~~~~~
 
 .. include:: authors.rst
+.. include:: authors-ja.rst
+
