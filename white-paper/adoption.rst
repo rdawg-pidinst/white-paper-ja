@@ -121,6 +121,44 @@ humidity, temperature, etc. To deliver high quality measurement data,
 ICOS considers the adoption of a persistent identifier for instruments a
 must for documenting data provenance and tracking calibration history.
 
+B2INST
+------
+
+B2INST is a service for registering, persistently identifying and
+describing instruments. The B2INST service fills the gap especially for
+research groups or smaller communities, who might lack the capability
+to operate a registry.
+
+Communities and organisations can make use of the service to FAIRify
+their instrument by registering their metadata and assigning the
+instrument a PID. This instrument-PID can then be added to research
+outputs, such as journal articles and datasets.
+
+B2INST provides several generic features, like assigning PIDs and DOIs
+to the metadata, as well as presenting a landing page of the instrument
+based on the registered metadata. It also provides additional features,
+like the possibility to upload data to the registered instruments
+(such additional data can be almost everything that supports the
+description of the instrument, e.g. calibration protocols, pictures of
+the instruments, technical manuals, etc). In B2INST, the registered
+information is publicly available for everyone. Creating or maintaining
+information requires authorization - for that B2INST supports federated
+identity management, so users can use their home accounts to log in to
+the system.
+
+The identified use cases showed that communities have different
+requirements for instrument metadata. The PIDINST schema covers a
+minimum set of metadata to describe instruments only. B2INST provides
+community extensions; thus, it is possible to add broader descriptions
+of instruments and to support the requirements of different
+communities. Based on the PIDINST schema, communities can add metadata
+extensions to better support their community needs.
+
+The current plan foresees that B2INST will be offered as a public
+service by EUDAT. The initial proof-of-concept was set up by SURF. It
+was further developed by the GWDG, which will operate the service in a
+production mode.
+
 
 .. _SensorML:
    https://www.opengeospatial.org/standards/sensorml
