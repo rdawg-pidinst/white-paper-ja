@@ -5,30 +5,40 @@ Liverpool, L3 5DA, United Kingdom
 *Robert Huber* (rhuber@uni-bremen.de, https://orcid.org/0000-0003-3000-0020),
 MARUM - Center for Marine Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen, Germany
 
-*Anusuriya Devaraju* (adevaraju@marum.de, https://orcid.org/0000-0003-0870-3192),
-MARUM - Center for Marine Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen, Germany
+*Anusuriya Devaraju* (anusuriya.devaraju@csiro.au, https://orcid.org/0000-0003-0870-3192),
+CSIRO Mineral Resources, 26 Dick Perry Avenue, Kensington WA 6151, Australia
 
 *Ulrich Schwardmann* (ulrich.schwardmann@gwdg.de, https://orcid.org/0000-0001-6337-8674),
-GWDG, Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen, Am
-Fassberg 11, 37077 Göttingen, Germany
-
-*Anita Bandrowski* (abandrowski@ucsd.edu, https://orcid.org/0000-0002-5497-0243),
-Department of Neuoscience, University of California at San Diego,
-9500 Gilman Drive La Jolla, CA 92093-0662
-
-*Markus Stocker* (markus.stocker@tib.eu, https://orcid.org/0000-0001-5492-3212),
-TIB Leibniz Information Centre for Science and Technology, Welfengarten
-1 B, 30167 Hannover, Germany and PANGAEA, Center for Marine
-Environmental Sciences (MARUM), University of Bremen, Leobener Str. 8,
-28359 Bremen, Germany
+GWDG, Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen,
+Burckhardtweg 4, 37077 Göttingen, Germany
 
 *Rolf Krahl* (rolf.krahl@helmholtz-berlin.de, https://orcid.org/0000-0002-1266-3819),
-Helmholtz-Zentrum Berlin für Materialien und Energie GmbH,
+Helmholtz-Zentrum Berlin für Materialien und Energie,
 Albert-Einstein-Str. 15, 12489 Berlin, Germany
+
+*Sven Bingert* (sven.bingert@gwdg.de, https://orcid.org/0000-0001-9547-1582),
+GWDG, Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen,
+Burckhardtweg 4, 37077 Göttingen, Germany
+
+*Philipp Wieder* (philipp.wieder@gwdg.de, https://orcid.org/0000-0002-6992-1866),
+GWDG, Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen,
+Burckhardtweg 4, 37077 Göttingen, Germany
+
+*Tibor Kálmán* (tibor.kalman@gwdg.de, https://orcid.org/0000-0001-5194-5053),
+GWDG, Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen,
+Burckhardtweg 4, 37077 Göttingen, Germany
+
+*Anita Bandrowski* (abandrowski@ucsd.edu, https://orcid.org/0000-0002-5497-0243),
+Department of Neuroscience, University of California at San Diego,
+9500 Gilman Drive La Jolla, CA 92093-0662 and SciCrunch Inc, 9500
+Gilman Drive La Jolla, CA 92093-0662
 
 *Ted Habermann* (ted@tedhabermann.com, http://orcid.org/0000-0003-3585-6733),
 Metadata Game Changers, 3980 Broadway, Suite 103-185, Boulder,
 Colorado, USA 80304
+
+*Mark van de Sanden* (mark.vandesanden@surf.nl, https://orcid.org/0000-0002-2718-8918),
+SURF, Science Park 140, 1098 XG Amsterdam, The Netherlands
 
 *Claudio D'Onofrio* (claudio.donofrio@nateko.lu.se, https://orcid.org/0000-0002-1982-3889),
 ICOS Carbon Portal, Lund University, Physical Geography & Ecosystem
@@ -53,6 +63,14 @@ Germany
 
 *Tina Dohna* (tdohna@marum.de, https://orcid.org/0000-0002-5948-0980),
 MARUM - Center for Marine Environmental Sciences, University of Bremen, Leobener Str. 8, 28199 Bremen, Germany
+
+*Jens Klump* (jens.klump@csiro.au, https://orcid.org/0000-0001-5911-6022),
+CSIRO Mineral Resources, 26 Dick Perry Avenue, Kensington WA 6151, Australia
+
+*Markus Stocker* (markus.stocker@tib.eu, https://orcid.org/0000-0001-5492-3212),
+TIB – Leibniz Information Centre for Science and Technology,
+Welfengarten 1 B, 30167 Hannover, Germany and Leibniz University
+Hannover, Welfengarten 1, 30167 Hannover, Germany
 
 *The Research Data Alliance Persistent Identification of Instruments
 Working Group members* (https://www.rd-alliance.org/node/57186/members)

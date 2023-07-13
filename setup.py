@@ -1,13 +1,14 @@
 # This setup.py file serves the only purpose to dynamically create a
 # _meta.py file which then is imported from conf.py.
 
+import setuptools
+from setuptools import setup
+import setuptools.command.install
+from distutils import log
 import datetime
-import distutils.core
 import os
 from pathlib import Path
 import subprocess
-from setuptools import setup
-import setuptools.command.install
 
 
 class GitProps:
@@ -38,9 +39,9 @@ class GitProps:
             return datetime.date.fromtimestamp(ts)
 
 
-class meta(distutils.core.Command):
+class meta(setuptools.Command):
 
-    description = "generate a _meta.py file"
+    description = "generate meta files"
     user_options = []
     meta_template = '''
 __version__ = "%(version)s"
@@ -55,11 +56,13 @@ __date__ = "%(date)s"
 
     def run(self):
         git = GitProps()
+        version = self.distribution.get_version()
+        log.info("version: %s", version)
         values = {
-            'version': self.distribution.get_version(),
+            'version': version,
             'date': git.get_date().strftime("%e %B %Y").strip(),
         }
-        with open("_meta.py", "wt") as f:
+        with Path("_meta.py").open("wt") as f:
             print(self.meta_template % values, file=f)
 
 
@@ -71,7 +74,8 @@ class install(setuptools.command.install.install):
 
 setup(
     use_scm_version=True,
-    python_requires='>= 3.6',
-    setup_requires=['setuptools_scm'],
+    url = "https://github.com/rdawg-pidinst/white-paper",
+    python_requires = '>= 3.6',
+    install_requires = ['setuptools_scm'],
     cmdclass = {'meta': meta, 'install': install},
 )

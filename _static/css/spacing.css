@@ -1,0 +1,13 @@
+.rst-content .section .line-block {
+    margin-bottom: 0px;
+}
+
+.rst-content .section ol li > ol, .rst-content .section ol li > ul, .rst-content .section ul li > ol, .rst-content .section ul li > ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rst-content .section td > div[class^=highlight] {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}

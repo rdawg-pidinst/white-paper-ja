@@ -108,6 +108,7 @@ html_favicon = "images/pidinst-logo.ico"
 
 html_css_files = [
     'css/captions.css',
+    'css/spacing.css',
 ]
 
 
