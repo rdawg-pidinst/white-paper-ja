@@ -4,10 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kazuyo Fukuda, 2022
-# Takahiro Matsumoto, 2022
-# Nakanishi, 2022
-# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
 # Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
 # 
 #, fuzzy
@@ -214,7 +210,7 @@ msgstr ""
 
 #: ../../white-paper/adoption.rst:125
 msgid "B2INST"
-msgstr ""
+msgstr "B2INST"
 
 #: ../../white-paper/adoption.rst:127
 msgid ""
@@ -223,6 +219,8 @@ msgid ""
 "groups or smaller communities, who might lack the capability to operate a "
 "registry."
 msgstr ""
+"B2INST "
+"は永続性識別子と装置に関する記述を登録するサービスです。B2INSTのサービスは、特に研究グループや小規模なコミュニティーなど、レジストリサービスの運営能力が不十分な組織のギャップを埋めるものです。"
 
 #: ../../white-paper/adoption.rst:132
 msgid ""
@@ -231,6 +229,7 @@ msgid ""
 " This instrument-PID can then be added to research outputs, such as journal "
 "articles and datasets."
 msgstr ""
+"このサービスを利用し、コミュニティや組織は、メタデータを登録し装置にPIDを割り当てることで、彼らの装置をFAIR化することができます。そして、この装置PIDは学術論文やデータセット等の研究成果に追加することができます。"
 
 #: ../../white-paper/adoption.rst:137
 msgid ""
@@ -245,6 +244,10 @@ msgid ""
 "authorization - for that B2INST supports federated identity management, so "
 "users can use their home accounts to log in to the system."
 msgstr ""
+"B2INST "
+"は、メタデータへのPIDやDOIの割り当て、登録されたメタデータに基づく装置情報のランディングページの表示、といったいくつか汎用的な機能を提供します。また、登録された装置に対するデータアップロード(ほとんどすべての装置でサポートされるべき追加的な記述、例えばキャリブレーションプロトコルや装置図面、テクニカルマニュアルなど、になります)、のような追加機能も期待されます。B2INST"
+" では、登録された情報は全員に公開されます。情報の作成や編集には認証が必要です - そのため B2INST "
+"は認証連携をサポートし、これにより利用者は自身の組織のアカウントでシステムにログインすることができます。"
 
 #: ../../white-paper/adoption.rst:149
 msgid ""
@@ -256,6 +259,10 @@ msgid ""
 "schema, communities can add metadata extensions to better support their "
 "community needs."
 msgstr ""
+"いくつかのユースケースより、コミュニティは異なった要求を装置メタデータに求めることが、明らかになりました。PIDINST "
+"スキーマは、装置を記述する最小限のメタデータセットにすぎません。その一方 B2INST はコミュニティによる拡張機能を提供します; "
+"これにより、装置記述内容の拡大や異なるコミュニティへの要求に応えることができます。PIDINST "
+"を基本とすることで、それぞれのコミュニティはメタデータ拡張を追加し、コミュニティ内からの要求に対するより良いサポートを実現できます。"
 
 #: ../../white-paper/adoption.rst:157
 msgid ""
@@ -263,6 +270,8 @@ msgid ""
 " EUDAT. The initial proof-of-concept was set up by SURF. It was further "
 "developed by the GWDG, which will operate the service in a production mode."
 msgstr ""
+"直近の計画に、 B2INST は EUDATによる公開サービスとなることを要請されています。最初の実証実験は SURF "
+"プロジェクトに進められました。その後 GWDG によりプロダクションレベルでのサービスになるよう更なる開発が進められています。"
 
 #: ../../white-paper/adoption.rst:173
 msgid "https://doi.org/10.5442/NI000001"
