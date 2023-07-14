@@ -2,6 +2,6 @@
 /_build/
 /_meta.py
 .vscode/
+/locale/**/*.mo
 *~
 *.swp
-/locale/**/*.mo

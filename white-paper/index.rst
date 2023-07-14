@@ -34,5 +34,14 @@ Contributors
 ~~~~~~~~~~~~
 
 .. include:: authors.rst
-.. include:: authors-ja.rst
 
+
+Competing interests
+~~~~~~~~~~~~~~~~~~~
+
+Anita Bandrowski is a founder and CEO of SciCrunch Inc, a company
+devoted to working with publishers to improve the scientific
+literature.  All other authors declare that they have no competing
+interests.
+
+.. include:: authors-ja.rst
