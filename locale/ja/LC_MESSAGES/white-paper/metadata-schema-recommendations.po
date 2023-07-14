@@ -4,10 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kazuyo Fukuda, 2022
-# Takahiro Matsumoto, 2022
-# Nakanishi, 2022
-# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
 # Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
 # 
 #, fuzzy
@@ -278,9 +274,9 @@ msgstr ""
 ")のクラスを識別するために使用することができます。したがって、装置のインスタンスを識別するPIDINSTと関連しています\\ "
 "[#bandrowski2016]_。このタスクは、`UsedIT`_ グループが請け負っており、*Model* "
 "プロパティ(*modelIdentifier* 経由)の記述ができるようRRIDの装置クラスを拡張しています(:numref:`tab-schema-"
-"use-rrid` )。ここではRRIDについて詳しく説明しませんが、先に詳しく説明したRRIDメタデータスキーマ( \\ "
-"[#bandrowski2012]_ 及び "
-"UserITによって拡張されたもの)では、装置のインスタンス(PIDINST)のPIDと相互運用することが想定されています。この相互運用性により、どのプロジェクトにおいてもモデルに関するデータをすぐにダウンロードし、マッピングされたフィールドを矛盾なく埋めることができるようになるはずです。"
+"use-rrid` )。ここではRRIDについて詳しく説明しませんが、先に詳しく説明したRRIDメタデータスキーマ(及び "
+"UserITによって拡張されたもの) \\ [#bandrowski2012]_ "
+"では、装置のインスタンス(PIDINST)のPIDと相互運用することが想定されています。この相互運用性により、どのプロジェクトにおいてもモデルに関するデータをすぐにダウンロードし、マッピングされたフィールドを矛盾なく埋めることができるようになるはずです。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:236
 msgid ""
