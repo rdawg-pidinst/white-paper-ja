@@ -4,18 +4,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kazuyo Fukuda, 2022
-# Takahiro Matsumoto, 2022
-# Nakanishi, 2022
-# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
 # Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PIDINST 0.1\n"
+"Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"POT-Creation-Date: 2023-07-14 16:50+0900\n"
 "PO-Revision-Date: 2023-07-13 06:44+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
@@ -49,65 +45,85 @@ msgstr ""
 
 #: ../../white-paper/authors.rst:8
 msgid ""
-"*Anusuriya Devaraju* (adevaraju@marum.de, "
-"https://orcid.org/0000-0003-0870-3192), MARUM - Center for Marine "
-"Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen,"
-" Germany"
+"*Anusuriya Devaraju* (anusuriya.devaraju@csiro.au, "
+"https://orcid.org/0000-0003-0870-3192), CSIRO Mineral Resources, 26 Dick "
+"Perry Avenue, Kensington WA 6151, Australia"
 msgstr ""
-"*Anusuriya Devaraju* (adevaraju@marum.de, "
-"https://orcid.org/0000-0003-0870-3192), MARUM - Center for Marine "
-"Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen,"
-" Germany"
+"*Anusuriya Devaraju* (anusuriya.devaraju@csiro.au, "
+"https://orcid.org/0000-0003-0870-3192), CSIRO Mineral Resources, 26 Dick "
+"Perry Avenue, Kensington WA 6151, Australia"
 
 #: ../../white-paper/authors.rst:11
 msgid ""
 "*Ulrich Schwardmann* (ulrich.schwardmann@gwdg.de, "
 "https://orcid.org/0000-0001-6337-8674), GWDG, Gesellschaft für "
-"wissenschaftliche Datenverarbeitung Göttingen, Am Fassberg 11, 37077 "
+"wissenschaftliche Datenverarbeitung Göttingen, Burckhardtweg 4, 37077 "
 "Göttingen, Germany"
 msgstr ""
 "*Ulrich Schwardmann* (ulrich.schwardmann@gwdg.de, "
 "https://orcid.org/0000-0001-6337-8674), GWDG, Gesellschaft für "
-"wissenschaftliche Datenverarbeitung Göttingen, Am Fassberg 11, 37077 "
+"wissenschaftliche Datenverarbeitung Göttingen, Burckhardtweg 4, 37077 "
 "Göttingen, Germany"
 
 #: ../../white-paper/authors.rst:15
 msgid ""
-"*Anita Bandrowski* (abandrowski@ucsd.edu, "
-"https://orcid.org/0000-0002-5497-0243), Department of Neuoscience, "
-"University of California at San Diego, 9500 Gilman Drive La Jolla, CA "
-"92093-0662"
+"*Rolf Krahl* (rolf.krahl@helmholtz-berlin.de, "
+"https://orcid.org/0000-0002-1266-3819), Helmholtz-Zentrum Berlin für "
+"Materialien und Energie, Albert-Einstein-Str. 15, 12489 Berlin, Germany"
 msgstr ""
-"*Anita Bandrowski* (abandrowski@ucsd.edu, "
-"https://orcid.org/0000-0002-5497-0243), Department of Neuoscience, "
-"University of California at San Diego, 9500 Gilman Drive La Jolla, CA "
-"92093-0662"
+"*Rolf Krahl* (rolf.krahl@helmholtz-berlin.de, "
+"https://orcid.org/0000-0002-1266-3819), Helmholtz-Zentrum Berlin für "
+"Materialien und Energie, Albert-Einstein-Str. 15, 12489 Berlin, Germany"
 
 #: ../../white-paper/authors.rst:19
 msgid ""
-"*Markus Stocker* (markus.stocker@tib.eu, "
-"https://orcid.org/0000-0001-5492-3212), TIB Leibniz Information Centre for "
-"Science and Technology, Welfengarten 1 B, 30167 Hannover, Germany and "
-"PANGAEA, Center for Marine Environmental Sciences (MARUM), University of "
-"Bremen, Leobener Str. 8, 28359 Bremen, Germany"
+"*Sven Bingert* (sven.bingert@gwdg.de, "
+"https://orcid.org/0000-0001-9547-1582), GWDG, Gesellschaft für "
+"wissenschaftliche Datenverarbeitung Göttingen, Burckhardtweg 4, 37077 "
+"Göttingen, Germany"
 msgstr ""
-"*Markus Stocker* (markus.stocker@tib.eu, "
-"https://orcid.org/0000-0001-5492-3212), TIB Leibniz Information Centre for "
-"Science and Technology, Welfengarten 1 B, 30167 Hannover, Germany and "
-"PANGAEA, Center for Marine Environmental Sciences (MARUM), University of "
-"Bremen, Leobener Str. 8, 28359 Bremen, Germany"
+"*Sven Bingert* (sven.bingert@gwdg.de, "
+"https://orcid.org/0000-0001-9547-1582), GWDG, Gesellschaft für "
+"wissenschaftliche Datenverarbeitung Göttingen, Burckhardtweg 4, 37077 "
+"Göttingen, Germany"
 
-#: ../../white-paper/authors.rst:25
+#: ../../white-paper/authors.rst:23
 msgid ""
-"*Rolf Krahl* (rolf.krahl@helmholtz-berlin.de, "
-"https://orcid.org/0000-0002-1266-3819), Helmholtz-Zentrum Berlin für "
-"Materialien und Energie GmbH, Albert-Einstein-Str. 15, 12489 Berlin, Germany"
+"*Philipp Wieder* (philipp.wieder@gwdg.de, "
+"https://orcid.org/0000-0002-6992-1866), GWDG, Gesellschaft für "
+"wissenschaftliche Datenverarbeitung Göttingen, Burckhardtweg 4, 37077 "
+"Göttingen, Germany"
 msgstr ""
-"*Rolf Krahl* (rolf.krahl@helmholtz-berlin.de, "
-"https://orcid.org/0000-0002-1266-3819), Helmholtz-Zentrum Berlin für "
-"Materialien und Energie GmbH, Albert-Einstein-Str. 15, 12489 Berlin, Germany"
+"*Philipp Wieder* (philipp.wieder@gwdg.de, "
+"https://orcid.org/0000-0002-6992-1866), GWDG, Gesellschaft für "
+"wissenschaftliche Datenverarbeitung Göttingen, Burckhardtweg 4, 37077 "
+"Göttingen, Germany"
 
-#: ../../white-paper/authors.rst:29
+#: ../../white-paper/authors.rst:27
+msgid ""
+"*Tibor Kálmán* (tibor.kalman@gwdg.de, "
+"https://orcid.org/0000-0001-5194-5053), GWDG, Gesellschaft für "
+"wissenschaftliche Datenverarbeitung Göttingen, Burckhardtweg 4, 37077 "
+"Göttingen, Germany"
+msgstr ""
+"*Tibor Kálmán* (tibor.kalman@gwdg.de, "
+"https://orcid.org/0000-0001-5194-5053), GWDG, Gesellschaft für "
+"wissenschaftliche Datenverarbeitung Göttingen, Burckhardtweg 4, 37077 "
+"Göttingen, Germany"
+
+#: ../../white-paper/authors.rst:31
+msgid ""
+"*Anita Bandrowski* (abandrowski@ucsd.edu, "
+"https://orcid.org/0000-0002-5497-0243), Department of Neuroscience, "
+"University of California at San Diego, 9500 Gilman Drive La Jolla, CA "
+"92093-0662 and SciCrunch Inc, 9500 Gilman Drive La Jolla, CA 92093-0662"
+msgstr ""
+"*Anita Bandrowski* (abandrowski@ucsd.edu, "
+"https://orcid.org/0000-0002-5497-0243), Department of Neuroscience, "
+"University of California at San Diego, 9500 Gilman Drive La Jolla, CA "
+"92093-0662 and SciCrunch Inc, 9500 Gilman Drive La Jolla, CA 92093-0662"
+
+#: ../../white-paper/authors.rst:36
 msgid ""
 "*Ted Habermann* (ted@tedhabermann.com, "
 "http://orcid.org/0000-0003-3585-6733), Metadata Game Changers, 3980 "
@@ -117,7 +133,17 @@ msgstr ""
 "http://orcid.org/0000-0003-3585-6733), Metadata Game Changers, 3980 "
 "Broadway, Suite 103-185, Boulder, Colorado, USA 80304"
 
-#: ../../white-paper/authors.rst:33
+#: ../../white-paper/authors.rst:40
+msgid ""
+"*Mark van de Sanden* (mark.vandesanden@surf.nl, "
+"https://orcid.org/0000-0002-2718-8918), SURF, Science Park 140, 1098 XG "
+"Amsterdam, The Netherlands"
+msgstr ""
+"*Mark van de Sanden* (mark.vandesanden@surf.nl, "
+"https://orcid.org/0000-0002-2718-8918), SURF, Science Park 140, 1098 XG "
+"Amsterdam, The Netherlands"
+
+#: ../../white-paper/authors.rst:43
 msgid ""
 "*Claudio D'Onofrio* (claudio.donofrio@nateko.lu.se, "
 "https://orcid.org/0000-0002-1982-3889), ICOS Carbon Portal, Lund University,"
@@ -127,7 +153,7 @@ msgstr ""
 "https://orcid.org/0000-0002-1982-3889), ICOS Carbon Portal, Lund University,"
 " Physical Geography & Ecosystem Science, Sölvegatan 12, 223 62 Lund, Sweden"
 
-#: ../../white-paper/authors.rst:37
+#: ../../white-paper/authors.rst:47
 msgid ""
 "*Margareta Hellström* (margareta.hellstrom@nateko.lu.se, "
 "https://orcid.org/0000-0002-4154-2610), ICOS Carbon Portal, Physical "
@@ -139,7 +165,7 @@ msgstr ""
 "Geography & Ecosystem Science, Lund University, Sölvegatan 12, 223 62 Lund, "
 "Sweden"
 
-#: ../../white-paper/authors.rst:41
+#: ../../white-paper/authors.rst:51
 msgid ""
 "*Ingemar Häggström* (ingemar.haggstrom@eiscat.se, "
 "https://orcid.org/0000-0003-1070-6915), EISCAT Scientific Association, Box "
@@ -148,29 +174,29 @@ msgstr ""
 "*Ingemar Häggström* (ingemar.haggstrom@eiscat.se, "
 "https://orcid.org/0000-0003-1070-6915), EISCAT Scientific Association, Box "
 "812, 98128 Kiruna, Sweden"
-
-#: ../../white-paper/authors.rst:44
-msgid ""
-"*Roland Koppe* (roland.koppe@awi.de, https://orcid.org/0000-0002-2826-3932),"
-" Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
-"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
-msgstr ""
-"*Roland Koppe* (roland.koppe@awi.de, https://orcid.org/0000-0002-2826-3932),"
-" Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
-"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
-
-#: ../../white-paper/authors.rst:49
-msgid ""
-"*Ana Macario* (ana.macario@awi.de, https://orcid.org/0000-0003-3747-793X), "
-"Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
-"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
-msgstr ""
-"*Ana Macario* (ana.macario@awi.de, https://orcid.org/0000-0003-3747-793X), "
-"Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
-"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
 
 #: ../../white-paper/authors.rst:54
 msgid ""
+"*Roland Koppe* (roland.koppe@awi.de, https://orcid.org/0000-0002-2826-3932),"
+" Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
+"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
+msgstr ""
+"*Roland Koppe* (roland.koppe@awi.de, https://orcid.org/0000-0002-2826-3932),"
+" Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
+"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
+
+#: ../../white-paper/authors.rst:59
+msgid ""
+"*Ana Macario* (ana.macario@awi.de, https://orcid.org/0000-0003-3747-793X), "
+"Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
+"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
+msgstr ""
+"*Ana Macario* (ana.macario@awi.de, https://orcid.org/0000-0003-3747-793X), "
+"Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
+"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
+
+#: ../../white-paper/authors.rst:64
+msgid ""
 "*Tina Dohna* (tdohna@marum.de, https://orcid.org/0000-0002-5948-0980), MARUM"
 " - Center for Marine Environmental Sciences, University of Bremen, Leobener "
 "Str. 8, 28199 Bremen, Germany"
@@ -179,7 +205,27 @@ msgstr ""
 " - Center for Marine Environmental Sciences, University of Bremen, Leobener "
 "Str. 8, 28199 Bremen, Germany"
 
-#: ../../white-paper/authors.rst:57
+#: ../../white-paper/authors.rst:67
+msgid ""
+"*Jens Klump* (jens.klump@csiro.au, https://orcid.org/0000-0001-5911-6022), "
+"CSIRO Mineral Resources, 26 Dick Perry Avenue, Kensington WA 6151, Australia"
+msgstr ""
+"*Jens Klump* (jens.klump@csiro.au, https://orcid.org/0000-0001-5911-6022), "
+"CSIRO Mineral Resources, 26 Dick Perry Avenue, Kensington WA 6151, Australia"
+
+#: ../../white-paper/authors.rst:70
+msgid ""
+"*Markus Stocker* (markus.stocker@tib.eu, "
+"https://orcid.org/0000-0001-5492-3212), TIB – Leibniz Information Centre for"
+" Science and Technology, Welfengarten 1 B, 30167 Hannover, Germany and "
+"Leibniz University Hannover, Welfengarten 1, 30167 Hannover, Germany"
+msgstr ""
+"*Markus Stocker* (markus.stocker@tib.eu, "
+"https://orcid.org/0000-0001-5492-3212), TIB – Leibniz Information Centre for"
+" Science and Technology, Welfengarten 1 B, 30167 Hannover, Germany and "
+"Leibniz University Hannover, Welfengarten 1, 30167 Hannover, Germany"
+
+#: ../../white-paper/authors.rst:75
 msgid ""
 "*The Research Data Alliance Persistent Identification of Instruments Working"
 " Group members* (https://www.rd-alliance.org/node/57186/members)"
