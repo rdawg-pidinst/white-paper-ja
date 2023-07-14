@@ -1,5 +1,5 @@
 Japanese Trasnlation
-""""""""""""""""""""
+~~~~~~~~~~~~~~~~~~~~
 
 The Japanese translation teams has been coordinated by the "Subcommittee on PID for research resources and instruments" of "Reserch Data Utilization Forum, Japan" https://japanlinkcenter.org/rduf/ .
 
