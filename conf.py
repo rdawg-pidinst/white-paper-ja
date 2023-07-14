@@ -64,7 +64,7 @@ numfig_format = {
 # Usually you set "language" from the command line for these cases.
 language = 'ja'
 locale_dirs = ['locale/']
-gettext_compact = True
+gettext_compact = False
 
 
 # List of patterns, relative to source directory, that match files and

@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kazuyo Fukuda, 2022
+# Takahiro Matsumoto, 2022
+# Nakanishi, 2022
+# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 06:45+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../white-paper/landing-page-content.rst:4
+msgid "Landing page content"
+msgstr "ランディングページの内容"
+
+#: ../../white-paper/landing-page-content.rst:6
+msgid ""
+"It is recommended that instrument providers use enough information "
+"(metadata) on landing pages to unambiguously identify the instrument. "
+"Ideally, landing pages should include the metadata specified in the schema "
+"for PID providers and use common terminology where practical to aid "
+"interoperability (see :ref:`pidinst-metadata-schema-terminologies`). "
+"Institutions should also consider providing links to the metadata record "
+"that accompanies PIDs published at PID providers to aid metadata exchange "
+"(e.g. DataCite XML)."
+msgstr ""
+"装置の提供者は、ランディング ページで十分な情報 (メタデータ) を使用して、装置を明確に識別することが推奨されます。理想的には、ランディング "
+"ページは、PID プロバイダーのスキーマで指定されたメタデータを含み、相互運用性を良くするため実用的な一般的な用語を使用すべきです "
+"(:ref:`pidinst-metadata-schema-terminologies` を参照)。メタデータの交換性を向上するため、機関は、PID "
+"プロバイダーが公開する PID 付随メタデータ レコードへのリンクを提供することも検討する必要があります (例: DataCite XML)。"
+
+#: ../../white-paper/landing-page-content.rst:15
+msgid ""
+":numref:`Tables %s <tab-landing-content-inst>` and :numref:`%s <tab-landing-"
+"content-events>` provide recommendations for some additional, more "
+"descriptive metadata that can be published on landing pages. Together with "
+"the PIDINST metadata schema, they are designed to complement the "
+"administration and discovery of instruments; to enable users to put data "
+"into context; and to automate instrument metadata into data workflows."
+msgstr ""
+":numref:`Table %s<tab-landing-content-inst>` および :numref:`%s <tab-landing-"
+"content-events>` は、ランディング "
+"ページで利用できる、より説明的な追加のメタデータに関すての推奨事項を示しています。これらはPIDINST メタデータ "
+"スキーマと合わせて、装置の管理・発見を補えるよう設計されており、ユーザーがデータを文章中に入れたり、あるいはまた、装置のメタデータをデータ "
+"ワークフローに自動的に流すことを可能にします。"
+
+#: ../../white-paper/landing-page-content.rst:23
+msgid ""
+"Descriptive landing page metadata describing measuring        instruments. "
+"To be used in conjunction with the core        instrument metadata used in "
+"the PIDINST schema."
+msgstr ""
+"装置を記述するための説明用のランディングページ向けメタデータ。PIDINSTスキーマで使用される装置用コア・メタデータと組み合わせて使用します。"
+
+#: ../../white-paper/landing-page-content.rst:29
+#: ../../white-paper/landing-page-content.rst:62
+msgid "**Metadata type**"
+msgstr "メタデータのタイプ"
+
+#: ../../white-paper/landing-page-content.rst:29
+#: ../../white-paper/landing-page-content.rst:62
+msgid "**Comments**"
+msgstr "説明"
+
+#: ../../white-paper/landing-page-content.rst:31
+msgid "Model version"
+msgstr "Model version"
+
+#: ../../white-paper/landing-page-content.rst:31
+msgid ""
+"A variant of an instrument model. While the design of an instrument remains "
+"largely the same, variants are available with minor changes to suit "
+"different applications. For example, an instrument may be available with "
+"different housing material from the standard design, allowing the instrument"
+" to be used in more dynamic environments such as extreme pressures or "
+"weather conditions."
+msgstr ""
+"装置モデルの変更。装置の設計の大部分がそのまま残ったとしても、異なるアプリケーションにするようになされた小規模な変更を扱うことができます。例えば、装置に標準設計とは異なるハウジング材料を使用することで、その装置は極端な圧力や気象条件といったダイナミックな環境変化での利用が可能になる場合があります。"
+
+#: ../../white-paper/landing-page-content.rst:41
+msgid "Documents"
+msgstr "Documents"
+
+#: ../../white-paper/landing-page-content.rst:41
+msgid ""
+"Descriptive or supporting documentation such as manuals, data sheets, "
+"scientific references etc."
+msgstr "マニュアル、データシート、科学的な参考文献など、記述的または補足的な文書。"
+
+#: ../../white-paper/landing-page-content.rst:45
+msgid "Classifications"
+msgstr "Classifications"
+
+#: ../../white-paper/landing-page-content.rst:45
+msgid ""
+"Properties that categorise instruments. In addition to instrument type, "
+"these properties can describe aspects such as the intended applications, "
+"operating principles, whether the instrument is a compound instrument or a "
+"component etc."
+msgstr ""
+"装置を分類する特性。装置の種類に加え、これらの特性は、意図された用途、動作原理、その装置が複数装置の組み合わせか単体の部品であるか、などの側面を記述します。"
+
+#: ../../white-paper/landing-page-content.rst:54
+msgid ""
+"Descriptive, landing page metadata that describes the        history of "
+"events, operations or changes during the        lifetime of an instrument. "
+"This kind of metadata should be        associated to dates and ideally "
+"accompanied by comments. To        be used in conjunction with the core "
+"instrument metadata        used in the PIDINST schema."
+msgstr ""
+"装置のライフタイム中に起こったイベントや操作、変更等の履歴を記述するためのランディング "
+"ページ用記述メタデータ。この種のメタデータは、日付と関連付けられ、コメントが伴うのが理想的です。PIDINST "
+"スキーマで使われる装置用コア・メタデータとの組み合わせで使用​​されます。 "
+
+#: ../../white-paper/landing-page-content.rst:64
+msgid "Calibrations"
+msgstr "Calibrations"
+
+#: ../../white-paper/landing-page-content.rst:64
+msgid ""
+"Many instruments are calibrated to convert raw outputs to meaningful units "
+"or to correct for data uncertainty. It is highly recommended to store the "
+"calibration date and type. It may also be useful to store the coefficients, "
+"algorithm used and calibration certificates."
+msgstr ""
+"多くの装置は、生の出力を意味のある単位に変換したり、データの不確かさを補正するために校正されています。校正の日付と種類を保存することが強く推奨されます。また、係数、使用したアルゴリズム、校正証明書を保存しておくと便利な場合があります。"
+
+#: ../../white-paper/landing-page-content.rst:71
+msgid "Capabilities"
+msgstr "Capabilities"
+
+#: ../../white-paper/landing-page-content.rst:71
+msgid ""
+"Capabilities are properties that further quantify or qualify an instrument’s"
+" outputs (e.g. detection limits, accuracy, precision, operating ranges "
+"etc.)."
+msgstr "装置の出力(検出限界、精度、精密度、動作範囲など)をさらに定量化または保障するプロパティを示します。"
+
+#: ../../white-paper/landing-page-content.rst:76
+msgid "Characteristics"
+msgstr "Characteristics"
+
+#: ../../white-paper/landing-page-content.rst:76
+msgid ""
+"Properties that describe features and qualities belonging to an instrument. "
+"(e.g. weight, size, housing material, components, firmware etc.)."
+msgstr "装置に属する特徴や品質を表すプロパティ。(例: 重量、サイズ、ハウジング材料、部品、ファームウェアなど)。"
+
+#: ../../white-paper/landing-page-content.rst:81
+msgid "Servicing"
+msgstr "Servicing"
+
+#: ../../white-paper/landing-page-content.rst:81
+msgid "Descriptions of maintenance procedures carried out on the instrument."
+msgstr "装置に実施されたメンテナンス手順に関する記述"
+
+#: ../../white-paper/landing-page-content.rst:84
+msgid "Funding references"
+msgstr "Funding references"
+
+#: ../../white-paper/landing-page-content.rst:84
+msgid "Identifiers or names of funding resources"
+msgstr "資金配分機関の識別子又は名称"
+
+#: ../../white-paper/landing-page-content.rst:86
+msgid "Ownership dates"
+msgstr "Ownership dates"
+
+#: ../../white-paper/landing-page-content.rst:86
+msgid "Ownership start and end dates"
+msgstr "装置の所有開始と終了日"

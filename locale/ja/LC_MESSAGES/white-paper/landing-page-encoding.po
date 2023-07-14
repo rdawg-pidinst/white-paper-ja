@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kazuyo Fukuda, 2022
+# Takahiro Matsumoto, 2022
+# Nakanishi, 2022
+# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 06:45+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../white-paper/landing-page-encoding.rst:4
+msgid "Landing page encoding"
+msgstr "ランディングページのコード化"
+
+#: ../../white-paper/landing-page-encoding.rst:6
+msgid ""
+"Landing page web resources can be written in any format (e.g. HTML, XML). "
+"Although not obligatory, ideally resources should be encoded in formats that"
+" not only improve syntactic interpretation of information but semantic "
+"understanding of the information. In other words, machines can not only read"
+" but understand the meaning of the information presented in web resources, "
+"enhancing interoperability and integration between systems. Below are some "
+"examples of landing page encodings."
+msgstr ""
+"ランディングページのWebリソースは、任意の形式(HTML、XMLなど)で記述できます。必須ではありませんが、理想的には、リソースは情報の構文的な解釈だけでなく、意味の理解を向上させる形でコード化される必要があります。すなわち、Webリソースとして提示された情報を機械的に読み取れるだけでなく、意味を解釈できることで、システム間の相互運用性と統合性を高めることができます。以下は、ランディングページのコード記述法の例です。"
+
+#: ../../white-paper/landing-page-encoding.rst:15
+msgid "Examples"
+msgstr "エンコーディングの例"
+
+#: ../../white-paper/landing-page-encoding.rst:18
+msgid "JSON-LD"
+msgstr "JSON-LD"
+
+#: ../../white-paper/landing-page-encoding.rst:20
+msgid ""
+"There is a strong relation between PIDs with values of types that are "
+"defined in a data type registry (DTR) as for instance in the example in "
+":numref:`tab-schema-handle-record` and linked data. First of all a PID with "
+"a type value is a triple where the PID plays the role of the subject, the "
+"type definition is the predicate and the value is the object. Secondly the "
+"type definition itself can refer to sub types also defined in a DTR. If this"
+" construction of types out of other types is done in a consistent and "
+"machine actionable way, as it is done for instance in the ePC DTR, these "
+"subtypes may be referred by human readable names. The names are "
+"disambiguated by the type definition, because each subtype used in a type is"
+" identified by a PID. Such PIDs with types defined upon sub types span a "
+"graph of metadata around the PID. PIDs with types are in other words a "
+"specific representation of linked data."
+msgstr ""
+":numref:`tab-schema-handle-record` とリンクされたデータの例のように、データ型レジストリ (Data Type "
+"Registry, DTR) で定義された型の値とPID との間には強い関係があります。まず、ある型値を持つ PID は、PID "
+"が主語、型定義が述語、型値が目的語の役割を果たすトリプルです。次に、型定義はそれ自体が、DTR で定義されたサブ型を参照できます。たとえば ePIC "
+"DTR "
+"で行われているように、他の型からサブ型が一貫して機械的に構築可能であれば、これらサブ型は可読性のある名前により参照することができます。この名前は型定義により曖昧さが無くなります。というのも、ある型の中で使用される各々サブ型は"
+" PID によって識別されるからで、このような "
+"サブ型に対して定義されたPID群は、主となるPIDの周りに広がるメタデータの懸け橋になります。つまり、型を持つ PID "
+"とは、リンクされたデータの具体的な標記の一つともいえます。"
+
+#: ../../white-paper/landing-page-encoding.rst:35
+msgid ""
+"It is therefore obvious to ask for other, more a common linked data "
+"representation like RDF or JSON-LD of such PIDs with types. Such a "
+"conversion can be done by a simple backtracking algorithm that crawls from "
+"the PID through all its type and subtypes definitions to identify the used "
+"names by the type PIDs and to collect this information for the LD "
+"representation. This way the whole graph is explored and this graph can be "
+"mapped into a linked data representation. In the following a respective "
+"representation in JSON-LD of the schema example shown in :numref:`tab-"
+"schema-handle-record` is shown in :numref:`snip-landing-encoding-json-ld`."
+msgstr ""
+"したがって、こうしたPIDと型を有するRDFあるいはJSON-"
+"LDといった、より一般的なリンクデータ表式が求められるのは自明です。このような(表式の)変換は、PIDからそのすべての型とサブ型の定義を探し回って、型のPIDによって使用される名前を識別し、この情報をLD表記のために収集する単純な逆トラッキング手法によって行うことができます。このようにして、グラフ全体が探索され、かつ同グラフがリンクデータ表式にマップされることになります。以下では、"
+" :numref:`tab-schema-handle-record` で示されたスキーマ例の、JSON-LDによる表現を :numref:`snip-"
+"landing-encoding-json-ld` にて示しています。"
+
+#: ../../white-paper/landing-page-encoding.rst:47
+msgid ""
+"representation in JSON-LD of the example of :numref:`tab-schema-handle-"
+"record`."
+msgstr ":numref:`tab-schema-handle-record` の例の JSON-LD での表現"
+
+#: ../../white-paper/landing-page-encoding.rst:190
+msgid ""
+"As one can see in this result the context is over complete in the sense that"
+" all possible sub types are resolved and referred in @context, but not all "
+"of them are actually used by the types occuring in the PID. This could be "
+"pruned by an additional step of the algorithm to a version reduced to the "
+"necessary and sufficient sub types. Such a pruning is also automatically "
+"done by LD converters\\ [#ld_converters]_ as one can see in the following "
+"snippet with a conversion into Turtle Terse RDF that results into the "
+"following serialization (:numref:`snip-landing-encoding-turtle`), where only"
+" the values remain and the names used in the type definitions are replaced "
+"by their type PID suffixes:"
+msgstr ""
+"この結果から、すべての可能なサブ型が解決され @context "
+"で参照されるという意味で、当該コンテキストが完全であることがわかりますが、ありうるすべてのサブ型がPID中の型によって実際に使用されるわけではありません。これらは、手順に追加の処理ステップを加えることで、必要かつ十分なサブ型に切り詰められた縮小版を作ることも可能です。こうした切り詰め処理は、LD変換\\"
+" [#ld_converters]_ によっても自動的に行われます。以下の Snippet では、Turtle Terse RDF "
+"への変換によってシリアル化 (:numref:`snip-landing-encoding-turtle`) "
+"が行われた結果、型の値のみが残って、型定義で使われた名前はその型のPIDサフィックスで置き換えられていることが分かります。"
+
+#: ../../white-paper/landing-page-encoding.rst:203
+msgid ""
+"representation in Turtle Terse RDF of the NERC example of :numref:`tab-"
+"schema-handle-record` that was generated by a JSON-LD to RDF converter from "
+"the JSON-LD in :numref:`snip-landing-encoding-json-ld`."
+msgstr ""
+"Turtle Terse RDF による :numref:`tab-schema-handle-record` のNERC例の表式、JSON-"
+"LD／RDF変換によって :numref:`snip-landing-encoding-json-ld` 中のJSON-LDが生成されたもの。"
+
+#: ../../white-paper/landing-page-encoding.rst:246
+msgid "Sensor web enablement (SWE)"
+msgstr "センサーWebイネーブルメント標準(SWE)"
+
+#: ../../white-paper/landing-page-encoding.rst:248
+msgid ""
+"Global standards have been developed which enable the web-based discovery, "
+"exchange and processing of sensors and their observations. Many developers "
+"using standards, such as the Open Geospatial Consortium’s (OGC) Sensor Web "
+"Enablement (SWE), publish formal, machine-readable descriptions of sensors "
+"and their technical information as web resources using URLs, identifying the"
+" instrument locally. Web-based sensor descriptions published using SensorML,"
+" part of the SWE specifications, and may be used as a URL to the landing "
+"page of the instrument registered at a PID provider. A SensorML landing page"
+" example has been published at the British Oceanographic Data Centre (BODC) "
+"via the ePIC PID provider service "
+"(http://hdl.handle.net/21.T11998/0000-001A-3905-F). To view the Handle "
+"record directly see "
+"http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect or :numref:`tab-"
+"schema-handle-record` in this document."
+msgstr ""
+"センサーやその観測データをウェブベースで発見、交換、処理できる世界標準が開発されています。多くの開発者は、オープン地理空間コンソーシアム(Open "
+"Geospatial Consortium, OGC) が策定した Sensor Web Enablement (SWE) "
+"などの標準を使用して、センサーとその技術情報の正式かつ機械可読な記述を、URL を用いて装置をローカルに識別することで "
+"、ウェブのリソースとして公開しています。SWE仕様の一部であるSensorMLを用いて公開されたウェブベースのセンサー記述は、PIDプロバイダに登録された装置のランディングページへのURLとしても使用されます。SensorML"
+" のランディングページ例は、ePIC PIDプロバイダサービス "
+"(http://hdl.handle.net/21.T11998/0000-001A-3905-F) "
+"によって、英国海洋学データセンター(BODC)で公開されています。Handleレコードを直接見るには、 "
+"http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect  あるいはこのドキュメント中の "
+":numref:`tab-schema-handle-record` をご覧ください。"
+
+#: ../../white-paper/landing-page-encoding.rst:264
+msgid ""
+"In SensorML (version 2.0), sensors are identified using a unique ID within "
+"the *gml:identifier* element and institutions may choose to use an "
+"instrument PID to assure uniqueness. Alternatively, an instrument PID may be"
+" declared as metadata within a SensorML description using the "
+"*sml:identifier* property (:numref:`snip-landing-encoding-sensorml`). While "
+"the latter is simpler to implement, it may limit the global discoverability "
+"of sensors and their observations within the Sensor Observation Service "
+"(SOS) web Application Programming Interface (API), part of the SWE standard."
+" Web-based enquiries, requests or transactions made for sensors using this "
+"service are typically based on *gml:identifier* element in SensorML "
+"(expressed as a *procedure*), thus identifying sensors using local "
+"identifiers rather than global instrument PIDs directly. The link between "
+"local identifiers and instrument PIDs can be found indirectly using a "
+"combination of *GetCapabilities* and *DescribeSensor* operational requests "
+"to a SOS server."
+msgstr ""
+"SensorML(バージョン 2.0)では、センサーは *gml:identifier* 要素内のユニークなID "
+"を用いて識別され、ユニーク性の保証のために機関等は装置PID "
+"を用いることを選択してもよいとされています。あるいは、SensorML記述内のメタデータとして、 *sml:identifier* プロパティ "
+"(:numref:`snip-landing-encoding-sensorml`) "
+"を用いて装置PIDを宣言することもできます。後者のほうがより実装が簡単ですが、SWE標準の一部で、センサー観測サービス(SOS)ウェブのアプリケーション・プログラミング・インターフェース(API)の中で、センサーおよび観測結果のグローバルな発見性を制限してしまう恐れもあります。このサービスを用いた、センサーに対するウェブベースの問い合わせ、要求、トランザクションは、通常、SensorML中の"
+" *gml:identifier* 要素( *procedure* "
+"と表記)に基づいて行われるため、センサーは、グローバルな装置PIDではなくローカルな識別子で直接識別されることになります。ローカル識別子と装置PID間のリンクは、SOSサーバーに対する"
+" *GetCapabilities* と *DescribeSensor* の組み合わせ操作要求によって、間接的ながら見つけることができます。"
+
+#: ../../white-paper/landing-page-encoding.rst:282
+msgid ""
+"An example of expressing an instrument PID "
+"(http://hdl.handle.net/21.T11998/0000-001A-3905-F) as identifying metadata "
+"within a SensorML technical description using the *sml:identifier* property "
+"for a SeaBird Scientific SBE 37 Conductivity, temperature and depth sensor."
+msgstr ""
+"装置PID の表記の例。(http://hdl.handle.net/21.T11998/0000-001A-3905-F)  SeaBird "
+"Scientific SBE 37 伝導性・温度・深度センサーの *sml:identifier* プロパティを用いた、SensorML "
+"技術記述中の識別用メタデータとして機器PIDを使用。"
+
+#: ../../white-paper/landing-page-encoding.rst:297
+msgid ""
+"The list of properties that can be expressed in SensorML to describe sensors"
+" is not particularly restrictive and it is recommended that institutional "
+"instrument providers follow the PIDINST guidance on landing page content "
+"(see :ref:`landing-page-content`).  Recently, the `Marine SWE Profiles`_ "
+"initiative specified a comprehensive metadata profile to improve the "
+"semantic interoperability of SensorML in the Earth Science marine domain by "
+"developing sets of sensor specific terminologies."
+msgstr ""
+"SensorMLでセンサを記述するために表記できるプロパティの一覧には、特段の制限はなく、機関の装置提供者は、ランディングページ内容に関する "
+"PIDINST のガイダンスに従うことが推奨されています (see :ref:`landing-page-content`).  最近では、 "
+"`Marine SWE Profiles`_ "
+"イニシアティブが、地球科学の海洋分野におけるSensorMLのセマンティックな相互運用性向上のため、センサー専用用語集を開発して、包括的なメタデータプロファイルを策定しています。"
+
+#: ../../white-paper/landing-page-encoding.rst:307
+msgid "Content negotiation"
+msgstr "コンテンツ調整(コンテンツ・ネゴシエーション)"
+
+#: ../../white-paper/landing-page-encoding.rst:309
+msgid ""
+"We recommend using content negotiation where instrument landing pages are "
+"not easily consumed for human reading (such as XML schemas). PIDINST does "
+"not specify the form of negotiation that produces human-readable content "
+"from machine-readable representations. Other groups, such as the W3C Dataset"
+" Exchange Working Group (DXWG) are currently drafting recommendations on "
+"content negotiation from different information models.\\ [#w3_dxwg]_"
+msgstr ""
+"装置のランディングページが、簡単には人間が読むために使えない場合(XMLスキーマなど)、コンテンツ調整(コンテンツ・ネゴシエーション)を使用することを勧めます。PIDINSTは、機械可読の表式から人間が読めるコンテンツを生成する調整形式を規定していません。W3C"
+" Dataset Exchange Working Group "
+"(DXWG)などの他グループでは、現在、異なる情報モデルからのコンテンツ調整について、勧告の起草作業が行われています\\ [#w3_dxwg]_。"
+
+#: ../../white-paper/landing-page-encoding.rst:322
+msgid "as for instance: http://www.easyrdf.org/converter"
+msgstr "例えば: http://www.easyrdf.org/converter"
+
+#: ../../white-paper/landing-page-encoding.rst:325
+msgid "https://www.w3.org/TR/dx-prof-conneg/#dfn-data-profile"
+msgstr "https://www.w3.org/TR/dx-prof-conneg/#dfn-data-profile"

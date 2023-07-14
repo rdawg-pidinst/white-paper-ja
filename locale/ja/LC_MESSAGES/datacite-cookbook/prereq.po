@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# 岡山将也, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 07:04+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../datacite-cookbook/prereq.rst:2
+msgid "Prerequisites for minting DOIs"
+msgstr "DOI採番の前提条件"
+
+#: ../../datacite-cookbook/prereq.rst:4
+msgid ""
+"As a prerequisite to issue DataCite DOIs, your organization needs to be a "
+"DataCite member or work with a DataCite member.  This will provide you with "
+"your own DOI prefix and the access to `DataCite Fabrica`_ that you will need"
+" for :ref:`datacite-cookbook-minting`."
+msgstr ""
+"DataCiteのDOIを発行する前提として、あなたの組織はDataCiteのメンバーであるか、DataCiteのメンバーと共同作業をしている必要があります。"
+" これにより、あなた自身のDOIプレフィックスと、 :ref:`datacite-cookbook-minting` に必要な `DataCite "
+"Fabrica`_ へのアクセスが提供されます。"

@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# 岡山将也, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 06:44+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../datacite-cookbook/intro.rst:2
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../datacite-cookbook/intro.rst:4
+msgid ""
+"This cookbook enables instrument providers to create `DataCite`_ DOIs as "
+"persistent identifiers (PID) for instruments.  DataCite is a global not-for-"
+"profit organization that provides DOIs for research data and other research "
+"outputs.  The `Persistent Identification of Instruments WG (PIDINST) "
+"<pidinst_>`_ has worked with DataCite on the mapping of the PIDINST metadata"
+" schema onto the DataCite schema."
+msgstr ""
+"このクックブックにより、装置提供者は、装置の永続的識別子 (PID) として `DataCite`_ DOI を作成することができます。DataCite"
+" は、研究データやその他の研究成果に DOI を提供する世界的な非営利組織です。 `Instruments WG (PIDINST) "
+"<pidinst_>`_ の永続的な識別は、PIDINST メタデータ スキーマの DataCite スキーマへのマッピングに関して DataCite "
+"と協力しています。"
+
+#: ../../datacite-cookbook/intro.rst:11
+msgid ""
+"This cookbook is not intended to replace the `DataCite documentation`_.  It "
+"will rather point to the relevant steps for minting an instrument DOI and "
+"mostly concentrate on the instrument PID metadata.  The cookbook assumes "
+"some basic knowledge about DOIs.  The `Wikipedia article on DOI <wiki-"
+"doi_>`_ is a useful primer containing the relevant information."
+msgstr ""
+"このクックブックは `DataCite documentation`_ を置き換えるものではありません。 "
+"むしろ、装置のDOIを作成するための関連するステップを紹介し、装置PIDメタデータに焦点を当てます。 "
+"このクックブックは、DOIに関する基本的な知識を前提としています。 `WikipediaのDOIに関する記事 <wiki-doi_>`_ "
+"は、関連する情報を含む有用な入門書です。"

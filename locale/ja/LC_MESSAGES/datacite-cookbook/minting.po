@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# 岡山将也, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 06:44+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../datacite-cookbook/minting.rst:4
+msgid "Minting the instrument DOI"
+msgstr "装置DOIの採番"
+
+#: ../../datacite-cookbook/minting.rst:6
+msgid ""
+"`DataCite Fabrica`_ is the web interface to create and manage your DOIs and "
+"metadata.  Your organization needs to be a DataCite member or work with a "
+"DataCite member.  This will provide you with your own DOI prefix and the "
+"credentials to sign in to Fabrica."
+msgstr ""
+"`DataCite Fabrica`_ は、DOIとメタデータを作成・管理するためのウェブインターフェイスです。 "
+"あなたの組織はDataCiteのメンバーであるか、DataCiteのメンバーと共同作業をしている必要があります。 "
+"これにより、あなた自身のDOIプレフィックスと、Fabricaにサインインするための認証情報が提供されます。"
+
+#: ../../datacite-cookbook/minting.rst:11
+msgid ""
+"There are basically three different options to create a new or update an "
+"existing DOI that we describe in the following."
+msgstr "DOIを新規に作成したり、既存のDOIを更新したりするには、基本的に3つの異なる方法があり、以下に説明します。"
+
+#: ../../datacite-cookbook/minting.rst:15
+msgid "Create the DOI using the web form"
+msgstr "ウェブフォームを用いたDOIの作成"
+
+#: ../../datacite-cookbook/minting.rst:17
+msgid ""
+"The most interactive way of creating a DOI is to fill a web formular, "
+"indicating the DOI, the URL of the landingpage, and all of the metadata "
+"values.  It provides useful assistence, such as automated validation or "
+"lookup of external identifiers while entering the values.  See the `DataCite"
+" documentation <Create a DOI via Form_>`_ for detailed instructions."
+msgstr ""
+"DOIを作成する最もインタラクティブな方法は、DOI、ランディングページのURL、およびすべてのメタデータの値を示すWebフォームに入力することです。 "
+"これは、値を入力する際に自動検証や外部識別子の検索などの便利な支援機能を提供します。 詳細な手順は `DataCite documentation "
+"<Create a DOI via Form_>`_ を参照してください。"
+
+#: ../../datacite-cookbook/minting.rst:25
+msgid "Create the DOI using file upload"
+msgstr "ファイルアップロードによるDOIの作成"
+
+#: ../../datacite-cookbook/minting.rst:27
+msgid ""
+"If you want to create many instrument DOIs, manually entering all the "
+"metadata values separately may become tedious.  There is another web "
+"formular that allows the metadata to be uploaded as a file.  Different file "
+"formats are supported, but the most fine grained control over the properties"
+" and their values is propably achieved using DataCite XML. See the `DataCite"
+" documentation <Create a DOI via File Upload_>`_ for detailed instructions."
+msgstr ""
+"多くの装置のDOIを作成したい場合、すべてのメタデータ値を別々に手動で入力するのは面倒になるかもしれません。 "
+"また、メタデータをファイルとしてアップロードできるウェブフォームもあります。 "
+"様々なファイル形式がサポートされていますが、プロパティとその値の最も細かい制御は、おそらくDataCite "
+"XMLを使用して実現されています。詳しい説明は `DataCite documentation <Create a DOI via File "
+"Upload_>`_ を参照してください。"
+
+#: ../../datacite-cookbook/minting.rst:36
+msgid "Use the DataCite REST API"
+msgstr "DataCite REST API の使用"
+
+#: ../../datacite-cookbook/minting.rst:38
+msgid ""
+"The process of creating the DOIs can be fully automated using the DataCite "
+"REST API.  The metadata may be feed into the API as JSON or DataCite XML.  "
+"See the `DataCite REST API Guide`_ for details."
+msgstr ""
+"DOIの作成プロセスは、DataCite REST APIを使用して完全に自動化することができます。 メタデータはJSONまたはDataCite "
+"XMLとしてAPIにフィードすることができます。 詳しくは `DataCite REST API Guide`_ をご覧ください。"

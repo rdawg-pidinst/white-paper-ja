@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kazuyo Fukuda, 2022
+# Takahiro Matsumoto, 2022
+# Nakanishi, 2022
+# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 06:45+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../white-paper/physical-objects.rst:2
+msgid "Linking physical objects"
+msgstr "物理的なオブジェクトをリンクする"
+
+#: ../../white-paper/physical-objects.rst:4
+msgid ""
+"Instruments and their individual configuration represent the major reference"
+" for the origin of a broad spectrum of data. As such, both become part of "
+"the Internet of Things (IoT) and therefore it is of key importance for "
+"related identification mechanisms to enable physical access to these objects"
+" in addition to their digital representations or catalogue metadata. Thus, "
+"to ultimately allow the “mapping the real world into the virtual world”.\\ "
+"[#atzori]_ This kind of access is essential to reproduce science as it "
+"allows us to compare experimental setup and to repeat analyses."
+msgstr ""
+"装置やその個々の設定は、データの幅広い領域の発生源を指し示す重要なものです。そのため、それらはいずれもものとしてのインターネット (IoT) "
+"を構成するものであり、それら装置のデジタルデータとしての表現やカタログのメタデータとしてだけでなく、物理的なアクセスを可能とするための関連する識別の仕組みにとって、非常に重要なものです。したがって、究極的には「現実の世界を仮想の世界にマッピングする\\"
+" "
+"[#atzori]_」ためのものです。このようなアクセスは、科学の再現性に不可欠なものです。実験の設定を比較したり、分析を繰り返して行えたりできるようになるからです。"
+
+#: ../../white-paper/physical-objects.rst:14
+msgid ""
+"The most trivial but failsafe method to link physical objects with their "
+"virtual representation would be to permanently label an instrument by "
+"writing or engraving its PID onto it or its container along with its "
+"inventory number and serial number. Because space for labels is limited on "
+"smaller sensors, modern QR tags or barcodes may be more convenient as they "
+"offer the possibility to encode any identifying information in a machine "
+"readable way. A recommended way would be to use QR codes to embed a PID’s "
+"actionable URIs (:numref:`fig-objects-qr`). Ideally such a QR badge "
+"additionally displays the PID as well as the inventory number and serial "
+"number in a human readable way. Some QR code generators now allow users to "
+"integrate images like organisation logos or track scanning activity such as "
+"the GPS position when the label is scanned."
+msgstr ""
+"物理的オブジェクトを仮想的な表現にリンクする、最も手っ取り早く、かつ間違えにくい方法は、装置、あるいはその装置の外装に、装置管理番号やシリアルナンバーといっしょに、PIDのラベルを恒久的に書き込んだり埋め込んだりすることです。より小さなセンサーのような装置では、ラベルを付与するスペースが限られているため、機械可読な方法で識別情報をエンコードすることができる、近代的なQRコードやバーコードのほうが便利かもしれません。おすすめの方法は、PIDの動作する"
+" (actionable) URI  (:numref:`fig-objects-qr`). "
+"をQRコードに埋め込むことです。そのようなQRコードのバッジを読み込んだときに、PIDといっしょに装置管理番号やシリアルナンバーが人間に読める形で表示されるのが理想的です。QRコードのジェネレータによっては、組織のロゴを追加したり、GPSを使ってラベルがスキャンされた場所を捕捉できるようなスキャン追跡機能を追加したりしたりすることもできます。"
+
+#: ../../white-paper/physical-objects.rst:28
+msgid ""
+"In case neither labelling of physical objects with barcodes or PID strings "
+"is possible, linking of instruments with their digital representation can be"
+" maintained by providing appropriate metadata records. For instruments such "
+"linking can be achieved by capturing identifiers which uniquely identify an "
+"instrument such as serial number or inventory number."
+msgstr ""
+"物理的なオブジェクトにバーコードやPIDの文字列でのラベル付けができない場合でも、装置のデジタル的な表現によるリンクは、メタデータの適切な管理によって行うことができます。装置においては、シリアルナンバーや管理番号など、装置を一意に識別する識別子を記録することで、そのようなリンク付けを行うことができます。"
+
+#: ../../white-paper/physical-objects.rst:35
+msgid ""
+"While PIDINST schema metadata does not provide explicit fields for serial "
+"numbers or inventory numbers, it currently offers a generic way to capture "
+"any kind of identifier which can be used for this purpose. "
+"*AlternateIdentifier* can be used to record any identifier string and "
+"*alternateIdentifierType* to specify an identifier type (:numref:`snip-"
+"objects-serial`). PIDINST schema recommends the use of the terms "
+"*serialNumber* and *inventoryNumber.* There is on-going discussion regarding"
+" the use of explicit fields for these properties in PIDINST."
+msgstr ""
+"PIDINSTスキーマのメタデータには、シリアルナンバーや装置管理番号に対する明示的な項目がありませんが、この目的に使用できる、あらゆる種類の識別子を保存するための一般的な方法を提供しています。*AlternateIdentifier*"
+" には、どのような種類の識別子の文字列でも記録でき、*alternateIdentifierType* (:numref:`snip-objects-"
+"serial`).ではその識別子の種類を指定することができます。PIDINSTスキーマでは、*serialNumber* や "
+"*inventoryNumber* "
+"を使用することを推奨しています。シリアルナンバーや装置管理番号に対する明示的な項目の使用については、現在PIDINSTで検討中です。"
+
+#: ../../white-paper/physical-objects.rst:49
+msgid "QR code"
+msgstr "QR code"
+
+#: ../../white-paper/physical-objects.rst:49
+msgid ""
+"An example of a webpage QR code that includes an organisation logo and re-"
+"directs the scanner to the PID URL "
+"(http://hdl.handle.net/21.T11998/0000-001A-3905-F)."
+msgstr ""
+"組織のロゴを含み、QRコードスキャナーをPIDのURL "
+"(http://hdl.handle.net/21.T11998/0000-001A-3905-F) にリダイレクトするWebページのQRコードの例"
+
+#: ../../white-paper/physical-objects.rst:54
+msgid "An instrument serial number expressed in XML"
+msgstr "XMLで表現された装置のシリアルナンバー"
+
+#: ../../white-paper/physical-objects.rst:61
+msgid ""
+"Besides storing e.g. serial numbers in PIDINST schema metadata, it is highly"
+" recommended to store the instrument PID within an institutional sensor "
+"management or inventory system immediately after PID registration. This "
+"ensures the maintenance of links between physical objects and their virtual "
+"representation at both endpoints, the institutional sensor management system"
+" as well as the PID registry, and will ensure the persistence of object "
+"linking in case of failures on either side."
+msgstr ""
+"PIDINSTスキーマのメタデータにシリアルナンバーを保存することに加えて、PIDの付与後すみやかに、組織内のセンサー管理システムや物品管理システムにそのPIDを保存することを強くおすすめします。これによって、物理的な表現と仮想的な表現のリンクの管理を、センサー管理システムとPIDレジストリのどちらからでも行えるようになります。また、どちらかのシステムでリンクの情報が壊れても、リンクの関係が保てるようになります。"
+
+#: ../../white-paper/physical-objects.rst:71
+msgid ""
+"Atzori, Luigi & Iera, Antonio & Morabito, Giacomo. (2010). The Internet of "
+"Things: A Survey. Computer Networks. 2787-2805. "
+"10.1016/j.comnet.2010.05.010."
+msgstr ""
+"Atzori, Luigi & Iera, Antonio & Morabito, Giacomo. (2010). The Internet of "
+"Things: A Survey. Computer Networks. 2787-2805. "
+"10.1016/j.comnet.2010.05.010."

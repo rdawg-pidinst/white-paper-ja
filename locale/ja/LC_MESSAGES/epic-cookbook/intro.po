@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 06:44+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../epic-cookbook/intro.rst:2
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../epic-cookbook/intro.rst:4
+msgid ""
+"This cookbook enables instrument providers to create persistent identifiers "
+"(PID) for instruments using the `ePIC infrastructure`_. ePIC is an "
+"international consortium that provides PID services for the worldwide "
+"research community, allowing them to allocate and resolve PIDs based on the "
+"`handle system`_.  In 2019, ePIC published a metadata schema for citing "
+"instruments, as part of the recommendations resulting from the Research Data"
+" Alliance working group for the persistent identification of instruments "
+"(`PIDINST`_) referred to as the `PIDINST metadata schema`_.  This document "
+"provides technical guidance for publishing instrument PIDs through ePIC."
+msgstr ""
+"このクックブックでは、機器プロバイダーが `ePICインフラストラクチャ <ePIC infrastructure_>`_ "
+"を使用して機器の永続識別子（PID）を作成することを可能にします。ePICは、世界中の研究コミュニティにPIDサービスを提供し、`Handleシステム "
+"<handle system_>`_ に基づくPIDの割り当てと解決を可能にする国際コンソーシアムです。 2019年、ePICは、`PIDINST "
+"metadata schema`_ と呼ばれるResearch Data Alliance working group for the "
+"persistent identification of instruments (`PIDINST`_) "
+"から得られた勧告の一部として、機器を引用するためのメタデータスキーマを公開しました。 "
+"この文書は、ePICを通じて機器のPIDを公開するための技術的なガイダンスを提供します。"

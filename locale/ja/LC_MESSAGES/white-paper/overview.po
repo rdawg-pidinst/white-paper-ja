@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kazuyo Fukuda, 2022
+# Takahiro Matsumoto, 2022
+# Nakanishi, 2022
+# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 06:45+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../white-paper/overview.rst:2
+msgid "Overview"
+msgstr "概要"
+
+#: ../../white-paper/overview.rst:4
+msgid ""
+"This white paper provides recommendations for the use of instrument "
+"Persistent Identifiers (PIDs) for institutional instrument providers, such "
+"as bodies who fund, maintain or provide instruments, or are responsible for "
+"maintaining information about or data from instruments. Institutional "
+"instrument providers will be responsible for maintaining and publishing "
+"instrument PIDs locally, potentially on behalf of other institutional "
+"instrument providers. These recommendations are compiled through the "
+"activities of the Research Data Alliance (RDA) `Persistent Identification of"
+" Instruments (PIDINST) Working Group <PIDINST_>`_.\\ [#pidinst2020]_ This "
+"document is expected to evolve with new user requirements and working group "
+"activities."
+msgstr ""
+"このホワイトペーパーは、装置に発行する持続的識別子(PID)の利用に関する推奨事項を提供します。装置PIDは、装置に関する様々な情報: "
+"資金提供元、装置を維持または提供する機関、装置からの維持管理情報またはデータに対する責任者、の管理に用います。装置を提供するプロバイダーは、装置PIDをローカルに発行し維持管理する責任があることが想定されます。場合によっては他のプロバイダーの装置のPID発行に対しても責任を負う可能性があります。これらの推奨事項は、Research"
+" Data Alliance(RDA)の `Persistent Identification of Instruments "
+"(PIDINST)ワーキンググループ <PIDINST_>`_ の活動を通じてまとめられたものです\\ "
+"[#pidinst2020]_。このドキュメントは、ユーザーのニーズやワーキンググループの活動によって発展していくことが期待されています。"
+
+#: ../../white-paper/overview.rst:21
+msgid ""
+"Stocker, M, Darroch, L, Krahl, R, Habermann, T, Devaraju, A, Schwardmann, U,"
+" D’Onofrio, C and Häggström, I. 2020. Persistent Identification of "
+"Instruments. Data Science Journal, 19: 18, pp. 1–12. DOI: "
+"https://doi.org/10.5334/dsj-2020-018)"
+msgstr ""
+"Stocker, M, Darroch, L, Krahl, R, Habermann, T, Devaraju, A, Schwardmann, U,"
+" D’Onofrio, C and Häggström, I. 2020. Persistent Identification of "
+"Instruments. Data Science Journal, 19: 18, pp. 1–12. DOI: "
+"https://doi.org/10.5334/dsj-2020-018)"

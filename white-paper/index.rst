@@ -13,11 +13,6 @@ PIDINST White Paper
 | Date          | |today|                                              |
 +---------------+------------------------------------------------------+
 
-..
-
-   Table of contents
-   ~~~~~~~~~~~~~~~~~
-
 .. toctree::
    :numbered:
 

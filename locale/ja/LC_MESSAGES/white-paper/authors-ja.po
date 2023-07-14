@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kazuyo Fukuda, 2022
+# Takahiro Matsumoto, 2022
+# Nakanishi, 2022
+# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 06:44+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../white-paper/authors-ja.rst:2
+msgid "Japanese Trasnlation"
+msgstr "日本語版翻訳"
+
+#: ../../white-paper/authors-ja.rst:4
+msgid ""
+"The Japanese translation teams has been coordinated by the \"Subcommittee on"
+" PID for research resources and instruments\" of \"Reserch Data Utilization "
+"Forum, Japan\" https://japanlinkcenter.org/rduf/ ."
+msgstr ""
+"この文書の日本語翻訳作業は、「研究データ利活用協議会(RDUF, https://japanlinkcenter.org/rduf/)」  "
+"の「研究資料・実験機器へのPID付与検討小委員会」において実施されました。"
+
+#: ../../white-paper/authors-ja.rst:6
+msgid ""
+"*Takaaki Aoki* (aoki.takaaki@nagoya-u.jp, "
+"https://orcid.org/0000-0002-5926-4903), Nagoya University; 青木学聡, 国立大学法人 "
+"東海国立大学機構 名古屋大学"
+msgstr ""
+"*Takaaki Aoki* (aoki.takaaki@nagoya-u.jp, "
+"https://orcid.org/0000-0002-5926-4903), Nagoya University; 青木学聡, 国立大学法人 "
+"東海国立大学機構 名古屋大学"
+
+#: ../../white-paper/authors-ja.rst:9
+msgid ""
+"*Kosuke Tanabe* (https://orcid.org/0000-0002-9986-7223), National Institute "
+"for Materials Science; 田辺浩介, 国立研究開発法人 物質・材料研究機構"
+msgstr ""
+"*Kosuke Tanabe* (https://orcid.org/0000-0002-9986-7223), National Institute "
+"for Materials Science; 田辺浩介, 国立研究開発法人 物質・材料研究機構"
+
+#: ../../white-paper/authors-ja.rst:12
+msgid ""
+"*Kazuyo Fukuda* (https://orcid.org/0000-0001-9837-4307), Japan Agency for "
+"Marine-Earth Science and Technology; 福田和代, 国立研究開発法人 海洋研究開発機構"
+msgstr ""
+"*Kazuyo Fukuda* (https://orcid.org/0000-0001-9837-4307), Japan Agency for "
+"Marine-Earth Science and Technology; 福田和代, 国立研究開発法人 海洋研究開発機構"
+
+#: ../../white-paper/authors-ja.rst:15
+msgid ""
+"*Takahiro Matsumoto* (matumot@spring8.or.jp, "
+"https://orcid.org/0000-0001-6949-5492), Japan Synchrotron Radiation Research"
+" Insitute; 松本崇博, 公益財団法人 高輝度光科学研究センター"
+msgstr ""
+"*Takahiro Matsumoto* (matumot@spring8.or.jp, "
+"https://orcid.org/0000-0001-6949-5492), Japan Synchrotron Radiation Research"
+" Insitute; 松本崇博, 公益財団法人 高輝度光科学研究センター"
+
+#: ../../white-paper/authors-ja.rst:18
+msgid ""
+"*Nobuko Miyairi* (nobuko@miyairi.info, "
+"http://orcid.org/0000-0002-3229-5662), Scholarly Communications Consultant; "
+"宮入暢子, 学術コミュニケーションコンサルタント"
+msgstr ""
+"*Nobuko Miyairi* (nobuko@miyairi.info, "
+"http://orcid.org/0000-0002-3229-5662), Scholarly Communications Consultant; "
+"宮入暢子, 学術コミュニケーションコンサルタント"
+
+#: ../../white-paper/authors-ja.rst:21
+msgid ""
+"*Hideya Nakanishi* (nakanishi.hideya@nifs.ac.jp, "
+"https://orcid.org/0000-0001-6388-4489), National Institute for Fusion "
+"Science (NIFS), NINS; 中西秀哉, 大学共同利用機関法人 自然科学研究機構 核融合科学研究所"
+msgstr ""
+"*Hideya Nakanishi* (nakanishi.hideya@nifs.ac.jp, "
+"https://orcid.org/0000-0001-6388-4489), National Institute for Fusion "
+"Science (NIFS), NINS; 中西秀哉, 大学共同利用機関法人 自然科学研究機構 核融合科学研究所"
+
+#: ../../white-paper/authors-ja.rst:24
+msgid ""
+"*Nobuya Okayama* (https://orcid.org/0000-0001-8974-4716), Hitachi "
+"Consulting, Co.Ltd; 岡山将也, 株式会社日立コンサルティング"
+msgstr ""
+"*Nobuya Okayama* (https://orcid.org/0000-0001-8974-4716), Hitachi "
+"Consulting, Co.Ltd; 岡山将也, 株式会社日立コンサルティング"

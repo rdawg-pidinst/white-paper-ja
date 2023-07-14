@@ -1,0 +1,315 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kazuyo Fukuda, 2022
+# Takahiro Matsumoto, 2022
+# Nakanishi, 2022
+# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"PO-Revision-Date: 2023-07-13 06:45+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../white-paper/metadata-schema.rst:4
+msgid "PIDINST metadata schema"
+msgstr "PIDINSTメタデータスキーマ"
+
+#: ../../white-paper/metadata-schema.rst:6
+msgid ""
+"The metadata that is to be registered with an instrument PID needs to "
+"contain enough information to unambiguously identify the instrument across "
+"networks and infrastructures. It should also allow linking related resources"
+" to the instrument, thus providing a means to aggregate information about "
+"the instrument. The PIDINST working group defined a schema of metadata that "
+"can be registered alongside instrument PIDs at PID providers to help meet "
+"these criteria. Version 1.0 has been endorsed as an RDA recommendation\\ "
+"[#pidinst2022v1_0]_."
+msgstr ""
+"装置のPIDとともに登録されるメタデータは、ネットワークやインフラストラクチャを越えて装置を明確に識別するのに十分な情報を含む必要がある。また、関連するリソースを装置にリンクすることができ、装置に関する情報を集約する手段を提供する必要があります。PIDINSTワーキンググループは、これらの基準を満たすために、PIDプロバイダーで装置のPIDと一緒に登録できるメタデータのスキーマを定義しました。バージョン1.0は、RDA勧告\\"
+" [#pidinst2022v1_0]_ として承認されています。"
+
+#: ../../white-paper/metadata-schema.rst:15
+msgid ""
+"Currently, two variants of the metadata schema exist.  The original `PIDINST"
+" schema`_, based on the evaluation of use cases collected by the working "
+"group, is used for prototypical implementation of metadata properties in the"
+" ePIC infrastructure.  A second variant provides a `mapping between PIDINST "
+"metadata properties and DataCite Metadata Schema 4.3 <PIDINST DataCite "
+"schema_>`_.  In the following, we describe the properties in the original "
+"PIDINST schema and discuss their semantics:"
+msgstr ""
+"現在、メタデータスキーマは2種類あります。オリジナルの `PIDINSTスキーマ <PIDINST schema_>`_ "
+"は、ワーキンググループが収集したユースケースの評価に基づき構築されており、ePICインフラストラクチャにおけるメタデータプロパティのプロトタイプの実装に利用されています。２つ目のスキーマは、`PIDINSTメタデータプロパティとDataCite"
+" Metadata Schema 4.3間のマッピング <PIDINST DataCite schema_>`_ "
+"を提供するものです。以下では、オリジナルのPIDINSTスキーマにおけるプロパティを説明し、そのセマンティクスについて議論します。"
+
+#: ../../white-paper/metadata-schema.rst:27
+msgid "`Identifier`"
+msgstr "`Identifier`"
+
+#: ../../white-paper/metadata-schema.rst:25
+msgid ""
+"The PID of the instrument.  The subproperty `identifierType` contains the "
+"type of the PID, e.g. `Handle` or `DOI` in the case of an ePIC Handle or a "
+"DataCite DOI respectively."
+msgstr ""
+"装置のPID。サブプロパティである `identifierType` には、PIDのタイプが格納されます。(例: ePIC Handle の場合 "
+"`Handle`、DataCite DOI の場合 `DOI`)"
+
+#: ../../white-paper/metadata-schema.rst:30
+msgid "`SchemaVersion`"
+msgstr "`SchemaVersion`"
+
+#: ../../white-paper/metadata-schema.rst:30
+msgid "The version number of the PIDINST schema used to create a record."
+msgstr "レコード作成に用いられてた PIDINST スキーマのバージョン。"
+
+#: ../../white-paper/metadata-schema.rst:33
+msgid "`LandingPage`"
+msgstr "`LandingPage`"
+
+#: ../../white-paper/metadata-schema.rst:33
+msgid "The URL of the landing page that the PID resolves to."
+msgstr "PIDが解決し紐づけられるランディングページのURL。"
+
+#: ../../white-paper/metadata-schema.rst:37
+msgid "`Name`"
+msgstr "`Name`"
+
+#: ../../white-paper/metadata-schema.rst:36
+msgid ""
+"The name by which this instrument is known.  It should preferably be "
+"meaningful and unique within the organization that manages it."
+msgstr "装置の名称。装置を管理する組織内においてユニークでなければなりません。また、意味がある名称であることが望まれます。"
+
+#: ../../white-paper/metadata-schema.rst:50
+msgid "`Owner`"
+msgstr "`Owner`"
+
+#: ../../white-paper/metadata-schema.rst:40
+msgid ""
+"The organization or individual that manages the instrument.  This may or may"
+" not be the legal owner.  It could also be an organization that hosts or "
+"operates the instrument, manages its deployment, or provides access to it.  "
+"In case of doubt, it would be the instance that a potential user would reach"
+" out to in order to get access. There may be more then one owner registered "
+"in the metadata."
+msgstr ""
+"装置を管理する組織または個人。これは法的な所有者・機関である場合もあります。また、装置の運用や設置管理、装置の利用提供を行う組織である可能性もあります。疑わしい場合は、潜在的なユーザーがアクセスするために用意されたインスタンスの可能性もかあります。メタデータには、複数の"
+" `owner` が登録されている場合もあります。"
+
+#: ../../white-paper/metadata-schema.rst:47
+msgid ""
+"`Owner` is a complex property having at least the subproperty `ownerName` "
+"and optionally a contact address in `ownerContact` and a common identifier "
+"of the owner in `ownerIdentifier` and its type in `ownerIdentifierType`."
+msgstr ""
+"`Owner`  は複数のサブプロパティが定義された複合プロパティです。サブプロパティには少なくとも `ownerName`  "
+"が定義されています。他のサブプロパティには、連絡先として `ownerContact` 、所有者の一般的な識別子として "
+"`ownerIdentifier`、さらにそのタイプを示す `ownerIdentifierType` がオプションで用意されています。"
+
+#: ../../white-paper/metadata-schema.rst:65
+msgid "`Manufacturer`"
+msgstr "`Manufacturer`"
+
+#: ../../white-paper/metadata-schema.rst:53
+msgid ""
+"The organization or individual that built the instrument.  In the case of an"
+" off the shelf product, this will probably be a commercial company that put "
+"the instrument on the market.  In the case of an custom built instrument, "
+"the manufacturer may be the same as the owner.  In the latter case, they "
+"would be registered as both, owner and manufacturer.  In case of doubt, the "
+"manufacturer would be the instance that defined the technical specification "
+"of the instrument. Again, there may be more then one manufacturer registered"
+" in the metadata."
+msgstr ""
+"装置を製作した組織または個人。既製品の場合、これはおそらく装置を市場に提供する業者名となります。カスタムメイドの装置の場合、`manufacurer` "
+"は `owner` と同一の可能性があります。後者の場合、`owner` と `manufaturer` "
+"の両方が登録されることになります。疑わしい場合では、 `manufacturer` は装置の技術的な仕様を定義した機関でもあります。 "
+"同様にメタデータには複数の `manufacturer` が登録されている場合もあります。"
+
+#: ../../white-paper/metadata-schema.rst:63
+msgid ""
+"In the same way as `Owner`, `Manufacturer` is a complex property with "
+"subproperties `manufacturerName`, `manufacturerIdentifier` and "
+"`manufacturerIdentifierType`."
+msgstr ""
+"`Owner` と同様に、`Manufacturer` は、`manufacturerName`, `manufacturerIdentifier`, "
+"`manufacturerIdentifierType` のサブプロパティを持つ複合プロパティです。"
+
+#: ../../white-paper/metadata-schema.rst:74
+msgid "`Model`"
+msgstr "`Model`"
+
+#: ../../white-paper/metadata-schema.rst:68
+msgid ""
+"The name of the model or type of the instrument.  In the case of an off the "
+"shelf product, this may be a brand name attributed by the manufacturer.  In "
+"the case of a custom built instrument, it may not have a model name.  Hence "
+"this property is not mandatory, but recommended if the value can be "
+"obtained.  `Model` has optional subproperties `modelIdentifier` and "
+"`modelIdentifierType` to be used if an identifier for the model is known."
+msgstr ""
+"装置のモデル名またはタイプ名。既製品の場合は、メーカーがつけた製品名となることがあります。カスタムメイドの装置の場合では 'model' "
+"名がないこともあります。したがって、このプロパティは必須ではありませんが、値を取得できる場合は推奨されます。`Model` "
+"の識別子が既知の場合、オプションのサブプロパティ `modelIdentifier` と `modelIdentifierType` "
+"を使うことができます。"
+
+#: ../../white-paper/metadata-schema.rst:79
+msgid "`Description`"
+msgstr "`Description`"
+
+#: ../../white-paper/metadata-schema.rst:77
+msgid ""
+"A textual description of the device and its capabilities.  This is mostly "
+"targeted to a human reader and should provide a notion of what this "
+"instrument is and what it can do."
+msgstr ""
+"装置とその機能についてのテキストによる説明。これは人が内容を理解できることを主な目的としています。装置がどのような物であり、何ができるのかの概念を提供する必要があります。"
+
+#: ../../white-paper/metadata-schema.rst:87
+msgid "`InstrumentType`"
+msgstr "`InstrumentType`"
+
+#: ../../white-paper/metadata-schema.rst:82
+msgid ""
+"A classification of the type of the instrument.  Hierarchical classification"
+" enables grouping of instrument records."
+msgstr "装置のタイプに関する分類。階層的な分類により、装置の記録のグルーピングが可能になります。"
+
+#: ../../white-paper/metadata-schema.rst:85
+msgid ""
+"In the same way as `Owner`, `Manufacturer` and `Model`, `InstrumentType` is "
+"a complex property with subproperties `instrumentTypeName`, "
+"`instrumentTypeIdentifier` and `instrumentTypeIdentifierType`."
+msgstr ""
+"`Owner`、`Manifacturer`、`Model` と同様に、`InstrumentsType` "
+"は、`InstrumentTypeName`、`InstrumentTypeIndentifier`、`InstrumentTypeIdentifierType`"
+" のサブプロパティを持つ複合プロパティです。"
+
+#: ../../white-paper/metadata-schema.rst:95
+msgid "`MeasuredVariable`"
+msgstr "`MeasuredVariable`"
+
+#: ../../white-paper/metadata-schema.rst:90
+msgid ""
+"The variables or physical properties that the instrument measures or "
+"observes. Some communities have established terminologies to identify "
+"measured variables that are specific to their respective domain (see "
+":ref:`pidinst-metadata-schema-terminologies`).  If such a standard is "
+"applicable, it should be used for for `MeasuredVariable`. Otherwise, a "
+"textual description may be used."
+msgstr ""
+"装置が測定または観測する変数や物理的特性。いくつかのコミュニティでは、それぞれの領域に固有の測定変数を識別するための用語を確立しています(:ref:`pidinst-metadata-schema-terminologies` を参照）。\n"
+"もし、そのような標準が適用できる場合、それを `MeasuredVariable` に利用すべきです。そうでなければ、テキスト記述を利用することもできます。"
+
+#: ../../white-paper/metadata-schema.rst:100
+msgid "`Date`"
+msgstr "`Date`"
+
+#: ../../white-paper/metadata-schema.rst:98
+msgid ""
+"Relevant events pertaining to this instrument instance, such as when it has "
+"started and ended to be in operation.  Each `Date` need to have a `dateType`"
+" subproperty to specify the nature of the event."
+msgstr ""
+"対象の装置インスタンスに関連するイベント(いつ運用を開始し、いつ停止したかなど)。各 `Date` プロパティは、イベントの性質を指定するために "
+"`dateType` サブプロパティが必要です。"
+
+#: ../../white-paper/metadata-schema.rst:125
+msgid "`RelatedIdentifier`"
+msgstr "`RelatedIdentifier`"
+
+#: ../../white-paper/metadata-schema.rst:103
+msgid ""
+"This can be used to establish links to related resources, such as documents "
+"describing the instrument or external metadata records, possibly using other"
+" metadata standards to provide more details about the instrument."
+msgstr ""
+"これは、装置について説明する文書や外部のメタデータ記録など、関連リソースへのリンクを確立するために利用できます。場合によっては他のメタデータ規格を利用して装置に関するより詳細な情報を提供することも可能です。"
+
+#: ../../white-paper/metadata-schema.rst:108
+msgid ""
+"Another application might be, if an instrument has been substantially "
+"modified, it would make sense to issue a new PID for the modified instrument"
+" with a new metadata record.  In this case both PIDs should relate to each "
+"other to indicate that one is a new version of the other."
+msgstr ""
+"別の応用例として、ある装置が大幅に変更された場合、変更された装置に対して新しいメタデータレコードとともに新しいPIDを発行することが理にかなっていると考えられます。この場合、それぞれのPIDは一方が他方の新しいバージョンであることを示すために互いに関連付けられなければなりません。"
+
+#: ../../white-paper/metadata-schema.rst:114
+msgid ""
+"Furthermore, in the case of a complex instrument, it can make sense to issue"
+" PIDs for individual components, such as an individual detector in a larger "
+"experimental station.  In this case, the relation between the complex "
+"instrument and its components should be established by creating links "
+"between the respective PIDs."
+msgstr ""
+"さらに複雑な装置では、より大きな実験ステーション内の個々の検出器のように、構成要素毎にPIDを発行することが意味を持つことがあります。この場合、それぞれのPIDの間にリンクを設けることで、複雑な装置とその構成要素の間の関係が確立される必要があります。"
+
+#: ../../white-paper/metadata-schema.rst:120
+msgid ""
+"The links established using this property are particuarly useful as they "
+"allow the automatic aggregation of a rich set of information about the "
+"instrument.  Each `RelatedIdentifier` needs to have subproperties "
+"`relatedIdentifierType` and `relationType` to specify the type of the "
+"related identifier and the type of the relation respectively."
+msgstr ""
+"このプロパティを用いて確立されたリンクは、装置に関する豊富な情報の自動集約を実現するため、特に有用です。各 `relatedIdentifier` "
+"は、関連する識別子のタイプと関係のタイプをそれぞれ指定するため、`relatedIdentifierType` と `relationType` "
+"のサブプロパティを持つ必要があります。"
+
+#: ../../white-paper/metadata-schema.rst:139
+msgid "`AlternateIdentifier`"
+msgstr "`AlternateIdentifier`"
+
+#: ../../white-paper/metadata-schema.rst:128
+msgid ""
+"If the instrument instance is also registered elsewhere, aside from the "
+"persistent identifier, `AlternateIdentifier` is the place to store a "
+"reference to these register entries.  Common use cases are the serial number"
+" attributed by the manufacturer or inventory number used by the owner.  But "
+"also other instrument databases or access portals may hold an entry for the "
+"instrument that should be referenced from the PIDINST metadata."
+msgstr ""
+"装置のインスタンスが、永続的な識別子とは別に他の場所にも登録されている場合、AlternateIdentifierは、これらの登録項目への参照を格納する場所となります。一般的な利用例としては、製造元が付与したシリアル番号や、所有者が使用する装置管理番号などがあります。逆に、他の装置データベースやアクセスポータルが、PIDINSTメタデータから参照されるべき装置のエントリを保持することもあります。"
+
+#: ../../white-paper/metadata-schema.rst:136
+msgid ""
+"The subproperty `alternateIdentifierType` needs to specify the kind of the "
+"alternate identifier.  Standardized values should be used where applicable."
+"  For serial and inventory numbers, the suggested values are `serialNumber` "
+"and `inventoryNumber` respectively."
+msgstr ""
+"`alternateIdentifierType` "
+"サブプロパティは、代替識別子の種類を指定する必要があります。標準化された値があればその値を利用する必要があります。シリアル番号と装置管理番号の場合においては、推奨される値はそれぞれ"
+" `serialNumber` と `inventoryNumber` となります。"
+
+#: ../../white-paper/metadata-schema.rst:148
+msgid ""
+"Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., "
+"Stocker, M., & The Research Data Alliance Persistent Identification of "
+"Instruments Working Group members (2022). Metadata Schema for the Persistent"
+" Identification of Instruments (1.0). Research Data Alliance. DOI: "
+"https://doi.org/10.15497/RDA00070"
+msgstr ""
+"Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., "
+"Stocker, M., & The Research Data Alliance Persistent Identification of "
+"Instruments Working Group members (2022). Metadata Schema for the Persistent"
+" Identification of Instruments (1.0). Research Data Alliance. DOI: "
+"https://doi.org/10.15497/RDA00070"
