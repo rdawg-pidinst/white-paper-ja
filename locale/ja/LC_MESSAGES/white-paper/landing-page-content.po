@@ -4,18 +4,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kazuyo Fukuda, 2022
-# Takahiro Matsumoto, 2022
-# Nakanishi, 2022
-# Kosuke Tanabe <nabeta@fastmail.fm>, 2022
 # Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PIDINST 0.1\n"
+"Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"POT-Creation-Date: 2023-07-14 16:50+0900\n"
 "PO-Revision-Date: 2023-07-13 06:45+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
@@ -126,7 +122,7 @@ msgid ""
 msgstr ""
 "装置のライフタイム中に起こったイベントや操作、変更等の履歴を記述するためのランディング "
 "ページ用記述メタデータ。この種のメタデータは、日付と関連付けられ、コメントが伴うのが理想的です。PIDINST "
-"スキーマで使われる装置用コア・メタデータとの組み合わせで使用​​されます。 "
+"スキーマで使われる装置用コア・メタデータとの組み合わせで使用されます。 "
 
 #: ../../white-paper/landing-page-content.rst:64
 msgid "Calibrations"
