@@ -1,29 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2020, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Kazuyo Fukuda, 2022
 # Takahiro Matsumoto, 2022
 # Nakanishi, 2022
 # Kosuke Tanabe <nabeta@fastmail.fm>, 2022
 # Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"POT-Creation-Date: 2024-01-23 17:09+0900\n"
 "PO-Revision-Date: 2023-07-13 06:45+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
-"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-"
+"translation-project/teams/148034/ja/)\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../white-paper/registration.rst:2
 msgid "Registration"
@@ -35,19 +36,19 @@ msgstr "PIDプロバイダでの一元登録"
 
 #: ../../white-paper/registration.rst:7
 msgid ""
-"The following resources (:numref:`tab-register-guidance`) provide technical "
-"guidance for institutions to publish and manage PID records at PID providers"
-" compliant with RDA PIDINST recommendations."
+"The following resources (:numref:`tab-register-guidance`) provide "
+"technical guidance for institutions to publish and manage PID records at "
+"PID providers compliant with RDA PIDINST recommendations."
 msgstr ""
 "以下のリソース(:numref:`tab-register-guidance`)では、機関がRDA "
 "PIDINST勧告に準拠したPIDプロバイダでPIDレコードを公開・管理するための技術的ガイダンスを提供しています。"
 
-#: ../../white-paper/registration.rst:12
+#: ../../white-paper/registration.rst:11
 msgid ""
-"Technical guidance for publishing and managing instrument        PIDs at PID"
-" providers compliant with RDA PIDINST        recommendations. The table "
-"provides links to the relevant        metadata schema that accompanies PID "
-"records at PID        providers."
+"Technical guidance for publishing and managing instrument        PIDs at "
+"PID providers compliant with RDA PIDINST        recommendations. The "
+"table provides links to the relevant        metadata schema that "
+"accompanies PID records at PID        providers."
 msgstr ""
 "RDA "
 "PIDINST勧告に準拠したPIDプロバイダでの装置PIDの公開と管理のための技術ガイダンス。この表は、PIDプロバイダのPIDレコードに付随する関連するメタデータスキーマへのリンクを提供します。"
@@ -74,25 +75,28 @@ msgstr ":ref:`epic-cookbook`"
 
 #: ../../white-paper/registration.rst:21
 msgid ""
-"`PIDINST <https://github.com/rdawg-pidinst/schema/blob/master/schema.rst>`_"
+"`PIDINST <https://github.com/rdawg-"
+"pidinst/schema/blob/master/schema.rst>`_"
 msgstr ""
-"`PIDINST <https://github.com/rdawg-pidinst/schema/blob/master/schema.rst>`_"
+"`PIDINST <https://github.com/rdawg-"
+"pidinst/schema/blob/master/schema.rst>`_"
 
 #: ../../white-paper/registration.rst:23
 msgid "DataCite"
 msgstr "DataCite"
 
 #: ../../white-paper/registration.rst:23
-msgid "https://datacite.org/dois.html"
-msgstr "https://datacite.org/dois.html"
+#, fuzzy
+msgid ":ref:`datacite-cookbook`"
+msgstr ":ref:`epic-cookbook`"
 
 #: ../../white-paper/registration.rst:23
 msgid ""
-"`PIDINST to DataCite <https://github.com/rdawg-"
-"pidinst/schema/blob/master/schema-datacite.rst>`_"
+"`PIDINST to DataCite <https://github.com/rdawg-pidinst/schema/blob/master"
+"/schema-datacite.rst>`_"
 msgstr ""
-"`PIDINST to DataCite <https://github.com/rdawg-"
-"pidinst/schema/blob/master/schema-datacite.rst>`_"
+"`PIDINST to DataCite <https://github.com/rdawg-pidinst/schema/blob/master"
+"/schema-datacite.rst>`_"
 
 #: ../../white-paper/registration.rst:28
 msgid "Local registration at institutional instrument providers"
@@ -100,18 +104,18 @@ msgstr "機関内の機器プロバイダでのローカル登録"
 
 #: ../../white-paper/registration.rst:30
 msgid ""
-"In order to register instrument PIDs at a provider service, institutional "
-"instrument providers must publish a landing page for each instrument PID to "
-"resolve to. These publications might be encoded using standard markup "
-"languages (e.g. HTML), structured, machine-actionable web resources (e.g. "
-"World Wide Consortium’s (W3C) Linked Data), or specialist standards for "
-"describing instruments and their inherited properties and processes (e.g. "
-"Open Geospatial Consortium’s (OGC) SensorML, W3C Semantic Sensor Network "
-"(SSN) ontology). Whichever method of publication is used, it is necessary to"
-" ensure there is enough metadata on landing pages to unambiguously identify "
-"the instrument (see :ref:`landing-page-content`). The URL address is also "
-"used to populate the *LandingPage* property of the `PIDINST schema`_, adding"
-" this locator to the PID’s metadata record."
+"In order to register instrument PIDs at a provider service, institutional"
+" instrument providers must publish a landing page for each instrument PID"
+" to resolve to. These publications might be encoded using standard markup"
+" languages (e.g. HTML), structured, machine-actionable web resources "
+"(e.g. World Wide Consortium’s (W3C) Linked Data), or specialist standards"
+" for describing instruments and their inherited properties and processes "
+"(e.g. Open Geospatial Consortium’s (OGC) SensorML, W3C Semantic Sensor "
+"Network (SSN) ontology). Whichever method of publication is used, it is "
+"necessary to ensure there is enough metadata on landing pages to "
+"unambiguously identify the instrument (see :ref:`landing-page-content`). "
+"The URL address is also used to populate the *LandingPage* property of "
+"the `PIDINST schema`_, adding this locator to the PID’s metadata record."
 msgstr ""
 "プロバイダサービスに装置PIDを登録するためには、装置の機器プロバイダがそれぞれの機器PIDを解決するためのランディングページを公開しなければなりません。公開内容は標準的なマークアップ言語(例えばHTML)、構造化され機械動作可能なウェブリソース(例えば"
 " World Wide Web Consortium (W3C) の Linked "
@@ -121,3 +125,7 @@ msgstr ""
 "によりコード化ことがあります。どのような公開方法がとられたとしても、ランディングページには、機器を明確に特定するための十分なメタデータが存在することを書くにする必要があります"
 " (:ref:`landing-page-content` も参照のこと)。URLアドレスは、PIDメタデータレコードに、`PIDINST "
 "shchema`_ の *LandingPage* プロパティに入力することができます。"
+
+#~ msgid "https://datacite.org/dois.html"
+#~ msgstr "https://datacite.org/dois.html"
+

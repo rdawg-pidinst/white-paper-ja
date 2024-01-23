@@ -1,83 +1,88 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2020, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Kazuyo Fukuda, 2022
 # Takahiro Matsumoto, 2022
 # Nakanishi, 2022
 # Kosuke Tanabe <nabeta@fastmail.fm>, 2022
 # Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"POT-Creation-Date: 2024-01-23 17:09+0900\n"
 "PO-Revision-Date: 2023-07-13 06:45+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
-"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-"
+"translation-project/teams/148034/ja/)\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../white-paper/duplication.rst:2
 msgid "Dealing with duplication"
 msgstr "重複への対処"
 
 #: ../../white-paper/duplication.rst:4
+#, fuzzy
 msgid ""
-"Duplication between identifier records is not a new problem and is common to"
-" many applications (e.g. bibliographic, medical records). While PIDINST "
-"identifiers are considered globally persistent it is accepted that "
-"duplication may occur particularly where institutions loan instruments to "
-"other organisations or provide access to specialised facilities (e.g. large "
-"scale synchrotrons, medical laboratories, computational facilities). Such "
-"duplication may lead to inaccurate statistics or reporting about instrument "
-"assets."
-msgstr ""
-"識別子レコード間の重複は新しい問題ではなく、多くのアプリケーション(例えば書誌、医療記録)で一般的なものです。PIDINSTの識別子は世界的に永続的であると考えられていますが、機関が他の機関に装置を貸与したり、特殊な施設(大規模シンクロトロン、医学研究所、計算施設など)へのアクセスを提供する場合には、特に重複が発生する可能性があることが認められている。このような重複は、装置資産に関する不正確な統計や報告につながる可能性があります。"
+"Duplication between identifier records is not a new problem and is common"
+" to many applications (e.g. bibliographic, medical records). While "
+"PIDINST identifiers are considered globally persistent it is accepted "
+"that duplication may occur particularly where institutions loan "
+"instruments to other organisations or provide access to specialised "
+"facilities (e.g. large scale synchrotrons, medical laboratories, "
+"computational facilities).  Such duplication may lead to inaccurate "
+"statistics or reporting about instrument assets."
+msgstr "識別子レコード間の重複は新しい問題ではなく、多くのアプリケーション(例えば書誌、医療記録)で一般的なものです。PIDINSTの識別子は世界的に永続的であると考えられていますが、機関が他の機関に装置を貸与したり、特殊な施設(大規模シンクロトロン、医学研究所、計算施設など)へのアクセスを提供する場合には、特に重複が発生する可能性があることが認められている。このような重複は、装置資産に関する不正確な統計や報告につながる可能性があります。"
 
 #: ../../white-paper/duplication.rst:13
+#, fuzzy, python-format
 msgid ""
 "It is recommended that owners of instruments try to employ workflows and "
-"procedures that avoid duplication in the first instance. Where this has not "
-"been possible, it is recommended that instrument owners employ "
-"deduplication, effectively merging duplicate records into one representative"
-" record by ensuring links between them. This can be achieved using the "
-"PIDINST metadata schema *relatedIdentifier* property with a *relationType* "
-"attribute *IsIdenticalTo* as shown in :numref:`snip-dub-merge-xml` and "
-":numref:`%s <snip-dub-merge-json>`."
+"procedures that avoid duplication in the first instance.  Where this has "
+"not been possible, it is recommended that instrument owners employ "
+"deduplication, effectively merging duplicate records into one "
+"representative record by ensuring links between them.  This can be "
+"achieved using the PIDINST metadata schema *relatedIdentifier* property "
+"with a *relationType* attribute *IsIdenticalTo* as shown in :numref"
+":`snip-dub-merge-xml` and :numref:`%s <snip-dub-merge-json>`."
 msgstr ""
 "装置の所有者は、第一に重複を回避するワークフローと手続きを採用するよう努めることが推奨されます。これが不可能な場合、重複するレコードとのリンクを確保しつつ、これらを効果的に一つの代表レコードに統合することで、重複を排除することが推奨されます。この操作は"
 " :numref:`snip-dub-merge-xml` and :numref:`%s <snip-dub-merge-json>` "
-"に示されるように、PIDINST メタデータスキーマの *relatedIdentifier* プロパティの *relationType* 属性に "
-"*IsIdenticalTo* を指定することで実現できます。 "
+"に示されるように、PIDINST メタデータスキーマの *relatedIdentifier* プロパティの *relationType* 属性に"
+" *IsIdenticalTo* を指定することで実現できます。 "
 
-#: ../../white-paper/duplication.rst:23
+#: ../../white-paper/duplication.rst:22
 msgid "Merging duplicate instrument PID records using XML"
 msgstr "重複する装置PIDレコードを統合するXMLの例"
 
-#: ../../white-paper/duplication.rst:31
+#: ../../white-paper/duplication.rst:30
 msgid "Merging duplicate instrument PID records using JSON"
 msgstr "重複する装置PIDレコードを統合するJSONの例"
 
 #: ../../white-paper/duplication.rst:42
+#, fuzzy
 msgid ""
 "Recent advances in technologies are expanding to algorithms that "
-"automatically detect and resolve deduplication. While such methodologies "
-"have been known to improve the efficiency of detection in large collections "
-"such as Google Scholar or OpenAire Research Graph, algorithms may be limited"
-" by heterogeneous representations for example, by the use of differing "
-"semantics. While automatic detection is encouraged, the PIDINST schema is "
-"designed to complement multidisciplinary best practices for property values "
-"and many properties allow for soft-typing, giving users the ability to use "
-"values of their choice, such as free text or domain-specific standards."
+"automatically detect and resolve deduplication.  While such methodologies"
+" have been known to improve the efficiency of detection in large "
+"collections such as Google Scholar or `OpenAIRE Graph`_, algorithms may "
+"be limited by heterogeneous representations for example, by the use of "
+"differing semantics.  While automatic detection is encouraged, the "
+"PIDINST schema is designed to complement multidisciplinary best practices"
+" for property values and many properties allow for soft-typing, giving "
+"users the ability to use values of their choice, such as free text or "
+"domain-specific standards."
 msgstr ""
 "最近の技術の進歩は、重複排除を自動的に検出し解決するアルゴリズムにも広がっています。このような方法論は Google Scholar や "
 "OpenAire Research Graph "
 "のような大規模コレクションでの検出効率を向上させることが知られていますが、例えば異なるセマンティックスを用いた、様々な異種の表現によってアルゴリズムが制限されることがあります。自動検出が推奨される一方で、PIDINSTスキーマはプロパティ値に関する学際的なベストプラクティスを補完するように設計されており、多くのプロパティでソフトタイピングが可能で、フリーテキストやドメイン固有の標準など、ユーザーが選択した値を使用することができます。"
+

@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2020, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-14 16:50+0900\n"
+"POT-Creation-Date: 2024-01-23 17:09+0900\n"
 "PO-Revision-Date: 2023-07-13 06:45+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
-"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-"
+"translation-project/teams/148034/ja/)\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../white-paper/index.rst:4
 msgid "PIDINST White Paper"
@@ -29,15 +30,15 @@ msgstr "PIDINSTホワイトペーパー"
 msgid "Document type"
 msgstr "Document type"
 
-#: ../../white-paper/index.rst:0
+#: ../../white-paper/index.rst
 msgid "Research Data Alliance (RDA)"
 msgstr "Research Data Alliance (RDA)"
 
-#: ../../white-paper/index.rst:0
+#: ../../white-paper/index.rst
 msgid "Persistent Identification of Instruments (PIDINST)"
 msgstr "Persistent Identification of Instruments (PIDINST)"
 
-#: ../../white-paper/index.rst:0
+#: ../../white-paper/index.rst
 msgid "working group output report"
 msgstr "working group output report"
 
@@ -62,26 +63,27 @@ msgid "Contributors"
 msgstr "寄稿者"
 
 #: ../../white-paper/authors.rst:1
+#, fuzzy
 msgid ""
-"*Louise Darroch* (louise.darroch@bodc.ac.uk, "
-"https://orcid.org/0000-0003-4163-9575), British Oceanographic Data Centre, "
-"National Oceanography Centre, Liverpool, L3 5DA, United Kingdom"
+"*Louise Darroch* (lorr@noc.ac.uk, https://orcid.org/0000-0003-4163-9575),"
+" British Oceanographic Data Centre, National Oceanography Centre, "
+"Liverpool, L3 5DA, United Kingdom"
 msgstr ""
 "*Louise Darroch* (louise.darroch@bodc.ac.uk, "
-"https://orcid.org/0000-0003-4163-9575), British Oceanographic Data Centre, "
-"National Oceanography Centre, Liverpool, L3 5DA, United Kingdom"
+"https://orcid.org/0000-0003-4163-9575), British Oceanographic Data "
+"Centre, National Oceanography Centre, Liverpool, L3 5DA, United Kingdom"
 
 #: ../../white-paper/authors.rst:5
 msgid ""
 "*Robert Huber* (rhuber@uni-bremen.de, "
 "https://orcid.org/0000-0003-3000-0020), MARUM - Center for Marine "
-"Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen,"
-" Germany"
+"Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 "
+"Bremen, Germany"
 msgstr ""
 "*Robert Huber* (rhuber@uni-bremen.de, "
 "https://orcid.org/0000-0003-3000-0020), MARUM - Center for Marine "
-"Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen,"
-" Germany"
+"Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 "
+"Bremen, Germany"
 
 #: ../../white-paper/authors.rst:8
 msgid ""
@@ -186,92 +188,107 @@ msgstr ""
 #: ../../white-paper/authors.rst:43
 msgid ""
 "*Claudio D'Onofrio* (claudio.donofrio@nateko.lu.se, "
-"https://orcid.org/0000-0002-1982-3889), ICOS Carbon Portal, Lund University,"
-" Physical Geography & Ecosystem Science, Sölvegatan 12, 223 62 Lund, Sweden"
+"https://orcid.org/0000-0002-1982-3889), ICOS Carbon Portal, Lund "
+"University, Physical Geography & Ecosystem Science, Sölvegatan 12, 223 62"
+" Lund, Sweden"
 msgstr ""
 "*Claudio D'Onofrio* (claudio.donofrio@nateko.lu.se, "
-"https://orcid.org/0000-0002-1982-3889), ICOS Carbon Portal, Lund University,"
-" Physical Geography & Ecosystem Science, Sölvegatan 12, 223 62 Lund, Sweden"
+"https://orcid.org/0000-0002-1982-3889), ICOS Carbon Portal, Lund "
+"University, Physical Geography & Ecosystem Science, Sölvegatan 12, 223 62"
+" Lund, Sweden"
 
 #: ../../white-paper/authors.rst:47
 msgid ""
 "*Margareta Hellström* (margareta.hellstrom@nateko.lu.se, "
 "https://orcid.org/0000-0002-4154-2610), ICOS Carbon Portal, Physical "
-"Geography & Ecosystem Science, Lund University, Sölvegatan 12, 223 62 Lund, "
-"Sweden"
+"Geography & Ecosystem Science, Lund University, Sölvegatan 12, 223 62 "
+"Lund, Sweden"
 msgstr ""
 "*Margareta Hellström* (margareta.hellstrom@nateko.lu.se, "
 "https://orcid.org/0000-0002-4154-2610), ICOS Carbon Portal, Physical "
-"Geography & Ecosystem Science, Lund University, Sölvegatan 12, 223 62 Lund, "
-"Sweden"
+"Geography & Ecosystem Science, Lund University, Sölvegatan 12, 223 62 "
+"Lund, Sweden"
 
 #: ../../white-paper/authors.rst:51
 msgid ""
 "*Ingemar Häggström* (ingemar.haggstrom@eiscat.se, "
-"https://orcid.org/0000-0003-1070-6915), EISCAT Scientific Association, Box "
-"812, 98128 Kiruna, Sweden"
+"https://orcid.org/0000-0003-1070-6915), EISCAT Scientific Association, "
+"Box 812, 98128 Kiruna, Sweden"
 msgstr ""
 "*Ingemar Häggström* (ingemar.haggstrom@eiscat.se, "
-"https://orcid.org/0000-0003-1070-6915), EISCAT Scientific Association, Box "
-"812, 98128 Kiruna, Sweden"
+"https://orcid.org/0000-0003-1070-6915), EISCAT Scientific Association, "
+"Box 812, 98128 Kiruna, Sweden"
 
 #: ../../white-paper/authors.rst:54
 msgid ""
-"*Roland Koppe* (roland.koppe@awi.de, https://orcid.org/0000-0002-2826-3932),"
-" Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
-"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
+"*Roland Koppe* (roland.koppe@awi.de, "
+"https://orcid.org/0000-0002-2826-3932), Computing and Data Centre, Alfred"
+" Wegener Institute Helmholtz Centre for Polar and Marine Research. Am "
+"Handelshafen 12, 27570, Bremerhaven, Germany"
 msgstr ""
-"*Roland Koppe* (roland.koppe@awi.de, https://orcid.org/0000-0002-2826-3932),"
-" Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
-"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
+"*Roland Koppe* (roland.koppe@awi.de, "
+"https://orcid.org/0000-0002-2826-3932), Computing and Data Centre, Alfred"
+" Wegener Institute Helmholtz Centre for Polar and Marine Research. Am "
+"Handelshafen 12, 27570, Bremerhaven, Germany"
 
 #: ../../white-paper/authors.rst:59
 msgid ""
-"*Ana Macario* (ana.macario@awi.de, https://orcid.org/0000-0003-3747-793X), "
-"Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
-"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
+"*Ana Macario* (ana.macario@awi.de, "
+"https://orcid.org/0000-0003-3747-793X), Computing and Data Centre, Alfred"
+" Wegener Institute Helmholtz Centre for Polar and Marine Research. Am "
+"Handelshafen 12, 27570, Bremerhaven, Germany"
 msgstr ""
-"*Ana Macario* (ana.macario@awi.de, https://orcid.org/0000-0003-3747-793X), "
-"Computing and Data Centre, Alfred Wegener Institute Helmholtz Centre for "
-"Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven, Germany"
+"*Ana Macario* (ana.macario@awi.de, "
+"https://orcid.org/0000-0003-3747-793X), Computing and Data Centre, Alfred"
+" Wegener Institute Helmholtz Centre for Polar and Marine Research. Am "
+"Handelshafen 12, 27570, Bremerhaven, Germany"
 
 #: ../../white-paper/authors.rst:64
 msgid ""
-"*Tina Dohna* (tdohna@marum.de, https://orcid.org/0000-0002-5948-0980), MARUM"
-" - Center for Marine Environmental Sciences, University of Bremen, Leobener "
-"Str. 8, 28199 Bremen, Germany"
+"*Tina Dohna* (tdohna@marum.de, https://orcid.org/0000-0002-5948-0980), "
+"MARUM - Center for Marine Environmental Sciences, University of Bremen, "
+"Leobener Str. 8, 28199 Bremen, Germany"
 msgstr ""
-"*Tina Dohna* (tdohna@marum.de, https://orcid.org/0000-0002-5948-0980), MARUM"
-" - Center for Marine Environmental Sciences, University of Bremen, Leobener "
-"Str. 8, 28199 Bremen, Germany"
+"*Tina Dohna* (tdohna@marum.de, https://orcid.org/0000-0002-5948-0980), "
+"MARUM - Center for Marine Environmental Sciences, University of Bremen, "
+"Leobener Str. 8, 28199 Bremen, Germany"
 
 #: ../../white-paper/authors.rst:67
 msgid ""
-"*Jens Klump* (jens.klump@csiro.au, https://orcid.org/0000-0001-5911-6022), "
-"CSIRO Mineral Resources, 26 Dick Perry Avenue, Kensington WA 6151, Australia"
+"*Jens Klump* (jens.klump@csiro.au, "
+"https://orcid.org/0000-0001-5911-6022), CSIRO Mineral Resources, 26 Dick "
+"Perry Avenue, Kensington WA 6151, Australia"
 msgstr ""
-"*Jens Klump* (jens.klump@csiro.au, https://orcid.org/0000-0001-5911-6022), "
-"CSIRO Mineral Resources, 26 Dick Perry Avenue, Kensington WA 6151, Australia"
+"*Jens Klump* (jens.klump@csiro.au, "
+"https://orcid.org/0000-0001-5911-6022), CSIRO Mineral Resources, 26 Dick "
+"Perry Avenue, Kensington WA 6151, Australia"
 
 #: ../../white-paper/authors.rst:70
 msgid ""
 "*Markus Stocker* (markus.stocker@tib.eu, "
-"https://orcid.org/0000-0001-5492-3212), TIB – Leibniz Information Centre for"
-" Science and Technology, Welfengarten 1 B, 30167 Hannover, Germany and "
-"Leibniz University Hannover, Welfengarten 1, 30167 Hannover, Germany"
+"https://orcid.org/0000-0001-5492-3212), TIB – Leibniz Information Centre "
+"for Science and Technology, Welfengarten 1 B, 30167 Hannover, Germany and"
+" Leibniz University Hannover, Welfengarten 1, 30167 Hannover, Germany"
 msgstr ""
 "*Markus Stocker* (markus.stocker@tib.eu, "
-"https://orcid.org/0000-0001-5492-3212), TIB – Leibniz Information Centre for"
-" Science and Technology, Welfengarten 1 B, 30167 Hannover, Germany and "
-"Leibniz University Hannover, Welfengarten 1, 30167 Hannover, Germany"
+"https://orcid.org/0000-0001-5492-3212), TIB – Leibniz Information Centre "
+"for Science and Technology, Welfengarten 1 B, 30167 Hannover, Germany and"
+" Leibniz University Hannover, Welfengarten 1, 30167 Hannover, Germany"
 
 #: ../../white-paper/authors.rst:75
 msgid ""
-"*The Research Data Alliance Persistent Identification of Instruments Working"
-" Group members* (https://www.rd-alliance.org/node/57186/members)"
+"*Andreas Czerniak* (andreas.czerniak@uni-bielefeld.de, "
+"https://orcid.org/0000-0003-3883-4169), Bielefeld University Library, "
+"Universitätsstr. 25, 33615 Bielefeld, Germany"
 msgstr ""
-"*The Research Data Alliance Persistent Identification of Instruments Working"
-" Group members* (https://www.rd-alliance.org/node/57186/members)"
+
+#: ../../white-paper/authors.rst:78
+msgid ""
+"*The Research Data Alliance Persistent Identification of Instruments "
+"Working Group members* (https://www.rd-alliance.org/node/57186/members)"
+msgstr ""
+"*The Research Data Alliance Persistent Identification of Instruments "
+"Working Group members* (https://www.rd-alliance.org/node/57186/members)"
 
 #: ../../white-paper/index.rst:40
 msgid "Competing interests"
@@ -279,9 +296,9 @@ msgstr "利益相反について"
 
 #: ../../white-paper/index.rst:42
 msgid ""
-"Anita Bandrowski is a founder and CEO of SciCrunch Inc, a company devoted to"
-" working with publishers to improve the scientific literature.  All other "
-"authors declare that they have no competing interests."
+"Anita Bandrowski is a founder and CEO of SciCrunch Inc, a company devoted"
+" to working with publishers to improve the scientific literature.  All "
+"other authors declare that they have no competing interests."
 msgstr ""
 "Anita Bandrowski は SciCrunch Inc. の創設者兼CEOであり、出版社と協力して科学文献の改善に取り組んでいます。 "
 "その他の著者は、利害関係がないことを表明しています。"
@@ -292,9 +309,9 @@ msgstr "日本語版翻訳"
 
 #: ../../white-paper/authors-ja.rst:4
 msgid ""
-"The Japanese translation teams has been coordinated by the \"Subcommittee on"
-" PID for research resources and instruments\" of \"Reserch Data Utilization "
-"Forum, Japan\" https://japanlinkcenter.org/rduf/ ."
+"The Japanese translation teams has been coordinated by the \"Subcommittee"
+" on PID for research resources and instruments\" of \"Reserch Data "
+"Utilization Forum, Japan\" https://japanlinkcenter.org/rduf/ ."
 msgstr ""
 "この文書の日本語翻訳作業は、「研究データ利活用協議会(RDUF, https://japanlinkcenter.org/rduf/)」  "
 "の「研究資料・実験機器へのPID付与検討小委員会」において実施されました。"
@@ -311,39 +328,39 @@ msgstr ""
 
 #: ../../white-paper/authors-ja.rst:9
 msgid ""
-"*Kosuke Tanabe* (https://orcid.org/0000-0002-9986-7223), National Institute "
-"for Materials Science; 田辺浩介, 国立研究開発法人 物質・材料研究機構"
+"*Kosuke Tanabe* (https://orcid.org/0000-0002-9986-7223), National "
+"Institute for Materials Science; 田辺浩介, 国立研究開発法人 物質・材料研究機構"
 msgstr ""
-"*Kosuke Tanabe* (https://orcid.org/0000-0002-9986-7223), National Institute "
-"for Materials Science; 田辺浩介, 国立研究開発法人 物質・材料研究機構"
+"*Kosuke Tanabe* (https://orcid.org/0000-0002-9986-7223), National "
+"Institute for Materials Science; 田辺浩介, 国立研究開発法人 物質・材料研究機構"
 
 #: ../../white-paper/authors-ja.rst:12
 msgid ""
-"*Kazuyo Fukuda* (https://orcid.org/0000-0001-9837-4307), Japan Agency for "
-"Marine-Earth Science and Technology; 福田和代, 国立研究開発法人 海洋研究開発機構"
+"*Kazuyo Fukuda* (https://orcid.org/0000-0001-9837-4307), Japan Agency for"
+" Marine-Earth Science and Technology; 福田和代, 国立研究開発法人 海洋研究開発機構"
 msgstr ""
-"*Kazuyo Fukuda* (https://orcid.org/0000-0001-9837-4307), Japan Agency for "
-"Marine-Earth Science and Technology; 福田和代, 国立研究開発法人 海洋研究開発機構"
+"*Kazuyo Fukuda* (https://orcid.org/0000-0001-9837-4307), Japan Agency for"
+" Marine-Earth Science and Technology; 福田和代, 国立研究開発法人 海洋研究開発機構"
 
 #: ../../white-paper/authors-ja.rst:15
 msgid ""
 "*Takahiro Matsumoto* (matumot@spring8.or.jp, "
-"https://orcid.org/0000-0001-6949-5492), Japan Synchrotron Radiation Research"
-" Insitute; 松本崇博, 公益財団法人 高輝度光科学研究センター"
+"https://orcid.org/0000-0001-6949-5492), Japan Synchrotron Radiation "
+"Research Insitute; 松本崇博, 公益財団法人 高輝度光科学研究センター"
 msgstr ""
 "*Takahiro Matsumoto* (matumot@spring8.or.jp, "
-"https://orcid.org/0000-0001-6949-5492), Japan Synchrotron Radiation Research"
-" Insitute; 松本崇博, 公益財団法人 高輝度光科学研究センター"
+"https://orcid.org/0000-0001-6949-5492), Japan Synchrotron Radiation "
+"Research Insitute; 松本崇博, 公益財団法人 高輝度光科学研究センター"
 
 #: ../../white-paper/authors-ja.rst:18
 msgid ""
 "*Nobuko Miyairi* (nobuko@miyairi.info, "
-"http://orcid.org/0000-0002-3229-5662), Scholarly Communications Consultant; "
-"宮入暢子, 学術コミュニケーションコンサルタント"
+"http://orcid.org/0000-0002-3229-5662), Scholarly Communications "
+"Consultant; 宮入暢子, 学術コミュニケーションコンサルタント"
 msgstr ""
 "*Nobuko Miyairi* (nobuko@miyairi.info, "
-"http://orcid.org/0000-0002-3229-5662), Scholarly Communications Consultant; "
-"宮入暢子, 学術コミュニケーションコンサルタント"
+"http://orcid.org/0000-0002-3229-5662), Scholarly Communications "
+"Consultant; 宮入暢子, 学術コミュニケーションコンサルタント"
 
 #: ../../white-paper/authors-ja.rst:21
 msgid ""
@@ -362,3 +379,4 @@ msgid ""
 msgstr ""
 "*Nobuya Okayama* (https://orcid.org/0000-0001-8974-4716), Hitachi "
 "Consulting, Co.Ltd; 岡山将也, 株式会社日立コンサルティング"
+
