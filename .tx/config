@@ -1,151 +1,151 @@
 [main]
 host = https://www.transifex.com
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:index]
+[o:rdm-japan:p:pidinst-ja-202208:r:index]
 file_filter = locale/<lang>/LC_MESSAGES/index.po
 source_file = _build/gettext/index.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:datacite-cookbook--index]
+[o:rdm-japan:p:pidinst-ja-202208:r:datacite-cookbook--index]
 file_filter = locale/<lang>/LC_MESSAGES/datacite-cookbook/index.po
 source_file = _build/gettext/datacite-cookbook/index.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:datacite-cookbook--intro]
+[o:rdm-japan:p:pidinst-ja-202208:r:datacite-cookbook--intro]
 file_filter = locale/<lang>/LC_MESSAGES/datacite-cookbook/intro.po
 source_file = _build/gettext/datacite-cookbook/intro.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:datacite-cookbook--metadata]
+[o:rdm-japan:p:pidinst-ja-202208:r:datacite-cookbook--metadata]
 file_filter = locale/<lang>/LC_MESSAGES/datacite-cookbook/metadata.po
 source_file = _build/gettext/datacite-cookbook/metadata.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:datacite-cookbook--minting]
+[o:rdm-japan:p:pidinst-ja-202208:r:datacite-cookbook--minting]
 file_filter = locale/<lang>/LC_MESSAGES/datacite-cookbook/minting.po
 source_file = _build/gettext/datacite-cookbook/minting.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:datacite-cookbook--prereq]
+[o:rdm-japan:p:pidinst-ja-202208:r:datacite-cookbook--prereq]
 file_filter = locale/<lang>/LC_MESSAGES/datacite-cookbook/prereq.po
 source_file = _build/gettext/datacite-cookbook/prereq.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:epic-cookbook--handles]
+[o:rdm-japan:p:pidinst-ja-202208:r:epic-cookbook--handles]
 file_filter = locale/<lang>/LC_MESSAGES/epic-cookbook/handles.po
 source_file = _build/gettext/epic-cookbook/handles.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:epic-cookbook--index]
+[o:rdm-japan:p:pidinst-ja-202208:r:epic-cookbook--index]
 file_filter = locale/<lang>/LC_MESSAGES/epic-cookbook/index.po
 source_file = _build/gettext/epic-cookbook/index.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:epic-cookbook--intro]
+[o:rdm-japan:p:pidinst-ja-202208:r:epic-cookbook--intro]
 file_filter = locale/<lang>/LC_MESSAGES/epic-cookbook/intro.po
 source_file = _build/gettext/epic-cookbook/intro.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--adoption]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--adoption]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/adoption.po
 source_file = _build/gettext/white-paper/adoption.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--authors-ja]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--authors-ja]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/authors-ja.po
 source_file = _build/gettext/white-paper/authors-ja.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--authors]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--authors]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/authors.po
 source_file = _build/gettext/white-paper/authors.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--create-new-pid]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--create-new-pid]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/create-new-pid.po
 source_file = _build/gettext/white-paper/create-new-pid.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--duplication]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--duplication]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/duplication.po
 source_file = _build/gettext/white-paper/duplication.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--index]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--index]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/index.po
 source_file = _build/gettext/white-paper/index.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--instrument-pids]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--instrument-pids]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/instrument-pids.po
 source_file = _build/gettext/white-paper/instrument-pids.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--landing-page-content]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--landing-page-content]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/landing-page-content.po
 source_file = _build/gettext/white-paper/landing-page-content.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--landing-page-encoding]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--landing-page-encoding]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/landing-page-encoding.po
 source_file = _build/gettext/white-paper/landing-page-encoding.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--linking-datasets]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--linking-datasets]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/linking-datasets.po
 source_file = _build/gettext/white-paper/linking-datasets.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--metadata-schema-recommendations]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--metadata-schema-recommendations]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/metadata-schema-recommendations.po
 source_file = _build/gettext/white-paper/metadata-schema-recommendations.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--metadata-schema]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--metadata-schema]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/metadata-schema.po
 source_file = _build/gettext/white-paper/metadata-schema.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--overview]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--overview]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/overview.po
 source_file = _build/gettext/white-paper/overview.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--physical-objects]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--physical-objects]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/physical-objects.po
 source_file = _build/gettext/white-paper/physical-objects.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--publishing]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--publishing]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/publishing.po
 source_file = _build/gettext/white-paper/publishing.pot
 source_lang = en
 type = PO
 
-[o:pidinst-japanese-translation-project:p:pidinst-ja-202208:r:white-paper--registration]
+[o:rdm-japan:p:pidinst-ja-202208:r:white-paper--registration]
 file_filter = locale/<lang>/LC_MESSAGES/white-paper/registration.po
 source_file = _build/gettext/white-paper/registration.pot
 source_lang = en

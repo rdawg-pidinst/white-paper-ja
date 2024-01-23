@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2020, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 # Translators:
-# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PIDINST 0.1\n"
+"Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-23 17:09+0900\n"
 "PO-Revision-Date: 2023-07-13 06:45+0000\n"
-"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
-"Language: ja\n"
-"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-"
-"translation-project/teams/148034/ja/)\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/rdm-japan/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:4
 msgid "Recommendations using the PIDINST metadata schema"
@@ -30,41 +29,41 @@ msgstr "PIDINSTメタデータスキーマ利用における推奨事項"
 msgid ""
 "We recommend that an instrument’s associated metadata is published in a "
 "common language, specifically US English to enable its reuse.  In the "
-"following section, we provide advanced recommendations on how to specify "
-"the values in the PIDINST metadata and discuss special cases."
-msgstr "装置に紐づくメタデータは、再利用を可能にするため、共通言語、特にUS英語で公開することを推奨します。次のセクションでは、PIDINSTメタデータスキーマの推奨事項の先進的な事例としてPIDINSTメタデータの値の指定方法を紹介し、特殊なケースについて説明します。"
+"following section, we provide advanced recommendations on how to specify the"
+" values in the PIDINST metadata and discuss special cases."
+msgstr ""
+"装置に紐づくメタデータは、再利用を可能にするため、共通言語、特にUS英語で公開することを推奨します。次のセクションでは、PIDINSTメタデータスキーマの推奨事項の先進的な事例としてPIDINSTメタデータの値の指定方法を紹介し、特殊なケースについて説明します。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:14
 msgid "Using common terminologies"
 msgstr "共通用語の利用"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:16
-#, fuzzy
 msgid ""
 "Common terminologies such as controlled vocabularies, taxonomies or "
 "ontologies, are sets of standardised terms that solve the problem of "
-"ambiguities associated with metadata markup and enable records to be "
-"shared and interpreted semantically by computers.  Many terminologies "
-"exist, covering a broad spectrum of disciplines and their best practices."
-"  The PIDINST schema is designed to complement multidisciplinary best "
-"practices for property values.  Many properties allow for soft-typing "
-"(e.g., *ownerName*), giving users the ability to use values of their "
-"choice, such as free text or domain-specific terminologies.  Property "
-"attributes enable users and machines to understand the context of the "
-"value (e.g., *ownerIdentifier*, *ownerIdentifierType*), again using free "
-"text or standardised terminologies.  While free text is allowed, "
-"institutions should consider using common terminologies where practical "
-"to enhance the (semantic) interoperability of PID records, particularly "
-"where they form part of domain-specific best practice.  For example, a "
-"comprehensive set of terminologies that describe *instrumentType* (via "
+"ambiguities associated with metadata markup and enable records to be shared "
+"and interpreted semantically by computers.  Many terminologies exist, "
+"covering a broad spectrum of disciplines and their best practices.  The "
+"PIDINST schema is designed to complement multidisciplinary best practices "
+"for property values.  Many properties allow for soft-typing (e.g., "
+"*ownerName*), giving users the ability to use values of their choice, such "
+"as free text or domain-specific terminologies.  Property attributes enable "
+"users and machines to understand the context of the value (e.g., "
+"*ownerIdentifier*, *ownerIdentifierType*), again using free text or "
+"standardised terminologies.  While free text is allowed, institutions should"
+" consider using common terminologies where practical to enhance the "
+"(semantic) interoperability of PID records, particularly where they form "
+"part of domain-specific best practice.  For example, a comprehensive set of "
+"terminologies that describe *instrumentType* (via "
 "*instrumentTypeIdentifier*) or *Model* (via *modelIdentifier*) are used "
 "widely in the Earth science marine domain "
 "(`http://vocab.nerc.ac.uk/collection/L22/current/ "
 "<http://vocab.nerc.ac.uk/collection/L22/current/>`_, "
 "`http://vocab.nerc.ac.uk/collection/L05/current/ "
-"<http://vocab.nerc.ac.uk/collection/L05/current/>`_). An example of the "
-"use of common terminologies in ePIC records is shown in :numref:`tab-"
-"schema-handle-record`."
+"<http://vocab.nerc.ac.uk/collection/L05/current/>`_). An example of the use "
+"of common terminologies in ePIC records is shown in :numref:`tab-schema-"
+"handle-record`."
 msgstr ""
 "統制された語彙、分類法、オントロジーなどの標準化された共通用語のセットは、メタデータマークアップに関連する曖昧さの課題を解決し、コンピュータによる情報共有と意味的解釈を可能にします。多くの用語集が存在しており、広範な分野とそのベストプラクティスを包括してます。PIDINSTスキーマは、プロパティ値に関する多分野のベストプラクティスを補うように設計されています。多くのプロパティはソフトタイピングを可能にし("
 " *ownerName* "
@@ -72,29 +71,28 @@ msgstr ""
 " *ownerIdentifierType* "
 "など)、これもフリーテキストや標準化された用語を利用しています。フリーテキストが許容される一方、機関はPID記録の(セマンティックな)相互運用性を高めるため、ドメイン固有のベストプラクティスの一部を形成し実用的な場合においては、特に共通用語の利用を検討すべきです。例えば地球科学の海洋分野では、*instrumentType*"
 " ( *instrumentTypeIdentifier* より) や *Model* ( *modelIdentifier* "
-"より)を記述する包括的な用語集が広く使われています(`http://vocab.nerc.ac.uk/collection/L22/current/"
-" <http://vocab.nerc.ac.uk/collection/L22/current/>`_, "
+"より)を記述する包括的な用語集が広く使われています(`http://vocab.nerc.ac.uk/collection/L22/current/ "
+"<http://vocab.nerc.ac.uk/collection/L22/current/>`_, "
 "`http://vocab.nerc.ac.uk/collection/L05/current/ "
 "<http://vocab.nerc.ac.uk/collection/L05/current/>`_) 。ePIC "
 "レコードにおける一般的な用語集の利用例を :numref:`tab-schema-handle-record` に示します。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:40
-#, fuzzy
 msgid ""
 "Handle record of instrument identifier        "
-"http://hdl.handle.net/21.T11998/0000-001A-3905-F displaying        the "
-"use of common terminologies to identify instrument        metadata "
-"compliant with the PIDINST schema as implemented        by ePIC.  The "
-"terminologies used are published on the `NERC        Vocabulary Server "
-"(NVS) <NVS_>`_.  The data for each        metadata property is provided "
-"in JSON.  The Handle record        can be viewed at        "
+"http://hdl.handle.net/21.T11998/0000-001A-3905-F displaying        the use "
+"of common terminologies to identify instrument        metadata compliant "
+"with the PIDINST schema as implemented        by ePIC.  The terminologies "
+"used are published on the `NERC        Vocabulary Server (NVS) <NVS_>`_.  "
+"The data for each        metadata property is provided in JSON.  The Handle "
+"record        can be viewed at        "
 "http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect"
 msgstr ""
 "装置識別子のハンドルレコード http://hdl.handle.net/21.T11998/0000-001A-3905-F "
 "ePICによって実装されたPIDINSTスキーマに準拠した装置のメタデータを識別するための共通用語の利用を示しています。利用されている用語集は "
 "`NERC Vocabulary Server (NVS) <NVS_>`_ "
-"で公開されています。各メタデータのプロパティのデータフォーマットはJSON形式になっています。ハンドルレコードは "
-"http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect より閲覧できます。"
+"で公開されています。各メタデータのプロパティのデータフォーマットはJSON形式になっています。ハンドルレコードは "
+"http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect より閲覧できます。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:53
 msgid "Type"
@@ -108,107 +106,107 @@ msgstr "データ"
 msgid "URL"
 msgstr "URL"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/8eb858ee0b12e8e463a5"
 msgstr "21.T11148/8eb858ee0b12e8e463a5"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Identifier)"
 msgstr "(Identifier)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/f5e68cc7718a6af2a96c"
 msgstr "21.T11148/f5e68cc7718a6af2a96c"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(SchemaVersion)"
 msgstr "(SchemaVersion)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/9a15a4735d4bda329d80"
 msgstr "21.T11148/9a15a4735d4bda329d80"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(LandingPage)"
 msgstr "(LandingPage)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/709a23220f2c3d64d1e1"
 msgstr "21.T11148/709a23220f2c3d64d1e1"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Name)"
 msgstr "(Name)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/4eaec4bc0f1df68ab2a7"
 msgstr "21.T11148/4eaec4bc0f1df68ab2a7"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Owners)"
 msgstr "(Owners)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/1f3e82ddf0697a497432"
 msgstr "21.T11148/1f3e82ddf0697a497432"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Manufacturers)"
 msgstr "(Manufacturers)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/c1a0ec5ad347427f25d6"
 msgstr "21.T11148/c1a0ec5ad347427f25d6"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Model)"
 msgstr "(Model)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/55f8ebc805e65b5b71dd"
 msgstr "21.T11148/55f8ebc805e65b5b71dd"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Description)"
 msgstr "(Description)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/f76ad9d0324302fc47dd"
 msgstr "21.T11148/f76ad9d0324302fc47dd"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(InstrumentType)"
 msgstr "(InstrumentType)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/72928b84e060d491ee41"
 msgstr "21.T11148/72928b84e060d491ee41"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(MeasuredVariables)"
 msgstr "(MeasuredVariables)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/22c62082a4d2d9ae2602"
 msgstr "21.T11148/22c62082a4d2d9ae2602"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(Dates)"
 msgstr "(Dates)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/eb3c713572f681e6c4c3"
 msgstr "21.T11148/eb3c713572f681e6c4c3"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(AlternateIdentifiers)"
 msgstr "(AlternateIdentifiers)"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "21.T11148/178fb558abc755ca7046"
 msgstr "21.T11148/178fb558abc755ca7046"
 
-#: ../../white-paper/metadata-schema-recommendations.rst
+#: ../../white-paper/metadata-schema-recommendations.rst:0
 msgid "(RelatedIdentifiers)"
 msgstr "(RelatedIdentifiers)"
 
@@ -218,11 +216,11 @@ msgstr "他のPIDの利用"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:198
 msgid ""
-"The PIDINST metadata may contain references to related entities at "
-"various places.  Obviously, these references should preferably use "
-"persistent identifiers whenever applicable.  Different types of PIDs are "
-"recommended depending on the nature of the referenced entity.  The most "
-"common cases are:"
+"The PIDINST metadata may contain references to related entities at various "
+"places.  Obviously, these references should preferably use persistent "
+"identifiers whenever applicable.  Different types of PIDs are recommended "
+"depending on the nature of the referenced entity.  The most common cases "
+"are:"
 msgstr ""
 "PIDINSTメタデータは様々な場所での関連する実体への参照を含むことができます。 "
 "明らかに、これら参照では可能な限り永続的識別子を利用することが望まれます。 参照される実体の性質により異なるタイプのPIDが推奨されます。 "
@@ -230,8 +228,8 @@ msgstr ""
 
 #: ../../white-paper/metadata-schema-recommendations.rst:204
 msgid ""
-"other instruments may be referenced in several cases.  The most common "
-"PID types are Handles and DOIs here."
+"other instruments may be referenced in several cases.  The most common PID "
+"types are Handles and DOIs here."
 msgstr "いくつかの場合で他の装置を参照することがあります。この場合における最も一般的なPIDタイプは、HandleとDOIです。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:207
@@ -242,8 +240,8 @@ msgstr "*owner* または *manufacturer* として表示される可能性のあ
 
 #: ../../white-paper/metadata-schema-recommendations.rst:210
 msgid ""
-"the most common PID for individuals that may appear as owner or "
-"manufacturer is the `ORCID`_ iD."
+"the most common PID for individuals that may appear as owner or manufacturer"
+" is the `ORCID`_ iD."
 msgstr "*owner* または *manufacturer* として表示される可能性のある個人のPIDは、`ORCID`_ iDが最も一般的です。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:213
@@ -257,47 +255,44 @@ msgid "RRIDs"
 msgstr "RRID"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:220
-#, fuzzy
 msgid ""
-"In a similar way to common terminologies, persistent identifiers have "
-"been created to help users classify and accurately describe physical "
-"objects.  The research resource identifier (RRID) can be used to identify"
-" classes of instruments (models) and is thus related to PIDINST, which "
-"identifies instrument instances.\\ [#bandrowski2016]_ This work is "
-"undertaken by the `UsedIT`_ group, which is extending the RRID to "
-"instrument classes that could be used to describe the *Model* (via "
-"*modelIdentifier*) property (:numref:`tab-schema-use-rrid`). RRIDs are "
-"not described in detail here, but it is envisioned that the RRID metadata"
-" schema, which was described in detail previously,\\ [#bandrowski2012]_ "
-"and extended by UsedIT, will be interoperable with instrument instance "
-"(PIDINST) PIDs.  This interoperability should enable any project to "
-"quickly download data about the model to consistently fill mapped fields."
+"In a similar way to common terminologies, persistent identifiers have been "
+"created to help users classify and accurately describe physical objects.  "
+"The research resource identifier (RRID) can be used to identify classes of "
+"instruments (models) and is thus related to PIDINST, which identifies "
+"instrument instances.\\ [#bandrowski2016]_ This work is undertaken by the "
+"`UsedIT`_ group, which is extending the RRID to instrument classes that "
+"could be used to describe the *Model* (via *modelIdentifier*) property "
+"(:numref:`tab-schema-use-rrid`). RRIDs are not described in detail here, but"
+" it is envisioned that the RRID metadata schema, which was described in "
+"detail previously,\\ [#bandrowski2012]_ and extended by UsedIT, will be "
+"interoperable with instrument instance (PIDINST) PIDs.  This "
+"interoperability should enable any project to quickly download data about "
+"the model to consistently fill mapped fields."
 msgstr ""
 "一般的な用語と同様、永続的識別子は、ユーザーが物理オブジェクトを分類し、正確に記述するのを補助するため、発行されてきました。 Research "
 "resouce identifier (RRID、研究資源識別子)は、装置( *Model* "
 ")のクラスを識別するために使用することができます。したがって、装置のインスタンスを識別するPIDINSTと関連しています\\ "
-"[#bandrowski2016]_。このタスクは、`UsedIT`_ グループが請け負っており、*Model* "
-"プロパティ(*modelIdentifier* 経由)の記述ができるようRRIDの装置クラスを拡張しています(:numref:`tab-"
-"schema-use-rrid` )。ここではRRIDについて詳しく説明しませんが、先に詳しく説明したRRIDメタデータスキーマ(及び "
+"[#bandrowski2016]_ 。このタスクは、`UsedIT`_ グループが請け負っており、*Model* "
+"プロパティ(*modelIdentifier* 経由)の記述ができるようRRIDの装置クラスを拡張しています(:numref:`tab-schema-"
+"use-rrid` )。ここではRRIDについて詳しく説明しませんが、先に詳しく説明したRRIDメタデータスキーマ(及び "
 "UserITによって拡張されたもの) \\ [#bandrowski2012]_ "
 "では、装置のインスタンス(PIDINST)のPIDと相互運用することが想定されています。この相互運用性により、どのプロジェクトにおいてもモデルに関するデータをすぐにダウンロードし、マッピングされたフィールドを矛盾なく埋めることができるようになるはずです。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:235
-#, fuzzy
 msgid ""
-"Why RRIDs? RRIDs are currently used in about 1000 journals to tag classes"
-" of research resources (including reagents like antibodies or plasmids, "
+"Why RRIDs? RRIDs are currently used in about 1000 journals to tag classes of"
+" research resources (including reagents like antibodies or plasmids, "
 "organisms, cell lines, and a relatively broad category of “tools” which "
-"includes software tools and services such as university core facilities, "
-"but recently has been extended to physical tools such as models of "
-"sequencers or microscopes).  Because RRIDs were created as an agreement "
-"between a group of biological journals and the National Institutes of "
-"Health, they are most commonly found and linked in the biological "
-"sciences literature (e.g., Cell, eLife), they are part of the JATS NISO "
-"standard, STAR Methods, and the MDAR pan-publisher reproducibility "
-"checklist, resolved by identifiers.org and the n2t resolver and echoed by"
-" some of the major reagent providers (e.g., Thermo Fisher, Addgene, and "
-"the MMRRC mouse repository)."
+"includes software tools and services such as university core facilities, but"
+" recently has been extended to physical tools such as models of sequencers "
+"or microscopes).  Because RRIDs were created as an agreement between a group"
+" of biological journals and the National Institutes of Health, they are most"
+" commonly found and linked in the biological sciences literature (e.g., "
+"Cell, eLife), they are part of the JATS NISO standard, STAR Methods, and the"
+" MDAR pan-publisher reproducibility checklist, resolved by identifiers.org "
+"and the n2t resolver and echoed by some of the major reagent providers "
+"(e.g., Thermo Fisher, Addgene, and the MMRRC mouse repository)."
 msgstr ""
 "なぜRRIDを利用するのでしょうか？RRIDは研究資源のクラスをタグ付けするため、現在約1000の雑誌において利用されています。例として抗体やプラスミドなどの試薬、生物、細胞株、そしてソフトウェアツールや大学の中核施設などのサービスを含む比較的広いカテゴリーの「ツール」、さらに最近ではシーケンサーやマイクロスコープのモデルなどの物理ツールにもRRID利用が拡張されています。RRIDは生物学雑誌のグループと国立衛生研究所の間の合意として作成されたため、生物科学分野の文献(Cell、eLifeなど)で最もよく見られ、リンクされています。これらはJATS"
 " NISO standard、STAR Methods、MDAR pan-publisher reproducibility "
@@ -440,15 +435,15 @@ msgstr "不明な情報への対応"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:283
 msgid ""
-"There are situations where it is not possible or not appropriate to "
-"provide some piece of information that should normally be present in the "
-"metadata.  This may for instance happen, if this information is simply "
-"unknown, if a property has not or not yet been assigned a value, or if it"
-" is not appropriate to disclose some piece of information.  As an example"
-" for the latter case, consider a person that contributes measurements to "
-"a citizen science project, but who prefers to remain anonymous for "
-"privacy reasons.  That person might not want to be named as the owner of "
-"the instrument taking the data."
+"There are situations where it is not possible or not appropriate to provide "
+"some piece of information that should normally be present in the metadata.  "
+"This may for instance happen, if this information is simply unknown, if a "
+"property has not or not yet been assigned a value, or if it is not "
+"appropriate to disclose some piece of information.  As an example for the "
+"latter case, consider a person that contributes measurements to a citizen "
+"science project, but who prefers to remain anonymous for privacy reasons.  "
+"That person might not want to be named as the owner of the instrument taking"
+" the data."
 msgstr ""
 "本来メタデータに含まれるべき情報を提供できない、あるいは提供することが適切でない場合があります。 "
 "例えば、情報が単に不明である場合、プロパティに値が設定されていない場合、あるいは情報を公開することが適切でない場合などがあります。 "
@@ -456,17 +451,16 @@ msgstr ""
 "その人は、データを取得する装置の所有者として名前を知られたくないのかもしれません。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:293
-#, fuzzy
 msgid ""
-"In all these cases it is still useful to make it at least explicit that "
-"this information has not been omitted inadvertently and also to give a "
-"reason why it is missing.  For this purpose, PIDINST adopts the *standard"
-" values for unknown information* from DataCite, see Appendix 3 in the "
-"DataCite Metadata Schema Documentation.\\ [#datacite2019]_"
+"In all these cases it is still useful to make it at least explicit that this"
+" information has not been omitted inadvertently and also to give a reason "
+"why it is missing.  For this purpose, PIDINST adopts the *standard values "
+"for unknown information* from DataCite, see Appendix 3 in the DataCite "
+"Metadata Schema Documentation.\\ [#datacite2019]_"
 msgstr ""
 "このようなすべての場合において、この情報が不注意で省略されたものではないことを少なくとも明示し、また情報が欠落している理由を示すことが有用であることに変わりはありません。"
-" この目的のため、PIDINSTではDataCiteにおける *不明な情報の標準値* を採用しています。詳しくはDataCite Metadata"
-" Schema Documentation の Appendix 3 を参照してください [#datacite2019]_ 。"
+" この目的のため、PIDINSTではDataCiteにおける *不明な情報の標準値* を採用しています。詳しくはDataCite Metadata "
+"Schema Documentation の Appendix 3 を参照してください [#datacite2019]_ 。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:299
 msgid "Encoding unknown values in the instrument PID metadata using XML"
@@ -474,42 +468,42 @@ msgstr "測定器のPIDメタデータに含まれる不明な値をXMLでエン
 
 #: ../../white-paper/metadata-schema-recommendations.rst:315
 msgid ""
-":numref:`snip-schema-unknown-xml` demonstrates the use of standard values"
-" for unknown information in the metadata of an instrument PID. It shows "
-"an instrument that has not yet been assigned a name, e.g. it may be "
-"assumed that the metadata record will be updated at a later point in time"
-" including a name.  The owner of the instrument is refused to be "
-"disclosed and the manufacturer is not known."
+":numref:`snip-schema-unknown-xml` demonstrates the use of standard values "
+"for unknown information in the metadata of an instrument PID. It shows an "
+"instrument that has not yet been assigned a name, e.g. it may be assumed "
+"that the metadata record will be updated at a later point in time including "
+"a name.  The owner of the instrument is refused to be disclosed and the "
+"manufacturer is not known."
 msgstr ""
 ":numref:`snip-schema-unknown-xml` "
 "は、装置PIDのメタデータにおける不明な情報に対する標準的な値の利用例を示しています。この装置の所有者の開示は拒否されており、製造元も不明ですが、メタデータレコードが後の時点において名前を含んで更新されることが想定されています。"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:335
 msgid ""
-"Bandrowski A, Brush M, Grethe JS, Haendel MA, Kennedy DN, Hill S, Hof PR,"
-" Martone ME, Pols M, Tan SC, Washington N, Zudilova-Seinstra E, "
-"Vasilevsky N. `The Resource Identification Initiative: A Cultural Shift "
-"in Publishing. <https://pubmed.ncbi.nlm.nih.gov/26599696/>`__ J Comp "
-"Neurol. 2016 Jan 1;524(1):8-22. https://doi.org/10.1002/cne.23913"
+"Bandrowski A, Brush M, Grethe JS, Haendel MA, Kennedy DN, Hill S, Hof PR, "
+"Martone ME, Pols M, Tan SC, Washington N, Zudilova-Seinstra E, Vasilevsky N."
+" `The Resource Identification Initiative: A Cultural Shift in Publishing. "
+"<https://pubmed.ncbi.nlm.nih.gov/26599696/>`__ J Comp Neurol. 2016 Jan "
+"1;524(1):8-22. https://doi.org/10.1002/cne.23913"
 msgstr ""
-"Bandrowski A, Brush M, Grethe JS, Haendel MA, Kennedy DN, Hill S, Hof PR,"
-" Martone ME, Pols M, Tan SC, Washington N, Zudilova-Seinstra E, "
-"Vasilevsky N. `The Resource Identification Initiative: A Cultural Shift "
-"in Publishing. <https://pubmed.ncbi.nlm.nih.gov/26599696/>`__ J Comp "
-"Neurol. 2016 Jan 1;524(1):8-22. https://doi.org/10.1002/cne.23913"
+"Bandrowski A, Brush M, Grethe JS, Haendel MA, Kennedy DN, Hill S, Hof PR, "
+"Martone ME, Pols M, Tan SC, Washington N, Zudilova-Seinstra E, Vasilevsky N."
+" `The Resource Identification Initiative: A Cultural Shift in Publishing. "
+"<https://pubmed.ncbi.nlm.nih.gov/26599696/>`__ J Comp Neurol. 2016 Jan "
+"1;524(1):8-22. https://doi.org/10.1002/cne.23913"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:343
 msgid ""
-"Bandrowski AE, Cachat J, Li Y, Müller HM, Sternberg PW, Ciccarese P, "
-"Clark T, Marenco L, Wang R, Astakhov V, Grethe JS, Martone ME. A hybrid "
-"human and machine resource curation pipeline for the Neuroscience "
-"Information Framework. Database (Oxford). 2012 Mar 20;2012:bas005. "
+"Bandrowski AE, Cachat J, Li Y, Müller HM, Sternberg PW, Ciccarese P, Clark "
+"T, Marenco L, Wang R, Astakhov V, Grethe JS, Martone ME. A hybrid human and "
+"machine resource curation pipeline for the Neuroscience Information "
+"Framework. Database (Oxford). 2012 Mar 20;2012:bas005. "
 "https://doi.org/10.1093/database/bas005"
 msgstr ""
-"Bandrowski AE, Cachat J, Li Y, Müller HM, Sternberg PW, Ciccarese P, "
-"Clark T, Marenco L, Wang R, Astakhov V, Grethe JS, Martone ME. A hybrid "
-"human and machine resource curation pipeline for the Neuroscience "
-"Information Framework. Database (Oxford). 2012 Mar 20;2012:bas005. "
+"Bandrowski AE, Cachat J, Li Y, Müller HM, Sternberg PW, Ciccarese P, Clark "
+"T, Marenco L, Wang R, Astakhov V, Grethe JS, Martone ME. A hybrid human and "
+"machine resource curation pipeline for the Neuroscience Information "
+"Framework. Database (Oxford). 2012 Mar 20;2012:bas005. "
 "https://doi.org/10.1093/database/bas005"
 
 #: ../../white-paper/metadata-schema-recommendations.rst:350
@@ -521,4 +515,3 @@ msgstr ""
 "DataCite Metadata Working Group (2019). DataCite Metadata Schema "
 "Documentation for the Publication and Citation of Research Data. Version "
 "4.3. DataCite e.V. https://doi.org/10.14454/7xq3-zf69"
-
