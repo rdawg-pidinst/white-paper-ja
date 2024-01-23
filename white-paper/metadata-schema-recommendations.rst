@@ -3,10 +3,10 @@
 Recommendations using the PIDINST metadata schema
 =================================================
 
-We recommend that an instrument’s associated metadata is published in a common language,
-specifically US English to enable its reuse.  In the following section, we provide
-advanced recommendations on how to specify the values in the PIDINST
-metadata and discuss special cases.
+We recommend that an instrument’s associated metadata is published in
+a common language, specifically US English to enable its reuse.  In
+the following section, we provide advanced recommendations on how to
+specify the values in the PIDINST metadata and discuss special cases.
 
 .. _pidinst-metadata-schema-terminologies:
 
@@ -16,39 +16,37 @@ Using common terminologies
 Common terminologies such as controlled vocabularies, taxonomies or
 ontologies, are sets of standardised terms that solve the problem of
 ambiguities associated with metadata markup and enable records to be
-shared and interpreted semantically by computers. Many terminologies
+shared and interpreted semantically by computers.  Many terminologies
 exist, covering a broad spectrum of disciplines and their best
-practices. The PIDINST schema is designed to complement
-multidisciplinary best practices for property values. Many properties
+practices.  The PIDINST schema is designed to complement
+multidisciplinary best practices for property values.  Many properties
 allow for soft-typing (e.g., *ownerName*), giving users the ability to
 use values of their choice, such as free text or domain-specific
-terminologies. Property attributes enable users and machines to
+terminologies.  Property attributes enable users and machines to
 understand the context of the value (e.g., *ownerIdentifier*,
 *ownerIdentifierType*), again using free text or standardised
-terminologies. While free text is allowed, institutions should consider
-using common terminologies where practical to enhance the (semantic)
-interoperability of PID records, particularly where they form part of
-domain-specific best practice. For example, a comprehensive set of
-terminologies that describe *instrumentType* (via *instrumentTypeIdentifier*) or 
-*Model* (via *modelIdentifier*) are used widely in the Earth science
-marine domain (`http://vocab.nerc.ac.uk/collection/L22/current/ <http://vocab.nerc.ac.uk/collection/L22/current/>`_,
+terminologies.  While free text is allowed, institutions should
+consider using common terminologies where practical to enhance the
+(semantic) interoperability of PID records, particularly where they
+form part of domain-specific best practice.  For example, a
+comprehensive set of terminologies that describe *instrumentType* (via
+*instrumentTypeIdentifier*) or *Model* (via *modelIdentifier*) are
+used widely in the Earth science marine domain
+(`http://vocab.nerc.ac.uk/collection/L22/current/ <http://vocab.nerc.ac.uk/collection/L22/current/>`_,
 `http://vocab.nerc.ac.uk/collection/L05/current/ <http://vocab.nerc.ac.uk/collection/L05/current/>`_).
 An example of the use of common terminologies in ePIC records is shown
 in :numref:`tab-schema-handle-record`.
-
-.. tabularcolumns:: |p{5cm}|p{10cm}|
 
 .. table:: Handle record of instrument identifier
 	   http://hdl.handle.net/21.T11998/0000-001A-3905-F displaying
 	   the use of common terminologies to identify instrument
 	   metadata compliant with the PIDINST schema as implemented
-	   by ePIC. The terminologies used are published on the `NERC
-	   Vocabulary Server (NVS) <NVS_>`_. The data for each
-	   metadata property is provided in JSON. The Handle record
+	   by ePIC.  The terminologies used are published on the `NERC
+	   Vocabulary Server (NVS) <NVS_>`_.  The data for each
+	   metadata property is provided in JSON.  The Handle record
 	   can be viewed at
-	   http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect 
+	   http://hdl.handle.net/21.T11998/0000-001A-3905-F?noredirect
     :name: tab-schema-handle-record
-    :widths: auto
     :class: longtable
 
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
@@ -87,8 +85,8 @@ in :numref:`tab-schema-handle-record`.
     |                                    |           "ownerIdentifierValue":                                                                            |
     |                                    |             "http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/",                                      |
     |                                    |           "ownerIdentifierType":"URL"                                                                        |
-    |                                    |          }                                                                                                   |
-    |                                    |        }                                                                                                     |
+    |                                    |         }                                                                                                    |
+    |                                    |       }                                                                                                      |
     |                                    |     }]                                                                                                       |
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/1f3e82ddf0697a497432   | .. code-block:: JSON                                                                                         |
@@ -107,12 +105,12 @@ in :numref:`tab-schema-handle-record`.
     | | 21.T11148/c1a0ec5ad347427f25d6   | .. code-block:: JSON                                                                                         |
     | | (Model)                          |                                                                                                              |
     |                                    |     [{                                                                                                       |
-    |                                    |        "modelName":"Sea-Bird SBE 37 MicroCat IM-CT with optional pressure (submersible) CTD sensor series",  |
-    |                                    |        "modelIdentifier":{                                                                                   |
-    |                                    |          "modelIdentifierValue":                                                                             |
-    |                                    |            "http://vocab.nerc.ac.uk/collection/L22/current/TOOL0022/",                                       |
-    |                                    |          "modelIdentifierType":"URL"                                                                         |
-    |                                    |        }                                                                                                     |
+    |                                    |       "modelName":"Sea-Bird SBE 37 MicroCat IM-CT with optional pressure (submersible) CTD sensor series",   |
+    |                                    |       "modelIdentifier":{                                                                                    |
+    |                                    |         "modelIdentifierValue":                                                                              |
+    |                                    |           "http://vocab.nerc.ac.uk/collection/L22/current/TOOL0022/",                                        |
+    |                                    |         "modelIdentifierType":"URL"                                                                          |
+    |                                    |       }                                                                                                      |
     |                                    |     }]                                                                                                       |
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/55f8ebc805e65b5b71dd   | .. code-block:: JSON                                                                                         |
@@ -125,19 +123,19 @@ in :numref:`tab-schema-handle-record`.
     | | 21.T11148/f76ad9d0324302fc47dd   | .. code-block:: JSON                                                                                         |
     | | (InstrumentType)                 |                                                                                                              |
     |                                    |     [{                                                                                                       |
-    |                                    |        "instrumentTypeName":"water temperature sensor",                                                      |
-    |                                    |        "instrumentTypeIdentifier":{                                                                          |
-    |                                    |          "instrumentTypeIdentifierValue":                                                                    |
-    |                                    |            "http://vocab.nerc.ac.uk/collection/L05/current/134/",                                            |
-    |                                    |          "instrumentTypeIdentifierType":"URL"                                                                |
-    |                                    |        }                                                                                                     |
+    |                                    |       "instrumentTypeName":"water temperature sensor",                                                       |
+    |                                    |       "instrumentTypeIdentifier":{                                                                           |
+    |                                    |         "instrumentTypeIdentifierValue":                                                                     |
+    |                                    |           "http://vocab.nerc.ac.uk/collection/L05/current/134/",                                             |
+    |                                    |         "instrumentTypeIdentifierType":"URL"                                                                 |
+    |                                    |       }                                                                                                      |
     |                                    |     },{                                                                                                      |
-    |                                    |        "instrumentTypeName":"salinity sensor",                                                               |
-    |                                    |        "instrumentTypeIdentifier":{                                                                          |
-    |                                    |          "instrumentTypeIdentifierValue":                                                                    |
-    |                                    |            "http://vocab.nerc.ac.uk/collection/L05/current/350/",                                            |
-    |                                    |          "instrumentTypeIdentifierType":"URL"                                                                |
-    |                                    |        }                                                                                                     |
+    |                                    |       "instrumentTypeName":"salinity sensor",                                                                |
+    |                                    |       "instrumentTypeIdentifier":{                                                                           |
+    |                                    |         "instrumentTypeIdentifierValue":                                                                     |
+    |                                    |           "http://vocab.nerc.ac.uk/collection/L05/current/350/",                                             |
+    |                                    |         "instrumentTypeIdentifierType":"URL"                                                                 |
+    |                                    |       }                                                                                                      |
     |                                    |     }]                                                                                                       |                    
     +------------------------------------+--------------------------------------------------------------------------------------------------------------+
     | | 21.T11148/72928b84e060d491ee41   | .. code-block:: JSON                                                                                         |
@@ -221,34 +219,35 @@ RRIDs
 
 In a similar way to common terminologies, persistent identifiers have
 been created to help users classify and accurately describe physical
-objects.  The research resource identifier (RRID) can be used to identify 
-classes of instruments (models) and is thus related to PIDINST, which 
-identifies instrument instances.\ [#bandrowski2016]_ This work is undertaken 
-by the `UsedIT`_ group, which is extending the RRID to instrument classes 
-that could be used to describe the *Model* (via *modelIdentifier*) property
-(:numref:`tab-schema-use-rrid`).  RRIDs are not described in detail
-here, but it is envisioned that the RRID metadata schema, which was
-described in detail previously,\ [#bandrowski2012]_ and extended by
-UsedIT, will be interoperable with instrument instance (PIDINST) PIDs.
-This interoperability should enable any project to quickly download
-data about the model to consistently fill mapped fields.
+objects.  The research resource identifier (RRID) can be used to
+identify classes of instruments (models) and is thus related to
+PIDINST, which identifies instrument instances.\ [#bandrowski2016]_
+This work is undertaken by the `UsedIT`_ group, which is extending the
+RRID to instrument classes that could be used to describe the *Model*
+(via *modelIdentifier*) property (:numref:`tab-schema-use-rrid`).
+RRIDs are not described in detail here, but it is envisioned that the
+RRID metadata schema, which was described in detail
+previously,\ [#bandrowski2012]_ and extended by UsedIT, will be
+interoperable with instrument instance (PIDINST) PIDs.  This
+interoperability should enable any project to quickly download data
+about the model to consistently fill mapped fields.
 
 Why RRIDs? RRIDs are currently used in about 1000 journals to tag
 classes of research resources (including reagents like antibodies or
 plasmids, organisms, cell lines, and a relatively broad category of
 “tools” which includes software tools and services such as university
 core facilities, but recently has been extended to physical tools such
-as models of sequencers or microscopes). Because RRIDs were created as
-an agreement between a group of biological journals and the National
-Institutes of Health, they are most commonly found and linked in the
-biological sciences literature (e.g., Cell, eLife), they are part of the
-JATS NISO standard, STAR Methods, and the MDAR pan-publisher
-reproducibility checklist, resolved by identifiers.org and the n2t
-resolver and echoed by some of the major reagent providers (e.g., Thermo
-Fisher, Addgene, and the MMRRC mouse repository).
+as models of sequencers or microscopes).  Because RRIDs were created
+as an agreement between a group of biological journals and the
+National Institutes of Health, they are most commonly found and linked
+in the biological sciences literature (e.g., Cell, eLife), they are
+part of the JATS NISO standard, STAR Methods, and the MDAR
+pan-publisher reproducibility checklist, resolved by identifiers.org
+and the n2t resolver and echoed by some of the major reagent providers
+(e.g., Thermo Fisher, Addgene, and the MMRRC mouse repository).
 
-.. _tab-schema-use-rrid:
 .. table:: Example showing the use of RRIDs in the PIDINST metadata schema.
+    :name: tab-schema-use-rrid
 
     +----------+------------------------+---------------+---------+----------------------------------------------------+--------------------------------------------+
     |          |                        |               |         |                                                    |                                            |
@@ -295,10 +294,10 @@ In all these cases it is still useful to make it at least explicit
 that this information has not been omitted inadvertently and also to
 give a reason why it is missing.  For this purpose, PIDINST adopts the
 *standard values for unknown information* from DataCite, see Appendix
-3 in the DataCite Metadata Schema Documentation. [#datacite2019]_
+3 in the DataCite Metadata Schema Documentation.\ [#datacite2019]_
 
-.. _snip-schema-unknown-xml:
 .. code-block:: XML
+    :name: snip-schema-unknown-xml
     :caption: Encoding unknown values in the instrument PID metadata using XML
 
       <name>:tba</name>

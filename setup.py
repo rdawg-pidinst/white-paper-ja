@@ -77,6 +77,6 @@ setup(
     url = "https://github.com/rdawg-pidinst/white-paper",
     python_requires = '>= 3.6',
     install_requires = ['setuptools_scm'],
-    py_modules=[],
+    py_modules = [],
     cmdclass = {'meta': meta, 'install': install},
 )

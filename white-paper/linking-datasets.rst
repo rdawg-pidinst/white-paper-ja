@@ -22,18 +22,18 @@ the instrument.  :numref:`snip-link-dataset-datacite-xml` shows a
 section of the DOI metadata from the same data publication containing
 this link.
 
-.. _fig-link-hzb:
 .. figure:: /images/ND000001-landing.png
+    :name: fig-link-hzb
     :alt: HZB dataset
 
     Landing page of a dataset published by HZB which links the PID of
     the instrument.
 
-.. _snip-link-dataset-datacite-xml:
 .. code-block:: XML
+    :name: snip-link-dataset-datacite-xml
     :caption: Use of the relatedIdentifier property in the DOI
-	      metadata from a data publication.  The second entry links
-	      the PID of the instrument.
+          metadata from a data publication.  The second entry links
+          the PID of the instrument.
 
       <relatedIdentifiers>
         <relatedIdentifier relatedIdentifierType="DOI" relationType="References">10.17815/jlsrf-4-110</relatedIdentifier>
@@ -66,22 +66,22 @@ event. As such, new types and properties are required to support the
 description of observation events and related scientific instruments
 to ensure full compliance with Schema.org functionality.
 
-.. _fig-link-pangea:
 .. figure:: /images/image2.png
+    :name: fig-link-pangea
     :alt: PANGAEA dataset
 
     An example of a dataset published by PANGAEA which includes its
     instrument identifier
     (https://doi.pangaea.de/10013/sensor.664525cf-45b9-4969-bb88-91a1c5e97a5b)
 
-.. _fig-link-model:
 .. figure:: /images/image1.png
+    :name: fig-link-model
     :alt: Conceptual model
 
     Conceptual model of Event and Specific Instrument Type (Vehicle)
 
-.. _fig-link-schema-org:
 .. figure:: /images/image3.png
+    :name: fig-link-schema-org
     :alt: Schema.org
 
     Snippet of schema.org representation of event and instrument
@@ -120,10 +120,10 @@ groups, other information relating to parameter streams or instruments
 could be expressed, such as calibralibrations and instrument reference
 frames and orientations.
 
-.. _snip-link-netcdf-cdl:
 .. code-block:: default
+    :name: snip-link-netcdf-cdl
     :caption: Truncated CF-NetCDF4 CDL file. Note some terminologies
-	      are in development.
+          are in development.
 
       netcdf iocean_example {
       dimensions:
@@ -212,17 +212,82 @@ instrument identifier may be expressed as an instrument attribute e.g.
 :numref:`snip-link-pidinst-netcdf`. Ideally, blank separated lists
 should be used if linking more than one instrument.
 
-.. _snip-link-pidinst-netcdf:
 .. code-block:: default
+    :name: snip-link-pidinst-netcdf
     :caption: Addition of a instrument PID attribute to NCEI CF-NetCDF
-	      files.
+          files.
 
       int instrument_parameter_variable;
          instrument_parameter_variable:long_name = "" ;
          instrument_parameter_variable:comment = "" ;
          instrument_parameter_variable:instrument_pid = "" ;
 
+OpenAIRE CERIF metadata
+-----------------------
+
+The *OpenAIRE Guidelines for CRIS Managers* [#crisguidelines2023]_ provide orientation for Research Information System (CRIS) managers
+to expose their metadata in a way that is compatible with the OpenAIRE
+infrastructure as well as the European Open Science Cloud (EOSC). These
+Guidelines also serve as an example of a CERIF-based (Common European Research Information Format)
+standard for information interchange between individual CRISs and other
+research e-Infrastructures.
+
+The metadata format described by the Guidelines are includes Equipment
+which could contain Instruments as well via the `GeneratedBy property`_.
+
+.. _snip-link-product-oaire-cerif-xml:
+.. code-block:: XML
+    :caption: Use of the equipment entity for an instrument in
+          exposed in a product (dataset) metadata record.
+          Detailed `product (dataset) example`_ at *OpenAIRE
+          Guidelines for CRIS Managers repository on GitHub*.
+
+      <GeneratedBy>
+        <Equipment id="82394876">
+            <Name xml:lang="en">E2 - Flat-Cone Diffractometer</Name>
+            <Identifier type="DOI">https://doi.org/10.5442/NI000001</Identifier>
+            <Description xml:lang="en">A 3-dimensional part of the reciprocal space can be scanned in less then five steps by combining the “off-plane Bragg-scattering” and the flat-cone layer concept while using a new computer-controlled tilting axis of the detector bank. Parasitic scattering from cryostat or furnace walls is reduced by an oscillating \"radial\" collimator. The datasets and all connected information is stored in one independent NeXus file format for each measurement and can be easily archived. The software package TVneXus deals with the raw data sets, the transformed physical spaces and the usual data analysis tools (e.g. MatLab). TVneXus can convert to various data sets e.g. into powder diffractograms, linear detector projections, rotation crystal pictures or the 2D/3D reciprocal space.</Description>
+        </Equipment>
+      </GeneratedBy>
+
+The products (dataset) relates internal to the Equipment record via
+the *id* attribute, eg. 82394874.  The metadata for the equipment
+itself is exposed via equipment metadata record and described in the
+`Equipment entity`_.
+
+.. _snip-link-equipment-oaire-cerif-xml:
+.. code-block:: XML
+    :caption: Use of the equipment entity for an instrument in
+          exposed in a product (dataset) metadata record.
+          Detailed `equipment example`_ at *OpenAIRE Guidelines for
+          CRIS Managers repository on GitHub*.
+
+      <Equipment xmlns="https://www.openaire.eu/cerif-profile/1.2/" id="82394876">
+        <Name xml:lang="en">E2 - Flat-Cone Diffractometer</Name>
+        <Identifier type="DOI">https://doi.org/10.5442/NI000001</Identifier>
+        <Description xml:lang="en">A 3-dimensional part of the reciprocal space can be scanned in less then five steps by combining the “off-plane Bragg-scattering” and the flat-cone layer concept while using a new computer-controlled tilting axis of the detector bank. Parasitic scattering from cryostat or furnace walls is reduced by an oscillating \"radial\" collimator. The datasets and all connected information is stored in one independent NeXus file format for each measurement and can be easily archived. The software package TVneXus deals with the raw data sets, the transformed physical spaces and the usual data analysis tools (e.g. MatLab). TVneXus can convert to various data sets e.g. into powder diffractograms, linear detector projections, rotation crystal pictures or the 2D/3D reciprocal space.</Description>
+        <Owner>
+          <OrgUnit id="OrgUnits/350002">
+            <Acronym>HZB</Acronym>
+            <Name xml:lang="de">Helmholtz-Zentrum Berlin Für Materialien Und Energie</Name>
+            <Name xml:lang="en">Helmholtz-Zentrum Berlin</Name>
+            <RORID>https://ror.org/02aj13c28</RORID>
+          </OrgUnit>
+        </Owner>
+      </Equipment>
+
+
 .. _DataCite Metadata Schema: https://schema.datacite.org/
+
+.. _OpenAIRE Guidelines for CRIS Managers: https://doi.org/10.5281/zenodo.8050936
+
+.. _GeneratedBy property: https://openaire-guidelines-for-cris-managers.readthedocs.io/en/v1.2.0/cerif_xml_product_entity.html#generatedby
+
+.. _Equipment entity: https://openaire-guidelines-for-cris-managers.readthedocs.io/en/v1.2.0/cerif_xml_equipment_entity.html
+
+.. _product (dataset) example: https://github.com/openaire/guidelines-cris-managers/blob/cb96b925159655adfd97fb11c4a93f3d20c8cbef/samples/openaire_cerif_xml_example_products.xml#L30
+
+.. _equipment example: https://github.com/openaire/guidelines-cris-managers/blob/cb96b925159655adfd97fb11c4a93f3d20c8cbef/samples/openaire_cerif_xml_example_equipments.xml#L18C1-L29C17
 
 .. [#uk_noc]
    British Oceanographic Data Centre (BODC) and National Marine
@@ -235,3 +300,8 @@ should be used if linking more than one instrument.
    Wilkinson, M., Dumontier, M., Aalbersberg, I. *et al.* The FAIR
    Guiding Principles for scientific data management and stewardship.
    *Sci Data* 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
+
+.. [#crisguidelines2023]
+   Dvořák, Jan, Czerniak, Andreas, & Ivanović, Dragan. (2023). OpenAIRE
+   Guidelines for CRIS Managers 1.2 (1.2.0). *Zenodo*.
+   https://doi.org/10.5281/zenodo.8050936

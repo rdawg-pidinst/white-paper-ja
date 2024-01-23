@@ -50,13 +50,13 @@ instrument metadata into data workflows.
     |                   | component etc.                                  |
     +-------------------+-------------------------------------------------+
 
-.. _tab-landing-content-events:
 .. table:: Descriptive, landing page metadata that describes the
 	   history of events, operations or changes during the
 	   lifetime of an instrument. This kind of metadata should be
 	   associated to dates and ideally accompanied by comments. To
 	   be used in conjunction with the core instrument metadata
 	   used in the PIDINST schema.
+    :name: tab-landing-content-events
 
     +--------------------+------------------------------------------------+
     | **Metadata type**  | **Comments**                                   |
