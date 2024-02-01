@@ -4,13 +4,13 @@ PIDINST metadata schema
 =======================
 
 The metadata that is to be registered with an instrument PID needs to
-contain enough information to unambiguously identify the
-instrument across networks and infrastructures. It should also allow
-linking related resources to the instrument, thus providing a means
-to aggregate information about the instrument. The PIDINST working group defined 
-a schema of metadata that can be registered alongside instrument PIDs at 
-PID providers to help meet these criteria. Version 1.0 has been endorsed
-as an RDA recommendation\ [#pidinst2022v1_0]_.
+contain enough information to unambiguously identify the instrument
+across networks and infrastructures.  It should also allow linking
+related resources to the instrument, thus providing a means to
+aggregate information about the instrument.  The PIDINST working group
+defined a schema of metadata that can be registered alongside
+instrument PIDs at PID providers to help meet these criteria.  Version
+1.0 has been endorsed as an RDA recommendation.\ [#pidinst2022v1_0]_
 
 Currently, two variants of the metadata schema exist.  The original
 `PIDINST schema`_, based on the evaluation of use cases collected by
@@ -22,9 +22,9 @@ describe the properties in the original PIDINST schema and discuss
 their semantics:
 
 `Identifier`
-  The PID of the instrument.  The subproperty
-  `identifierType` contains the type of the PID, e.g. `Handle` or
-  `DOI` in the case of an ePIC Handle or a DataCite DOI respectively.
+  The PID of the instrument.  The subproperty `identifierType`
+  contains the type of the PID, e.g. `Handle` or `DOI` in the case of
+  an ePIC Handle or a DataCite DOI respectively.
 
 `SchemaVersion`
   The version number of the PIDINST schema used to create a record.
@@ -65,12 +65,12 @@ their semantics:
   `manufacturerIdentifierType`.
 
 `Model`
-  The name of the model or type of the instrument.  In the
-  case of an off the shelf product, this may be a brand name
-  attributed by the manufacturer.  In the case of a custom built
-  instrument, it may not have a model name.  Hence this property is
-  not mandatory, but recommended if the value can be obtained.  `Model` has
-  optional subproperties `modelIdentifier` and `modelIdentifierType` to be used 
+  The name of the model or type of the instrument.  In the case of an
+  off the shelf product, this may be a brand name attributed by the
+  manufacturer.  In the case of a custom built instrument, it may not
+  have a model name.  Hence this property is not mandatory, but
+  recommended if the value can be obtained.  `Model` has optional
+  subproperties `modelIdentifier` and `modelIdentifierType` to be used
   if an identifier for the model is known.
 
 `Description`
@@ -79,20 +79,21 @@ their semantics:
   what this instrument is and what it can do.
 
 `InstrumentType`
-  A classification of the type of the instrument.  Hierarchical 
+  A classification of the type of the instrument.  Hierarchical
   classification enables grouping of instrument records.
 
-  In the same way as `Owner`, `Manufacturer` and `Model`, `InstrumentType` is 
-  a complex property with subproperties `instrumentTypeName`, 
-  `instrumentTypeIdentifier` and `instrumentTypeIdentifierType`.
+  In the same way as `Owner`, `Manufacturer` and `Model`,
+  `InstrumentType` is a complex property with subproperties
+  `instrumentTypeName`, `instrumentTypeIdentifier` and
+  `instrumentTypeIdentifierType`.
 
 `MeasuredVariable`
   The variables or physical properties that the instrument measures or
-  observes. Some communities have established terminologies 
-  to identify measured variables that are specific to their respective domain 
-  (see :ref:`pidinst-metadata-schema-terminologies`).  If such a 
-  standard is applicable, it should be used for for `MeasuredVariable`.
-  Otherwise, a textual description may be used.
+  observes.  Some communities have established terminologies to
+  identify measured variables that are specific to their respective
+  domain (see :ref:`pidinst-metadata-schema-terminologies`).  If such
+  a standard is applicable, it should be used for for
+  `MeasuredVariable`.  Otherwise, a textual description may be used.
 
 `Date`
   Relevant events pertaining to this instrument instance, such as when

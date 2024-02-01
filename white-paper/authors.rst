@@ -1,4 +1,4 @@
-*Louise Darroch* (louise.darroch@bodc.ac.uk, https://orcid.org/0000-0003-4163-9575),
+*Louise Darroch* (lorr@noc.ac.uk, https://orcid.org/0000-0003-4163-9575),
 British Oceanographic Data Centre, National Oceanography Centre,
 Liverpool, L3 5DA, United Kingdom
 
@@ -71,6 +71,9 @@ CSIRO Mineral Resources, 26 Dick Perry Avenue, Kensington WA 6151, Australia
 TIB – Leibniz Information Centre for Science and Technology,
 Welfengarten 1 B, 30167 Hannover, Germany and Leibniz University
 Hannover, Welfengarten 1, 30167 Hannover, Germany
+
+*Andreas Czerniak* (andreas.czerniak@uni-bielefeld.de, https://orcid.org/0000-0003-3883-4169),
+Bielefeld University Library, Universitätsstr. 25, 33615 Bielefeld, Germany
 
 *The Research Data Alliance Persistent Identification of Instruments
 Working Group members* (https://www.rd-alliance.org/node/57186/members)

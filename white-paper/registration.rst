@@ -8,20 +8,20 @@ The following resources (:numref:`tab-register-guidance`) provide
 technical guidance for institutions to publish and manage PID records
 at PID providers compliant with RDA PIDINST recommendations.
 
-.. _tab-register-guidance:
 .. table:: Technical guidance for publishing and managing instrument
 	   PIDs at PID providers compliant with RDA PIDINST
 	   recommendations. The table provides links to the relevant
 	   metadata schema that accompanies PID records at PID
 	   providers.
+    :name: tab-register-guidance
 
-    +--------------+--------------------------------+--------------------------------------------------------------------------------------------------+
-    | PID provider | Technical resource             | Metadata schema                                                                                  |
-    +==============+================================+==================================================================================================+
-    | ePIC         | :ref:`epic-cookbook`           | `PIDINST <https://github.com/rdawg-pidinst/schema/blob/master/schema.rst>`_                      |
-    +--------------+--------------------------------+--------------------------------------------------------------------------------------------------+
-    | DataCite     | https://datacite.org/dois.html | `PIDINST to DataCite <https://github.com/rdawg-pidinst/schema/blob/master/schema-datacite.rst>`_ |
-    +--------------+--------------------------------+--------------------------------------------------------------------------------------------------+
+    +--------------+--------------------------+--------------------------------------------------------------------------------------------------+
+    | PID provider | Technical resource       | Metadata schema                                                                                  |
+    +==============+==========================+==================================================================================================+
+    | ePIC         | :ref:`epic-cookbook`     | `PIDINST <https://github.com/rdawg-pidinst/schema/blob/master/schema.rst>`_                      |
+    +--------------+--------------------------+--------------------------------------------------------------------------------------------------+
+    | DataCite     | :ref:`datacite-cookbook` | `PIDINST to DataCite <https://github.com/rdawg-pidinst/schema/blob/master/schema-datacite.rst>`_ |
+    +--------------+--------------------------+--------------------------------------------------------------------------------------------------+
 
 
 Local registration at institutional instrument providers

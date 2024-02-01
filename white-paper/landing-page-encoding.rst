@@ -43,147 +43,147 @@ respective representation in JSON-LD of the schema example shown in
 :numref:`tab-schema-handle-record` is shown in
 :numref:`snip-landing-encoding-json-ld`.
 
-.. _snip-landing-encoding-json-ld:
 .. code-block:: JSON
+    :name: snip-landing-encoding-json-ld
     :caption: representation in JSON-LD of the example of
 	      :numref:`tab-schema-handle-record`.
 
-        {
+      {
         "@context" : {
-         "ARK-Identifier" : "dti:21.T11148/7af6f46512fb4c190d01",
-         "AlternateIdentifier" : "dti:21.T11148/d87a75c52c68b06e9a18",
-         "AlternateIdentifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
-         "AlternateIdentifiers" : "dti:21.T11148/eb3c713572f681e6c4c3",
-         "Bibcode-Identifier" : "dti:21.T11148/6c2fc7682e48ac7160b5",
-         "DOI-Identifier-General" : "dti:21.T11148/d93427e3c56173e9dc08",
-         "Date" : "dti:21.T11148/eb9a4bc1c0c153e4e4b0",
-         "Dates" : "dti:21.T11148/22c62082a4d2d9ae2602",
-         "Description" : "dti:21.T11148/55f8ebc805e65b5b71dd",
-         "Handle-Identifier-ASCII" : "dti:21.T11148/3626040cadcac1571685",
-         "ISAN-Identifier" : "dti:21.T11148/48cfce4482166a103c50",
-         "ISBN-Identifier" : "dti:21.T11148/2ff8ad6cdd4e46622944",
-         "ISNI-Identifier" : "dti:21.T11148/cff32964e132c14fc56f",
-         "ISRC-Identifier" : "dti:21.T11148/2719170925ff2bfb5157",
-         "ISSN-Identifier" : "dti:21.T11148/7e689432354610f388c0",
-         "ISTC-Identifier" : "dti:21.T11148/1f0df9ef66774b2e2aa1",
-         "ISWC-Identifier" : "dti:21.T11148/698fba7e1c659fcfdcdd",
-         "InstrumentType" : "dti:21.T11148/f76ad9d0324302fc47dd",
-         "LandingPage" : "dti:21.T11148/9a15a4735d4bda329d80",
-         "Manufacturer" : "dti:21.T11148/7adfcd13b3b01de0d875",
-         "Manufacturers" : "dti:21.T11148/1f3e82ddf0697a497432",
-         "MeasuredVariable" : "dti:21.T11148/1fcb0dad9aced457d67e",
-         "MeasuredVariables" : "dti:21.T11148/72928b84e060d491ee41",
-         "Name" : "dti:21.T11148/709a23220f2c3d64d1e1",
-         "Owner" : "dti:21.T11148/89ff31225c5f042fff61",
-         "Owners" : "dti:21.T11148/4eaec4bc0f1df68ab2a7",
-         "PMCID-Identifier" : "dti:21.T11148/e94bec7d7f1c63dd00cd",
-         "PMID-Identifier" : "dti:21.T11148/234c084bac48480bfe5d",
-         "RelatedIdentifier" : "dti:21.T11148/ec9f00af0761a065dbd0",
-         "RelatedIdentifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
-         "RelatedIdentifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
-         "RelatedIdentifiers" : "dti:21.T11148/178fb558abc755ca7046",
-         "URN-Identifier" : "dti:21.T11148/d22b6854df3503df7831",
-         "VariableMeasured" : "dti:21.T11148/f1627ce85386d8d75078",
-         "alternateIdentifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
-         "arXiv-Identifier" : "dti:21.T11148/d66f8368c3d305941a2e",
-         "date" : "dti:21.T11148/be707495360a234ef049",
-         "dateType" : "dti:21.T11148/2f0e608b621a5a97e0d9",
-         "dti" : "http://hdl.handle.net/",
-         "identifier-general-with-type" : "dti:21.T11148/8eb858ee0b12e8e463a5",
-         "identifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
-         "identifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
-         "manufacturerIdentifier" : "dti:21.T11148/5b240e16ea32ea25cf65",
-         "manufacturerIdentifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
-         "manufacturerIdentifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
-         "manufacturerName" : "dti:21.T11148/798588c5a1ec532f737b",
-         "modelName" : "dti:21.T11148/798588c5a1ec532f737b",
-         "other" : "dti:21.T11148/f40cb15558a7c1546c91",
-         "ownerContact" : "dti:21.T11148/a88b7dcd1a9e3e17770b",
-         "ownerIdentifier" : "dti:21.T11148/1e3c17ac2a3e7ebf466a",
-         "ownerIdentifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
-         "ownerIdentifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
-         "ownerName" : "dti:21.T11148/798588c5a1ec532f737b",
-         "relationType" : "dti:21.T11148/292a53bd9ee27a242082"
+          "ARK-Identifier" : "dti:21.T11148/7af6f46512fb4c190d01",
+          "AlternateIdentifier" : "dti:21.T11148/d87a75c52c68b06e9a18",
+          "AlternateIdentifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
+          "AlternateIdentifiers" : "dti:21.T11148/eb3c713572f681e6c4c3",
+          "Bibcode-Identifier" : "dti:21.T11148/6c2fc7682e48ac7160b5",
+          "DOI-Identifier-General" : "dti:21.T11148/d93427e3c56173e9dc08",
+          "Date" : "dti:21.T11148/eb9a4bc1c0c153e4e4b0",
+          "Dates" : "dti:21.T11148/22c62082a4d2d9ae2602",
+          "Description" : "dti:21.T11148/55f8ebc805e65b5b71dd",
+          "Handle-Identifier-ASCII" : "dti:21.T11148/3626040cadcac1571685",
+          "ISAN-Identifier" : "dti:21.T11148/48cfce4482166a103c50",
+          "ISBN-Identifier" : "dti:21.T11148/2ff8ad6cdd4e46622944",
+          "ISNI-Identifier" : "dti:21.T11148/cff32964e132c14fc56f",
+          "ISRC-Identifier" : "dti:21.T11148/2719170925ff2bfb5157",
+          "ISSN-Identifier" : "dti:21.T11148/7e689432354610f388c0",
+          "ISTC-Identifier" : "dti:21.T11148/1f0df9ef66774b2e2aa1",
+          "ISWC-Identifier" : "dti:21.T11148/698fba7e1c659fcfdcdd",
+          "InstrumentType" : "dti:21.T11148/f76ad9d0324302fc47dd",
+          "LandingPage" : "dti:21.T11148/9a15a4735d4bda329d80",
+          "Manufacturer" : "dti:21.T11148/7adfcd13b3b01de0d875",
+          "Manufacturers" : "dti:21.T11148/1f3e82ddf0697a497432",
+          "MeasuredVariable" : "dti:21.T11148/1fcb0dad9aced457d67e",
+          "MeasuredVariables" : "dti:21.T11148/72928b84e060d491ee41",
+          "Name" : "dti:21.T11148/709a23220f2c3d64d1e1",
+          "Owner" : "dti:21.T11148/89ff31225c5f042fff61",
+          "Owners" : "dti:21.T11148/4eaec4bc0f1df68ab2a7",
+          "PMCID-Identifier" : "dti:21.T11148/e94bec7d7f1c63dd00cd",
+          "PMID-Identifier" : "dti:21.T11148/234c084bac48480bfe5d",
+          "RelatedIdentifier" : "dti:21.T11148/ec9f00af0761a065dbd0",
+          "RelatedIdentifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
+          "RelatedIdentifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
+          "RelatedIdentifiers" : "dti:21.T11148/178fb558abc755ca7046",
+          "URN-Identifier" : "dti:21.T11148/d22b6854df3503df7831",
+          "VariableMeasured" : "dti:21.T11148/f1627ce85386d8d75078",
+          "alternateIdentifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
+          "arXiv-Identifier" : "dti:21.T11148/d66f8368c3d305941a2e",
+          "date" : "dti:21.T11148/be707495360a234ef049",
+          "dateType" : "dti:21.T11148/2f0e608b621a5a97e0d9",
+          "dti" : "http://hdl.handle.net/",
+          "identifier-general-with-type" : "dti:21.T11148/8eb858ee0b12e8e463a5",
+          "identifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
+          "identifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
+          "manufacturerIdentifier" : "dti:21.T11148/5b240e16ea32ea25cf65",
+          "manufacturerIdentifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
+          "manufacturerIdentifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
+          "manufacturerName" : "dti:21.T11148/798588c5a1ec532f737b",
+          "modelName" : "dti:21.T11148/798588c5a1ec532f737b",
+          "other" : "dti:21.T11148/f40cb15558a7c1546c91",
+          "ownerContact" : "dti:21.T11148/a88b7dcd1a9e3e17770b",
+          "ownerIdentifier" : "dti:21.T11148/1e3c17ac2a3e7ebf466a",
+          "ownerIdentifierType" : "dti:21.T11148/015dc79a77940fb65aa4",
+          "ownerIdentifierValue" : "dti:21.T11148/38330bcc6a40ca85e5b4",
+          "ownerName" : "dti:21.T11148/798588c5a1ec532f737b",
+          "relationType" : "dti:21.T11148/292a53bd9ee27a242082"
         },
         "@id" : "dti:21.T11998/0000-001A-3905-F",
         "AlternateIdentifiers" : [
-         {
-         "AlternateIdentifier" : {
-            "AlternateIdentifierValue" : "2490",
-            "alternateIdentifierType" : "serialNumber"
-         }
-         }
+          {
+            "AlternateIdentifier" : {
+              "AlternateIdentifierValue" : "2490",
+              "alternateIdentifierType" : "serialNumber"
+            }
+          }
         ],
         "Dates" : [
-         {
-         "date" : {
-            "date" : "1999-11-01",
-            "dateType" : "Commissioned"
-         }
-         }
+          {
+            "date" : {
+              "date" : "1999-11-01",
+              "dateType" : "Commissioned"
+            }
+          }
         ],
         "Description" : "A high accuracy conductivity and temperature recorder with an optional pressure sensor designed for deployment on moorings. The IM model has an inductive modem for real-time data transmission plus internal flash memory data storage.",
         "InstrumentType" : "http://vocab.nerc.ac.uk/collection/L22/current/TOOL0022/",
         "LandingPage" : "https://linkedsystems.uk/system/instance/TOOL0022_2490/current/",
         "Manufacturers" : [
-         {
-         "Manufacturer" : {
-            "manufacturerIdentifier" : {
-               "manufacturerIdentifierType" : "URL",
-               "manufacturerIdentifierValue" : "http://vocab.nerc.ac.uk/collection/L35/current/MAN0013/"
-            },
-            "manufacturerName" : "Sea-Bird Scientific",
-            "modelName" : "SBE 37-IM"
-         }
-         }
+          {
+            "Manufacturer" : {
+              "manufacturerIdentifier" : {
+		"manufacturerIdentifierType" : "URL",
+		"manufacturerIdentifierValue" : "http://vocab.nerc.ac.uk/collection/L35/current/MAN0013/"
+              },
+              "manufacturerName" : "Sea-Bird Scientific",
+              "modelName" : "SBE 37-IM"
+            }
+          }
         ],
         "MeasuredVariables" : [
-         {
-         "MeasuredVariable" : {
-            "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/CNDCPR01/"
-         }
-         },
-         {
-         "MeasuredVariable" : {
-            "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/PSALPR01/"
-         }
-         },
-         {
-         "MeasuredVariable" : {
-            "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/"
-         }
-         },
-         {
-         "MeasuredVariable" : {
-            "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/PREXMCAT/"
-         }
-         }
+          {
+            "MeasuredVariable" : {
+              "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/CNDCPR01/"
+            }
+          },
+          {
+            "MeasuredVariable" : {
+              "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/PSALPR01/"
+            }
+          },
+          {
+            "MeasuredVariable" : {
+              "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/"
+            }
+          },
+          {
+            "MeasuredVariable" : {
+              "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/PREXMCAT/"
+            }
+          }
         ],
         "Name" : "Sea-Bird SBE 37-IM MicroCAT C-T Sensor",
         "Owners" : [
-         {
-         "Owner" : {
-            "ownerContact" : "louise.darroch@bodc.ac.uk",
-            "ownerIdentifier" : {
-               "ownerIdentifierType" : "URL",
-               "ownerIdentifierValue" : "http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/"
-            },
-            "ownerName" : "National Oceanography Centre"
-         }
-         }
+          {
+            "Owner" : {
+              "ownerContact" : "louise.darroch@bodc.ac.uk",
+              "ownerIdentifier" : {
+		"ownerIdentifierType" : "URL",
+		"ownerIdentifierValue" : "http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/"
+              },
+              "ownerName" : "National Oceanography Centre"
+            }
+          }
         ],
         "RelatedIdentifiers" : [
-         {
-         "RelatedIdentifier" : {
-            "RelatedIdentifierType" : "URL",
-            "RelatedIdentifierValue" : "https://www.bodc.ac.uk/data/documents/nodb/pdf/37imbrochurejul08.pdf",
-            "relationType" : "IsDescribedBy "
-         }
-         }
+          {
+            "RelatedIdentifier" : {
+              "RelatedIdentifierType" : "URL",
+              "RelatedIdentifierValue" : "https://www.bodc.ac.uk/data/documents/nodb/pdf/37imbrochurejul08.pdf",
+              "relationType" : "IsDescribedBy "
+            }
+          }
         ],
         "identifier-general-with-type" : {
-         "identiferType" : "MeasuringInstrument",
-         "identifierValue" : "http://hdl.handle.net/21.T11998/0000-001A-3905-F"
+          "identiferType" : "MeasuringInstrument",
+          "identifierValue" : "http://hdl.handle.net/21.T11998/0000-001A-3905-F"
         }
       }
 
@@ -199,8 +199,8 @@ that results into the following serialization
 and the names used in the type definitions are replaced by their type
 PID suffixes:
 
-.. _snip-landing-encoding-turtle:
 .. code-block:: turtle
+    :name: snip-landing-encoding-turtle
     :caption: representation in Turtle Terse RDF of the NERC example
 	      of :numref:`tab-schema-handle-record` that was generated
 	      by a JSON-LD to RDF converter from the JSON-LD in
@@ -278,8 +278,8 @@ instrument PIDs can be found indirectly using a combination of
 *GetCapabilities* and *DescribeSensor* operational requests to a SOS
 server.
 
-.. _snip-landing-encoding-sensorml:
 .. code-block:: xml
+    :name: snip-landing-encoding-sensorml
     :caption: An example of expressing an instrument PID
 	      (http://hdl.handle.net/21.T11998/0000-001A-3905-F) as
 	      identifying metadata within a SensorML technical

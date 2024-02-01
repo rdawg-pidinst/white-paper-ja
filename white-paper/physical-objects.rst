@@ -42,20 +42,20 @@ the terms *serialNumber* and *inventoryNumber.* There is on-going
 discussion regarding the use of explicit fields for these properties
 in PIDINST.
 
-.. _fig-objects-qr:
 .. figure:: /images/image4.png
+    :name: fig-objects-qr
     :alt: QR code
 
     An example of a webpage QR code that includes an organisation logo
     and re-directs the scanner to the PID URL
     (http://hdl.handle.net/21.T11998/0000-001A-3905-F).
 
-.. _snip-objects-serial:
 .. code-block:: XML
+    :name: snip-objects-serial
     :caption: An instrument serial number expressed in XML
 
       <AlternateIdentifiers>
-         <AlternateIdentifier alternateIdentifierType="serialNumber"">7351-349l-mn24-019f</AlternateIdentifier>
+         <AlternateIdentifier alternateIdentifierType="serialNumber">7351-349l-mn24-019f</AlternateIdentifier>
       </AlternateIdentifiers>
 
 Besides storing e.g. serial numbers in PIDINST schema metadata, it is
