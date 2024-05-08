@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# Copyright (C) 2020–2024, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-23 17:09+0900\n"
+"POT-Creation-Date: 2024-05-08 17:16+0900\n"
 "PO-Revision-Date: 2023-07-13 06:45+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/rdm-japan/teams/148034/ja/)\n"
@@ -43,47 +43,56 @@ msgstr "DataCite メタデータ"
 msgid ""
 "Datasets are usually published with a DataCite DOI.  The `DataCite Metadata "
 "Schema`_ allows to link the instrument from the metadata registered with "
-"that DOI for a data publication using the *relatedIdentifier* property.  The"
-" recommended *relationType* is *IsCompiledBy* in this case.  :numref:`fig-"
-"link-hzb` shows an example for a dataset published by HZB "
-"(https://doi.org/10.5442/ND000001). The data has been collected using "
-"neutron diffraction with the E2 - Flat-Cone Diffractometer beamline at BER "
-"II.  The image show a screenshot of the data publication landing page which "
-"links the PID of the instrument.  :numref:`snip-link-dataset-datacite-xml` "
-"shows a section of the DOI metadata from the same data publication "
-"containing this link."
+"that DOI for a data publication using the *RelatedIdentifier* and "
+"*RelatedItem* properties.  The recommended *relationType* is *IsCollectedBy*"
+" in this case.  :numref:`fig-link-hzb` shows an example for a dataset "
+"published by HZB (https://doi.org/10.5442/ND000001).  The data has been "
+"collected using neutron diffraction with the E2 - Flat-Cone Diffractometer "
+"beamline at BER II.  The image show a screenshot of the data publication "
+"landing page which links the PID of the instrument. :numref:`snip-link-"
+"dataset-datacite-xml-relidentifier` and :numref:`snip-link-dataset-datacite-"
+"xml-relitem` show sections from the DOI metadata from the same data "
+"publication containing this link."
 msgstr ""
 "データセットは通常 DataCite DOI とともに公開されます。 `DataCite メタデータスキーマ <DataCite Metadata "
-"Schema_>`_ は、 *relatedIdentifier* プロパティを使用して、データ公開のためにその DOI "
-"に登録されたメタデータから装置へリンクすることを可能にします。この場合、推奨される  *relationshipType* は "
-"*IsCompiledBy* です。:numref:`fig-link-hzb` "
+"Schema_>`_ は、 *RelatedIdentifier* および *RelatedItem* プロパティを使用して、データ公開のためにその "
+"DOI に登録されたメタデータから装置へリンクすることを可能にします。この場合、推奨される  *relationType* は "
+"*IsCollectedBy* です。:numref:`fig-link-hzb` "
 "は、HZBによって公開されたデータセットの例を示しています(https://doi.org/10.5442/ND000001) 。データは、BER II"
 " で E2 - Flat-Cone 回折計ビームラインを使用した中性子回折を使用して収集されました。この画像は、装置の PID "
-"をリンクするデータ公開ランディング ページのスクリーンショットを示します。:numref:`snip-link-dataset-datacite-"
-"xml`  は、このリンクを含む同じデータ出版物からの DOI メタデータのセクションを示しています。"
+"をリンクするデータ公開ランディング ページのスクリーンショットを示します。 "
+":numref:`snip-link-dataset-datacite-xml-relidentifier`  "
+"と  :numref:`snip-link-dataset-datacite-xml-relitem`  "
+"は、このリンクを含む同じデータ出版物からの DOI メタデータのセクションを示しています。"
 
-#: ../../white-paper/linking-datasets.rst:29
+#: ../../white-paper/linking-datasets.rst:30
 msgid "HZB dataset"
 msgstr "HZB dataset"
 
-#: ../../white-paper/linking-datasets.rst:29
+#: ../../white-paper/linking-datasets.rst:30
 msgid ""
 "Landing page of a dataset published by HZB which links the PID of the "
 "instrument."
 msgstr "装置の PID をリンクする HZB によって公開されたデータセットのランディング ページ。"
 
-#: ../../white-paper/linking-datasets.rst:32
+#: ../../white-paper/linking-datasets.rst:33
 msgid ""
-"Use of the relatedIdentifier property in the DOI metadata from a data "
-"publication.  The second entry links the PID of the instrument."
+"Use of the RelatedIdentifier property in the DOI metadata from a data "
+"publication.  The third entry links the PID of the instrument."
 msgstr ""
-"データ出版物からのDOIメタデータでの relatedIdentifier プロパティの使用。 2 番目のエントリは、装置の PID をリンクします。"
+"データ出版物からのDOIメタデータでの RelatedIdentifier プロパティの使用。 3 番目のエントリは、装置の PID をリンクします。"
 
 #: ../../white-paper/linking-datasets.rst:45
+msgid ""
+"Use of the RelatedItem property in the DOI metadata from a data publication "
+"to link the PID of the instrument."
+msgstr "データ出版物から装置のPIDをリンクする際のDOIメタデータでの RelatedItem プロパティの使用。"
+
+#: ../../white-paper/linking-datasets.rst:61
 msgid "schema.org"
 msgstr "schema.org"
 
-#: ../../white-paper/linking-datasets.rst:47
+#: ../../white-paper/linking-datasets.rst:63
 msgid ""
 ":numref:`fig-link-pangea` shows an example of marine dataset "
 "(https://doi.org/10.1594/PANGAEA.887579) published through PANGAEA. The "
@@ -121,11 +130,11 @@ msgstr ""
 "では、「イベント」は特定の時間と場所での出来事を指します。たとえば、社会的なイベントです。そのため、Schema.org "
 "の機能に完全に準拠するために、観測イベントと関連する科学機器の記述をサポートするために、新しい型とプロパティが必要です。"
 
-#: ../../white-paper/linking-datasets.rst:73
+#: ../../white-paper/linking-datasets.rst:89
 msgid "PANGAEA dataset"
 msgstr "PANGAEA dataset"
 
-#: ../../white-paper/linking-datasets.rst:73
+#: ../../white-paper/linking-datasets.rst:89
 msgid ""
 "An example of a dataset published by PANGAEA which includes its instrument "
 "identifier "
@@ -134,30 +143,30 @@ msgstr ""
 "装置識別子を含む PANGEA によって公開されたデータセットの例 "
 "(https://doi.pangaea.de/10013/sensor.664525cf-45b9-4969-bb88-91a1c5e97a5b)"
 
-#: ../../white-paper/linking-datasets.rst:81
+#: ../../white-paper/linking-datasets.rst:97
 msgid "Conceptual model"
 msgstr "Conceptual model"
 
-#: ../../white-paper/linking-datasets.rst:81
+#: ../../white-paper/linking-datasets.rst:97
 msgid "Conceptual model of Event and Specific Instrument Type (Vehicle)"
 msgstr "イベントと特定の装置タイプの概念モデル (ビークル)"
 
-#: ../../white-paper/linking-datasets.rst:87
+#: ../../white-paper/linking-datasets.rst:103
 msgid "Schema.org"
 msgstr "Schema.org"
 
-#: ../../white-paper/linking-datasets.rst:87
+#: ../../white-paper/linking-datasets.rst:103
 msgid ""
 "Snippet of schema.org representation of event and instrument associated with"
 " the dataset in :numref:`fig-link-pangea`."
 msgstr ""
 ":numref:`fig-link-pangea` のデータセットに関連付けられたイベントと装置の schema.org 表現のスニペット。"
 
-#: ../../white-paper/linking-datasets.rst:93
+#: ../../white-paper/linking-datasets.rst:109
 msgid "NetCDF4"
 msgstr "NetCDF4"
 
-#: ../../white-paper/linking-datasets.rst:95
+#: ../../white-paper/linking-datasets.rst:111
 msgid ""
 "State-of-the-art research ships are multimillion-pound floating laboratories"
 " which operate diverse arrays of high-powered, high-resolution sensors "
@@ -166,72 +175,75 @@ msgid ""
 "British Antarctic Survey (BAS)\\ [#uk_bas]_ are currently working together "
 "to improve the integrity of the data management workflow from these sensor "
 "systems to end-users across the UK National Environment Research Council "
-"(NERC) large research vessel fleet, as part of a UK initiative, I/Ocean. In "
+"(NERC) large research vessel fleet, as part of the initiative, I/Ocean. In "
 "doing so, we can make cost effective use of vessel time while improving the "
 "FAIRness,\\ [#wilkinson2016]_ and in turn, access of data from these sensor "
 "arrays. The initial phase of the solution implements common NetCDF formats "
-"across ships enabling harmonised access to data for researchers on board "
-"while reducing ambiguity using common metadata standards. The formats are "
-"based on NetCDF4 and comply with Climate Forecast conventions. NetCDF4 "
-"groups are used to include rich information about the instruments used to "
-"derive parameter streams. Data streams are linked to the instruments which "
-"produced them using the variable attribute *instrument* from Attribute "
-"Convention for Data Discovery (ACDD) 1-3 (:numref:`snip-link-netcdf-cdl`). "
-"Each instrument is identified as a group where their properties are "
-"expressed in variables including the instrument’s PID. Each property is "
-"defined using common terminologies published on the NERC Vocabulary Server. "
-"In this way, users can express properties of their choice. Through groups, "
-"other information relating to parameter streams or instruments could be "
-"expressed, such as calibralibrations and instrument reference frames and "
-"orientations."
+"enabling harmonised access to data for researchers across ships. The formats"
+" are based on NetCDF4 and comply with Climate Forecast conventions. It has "
+"currently been proposed that NetCDF4 groups could be used to identify "
+"instruments and associated metadata in a similar way to the SONAR-netCDF4 "
+"convention for sonar data\\ [#sonar]_. In doing so, the instrument PID is "
+"implemented as the data of a geophysical variable within a group that has an"
+" applicable date range (:numref:`snip-link-netcdf-cdl`). For example, when "
+"the sensor was installed. Data streams are then linked to the instruments "
+"which produced them using the variable attribute *instrument* from Attribute"
+" Convention for Data Discovery (ACDD) 1-3. Through groups, other variables "
+"or attributes could hold more detailed information relating to an "
+"instrument. Additionally, groups may potentially offer a way to store other "
+"information with valid date ranges, such as calibrations, instrument "
+"reference frames and instrument orientations (e.g. the reference point of an"
+" anemometer)."
 msgstr ""
 "最先端の研究船は数百万ポンドの水上実験室であり、24時間体制で高出力、高解像度センサーの多様なアレイを運用しています(例: "
 "海底深度、気象、海流速度、水路測量など)。国立海洋学センター(National Oceanography Centre, NOC)\\ "
-"[#uk_noc]_  と英国南極観測局(British Antarctic Survey, BAS)\\ [#uk_bas]_ "
-"は現在、英国のイニシアチブである I/Ocean の一環として、これらのセンサーシステムから英国国立環境研究評議会(UK National "
-"Environment Research Council, "
-"NERC)の大規模な調査船団全体のエンドユーザーまでのデータ管理ワークフローの整合性を改善するために協力しています。 "
-"そうすることで、FAIRness\\ [#wilkinson2016]_ "
+"[#uk_noc]_  と英国南極観測局(British Antarctic Survey, BAS)\\ [#uk_bas]_ は現在、 "
+"I/Ocean  イニシアチブの一環として、これらのセンサーシステムから英国国立環境研究評議会(UK National Environment "
+"Research Council, NERC)の大規模な調査船団全体のエンドユーザーまでのデータ管理ワークフローの整合性を改善するために協力しています。"
+" そうすることで、FAIRness\\ [#wilkinson2016]_ "
 "を改善し、これらのセンサーアレイからのデータへのアクセスを改善しながら、船舶の時間を費用対効果の高い方法で使用することができます。ソリューションの初期段階では、共通のメタデータ標準を使用して曖昧さを減らしながら、船内の研究者がデータへの調和のとれたアクセスを可能にする共通のNetCDFフォーマットを船舶全体に実装します。フォーマットはNetCDF4に基づいており、Climate"
-" "
-"Forecastの規則に準拠しています。NetCDF4グループは、パラメーターストリームの導出に使用される装置に関する豊富な情報を含めるために使用されます。データストリームは、データ検出のための属性規則(Attribute"
-" Convention for Data Discovery, ACDD)1-3(:numref:`snip-link-netcdf-cdl`) "
-"の変数属性 *instrument* "
-"を使用して、それらを生成した装置にリンクされます。各装置は、そのプロパティが装置のPIDを含む変数で表現されるグループとして識別されます。各プロパティは、NERC"
-" Vocabulary Server "
-"で公開されている一般的な用語を使用して定義されます。このようにして、ユーザーは選択したプロパティを表現できます。グループを介して、パラメータストリームまたは装置に関連するその他の情報"
-" (キャリブレーション、装置の参照フレームおよび向きなど) を表現できます。"
+" Forecast の規則に準拠しています。現在、NetCDF4のグループを使用して、ソナーデータ用のSONAR-"
+"netCDF4規約と同様に、装置と関連メタデータの識別に利用できる事が提案されているます\\ [#sonar]_ 。 "
+"この方法により装置のPIDは計測期間の範囲にわたって、地球物理学での計測値の一つとして実装されます (:numref:`snip-link-"
+"netcdf-cdl`)。例えば、センサーが設置されると、データ発見のための属性規約（Attribute Convention for Data "
+"Discovery、ACDD）1-3に基づく変数属性 *instrument* "
+"を使用して、データストリームはそれを生成した装置にリンクされます。グループを用いることで、他の変数や属性が機器に関連するより詳細な情報を保持することができます。さらに、グループは、校正、装置の基準フレーム、装置の向き（例えば、風速計の基準点）など、有効な日付範囲を持つ他の情報を保存する方法を提供する可能性があります。"
 
-#: ../../white-paper/linking-datasets.rst:123
+#: ../../white-paper/linking-datasets.rst:140
 msgid ""
 "Truncated CF-NetCDF4 CDL file. Note some terminologies are in development."
 msgstr "省略されたCF-NetCDF4 CDLファイル。一部の用語は開発中です。"
 
-#: ../../white-paper/linking-datasets.rst:207
+#: ../../white-paper/linking-datasets.rst:189
 msgid ""
 "The National Centres for Environmental Information (NCEI) at the National "
-"Oceanic and Atmospheric Administration (NOAA) in the US, also report "
-"instruments in CF-NetCDF files but as empty data variables within the root "
-"group of the NetCDF file instead of sub groups. The PID instrument "
-"identifier may be expressed as an instrument attribute e.g. :numref:`snip-"
-"link-pidinst-netcdf`. Ideally, blank separated lists should be used if "
-"linking more than one instrument."
+"Oceanic and Atmospheric Administration (NOAA) in the US, report instruments "
+"using a CF-NetCDF specification\\ [#ncei]_. These are either global "
+"attributes specified using the *instrument* attribute from the Attribute "
+"Convention for Data Discovery (ACDD) 1-3. Alternatively they are defined as "
+"empty geophysical variables within the root group of the NetCDF file. In the"
+" latter case, the instrument PID may be expressed as an attribute "
+"*instrument_pid* within the recommended variable attributes as shown in "
+":numref:`snip-link-pidinst-netcdf`. Alternatively, an *instrument_pid* "
+"attribute could be added to the set of global attributes."
 msgstr ""
-"米国海洋大気庁 (National Oceanic and Atmospheric Administration, NOAA) の国立環境情報センター "
-"(National Centres for Environmental Information, NCEI) も CF-"
-"NetCDFファイルで装置を報告していますが、サブグループではなくNetCDFファイルのルートグループ内の空のデータ変数として報告しています。PID "
-"装置識別子は、装置の属性として表すことができます。例えば、:numref:`snip-link-pidinst-netcdf` "
-"のように複数の装置をリンクする場合は、空白で区切られたリストを使用するのが理想的です。"
+"米国の国立海洋大気庁(National Oceanic and Atmospheric Adminstration, "
+"NOAA)にある国立環境情報センター(National Centers for Environmental Information, "
+"NCEI)は、CF-NetCDF仕様\\ [#ncei]_ を使用して装置情報を報告しています。これらは、データ発見のための属性規約（Attribute"
+" Convention for Data Discovery、ACDD）1-3からの *instrument* "
+"属性を使用して指定されたグローバル属性である場合があります。または、NetCDFファイルのルートグループ内に空の地球物理学での計測値として定義されることがあります。後者の場合、装置のPIDは、:numref:`snip-"
+"link-pidinst-netcdf` に示されているように、推奨される変数属性内の属性 *instrument_pid* "
+"として表現されることがあります。または、*instrument_pid* 属性をグローバル属性のセットに追加することもできます。"
 
-#: ../../white-paper/linking-datasets.rst:215
-msgid "Addition of a instrument PID attribute to NCEI CF-NetCDF files."
-msgstr "NCEI CF-NetCDF ファイルへの装置PID属性の追加。"
+#: ../../white-paper/linking-datasets.rst:201
+msgid "Addition of an instrument PID attribute to NCEI CF-NetCDF files v2.0."
+msgstr "NCEI CF-NetCDF v2.0 ファイルへの装置PID属性の追加。"
 
-#: ../../white-paper/linking-datasets.rst:226
+#: ../../white-paper/linking-datasets.rst:218
 msgid "OpenAIRE CERIF metadata"
 msgstr "OpenAIRE CERIF メタデータ"
 
-#: ../../white-paper/linking-datasets.rst:228
+#: ../../white-paper/linking-datasets.rst:220
 msgid ""
 "The *OpenAIRE Guidelines for CRIS Managers* [#crisguidelines2023]_ provide "
 "orientation for Research Information System (CRIS) managers to expose their "
@@ -248,7 +260,7 @@ msgstr ""
 " Information Format) を元にした、個々のCRISシステムと、その他の研究 "
 "e-インフラとの間で情報を相互変換する事例を提供しています。"
 
-#: ../../white-paper/linking-datasets.rst:235
+#: ../../white-paper/linking-datasets.rst:229
 msgid ""
 "The metadata format described by the Guidelines are includes Equipment which"
 " could contain Instruments as well via the `GeneratedBy property`_."
@@ -256,7 +268,7 @@ msgstr ""
 "このガイドラインによるメタデータ記述では、装置情報に相当する Equipment 要素を含んでおり、`GeneratedBy property`_ "
 "を介して参照することができます。"
 
-#: ../../white-paper/linking-datasets.rst:239
+#: ../../white-paper/linking-datasets.rst:233
 msgid ""
 "Use of the equipment entity for an instrument in exposed in a product "
 "(dataset) metadata record. Detailed `product (dataset) example`_ at "
@@ -265,7 +277,7 @@ msgstr ""
 "装置を表す Equipment エンティティを Product (dataset) メタデータ内で公開する例。 *OpenAIRE Guidelines"
 " for CRIS Managers repository on GitHub* の `product (dataset) example`_ の詳細。"
 
-#: ../../white-paper/linking-datasets.rst:253
+#: ../../white-paper/linking-datasets.rst:247
 msgid ""
 "The products (dataset) relates internal to the Equipment record via the *id*"
 " attribute, eg. 82394874.  The metadata for the equipment itself is exposed "
@@ -275,7 +287,7 @@ msgstr ""
 "Equipment  自身のメタデータは、 `Equipment entity`_ にある equipment metadata "
 "レコードを通じて公開されます。"
 
-#: ../../white-paper/linking-datasets.rst:259
+#: ../../white-paper/linking-datasets.rst:253
 msgid ""
 "Use of the equipment entity for an instrument in exposed in a product "
 "(dataset) metadata record. Detailed `equipment example`_ at *OpenAIRE "
@@ -284,7 +296,7 @@ msgstr ""
 "装置を表す Equipment エンティティを Product (dataset) メタデータ内で公開する例。*OpenAIRE Guidelines "
 "for CRIS Managers repository on GitHub* の `equipment example`_ の詳細。"
 
-#: ../../white-paper/linking-datasets.rst:293
+#: ../../white-paper/linking-datasets.rst:287
 msgid ""
 "British Oceanographic Data Centre (BODC) and National Marine Facilities "
 "(NMF) divisions"
@@ -292,11 +304,11 @@ msgstr ""
 "British Oceanographic Data Centre (BODC) and National Marine Facilities "
 "(NMF) divisions"
 
-#: ../../white-paper/linking-datasets.rst:297
+#: ../../white-paper/linking-datasets.rst:291
 msgid "Uk Polar Data Centre division"
 msgstr "UK Polar Data Centre division"
 
-#: ../../white-paper/linking-datasets.rst:300
+#: ../../white-paper/linking-datasets.rst:294
 msgid ""
 "Wilkinson, M., Dumontier, M., Aalbersberg, I. *et al.* The FAIR Guiding "
 "Principles for scientific data management and stewardship. *Sci Data* 3, "
@@ -306,7 +318,23 @@ msgstr ""
 "Principles for scientific data management and stewardship. *Sci Data* 3, "
 "160018 (2016). https://doi.org/10.1038/sdata.2016.18"
 
-#: ../../white-paper/linking-datasets.rst:305
+#: ../../white-paper/linking-datasets.rst:299
+msgid ""
+"https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html"
+msgstr ""
+"https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html"
+
+#: ../../white-paper/linking-datasets.rst:302
+msgid ""
+"Macaulay, Gavin; Peña, Hector (2018). The SONAR-netCDF4 convention for sonar"
+" data, Version 1.0. ICES Cooperative Research Reports (CRR). Report. "
+"https://doi.org/10.17895/ices.pub.4392"
+msgstr ""
+"Macaulay, Gavin; Peña, Hector (2018). The SONAR-netCDF4 convention for sonar"
+" data, Version 1.0. ICES Cooperative Research Reports (CRR). Report. "
+"https://doi.org/10.17895/ices.pub.4392"
+
+#: ../../white-paper/linking-datasets.rst:307
 msgid ""
 "Dvořák, Jan, Czerniak, Andreas, & Ivanović, Dragan. (2023). OpenAIRE "
 "Guidelines for CRIS Managers 1.2 (1.2.0). *Zenodo*. "

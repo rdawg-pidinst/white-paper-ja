@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# Copyright (C) 2020–2024, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,12 +9,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PIDINST 0.1\n"
+"Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"POT-Creation-Date: 2024-05-08 17:16+0900\n"
 "PO-Revision-Date: 2023-07-13 06:44+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
-"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"Language-Team: Japanese (https://app.transifex.com/rdm-japan/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,19 +24,3 @@ msgstr ""
 #: ../../epic-cookbook/index.rst:4
 msgid "ePIC Cookbook"
 msgstr "ePIC クックブック"
-
-#: ../../epic-cookbook/index.rst:7
-msgid "Document type"
-msgstr "Document type"
-
-#: ../../epic-cookbook/index.rst:0
-msgid "Research Data Alliance (RDA)"
-msgstr "Research Data Alliance (RDA)"
-
-#: ../../epic-cookbook/index.rst:0
-msgid "Persistent Identification of Instruments (PIDINST)"
-msgstr "Persistent Identification of Instruments (PIDINST)"
-
-#: ../../epic-cookbook/index.rst:0
-msgid "working group output report"
-msgstr "working group output report"

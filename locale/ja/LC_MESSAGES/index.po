@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# Copyright (C) 2020–2024, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PIDINST 0.1\n"
+"Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 16:36+0900\n"
+"POT-Creation-Date: 2024-05-08 17:16+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
-"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2023\n"
-"Language-Team: Japanese (https://app.transifex.com/pidinst-japanese-translation-project/teams/148034/ja/)\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/rdm-japan/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -97,24 +97,24 @@ msgstr ""
 
 #: ../../index.rst:48
 msgid ""
-":ref:`white-paper` :raw-html:`<br />` This white paper provides "
+":ref:`white-paper` :raw-html:`<br />` This White Paper provides "
 "recommendations for the use of instrument PIDs and gives technical details "
 "that go beyond the overview provided in the Data Science Journal paper.  It "
 "is expected to evolve with new user requirements and working group "
-"activities."
+"activities. This documentation includes:"
 msgstr ""
 ":ref:`white-paper` :raw-html:`<br />` このホワイトペーパーは、Data Science "
 "Journalの論文で提供された概要にとどまらず、装置PIDの使用に関する推奨事項を示し、技術的な詳細を説明するものです。 "
-"新しいユーザーの要求やワーキンググループの活動によって進化していくことが期待されています。"
+"新しいユーザーの要求やワーキンググループの活動によって進化していくことが期待されています。このドキュメントには以下のものが含まれています。"
 
-#: ../../index.rst:54
+#: ../../index.rst:55
 msgid ""
 ":ref:`epic-cookbook` :raw-html:`<br />` Detailed instructions on how to "
 "create instrument PIDs using the ePIC infrastructure."
 msgstr ""
 ":ref:`epic-cookbook` :raw-html:`<br />` ePICインフラを利用した装置PIDの作成方法を詳しく解説しています。"
 
-#: ../../index.rst:58
+#: ../../index.rst:59
 msgid ""
 ":ref:`datacite-cookbook` :raw-html:`<br />` Detailed instructions on how to "
 "create DataCite DOIs for instruments."
@@ -126,7 +126,7 @@ msgstr ""
 msgid "Creative Commons License"
 msgstr "Creative Commons License"
 
-#: ../../index.rst:67
+#: ../../index.rst:68
 msgid ""
 "The content of this site is licensed under a `Creative Commons Attribution "
 "4.0 International License <cc-by_>`_."

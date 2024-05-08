@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, RDA Persistent Identification of Instruments WG
+# Copyright (C) 2020–2024, RDA Persistent Identification of Instruments WG
 # This file is distributed under the same license as the PIDINST package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-23 17:09+0900\n"
+"POT-Creation-Date: 2024-05-08 17:16+0900\n"
 "PO-Revision-Date: 2023-07-13 06:44+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/rdm-japan/teams/148034/ja/)\n"
@@ -337,23 +337,55 @@ msgstr ""
 "SharePoint List のオブジェクトはネストされた (1対n) オブジェクトを持つことができないことに触れておく必要があります。 "
 "したがって、我々の装置データベースは適切なデータベースシステムが決定するまで、プロトタイプ状態にとどまっています。この取り組みは現在も継続中です。"
 
-#: ../../white-paper/adoption.rst:215
+#: ../../white-paper/adoption.rst:205
+msgid "Natural Environmental Data Service (EDS)"
+msgstr "Natural Environmental Data Service (EDS)"
+
+#: ../../white-paper/adoption.rst:207
+msgid ""
+"The `NERC Environmental Data Service (EDS) <EDS_>`_ is a trusted UK facility"
+" providing data stewardship services for environmental data across all "
+"environmental science domains. The EDS is made up of five data centres with "
+"domain specific expertise; the British Oceanographic Data Centre (BODC), "
+"Centre for Environmental Data Analysis (CEDA), Environmental Information "
+"Data Centre (EIDC), National Geoscience Data Centre (NGDS), and UK Polar "
+"Data Centre (PDC). The NERC-supported EDS brings the data centres together "
+"to provide an integrated data service across all environmental science "
+"domains. As part of the Research Data Cloud Pilot project funded by the UK "
+"Research and Innovation Council (UKRI), the EDS will prototype digital "
+"infrastructure to cite graphs of all the PIDs used to generate formal "
+"environmental data collections derived from sensors. These graphs (or "
+"'reliquaries' of complex citations) will include persistent identifiers for "
+"instruments following the PIDINST recommendations."
+msgstr ""
+"The `NERC Environmental Data Service (EDS) <EDS_>`_  "
+"は環境科学分野を横断する環境データに対するデータスチュワードサービスを提供する信頼度の高い英国の機関です。 EDS "
+"は5つの専門分野からなるデータセンター; the British Oceanographic Data Centre (BODC), Centre "
+"for Environmental Data Analysis (CEDA), Environmental Information Data "
+"Centre (EIDC), National Geoscience Data Centre (NGDS), UK Polar Data Centre "
+"(PDC) から構成されます。 "
+"NERCが支援するEDSでは、これらのデータセンター感を連携し、環境科学分野全般にわたる統合されたデータサービスを提供します。  As part of "
+"the  project funded by the UK Research and Innovation Council (UKRI) が資金提供行う"
+"  Research Data Cloud Pilot の一部として、 EDS "
+"は、センサーから集められた整えられた環境データのコレクションを生成するための、PIDを用いたグラフを引用するデジタルインフラのプロトタイピングを実施します。これらのグラフ(あるいは複雑な引用関係の「聖遺物」)には、PIDINSTの勧告に従った、装置用の永続的識別子も含まれる予定です。"
+
+#: ../../white-paper/adoption.rst:237
 msgid "https://doi.org/10.5442/NI000001"
 msgstr "https://doi.org/10.5442/NI000001"
 
-#: ../../white-paper/adoption.rst:218
+#: ../../white-paper/adoption.rst:240
 msgid "https://doi.org/10.5442/NI000002"
 msgstr "https://doi.org/10.5442/NI000002"
 
-#: ../../white-paper/adoption.rst:221
+#: ../../white-paper/adoption.rst:243
 msgid "https://doi.org/10.5442/NI000003"
 msgstr "https://doi.org/10.5442/NI000003"
 
-#: ../../white-paper/adoption.rst:224
+#: ../../white-paper/adoption.rst:246
 msgid "https://doi.org/10.5442/NI000004"
 msgstr "https://doi.org/10.5442/NI000004"
 
-#: ../../white-paper/adoption.rst:227
+#: ../../white-paper/adoption.rst:249
 msgid ""
 "Koppe, R., Gerchow, P., Macario, A., Haas, A., Schäfer-Neth, C. and "
 "Pfeiffenberger, H. (2015): O2A: A Generic Framework for Enabling the Flow of"
