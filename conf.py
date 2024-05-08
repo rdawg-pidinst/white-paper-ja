@@ -6,24 +6,28 @@
 # full list see the documentation:
 # http://www.sphinx-doc.org/en/master/config
 
-import os
+from pathlib import Path
 import sys
-sys.path.insert(0, os.path.abspath('.'))
+
+maindir = Path(__file__).resolve().parent
+sys.path[0] = str(maindir)
+sys.dont_write_bytecode = True
+
 import _meta
 
 # -- Project information -----------------------------------------------------
 
 project = "PIDINST"
 author = "RDA Persistent Identification of Instruments WG"
-copyright = "2020, %s" % author
+copyright = "2020–2024, %s" % author
 
 # The full version, including alpha/beta/rc tags
 # Dummy for the time being
-release = _meta.__version__
+release = _meta.version
 # The short X.Y version
 version = ".".join(release.split(".")[0:2])
 
-today = _meta.__date__
+today = _meta.date
 
 # -- General configuration ---------------------------------------------------
 
@@ -62,7 +66,7 @@ numfig_format = {
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

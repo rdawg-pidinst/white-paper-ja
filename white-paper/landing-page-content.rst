@@ -21,8 +21,8 @@ instruments; to enable users to put data into context; and to automate
 instrument metadata into data workflows.
 
 .. table:: Descriptive landing page metadata describing measuring
-	   instruments. To be used in conjunction with the core
-	   instrument metadata used in the PIDINST schema.
+           instruments. To be used in conjunction with the core
+           instrument metadata used in the PIDINST schema.
     :name: tab-landing-content-inst
 
     +-------------------+-------------------------------------------------+
@@ -51,11 +51,11 @@ instrument metadata into data workflows.
     +-------------------+-------------------------------------------------+
 
 .. table:: Descriptive, landing page metadata that describes the
-	   history of events, operations or changes during the
-	   lifetime of an instrument. This kind of metadata should be
-	   associated to dates and ideally accompanied by comments. To
-	   be used in conjunction with the core instrument metadata
-	   used in the PIDINST schema.
+           history of events, operations or changes during the
+           lifetime of an instrument. This kind of metadata should be
+           associated to dates and ideally accompanied by comments. To
+           be used in conjunction with the core instrument metadata
+           used in the PIDINST schema.
     :name: tab-landing-content-events
 
     +--------------------+------------------------------------------------+

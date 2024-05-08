@@ -3,7 +3,8 @@ British Oceanographic Data Centre, National Oceanography Centre,
 Liverpool, L3 5DA, United Kingdom
 
 *Robert Huber* (rhuber@uni-bremen.de, https://orcid.org/0000-0003-3000-0020),
-MARUM - Center for Marine Environmental Sciences, University of Bremen, Leobener Str. 8, 28359 Bremen, Germany
+MARUM - Center for Marine Environmental Sciences, University of Bremen,
+Leobener Str. 8, 28359 Bremen, Germany
 
 *Anusuriya Devaraju* (anusuriya.devaraju@csiro.au, https://orcid.org/0000-0003-0870-3192),
 CSIRO Mineral Resources, 26 Dick Perry Avenue, Kensington WA 6151, Australia
@@ -62,7 +63,8 @@ Polar and Marine Research. Am Handelshafen 12, 27570, Bremerhaven,
 Germany
 
 *Tina Dohna* (tdohna@marum.de, https://orcid.org/0000-0002-5948-0980),
-MARUM - Center for Marine Environmental Sciences, University of Bremen, Leobener Str. 8, 28199 Bremen, Germany
+MARUM - Center for Marine Environmental Sciences, University of Bremen,
+Leobener Str. 8, 28199 Bremen, Germany
 
 *Jens Klump* (jens.klump@csiro.au, https://orcid.org/0000-0001-5911-6022),
 CSIRO Mineral Resources, 26 Dick Perry Avenue, Kensington WA 6151, Australia
@@ -74,6 +76,14 @@ Hannover, Welfengarten 1, 30167 Hannover, Germany
 
 *Andreas Czerniak* (andreas.czerniak@uni-bielefeld.de, https://orcid.org/0000-0003-3883-4169),
 Bielefeld University Library, Universitätsstr. 25, 33615 Bielefeld, Germany
+
+*Robert J. Hanisch* (robert.hanisch@nist.gov, https://orcid.org/0000-0002-6853-4602)
+Office of Data and Informatics, Material Measurement Laboratory,
+National Institute of Standards and Technology, Gaithersburg, MD, USA
+
+*June W. Lau* (june.lau@nist.gov, https://orcid.org/0000-0002-5233-4956)
+Office of Data and Informatics, Material Measurement Laboratory,
+National Institute of Standards and Technology, Gaithersburg, MD, USA
 
 *The Research Data Alliance Persistent Identification of Instruments
 Working Group members* (https://www.rd-alliance.org/node/57186/members)
