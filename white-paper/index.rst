@@ -13,6 +13,12 @@ PIDINST White Paper
 | Date          | |today|                                              |
 +---------------+------------------------------------------------------+
 
+.. note::
+   A PDF document created from Version 1.0 of this online
+   documentation will be submitted to RDA for community review.  This
+   online version will continue to get updates and may thus deviate
+   from the reviewed version.
+
 .. toctree::
    :numbered:
 

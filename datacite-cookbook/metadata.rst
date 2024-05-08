@@ -2,23 +2,23 @@ Collecting the metadata
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 To create a DOI for an instrument, you need to collect all the
-metadata that describe the instrument and you want to register in
+metadata that describe the instrument and that you want to include in
 the DOI record.  Section :ref:`pidinst-metadata-schema` in the PIDINST
-White Paper describes the metadata that you should consider to
-include.
+White Paper describes the metadata that you should consider.
 
 The Persistent Identification of Instruments WG has developed a
 PIDINST Metadata Schema.  But since you are going to create a DataCite
 DOI, you will be constrained to use the `DataCite Metadata Schema`_.
-For that purpose, the PIDINST WG has also provided a `Mapping of the
-PIDINST Schema onto the DataCite Schema <PIDINST DataCite schema_>`_
+With version 4.5 of that schema, DataCite has significantly improved
+support for instruments and also provides a `Mapping of the
+PIDINST Schema onto the DataCite Schema <DataCite PIDINST Mapping_>`_
 
 Mapping of PIDINST metadata onto DataCite
 -----------------------------------------
 
-Based on the mapping provided by PIDINST WG, in the following we will
-discuss how the metadata describing the instrument can be best
-represented in the DataCite Schema:
+Based on the mapping provided by DataCite, we want to give in the
+following additional hints and discuss how the metadata describing the
+instrument can be best represented in the DataCite Schema:
 
 `Identifier`
   The DOI that you are going to create.  Add as DataCite property
@@ -31,7 +31,7 @@ represented in the DataCite Schema:
 
 `Name`
   The name by which this instrument is known.  Add as DataCite property
-  `Title` with `titleType=Other`.
+  `Title`.
 
 `Owner`
   The organization or individual that manages the instrument.  Add as
@@ -46,23 +46,37 @@ represented in the DataCite Schema:
   the manufacturer in the `nameIdentifier` subproperty of `Creator`.
 
 `Model`
-  The name of the model or type of the instrument.  Unfortunately, as
-  of this writing, the DataCite Schema has no suitable property for
-  that, so you'll need to leave it out.\ [#dc_model]_
+  The name of the model or type of the instrument.  As of this
+  writing, the DataCite Schema has no specific property for that.  The
+  mapping provided by DataCite suggest to add it as a `Description`
+  with `descriptionType=TechnicalInfo`, see note below.
+
+  The DataCite property `Description` does not provide a way to
+  include the `modelIdentifier`.  If the model has a PID and you want
+  to include that, one option would be to additionally add a
+  `RelatedIdentifier` with `relationType=References`.
 
 `Description`
   A textual description of the device and its capabilities.  Add as
   DataCite property `Description` with `descriptionType=Abstract`.
 
 `InstrumentType`
-  A classification of the type of the instrument.  There is no
-  dedicated property for this in the DataCite Schema, but you may add
-  keywords providing such a classification in the property `Subject`.
+  A classification of the type of the instrument.  As of this writing,
+  the DataCite Schema has no specific property for that.  The mapping
+  provided by DataCite suggest to add it as a `Description` with
+  `descriptionType=TechnicalInfo`, see note below.  An alternative
+  might be to add it as keywords providing such a classification in
+  the `Subject` property.  The latter might be particularly useful if
+  the instrument type is using terms from a controlled vocabulary, as
+  `Subject` allows to link those terms using the `subjectScheme`,
+  `schemeURI`, and `valueURI` subproperties.
 
 `MeasuredVariable`
   The variables or physical properties that the instrument measures or
-  observes.  Unfortunately, the DataCite Schema has no suitable
-  property for that, so you'll need to leave it out.
+  observes.  As of this writing, the DataCite Schema has no specific
+  property for that.  The mapping provided by DataCite suggest to add
+  it as a `Description` with `descriptionType=TechnicalInfo`, see note
+  below.
 
 `Date`
   Relevant events pertaining to this instrument instance.  Add as
@@ -92,6 +106,20 @@ represented in the DataCite Schema:
   `alternateIdentifierType=Other`, but may set the appropriate type in
   `alternateIdentifierType` right away.
 
+Note on Description in the DataCite Schema
+------------------------------------------
+
+The mapping of PIDINST metadata onto DataCite suggest that `Model`,
+`InstrumentType`, and `MeasuredVariable` should be added as a
+`Description` with `descriptionType=TechnicalInfo`.  The value of
+`Description` is free text.  There is no structured way to include
+subproperties such as `modelIdentifier` here.
+
+Note that `Description` is multivalued, so you may add as many
+instances as needed, even using the same `descriptionType`.  We
+suggest to use separate `Description` instances for `Model`,
+`InstrumentType` and `MeasuredVariable` respectively.
+
 Additional properties in the DataCite Schema
 --------------------------------------------
 
@@ -118,14 +146,10 @@ considered as well, if it makes sense for a particular use case.
 `ResourceType`
   DataCite DOIs are for many different types of objects, so there is a
   need to indicate the type.  This is mandatory in the DataCite
-  Schema.  Obviously, for an instrument DOI there should be an
-  indication that this DOI identifies an instrument instance.  In
-  DataCite, `ResourceType` is free text, but it has a subproperty
-  `resourceTypeGeneral` having a controlled list of values with
-  defined types of resources.  Unfortunately, as of this writing, non
-  of these values would fit for an instrument, so we recommend to set
-  `ResourceType` to `Instrument` with
-  `resourceTypeGeneral=Other`.\ [#dc_resource]_
+  Schema.  `ResourceType` is free text, but even more relevant is the
+  subproperty `resourceTypeGeneral` having a controlled list of values
+  with defined types of resources.  Set
+  `resourceTypeGeneral=Instrument` here.
 
 `FundingReference`
   This is optional in the DataCite Schema, but it may be useful to
@@ -135,19 +159,5 @@ considered as well, if it makes sense for a particular use case.
 
 .. _DataCite Metadata Schema: https://schema.datacite.org/
 
-.. _PIDINST DataCite schema:
-   https://github.com/rdawg-pidinst/schema/blob/master/schema-datacite.rst
-
-.. [#dc_model]
-   There is a `Proposal to add a Series property <dc_issue72_>`_ to
-   the DataCite Schema that would be suitable to put the instrument
-   model once the proposal is adopted.
-
-.. [#dc_resource]
-   There is a `Proposal to add Instrument to the controlled list of
-   values for resourceTypeGeneral <dc_issue70_>`_ in the DataCite
-   Schema.
-
-.. _dc_issue70: https://github.com/datacite/schema/issues/70
-
-.. _dc_issue72: https://github.com/datacite/schema/issues/72
+.. _DataCite PIDINST Mapping:
+   https://datacite-metadata-schema.readthedocs.io/en/latest/mappings/pidinst/

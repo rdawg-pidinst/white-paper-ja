@@ -52,20 +52,20 @@ ePIC member may use their own API end-point.
 To generate a PID handle record automatically generating a UUID for
 the suffix::
 
-	curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X POST --data '[{"type":"URL","parsed_data":"https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/
+        curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X POST --data '[{"type":"URL","parsed_data":"https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/
 
 ``Result:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/0000-001A-64A4-A
 
 To generate a PID handle record automatically generating a UUID within
 the suffix::
 
-	curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X POST --data '[{"type":"URL","parsed_data":"https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/\?prefix=BODC\&suffix=TEST
+        curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X POST --data '[{"type":"URL","parsed_data":"https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/\?prefix=BODC\&suffix=TEST
 
 ``Result:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
 
 To manually generate a suffix using PUT method::
 
-	curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X PUT --data '[{"type":"URL","parsed_data":"https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/564987-8865544-9998
+        curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X PUT --data '[{"type":"URL","parsed_data":"https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/564987-8865544-9998
 
 ``Result:`` https://vm04.pid.gwdg.de:8081/handles/21.T11998/564987-8865544-9998
 
@@ -96,13 +96,14 @@ JSON file (see :download:`JSON example </examples/ePIC_json_example.json>`).
 
 Directly specifying properties within the cURL request::
 
-	curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X PUT --data '[{"type": "21.T11148/8eb858ee0b12e8e463a5","parsed_data": "{\"identifierValue\":\"http://hdl.handle.net/21.T11998/BODC-0000-001A-64A3-B-TEST\",\"identiferType\":\"MeasuringInstrument\"}"},{"type": "21.T11148/4eaec4bc0f1df68ab2a7","parsed_data": "[{\"Owner\": {\"ownerName\":\"National Oceanography Centre\",\"ownerContact\":\"louise.darroch@bodc.ac.uk\",\"ownerIdentifier\":{\"ownerIdentifierValue\":\"http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/\",\"ownerIdentifierType\":\"URL\"}}}]"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
+        curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X PUT --data '[{"type": "21.T11148/8eb858ee0b12e8e463a5","parsed_data": "{\"identifierValue\":\"http://hdl.handle.net/21.T11998/BODC-0000-001A-64A3-B-TEST\",\"identiferType\":\"MeasuringInstrument\"}"},{"type": "21.T11148/4eaec4bc0f1df68ab2a7","parsed_data": "[{\"Owner\": {\"ownerName\":\"National Oceanography Centre\",\"ownerContact\":\"louise.darroch@bodc.ac.uk\",\"ownerIdentifier\":{\"ownerIdentifierValue\":\"http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/\",\"ownerIdentifierType\":\"URL\"}}}]"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
 
-*Note: Double quotes must be escaped with a backslash (\\) within the JSON parsed_data string*
+*Note: Double quotes must be escaped with a backslash (\\) within the
+JSON parsed_data string*
 
 Specifying properties with a JSON file::
 
-	curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X PUT --data @/users/.../ePIC_json_example.json http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
+        curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X PUT --data @/users/.../ePIC_json_example.json http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
 
 
 Managing PIDs
@@ -119,19 +120,19 @@ Server: ``vm04.pid.gwdg.de``, Port: ``8081``, Resources: ``handles/``
 
 ::
 
-	curl -D- -u "username:password" -X GET -H "Content-Type: application/json" http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
+        curl -D- -u "username:password" -X GET -H "Content-Type: application/json" http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
 
 **Delete a PID (not allowed for production Handles):**
 
 ::
 
-	curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X DELETE http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
+        curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X DELETE http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
 
 **Update a PID:**
 
 ::
 
-	curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X PUT --data '[{"type":"21.T11148/8eb858ee0b12e8e463a5","parsed_data":"{\"identifierValue\":\"http://hdl.handle.net/21.T11998/BODC-0000-001A-64A3-B-TEST\",\"identiferType\":\"MeasuringInstrument\"}"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
+        curl -v -u "username:password" -H "Accept:application/json" -H "Content-Type:application/json" -X PUT --data '[{"type":"21.T11148/8eb858ee0b12e8e463a5","parsed_data":"{\"identifierValue\":\"http://hdl.handle.net/21.T11998/BODC-0000-001A-64A3-B-TEST\",\"identiferType\":\"MeasuringInstrument\"}"}]' http://vm04.pid.gwdg.de:8081/handles/21.T11998/BODC-0000-001A-64A3-B-TEST
 
 
 Using the Handle API
@@ -161,36 +162,36 @@ convention ${INDEX}_${PREFIX}_${USER}_???.pem.
 
 ::
 
-	PATH="/SomePath2Certs"
-	PREFIX="21.T11998" # prefix of the PID service
-	USER="USER21" # USER that has access to PIDs under $PREFIX
-	INDEX="300"  # index where HS_PUBKEY is stored for $USER
-	SERVPORT="vm04.pid.gwdg.de:8001" # PID service and port
-	VERBOSE="" # optional “ -v "
-	# Certificates
-	USERKEY="${PATH}/Certificates/${INDEX}_${PREFIX}_${USER}_privkey.pem"
-	USERCERT="${PATH}/Certificates/${INDEX}_${PREFIX}_${USER}_certificate_only.pem"
+        PATH="/SomePath2Certs"
+        PREFIX="21.T11998" # prefix of the PID service
+        USER="USER21" # USER that has access to PIDs under $PREFIX
+        INDEX="300"  # index where HS_PUBKEY is stored for $USER
+        SERVPORT="vm04.pid.gwdg.de:8001" # PID service and port
+        VERBOSE="" # optional “ -v "
+        # Certificates
+        USERKEY="${PATH}/Certificates/${INDEX}_${PREFIX}_${USER}_privkey.pem"
+        USERCERT="${PATH}/Certificates/${INDEX}_${PREFIX}_${USER}_certificate_only.pem"
 
 **Create Handle:**
 
 ::
 
-	curl -s --insecure ${VERBOSE} --key ${USERKEY} --cert ${USERCERT} -H "Content-Type:application/json" -H 'Authorization: Handle clientCert="true"' -X PUT --data  '{"values":[{"index":100,"type":"HS_ADMIN","data":{"value":{"index":'${INDEX}',"handle":"'${PREFIX}'\/'${USER}'","permissions":"011111110011","format":"admin"},"format":"admin"}},{"index":1,"type":"URL","data":"www.gwdg.de"}]}' https://${SERVPORT}/api/handles/${PREFIX}/test_epic3_1234
+        curl -s --insecure ${VERBOSE} --key ${USERKEY} --cert ${USERCERT} -H "Content-Type:application/json" -H 'Authorization: Handle clientCert="true"' -X PUT --data  '{"values":[{"index":100,"type":"HS_ADMIN","data":{"value":{"index":'${INDEX}',"handle":"'${PREFIX}'\/'${USER}'","permissions":"011111110011","format":"admin"},"format":"admin"}},{"index":1,"type":"URL","data":"www.gwdg.de"}]}' https://${SERVPORT}/api/handles/${PREFIX}/test_epic3_1234
 
 **Get Handle created:**
 
 ::
 
-	curl -s --insecure ${VERBOSE} --key ${USERKEY} --cert ${USERCERT} -H "Content-Type:application/json" -H 'Authorization: Handle clientCert="true"' -q https://${SERVPORT}/api/handles/test_epic3_1234
-	
+        curl -s --insecure ${VERBOSE} --key ${USERKEY} --cert ${USERCERT} -H "Content-Type:application/json" -H 'Authorization: Handle clientCert="true"' -q https://${SERVPORT}/api/handles/test_epic3_1234
+
 **Modify Handle created:**
 
 ::
 
-	curl -s --insecure ${VERBOSE} --key ${USERKEY} --cert ${USERCERT} -H "Content-Type:application/json" -H 'Authorization: Handle clientCert="true"' -X PUT --data  '{"values":[{"index":100,"type":"HS_ADMIN","data":{"value":{"index":'${INDEX}',"handle":"'${PREFIX}'\/'${USER}'","permissions":"011111110011","format":"admin"},"format":"admin"}},{"index":1,"type":"URL","data":"pid.gwdg.de"}]}' https://${SERVPORT}/api/handles/${PREFIX}/test_epic3_1234
+        curl -s --insecure ${VERBOSE} --key ${USERKEY} --cert ${USERCERT} -H "Content-Type:application/json" -H 'Authorization: Handle clientCert="true"' -X PUT --data  '{"values":[{"index":100,"type":"HS_ADMIN","data":{"value":{"index":'${INDEX}',"handle":"'${PREFIX}'\/'${USER}'","permissions":"011111110011","format":"admin"},"format":"admin"}},{"index":1,"type":"URL","data":"pid.gwdg.de"}]}' https://${SERVPORT}/api/handles/${PREFIX}/test_epic3_1234
 
 **Delete Handle created:**
 
 ::
 
-	curl -s --insecure ${VERBOSE} --key ${USERKEY} --cert ${USERCERT} -H "Content-Type:application/json" -H 'Authorization: Handle clientCert="true"' -X DELETE  https://${SERVPORT}/api/handles/test_epic3_1234
+        curl -s --insecure ${VERBOSE} --key ${USERKEY} --cert ${USERCERT} -H "Content-Type:application/json" -H 'Authorization: Handle clientCert="true"' -X DELETE  https://${SERVPORT}/api/handles/test_epic3_1234

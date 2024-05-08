@@ -12,15 +12,16 @@ DataCite metadata
 Datasets are usually published with a DataCite DOI.  The `DataCite
 Metadata Schema`_ allows to link the instrument from the metadata
 registered with that DOI for a data publication using the
-*relatedIdentifier* property.  The recommended *relationType* is
-*IsCompiledBy* in this case.  :numref:`fig-link-hzb` shows an example
-for a dataset published by HZB (https://doi.org/10.5442/ND000001).
-The data has been collected using neutron diffraction with the E2 -
-Flat-Cone Diffractometer beamline at BER II.  The image show a
-screenshot of the data publication landing page which links the PID of
-the instrument.  :numref:`snip-link-dataset-datacite-xml` shows a
-section of the DOI metadata from the same data publication containing
-this link.
+*RelatedIdentifier* and *RelatedItem* properties.  The recommended
+*relationType* is *IsCollectedBy* in this case.  :numref:`fig-link-hzb`
+shows an example for a dataset published by HZB
+(https://doi.org/10.5442/ND000001).  The data has been collected using
+neutron diffraction with the E2 - Flat-Cone Diffractometer beamline at
+BER II.  The image show a screenshot of the data publication landing
+page which links the PID of the instrument.
+:numref:`snip-link-dataset-datacite-xml-relidentifier` and
+:numref:`snip-link-dataset-datacite-xml-relitem` show sections from the
+DOI metadata from the same data publication containing this link.
 
 .. figure:: /images/ND000001-landing.png
     :name: fig-link-hzb
@@ -30,16 +31,31 @@ this link.
     the instrument.
 
 .. code-block:: XML
-    :name: snip-link-dataset-datacite-xml
-    :caption: Use of the relatedIdentifier property in the DOI
-          metadata from a data publication.  The second entry links
+    :name: snip-link-dataset-datacite-xml-relidentifier
+    :caption: Use of the RelatedIdentifier property in the DOI
+          metadata from a data publication.  The third entry links
           the PID of the instrument.
 
       <relatedIdentifiers>
-        <relatedIdentifier relatedIdentifierType="DOI" relationType="References">10.17815/jlsrf-4-110</relatedIdentifier>
-        <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCompiledBy">10.5442/NI000001</relatedIdentifier>
         <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCitedBy">10.1103/physrevb.99.174111</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="DOI" relationType="References">10.17815/jlsrf-4-110</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCollectedBy">10.5442/NI000001</relatedIdentifier>
       </relatedIdentifiers>
+
+.. code-block:: XML
+    :name: snip-link-dataset-datacite-xml-relitem
+    :caption: Use of the RelatedItem property in the DOI metadata from
+          a data publication to link the PID of the instrument.
+
+      <relatedItems>
+        <!-- ... -->
+        <relatedItem relatedItemType="Instrument" relationType="IsCollectedBy">
+          <relatedItemIdentifier relatedItemIdentifierType="DOI">10.5442/NI000001</relatedItemIdentifier>
+          <titles>
+            <title>E2 - Flat-Cone Diffractometer</title>
+          </titles>
+        </relatedItem>
+      </relatedItems>
 
 schema.org
 ----------
@@ -94,31 +110,32 @@ NetCDF4
 
 State-of-the-art research ships are multimillion-pound floating
 laboratories which operate diverse arrays of high-powered,
-high-resolution sensors around-the-clock (e.g. sea-floor depth, weather,
-ocean current velocity and hydrography etc.). The National Oceanography
-Centre (NOC)\ [#uk_noc]_ and British Antarctic Survey (BAS)\ [#uk_bas]_
-are currently working together to improve the integrity of the data
-management workflow from these sensor systems to end-users across the UK
-National Environment Research Council (NERC) large research vessel
-fleet, as part of a UK initiative, I/Ocean. In doing so, we can make
-cost effective use of vessel time while improving the
-FAIRness,\ [#wilkinson2016]_ and in turn, access of data from these
-sensor arrays. The initial phase of the solution implements common
-NetCDF formats across ships enabling harmonised access to data for
-researchers on board while reducing ambiguity using common metadata
-standards. The formats are based on NetCDF4 and comply with Climate
-Forecast conventions. NetCDF4 groups are used to include rich
-information about the instruments used to derive parameter streams. Data
-streams are linked to the instruments which produced them using the
-variable attribute *instrument* from Attribute Convention for Data
-Discovery (ACDD) 1-3 (:numref:`snip-link-netcdf-cdl`). Each instrument
-is identified as a group where their properties are expressed in
-variables including the instrument’s PID. Each property is defined
-using common terminologies published on the NERC Vocabulary Server. In
-this way, users can express properties of their choice. Through
-groups, other information relating to parameter streams or instruments
-could be expressed, such as calibralibrations and instrument reference
-frames and orientations.
+high-resolution sensors around-the-clock (e.g. sea-floor depth,
+weather, ocean current velocity and hydrography etc.). The National
+Oceanography Centre (NOC)\ [#uk_noc]_ and British Antarctic Survey
+(BAS)\ [#uk_bas]_ are currently working together to improve the
+integrity of the data management workflow from these sensor systems to
+end-users across the UK National Environment Research Council (NERC)
+large research vessel fleet, as part of the initiative, I/Ocean. In
+doing so, we can make cost effective use of vessel time while
+improving the FAIRness,\ [#wilkinson2016]_ and in turn, access of data
+from these sensor arrays. The initial phase of the solution
+implements common NetCDF formats enabling harmonised access to data
+for researchers across ships. The formats are based on NetCDF4 and
+comply with Climate Forecast conventions. It has currently been
+proposed that NetCDF4 groups could be used to identify instruments and
+associated metadata in a similar way to the SONAR-netCDF4 convention
+for sonar data\ [#sonar]_. In doing so, the instrument PID is
+implemented as the data of a geophysical variable within a group that
+has an applicable date range (:numref:`snip-link-netcdf-cdl`). For
+example, when the sensor was installed. Data streams are then linked
+to the instruments which produced them using the variable attribute
+*instrument* from Attribute Convention for Data Discovery (ACDD) 1-3.
+Through groups, other variables or attributes could hold more detailed
+information relating to an instrument. Additionally, groups may
+potentially offer a way to store other information with valid date
+ranges, such as calibrations, instrument reference frames and
+instrument orientations (e.g. the reference point of an anemometer).
 
 .. code-block:: default
     :name: snip-link-netcdf-cdl
@@ -155,82 +172,59 @@ frames and orientations.
         group: SBE_2490 {
           variables:
             string instrument_pid(NCOLUMNS) ;
-               instrument_pid:long_name = "PIDINST PID" ;
-               instrument_pid:sdn_variable_name = "TBC" ;
-               instrument_pid:sdn_variable_urn = "TBC" ;
-            string uuid(NCOLUMNS) ;
-               uuid:long_name = "UUID" ;
-               uuid:sdn_variable_name = "Universally Unique Identifier (UUID)" ;
-               uuid:sdn_variable_urn = "SDN:W07::IDEN0007" ;
-            string instrument_name(NCOLUMNS) ;
-               instrument_name:long_name = "Instrument name" ;
-               instrument_name:sdn_variable_name = "Long name" ;
-               instrument_name:sdn_variable_urn = "SDN:W07::IDEN0002" ;
-            string serial_number(NCOLUMNS) ;
-               serial_number:long_name = "Instrument serial number" ;
-               serial_number:sdn_variable_name = "Serial Number" ;
-               serial_number:sdn_variable_urn = "SDN:W07::IDEN0005" ;
-            string model_id(NCOLUMNS) ;
-               model_id:long_name = "Model Name Identifier" ;
-               model_id:sdn_variable_name = "Model name" ;
-               model_id:sdn_variable_urn = "SDN:W07::IDEN0003" ;
-            float accuracy_temperature(NCOLUMNS) ;
-               accuracy_temperature:long_name = "Instrument accuracy of temperature" ;
-               accuracy_temperature:units = "degC" ;
-               accuracy_temperature:sdn_variable_name = "Accuracy" ;
-               accuracy_temperature:sdn_variable_urn = "SDN:W04::CAPB0001" ;
-               accuracy_temperature:variable_parameter = "/seatemp" ;
-               accuracy_temperature:sdn_uom_urn = "SDN:P06::UPAA" ;
-               accuracy_temperature:sdn_uom_name = "Degrees Celsius" ;
+               instrument_pid:long_name = "Instrument identifier" ;
 
           // group attributes:
                :date_valid_from = "2020-01-31T00:00:00Z" ;
-               :metadata_link = "https://linkedsystems.uk/system/instance/TOOL0022_2490/current/" ;
-               :comment = "\n2020-06-26T13:29:42Z: Instrument cleaned on 2020-02-10T13:04:00Z" ;
+               :date_valid_to = "2020-08-16T00:00:00Z" ;
+
           data:
 
            instrument_pid = "http://hdl.handle.net/21.T11998/0000-001A-3905-F" ;
 
-           uuid = "TOOL0022_2490" ;
-
-           instrument_name = "SBE 37-IM MicroCAT s/n 2490" ;
-
-           serial_number = "2490" ;
-
-           model_id = "http://vocab.nerc.ac.uk/collection/L22/current/TOOL0022/" ;
-
-           accuracy_temperature = 0.002 ;
           } // group SBE_2490
         } // group instruments
       }
 
 The National Centres for Environmental Information (NCEI) at the
-National Oceanic and Atmospheric Administration (NOAA) in the US, also
-report instruments in CF-NetCDF files but as empty data variables within
-the root group of the NetCDF file instead of sub groups. The PID
-instrument identifier may be expressed as an instrument attribute e.g.
-:numref:`snip-link-pidinst-netcdf`. Ideally, blank separated lists
-should be used if linking more than one instrument.
+National Oceanic and Atmospheric Administration (NOAA) in the US,
+report instruments using a CF-NetCDF specification\ [#ncei]_. These
+are either global attributes specified using the *instrument*
+attribute from the Attribute Convention for Data Discovery (ACDD)
+1-3. Alternatively they are defined as empty geophysical variables
+within the root group of the NetCDF file. In the latter case,
+the instrument PID may be expressed as an attribute *instrument_pid*
+within the recommended variable attributes as shown in
+:numref:`snip-link-pidinst-netcdf`. Alternatively, an *instrument_pid*
+attribute could be added to the set of global attributes.
 
 .. code-block:: default
     :name: snip-link-pidinst-netcdf
-    :caption: Addition of a instrument PID attribute to NCEI CF-NetCDF
-          files.
+    :caption: Addition of an instrument PID attribute to NCEI CF-NetCDF
+              files v2.0.
 
-      int instrument_parameter_variable;
-         instrument_parameter_variable:long_name = "" ;
-         instrument_parameter_variable:comment = "" ;
-         instrument_parameter_variable:instrument_pid = "" ;
+        char instrument1 ;
+      instrument1:instrument_pid = "http://hdl.handle.net/21.T11998/0000-001A-3905-F" ;
+                instrument1:long_name = "Seabird 37 Microcat" ;
+                instrument1:ncei_name = "CTD" ;
+                instrument1:make_model = "SBE-37" ;
+                instrument1:serial_number = "1859723" ;
+                instrument1:calibration_date = "2016-03-25" ;
+                instrument1:accuracy = "" ;
+                instrument1:precision = "" ;
+                instrument1:comment = "serial number and calibration dates are bogus" ;
 
 OpenAIRE CERIF metadata
 -----------------------
 
-The *OpenAIRE Guidelines for CRIS Managers* [#crisguidelines2023]_ provide orientation for Research Information System (CRIS) managers
-to expose their metadata in a way that is compatible with the OpenAIRE
-infrastructure as well as the European Open Science Cloud (EOSC). These
-Guidelines also serve as an example of a CERIF-based (Common European Research Information Format)
-standard for information interchange between individual CRISs and other
-research e-Infrastructures.
+The *OpenAIRE Guidelines for CRIS Managers* [#crisguidelines2023]_
+provide orientation for Research Information System (CRIS) managers to
+expose their metadata in a way that is compatible with the OpenAIRE
+infrastructure as well as the European Open Science Cloud (EOSC).
+These Guidelines also serve as an example of a CERIF-based (Common
+European Research Information Format) standard for information
+interchange between individual CRISs and other research
+e-Infrastructures.
 
 The metadata format described by the Guidelines are includes Equipment
 which could contain Instruments as well via the `GeneratedBy property`_.
@@ -300,6 +294,14 @@ itself is exposed via equipment metadata record and described in the
    Wilkinson, M., Dumontier, M., Aalbersberg, I. *et al.* The FAIR
    Guiding Principles for scientific data management and stewardship.
    *Sci Data* 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
+
+.. [#ncei]
+   https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html
+
+.. [#sonar]
+   Macaulay, Gavin; Peña, Hector (2018). The SONAR-netCDF4 convention for
+   sonar data, Version 1.0. ICES Cooperative Research Reports (CRR).
+   Report. https://doi.org/10.17895/ices.pub.4392
 
 .. [#crisguidelines2023]
    Dvořák, Jan, Czerniak, Andreas, & Ivanović, Dragan. (2023). OpenAIRE

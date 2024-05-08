@@ -146,8 +146,8 @@ their semantics:
    https://github.com/rdawg-pidinst/schema/blob/master/schema-datacite.rst
 
 .. [#pidinst2022v1_0]
-   Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T., 
-   Stocker, M., & The Research Data Alliance Persistent Identification of 
-   Instruments Working Group members (2022). Metadata Schema for the 
-   Persistent Identification of Instruments (1.0). Research Data Alliance. 
+   Krahl, R., Darroch, L., Huber, R., Devaraju, A., Klump, J., Habermann, T.,
+   Stocker, M., & The Research Data Alliance Persistent Identification of
+   Instruments Working Group members (2022). Metadata Schema for the
+   Persistent Identification of Instruments (1.0). Research Data Alliance.
    DOI: https://doi.org/10.15497/RDA00070

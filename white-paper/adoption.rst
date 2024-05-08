@@ -201,6 +201,25 @@ List objects are not capable of having nested (1-n) objects.
 Therefore, our instrument database remains in prototype stage until a
 suitable database is identified.  This work is on-going.
 
+Natural Environmental Data Service (EDS)
+----------------------------------------
+
+The `NERC Environmental Data Service (EDS) <EDS_>`_ is a trusted UK facility
+providing data stewardship services for environmental data across
+all environmental science domains. The EDS is made up of five data
+centres with domain specific expertise; the British Oceanographic
+Data Centre (BODC), Centre for Environmental Data Analysis (CEDA),
+Environmental Information Data Centre (EIDC), National Geoscience
+Data Centre (NGDS), and UK Polar Data Centre (PDC). The NERC-supported
+EDS brings the data centres together to provide an integrated data
+service across all environmental science domains. As part of the
+Research Data Cloud Pilot project funded by the UK Research and
+Innovation Council (UKRI), the EDS will prototype digital
+infrastructure to cite graphs of all the PIDs used to generate
+formal environmental data collections derived from sensors.
+These graphs (or 'reliquaries' of complex citations) will include
+persistent identifiers for instruments following the PIDINST
+recommendations.
 
 .. _SensorML:
    https://www.opengeospatial.org/standards/sensorml
@@ -210,6 +229,9 @@ suitable database is identified.  This work is on-going.
 
 .. _EISCAT3D:
    https://eiscat.se/business/eiscat3d7/
+
+.. _EDS:
+   https://eds.ukri.org/
 
 .. [#hzb_e2]
    https://doi.org/10.5442/NI000001

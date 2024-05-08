@@ -1,4 +1,5 @@
-setuptools_scm
 sphinx>=2,<7
-sphinx-rtd-theme>=0.5,<1.3
 Jinja2<3.2
+git-props
+setuptools
+sphinx-rtd-theme>=0.5,<1.3

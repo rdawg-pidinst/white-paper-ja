@@ -27,7 +27,7 @@ for the superceded PID as shown in
 .. code-block:: XML
     :name: snip-create-superseding-xml
     :caption: The use of the relatedIdentifier property to represent
-	      superseding PID records in XML
+              superseding PID records in XML
 
       <relatedIdentifiers>
          <relatedIdentifier relatedIdentifierType="DOI" relationType="IsNewVersionOf">10.4232/10.CPoS-2013-02en</relatedIdentifier>
@@ -36,7 +36,7 @@ for the superceded PID as shown in
 .. code-block:: XML
     :name: snip-create-superseded-xml
     :caption: The use of the relatedIdentifier property to represent
-	      superseded PID records in XML
+              superseded PID records in XML
 
       <relatedIdentifiers>
          <relatedIdentifier relatedIdentifierType="DOI" relationType="IsPreviousVersionOf">http://hdl.handle.net/21.T11998/0000-001A-3905-F</relatedIdentifier>
@@ -45,7 +45,7 @@ for the superceded PID as shown in
 .. code-block:: JSON
     :name: snip-create-superseding-json
     :caption: The use of the relatedIdentifier property to represent
-	      superseding PID records in JSON
+              superseding PID records in JSON
 
       [{
         "RelatedIdentifier":{
@@ -58,7 +58,7 @@ for the superceded PID as shown in
 .. code-block:: JSON
     :name: snip-create-superseded-json
     :caption: The use of the relatedIdentifier property to represent
-	      superseded PID records in JSON
+              superseded PID records in JSON
 
       [{
         "RelatedIdentifier":{

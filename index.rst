@@ -46,17 +46,18 @@ The group produced the following outputs:
   This RDA recommendation defines the Metadata Schema.
 
 * :ref:`white-paper` :raw-html:`<br />`
-  This white paper provides recommendations for the use of instrument
+  This White Paper provides recommendations for the use of instrument
   PIDs and gives technical details that go beyond the overview
   provided in the Data Science Journal paper.  It is expected to
   evolve with new user requirements and working group activities.
+  This documentation includes:
 
-* :ref:`epic-cookbook` :raw-html:`<br />`
-  Detailed instructions on how to create instrument PIDs using the
-  ePIC infrastructure.
+  * :ref:`epic-cookbook` :raw-html:`<br />`
+    Detailed instructions on how to create instrument PIDs using the
+    ePIC infrastructure.
 
-* :ref:`datacite-cookbook` :raw-html:`<br />`
-  Detailed instructions on how to create DataCite DOIs for instruments.
+  * :ref:`datacite-cookbook` :raw-html:`<br />`
+    Detailed instructions on how to create DataCite DOIs for instruments.
 
 .. image:: /images/cc-by.*
     :alt: Creative Commons License
