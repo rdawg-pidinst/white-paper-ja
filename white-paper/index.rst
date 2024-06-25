@@ -34,7 +34,6 @@ PIDINST White Paper
    landing-page-content
    landing-page-encoding
    linking-datasets
-   adoption
 
 Contributors
 ~~~~~~~~~~~~
