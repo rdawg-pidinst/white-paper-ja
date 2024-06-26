@@ -37,7 +37,6 @@ Table of contents
    landing-page-content
    landing-page-encoding
    linking-datasets
-   adoption
 
 Contributors
 ~~~~~~~~~~~~

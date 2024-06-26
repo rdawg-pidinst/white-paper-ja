@@ -1,6 +1,3 @@
-Current, planned and potential adoption
-=======================================
-
 Helmholtz-Zentrum Berlin für Materialien und Energie (HZB)
 ----------------------------------------------------------
 
