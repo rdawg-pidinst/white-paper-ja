@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-08 17:16+0900\n"
-"PO-Revision-Date: 2023-07-13 06:44+0000\n"
+"POT-Creation-Date: 2024-06-26 13:54+0900\n"
+"PO-Revision-Date: 2024-06-26 05:29+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/rdm-japan/teams/148034/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -21,15 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../white-paper/adoption.rst:2
-msgid "Current, planned and potential adoption"
-msgstr "実現した、計画中、または検討中の適用事例"
-
-#: ../../white-paper/adoption.rst:5
+#: ../../adoption/adoption.rst:2
 msgid "Helmholtz-Zentrum Berlin für Materialien und Energie (HZB)"
 msgstr "Helmholtz-Zentrum Berlin für Materialien und Energie (HZB)"
 
-#: ../../white-paper/adoption.rst:7
+#: ../../adoption/adoption.rst:4
 msgid ""
 "HZB minted four DOIs with DataCite for HZB instruments: two beamlines at the"
 " neutron source BER II;\\ [#hzb_e2]_\\ :sup:`,`\\ [#hzb_e9]_ one beamline at"
@@ -60,11 +56,11 @@ msgstr ""
 " "
 "とのマッピングを実施するときに検討されました。HZBでは運用中のすべてのビームライン、実験ステーションにメタデータを適用し、またDOIを付番することを計画しています。"
 
-#: ../../white-paper/adoption.rst:25
+#: ../../adoption/adoption.rst:22
 msgid "British Oceanographic Data Centre (BODC)"
 msgstr "British Oceanographic Data Centre (BODC)"
 
-#: ../../white-paper/adoption.rst:27
+#: ../../adoption/adoption.rst:24
 msgid ""
 "The British Oceanographic Data Centre (BODC) is a national facility for "
 "preserving and distributing oceanographic and marine data.  BODC tested the "
@@ -92,11 +88,11 @@ msgstr ""
 "British Antarctic Survey "
 "(BAS)が管理する大型研究船に搭載されるセンサーの識別にこのメタデータの適用を続ける計画です。PIDは、英国のイニシアチブであるI/Oceanの一環として、「デッキからデスクトップ」までのセンサーデータとメタデータのワークフローを管理するために使用される予定です。"
 
-#: ../../white-paper/adoption.rst:44
+#: ../../adoption/adoption.rst:41
 msgid "EISCAT3D"
 msgstr "EISCAT3D"
 
-#: ../../white-paper/adoption.rst:46
+#: ../../adoption/adoption.rst:43
 msgid ""
 "`EISCAT3D`_ will be an international research infrastructure, using radar "
 "observations and the incoherent scatter technique for studies of the "
@@ -116,11 +112,11 @@ msgstr ""
 "は、フェンノスカンジア地方の北極圏上空の大気および地球近傍宇宙環境の研究、ならびに太陽系科学および電波天文学の支援を目的として、レーダー観測と非干渉性散乱技術を用いた国際研究基盤となる予定です。EISCAT3Dは、PIDINSTの勧告に従って、観測装置のための永続的識別子の実装を予定しています。このレーダーは複雑で、これまでのレーダーよりもデジタル化されており、大きく分けていくつかの別々のユニットに分かれています。これらのユニットではソフトウェアも重要な重要な構成要素ですが、ハードウェアのユニットとみなすことで、それぞれを永続的に識別することになります。ユニットの更新は主にソフトウェアに対して行われ、その結果、独自のPIDを持つ新バージョンのユニットが誕生します。レーダー自体も永続的に識別され、`HasComponent`"
 " という関係タイプを使用して永続的に識別されたユニットに関係づけることができます。"
 
-#: ../../white-paper/adoption.rst:62
+#: ../../adoption/adoption.rst:59
 msgid "SENSOR.awi.de and PANGAEA"
 msgstr "SENSOR.awi.de 及び PANGAEA"
 
-#: ../../white-paper/adoption.rst:64
+#: ../../adoption/adoption.rst:61
 msgid ""
 "The Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research "
 "(AWI) has been continuously committed to develop and sustain an eResearch "
@@ -161,7 +157,7 @@ msgstr ""
 " (:numref:`fig-link-"
 "pangea`)。プラットフォームやセンサーは時間とともに進化するため(センサーの校正、機器のペイロードの変更など)、SENSOR.awi.deはXMLレコードの変更点の監査証跡を維持することによりレコードのバージョニングもサポートしています。"
 
-#: ../../white-paper/adoption.rst:93
+#: ../../adoption/adoption.rst:90
 msgid ""
 "PANGAEA is a digital repository for environmental research data and the "
 "dedicated long term archive within the O2A framework jointly operated by the"
@@ -191,11 +187,11 @@ msgstr ""
 "catalogueを適用しています。リポジトリは、これらの用語集を定期的かつ段階的にインポートするために、カスタムメイドのクライアントアプリケーションを開発しました。装置の識別と詳細な説明のために、PANGAEAはSENSOR.awi.deのような装置登録機関に依存し、PANGAEAに保存されたデータの取得に使われた装置を一意に識別するためにその発行するPIDを使用しています。AWIとPANGAEAは同じボキャブラリー/用語とPIDを使用して装置を表現するため、特にO2Aの生データステージングエリアからデータ品質管理サービスなどを経て、最終目的地であるPANGAEAデータアーカイブにほぼリアルタイムでデータを転送する際にデータセットを容易に統合することが可能です。\\"
 " [#koppe2015]_"
 
-#: ../../white-paper/adoption.rst:117
+#: ../../adoption/adoption.rst:114
 msgid "ICOS"
 msgstr "ICOS"
 
-#: ../../white-paper/adoption.rst:119
+#: ../../adoption/adoption.rst:116
 msgid ""
 "The Integrated Carbon Observation System (ICOS) is a pan-european research "
 "infrastructure for quantifying and understanding the greenhouse gas balance "
@@ -208,11 +204,11 @@ msgstr ""
 "炭素統合観測システム(Integrated Carbon Observation System, "
 "ICOS)は、ヨーロッパ大陸の温室効果ガス収支を定量的に把握するための汎欧州的な研究インフラです。ICOSでは、ガス濃度、風速・風向、湿度、温度など、多くの連続的なその場測定を行っています。ICOSでは、高品質の測定データを提供するために、データの出所を記録し、校正履歴を追跡するための永続的な識別子を装置に採用することが必須であると考えています。"
 
-#: ../../white-paper/adoption.rst:129
+#: ../../adoption/adoption.rst:126
 msgid "B2INST"
 msgstr "B2INST"
 
-#: ../../white-paper/adoption.rst:131
+#: ../../adoption/adoption.rst:128
 msgid ""
 "B2INST is a service for registering, persistently identifying and describing"
 " instruments.  The B2INST service fills the gap especially for research "
@@ -222,7 +218,7 @@ msgstr ""
 "B2INST "
 "は永続性識別子と装置に関する記述を登録するサービスです。B2INSTのサービスは、特に研究グループや小規模なコミュニティーなど、レジストリサービスの運営能力が不十分な組織のギャップを埋めるものです。"
 
-#: ../../white-paper/adoption.rst:136
+#: ../../adoption/adoption.rst:133
 msgid ""
 "Communities and organisations can make use of the service to FAIRify their "
 "instrument by registering their metadata and assigning the instrument a PID."
@@ -231,7 +227,7 @@ msgid ""
 msgstr ""
 "このサービスを利用し、コミュニティや組織は、メタデータを登録し装置にPIDを割り当てることで、彼らの装置をFAIR化することができます。そして、この装置PIDは学術論文やデータセット等の研究成果に追加することができます。"
 
-#: ../../white-paper/adoption.rst:141
+#: ../../adoption/adoption.rst:138
 msgid ""
 "B2INST provides several generic features, like assigning PIDs and DOIs to "
 "the metadata, as well as presenting a landing page of the instrument based "
@@ -249,7 +245,7 @@ msgstr ""
 " では、登録された情報は全員に公開されます。情報の作成や編集には認証が必要です - そのため B2INST "
 "は認証連携をサポートし、これにより利用者は自身の組織のアカウントでシステムにログインすることができます。"
 
-#: ../../white-paper/adoption.rst:153
+#: ../../adoption/adoption.rst:150
 msgid ""
 "The identified use cases showed that communities have different requirements"
 " for instrument metadata.  The PIDINST schema covers a minimum set of "
@@ -264,7 +260,7 @@ msgstr ""
 "これにより、装置記述内容の拡大や異なるコミュニティへの要求に応えることができます。PIDINST "
 "を基本とすることで、それぞれのコミュニティはメタデータ拡張を追加し、コミュニティ内からの要求に対するより良いサポートを実現できます。"
 
-#: ../../white-paper/adoption.rst:161
+#: ../../adoption/adoption.rst:158
 msgid ""
 "The current plan foresees that B2INST will be offered as a public service by"
 " EUDAT.  The initial proof-of-concept was set up by SURF. It was further "
@@ -273,11 +269,11 @@ msgstr ""
 "直近の計画に、 B2INST は EUDATによる公開サービスとなることを要請されています。最初の実証実験は SURF "
 "プロジェクトに進められました。その後 GWDG によりプロダクションレベルでのサービスになるよう更なる開発が進められています。"
 
-#: ../../white-paper/adoption.rst:167
+#: ../../adoption/adoption.rst:164
 msgid "National Institute of Standards and Technology (NIST)"
 msgstr "アメリカ国立標準技術研究所(National Institute of Standards and Technology, NIST)"
 
-#: ../../white-paper/adoption.rst:169
+#: ../../adoption/adoption.rst:166
 msgid ""
 "Recently, a group of researchers collaborating with the Office of Data and "
 "Informatics at NIST had deployed a proto-instance of an instrument database."
@@ -290,7 +286,7 @@ msgstr ""
 "と協力し、装置データベースに関する初期的な実装の提供を始めました。 このデータベースはNISTからの装置に関する生きた記録となることが望まれています。 "
 "実験機器への永続的識別子が、高品質かつ再現可能な科学の成果創出を行う者にとって不可欠な属性であると考えています。"
 
-#: ../../white-paper/adoption.rst:177
+#: ../../adoption/adoption.rst:174
 msgid ""
 "We chose the SharePoint platform as our evaluation portal for the ease of "
 "setting up an internal facing web interface.  We made a SharePoint List "
@@ -309,7 +305,7 @@ msgstr ""
 "NIST内の単独部署の配下としてリストアップされている装置のみに結果を制限したため、この検証実験でも管理可能な状態が保たれています。 結果、 "
 "この初期実装のデータベースでは、 600台以上の装置が登録されています。"
 
-#: ../../white-paper/adoption.rst:187
+#: ../../adoption/adoption.rst:184
 msgid ""
 "From the two data sources, we were able to populate many of the required "
 "columns but not all.  For the `LandingPage` requirement, since the vast "
@@ -337,11 +333,11 @@ msgstr ""
 "SharePoint List のオブジェクトはネストされた (1対n) オブジェクトを持つことができないことに触れておく必要があります。 "
 "したがって、我々の装置データベースは適切なデータベースシステムが決定するまで、プロトタイプ状態にとどまっています。この取り組みは現在も継続中です。"
 
-#: ../../white-paper/adoption.rst:205
+#: ../../adoption/adoption.rst:202
 msgid "Natural Environmental Data Service (EDS)"
 msgstr "Natural Environmental Data Service (EDS)"
 
-#: ../../white-paper/adoption.rst:207
+#: ../../adoption/adoption.rst:204
 msgid ""
 "The `NERC Environmental Data Service (EDS) <EDS_>`_ is a trusted UK facility"
 " providing data stewardship services for environmental data across all "
@@ -369,23 +365,23 @@ msgstr ""
 "  Research Data Cloud Pilot の一部として、 EDS "
 "は、センサーから集められた整えられた環境データのコレクションを生成するための、PIDを用いたグラフを引用するデジタルインフラのプロトタイピングを実施します。これらのグラフ(あるいは複雑な引用関係の「聖遺物」)には、PIDINSTの勧告に従った、装置用の永続的識別子も含まれる予定です。"
 
-#: ../../white-paper/adoption.rst:237
+#: ../../adoption/adoption.rst:234
 msgid "https://doi.org/10.5442/NI000001"
 msgstr "https://doi.org/10.5442/NI000001"
 
-#: ../../white-paper/adoption.rst:240
+#: ../../adoption/adoption.rst:237
 msgid "https://doi.org/10.5442/NI000002"
 msgstr "https://doi.org/10.5442/NI000002"
 
-#: ../../white-paper/adoption.rst:243
+#: ../../adoption/adoption.rst:240
 msgid "https://doi.org/10.5442/NI000003"
 msgstr "https://doi.org/10.5442/NI000003"
 
-#: ../../white-paper/adoption.rst:246
+#: ../../adoption/adoption.rst:243
 msgid "https://doi.org/10.5442/NI000004"
 msgstr "https://doi.org/10.5442/NI000004"
 
-#: ../../white-paper/adoption.rst:249
+#: ../../adoption/adoption.rst:246
 msgid ""
 "Koppe, R., Gerchow, P., Macario, A., Haas, A., Schäfer-Neth, C. and "
 "Pfeiffenberger, H. (2015): O2A: A Generic Framework for Enabling the Flow of"

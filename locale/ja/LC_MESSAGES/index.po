@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PIDINST 1.0b2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-08 17:16+0900\n"
+"POT-Creation-Date: 2024-06-26 13:54+0900\n"
 "PO-Revision-Date: 2022-08-29 23:01+0000\n"
 "Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/rdm-japan/teams/148034/ja/)\n"
@@ -122,11 +122,17 @@ msgstr ""
 ":ref:`datacite-cookbook` :raw-html:`<br />` 装置に対するDataCite "
 "DOIの作成方法を詳しく解説しています。"
 
+#: ../../index.rst:62
+msgid ""
+":ref:`adoption` :raw-html:`<br />` Collection of examples of PIDINST "
+"adoption."
+msgstr ":ref:`adoption` :raw-html:`<br />` PIDINST の適用事例を集めています。"
+
 #: ../../index.rst-1
 msgid "Creative Commons License"
 msgstr "Creative Commons License"
 
-#: ../../index.rst:68
+#: ../../index.rst:71
 msgid ""
 "The content of this site is licensed under a `Creative Commons Attribution "
 "4.0 International License <cc-by_>`_."

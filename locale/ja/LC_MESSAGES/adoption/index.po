@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020–2024, RDA Persistent Identification of Instruments WG
+# This file is distributed under the same license as the PIDINST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PIDINST 1.0b2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-26 13:54+0900\n"
+"PO-Revision-Date: 2024-06-26 05:29+0000\n"
+"Last-Translator: Takaaki AOKI <aoki.takaaki@nagoya-u.jp>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/rdm-japan/teams/148034/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../adoption/index.rst:4
+msgid "Adoption"
+msgstr "適用事例"
+
+#: ../../adoption/index.rst:6
+msgid ""
+"In this section, we report on current, planned and potential adoption of "
+"PIDINST.  We do not aim for a complete list of adopters, but rather want to "
+"collect some examples that demonstrate how PIDINST can be applied in "
+"practice and show the variety of usages."
+msgstr ""
+"このセクションでは、実施中、計画中、また今後可能性があるとされるPIDINSTの適用事例をレポートします。 "
+"適用事例の完全なリストを作ることを目標とはしていませんが、 PIDINST がどのように実際に利用され、 "
+"様々な利用法があるのかを示すことができるいくつかの例を集めていきたいと考えています。"
