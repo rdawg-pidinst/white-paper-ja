@@ -1,3 +1,4 @@
+PYTHON        = python3
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 SPHINXPROJ    = PIDINST
@@ -18,7 +19,7 @@ $(BUILDERS): $(STATIC_SOURCEDIRS) _meta.py
 	$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 _meta.py:
-	python3 setup.py meta
+	$(PYTHON) setup.py meta
 
 clean:
 	rm -rf __pycache__

@@ -5,10 +5,7 @@ import setuptools
 from setuptools import setup
 import setuptools.command.install
 from distutils import log
-import datetime
-import os
 from pathlib import Path
-import subprocess
 import gitprops
 
 version = str(gitprops.get_version())

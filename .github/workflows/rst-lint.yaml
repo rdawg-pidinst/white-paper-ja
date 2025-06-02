@@ -12,4 +12,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: doc8-check
-        uses: deep-entertainment/doc8-action@v4
+        uses: deep-entertainment/doc8-action@v5
